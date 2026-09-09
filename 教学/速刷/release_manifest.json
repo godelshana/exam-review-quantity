@@ -1,0 +1,50 @@
+{
+  "release": "quantity-ladder-v3-2026-09-09",
+  "generatedAt": "2026-09-09",
+  "policy": "Only authored batches with current independent review markers enter default ladder; GLM is screened-only optional practice.",
+  "counts": {
+    "authored": 124,
+    "hand100": 100,
+    "challenge24": 24,
+    "glmSelected": 104,
+    "glmRaw": 545,
+    "glmRetiredOrExcluded": 441
+  },
+  "levels": {
+    "入门": 29,
+    "熟练": 31,
+    "深化": 37,
+    "综合": 27
+  },
+  "audited": {
+    "手写模拟题_100.js": {
+      "status": "math_and_independent_review_passed",
+      "count": 100,
+      "sha256": "351b721ec0c208105bccc898a49d2557690cc74527241f84cfbb8cbed2301d96",
+      "independentReview": {
+        "file": "手写百题v2独立审计.md",
+        "sha256": "25d2d29be13fddad673812bf6d5f063bde139e1b246a0406b5fe7c0860b6d8b7"
+      }
+    },
+    "原创复合24.js": {
+      "status": "math_and_independent_review_passed",
+      "count": 24,
+      "sha256": "03f41fb8bef06c079d24d57fb2745cceb547757aa13c353451f1a3a8ac795a9e",
+      "independentReview": {
+        "file": "原创复合24独立审计.md",
+        "sha256": "f7de08cc4001c803118c5b996c56c86df3535c53ea36e35122206feefd644eab"
+      }
+    },
+    "精选GLM题库.js": {
+      "status": "screened_only",
+      "count": 104,
+      "rawCount": 545,
+      "sha256": "594f4ec3842e18295c1b19fbd23b4269fc098e09eedcbda228611edd508f1fb7",
+      "screeningReport": "精选GLM题库筛选报告.md"
+    }
+  },
+  "notIncludedInDefault": {
+    "真题数量关系.js": "待补图、逐题解析与争议处理，不自动评分",
+    "精选GLM题库.js": "仅可选初筛补充，不参与天梯晋级"
+  }
+}

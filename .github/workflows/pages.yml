@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Audit and deploy quantity practice
 on:
   push:
     branches: [main]
@@ -12,19 +12,33 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
         with:
-          enablement: true
+          python-version: '3.12'
+      - name: Audit questions and training engine
+        run: |
+          python 教学/速刷/gen/select_curated_bank.py --self-test
+          python 教学/速刷/gen/select_curated_bank.py --check
+          python 教学/速刷/make_hand100.py --check
+          python 教学/速刷/make_challenge24.py --check
+          python 教学/速刷/build_training_families.py --check
+          python 教学/速刷/validate_bank.py
+          python 教学/速刷/audit_hand100.py
+          python 教学/速刷/audit_challenge24.py
+          python 教学/速刷/test_quality_gates.py
+          node --check 教学/速刷/app.js
+          node --check 教学/速刷/core.js
+          node 教学/速刷/test_core.cjs
+          python 教学/速刷/build_site.py
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
-
-

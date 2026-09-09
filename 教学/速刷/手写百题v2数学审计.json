@@ -1,0 +1,3084 @@
+{
+  "scope": "作者异实现数学复算，不等于独立审计员放行；未运行页面",
+  "bankSha256": "351b721ec0c208105bccc898a49d2557690cc74527241f84cfbb8cbed2301d96",
+  "solverSha256": "74ddbb08ec2b09bfb528bd21867913c2bf418b16107ebf203163c2badeb0eb34",
+  "count": 100,
+  "levelCounts": {
+    "入门": 29,
+    "熟练": 27,
+    "深化": 25,
+    "综合": 19
+  },
+  "exactUniqueStems": 100,
+  "passed": 100,
+  "errors": [],
+  "normalizedDuplicateCandidates": [],
+  "regressions": [
+    {
+      "name": "061允许同份数",
+      "expected": "22",
+      "actual": "22",
+      "pass": true
+    },
+    {
+      "name": "061错误附加互异条件的反例",
+      "expected": "14",
+      "actual": "14",
+      "pass": true
+    },
+    {
+      "name": "072互质完整窗口比例法",
+      "expected": "6",
+      "actual": "6",
+      "pass": true
+    },
+    {
+      "name": "072非互质同相位反例实际共同工作",
+      "expected": "1",
+      "actual": "1",
+      "pass": true
+    },
+    {
+      "name": "072非互质反例不可当答案的乘积",
+      "expected": "1/2",
+      "actual": "1/2",
+      "pass": true
+    },
+    {
+      "name": "旧004余数最小正解",
+      "expected": "21",
+      "actual": "21",
+      "pass": true
+    },
+    {
+      "name": "旧004的37负例",
+      "expected": "4",
+      "actual": "4",
+      "pass": true
+    },
+    {
+      "name": "旧006相遇",
+      "expected": "2",
+      "actual": "2",
+      "pass": true
+    },
+    {
+      "name": "旧007折扣利润",
+      "expected": "10",
+      "actual": "10",
+      "pass": true
+    },
+    {
+      "name": "旧008整除计数",
+      "expected": "13",
+      "actual": "13",
+      "pass": true
+    },
+    {
+      "name": "旧018余数选项",
+      "expected": "18",
+      "actual": "18",
+      "pass": true
+    },
+    {
+      "name": "旧031精确均值不得近似",
+      "expected": "286/3",
+      "actual": "286/3",
+      "pass": true
+    },
+    {
+      "name": "旧033互异组数",
+      "expected": "7",
+      "actual": "7",
+      "pass": true
+    },
+    {
+      "name": "旧034四步均衡非负",
+      "expected": "2",
+      "actual": "2",
+      "pass": true
+    },
+    {
+      "name": "五步非负终点不限",
+      "expected": "10",
+      "actual": "10",
+      "pass": true
+    },
+    {
+      "name": "五步严格正终点不限",
+      "expected": "6",
+      "actual": "6",
+      "pass": true
+    },
+    {
+      "name": "旧037环道",
+      "expected": "60",
+      "actual": "60",
+      "pass": true
+    },
+    {
+      "name": "旧038最小最大数及构造",
+      "expected": "9",
+      "actual": "9",
+      "pass": true
+    },
+    {
+      "name": "旧040有名三组禁甲乙同组",
+      "expected": "72",
+      "actual": "72",
+      "pass": true
+    },
+    {
+      "name": "旧042062082面积不能整除截断",
+      "expected": "135/4",
+      "actual": "135/4",
+      "pass": true
+    },
+    {
+      "name": "独立2次至少一次",
+      "expected": "3/4",
+      "actual": "3/4",
+      "pass": true
+    },
+    {
+      "name": "独立3次至少一次",
+      "expected": "7/8",
+      "actual": "7/8",
+      "pass": true
+    },
+    {
+      "name": "独立4次至少一次",
+      "expected": "15/16",
+      "actual": "15/16",
+      "pass": true
+    }
+  ],
+  "mutations": [
+    {
+      "name": "改错答案下标",
+      "pass": true,
+      "expectedStill": "94",
+      "caught": true
+    },
+    {
+      "name": "移除正确值",
+      "pass": true,
+      "expectedStill": "94",
+      "caught": true
+    },
+    {
+      "name": "替换题面数字",
+      "pass": true,
+      "expectedStill": "94",
+      "caught": true
+    },
+    {
+      "name": "伪造解析不影响expected",
+      "pass": true,
+      "expectedStill": "94",
+      "caught": false
+    }
+  ],
+  "rows": [
+    {
+      "uid": "hand100:v2:001",
+      "conditions": "原8人均76，增加1人后9人均78；总分可加。",
+      "method": "两个总分相减",
+      "stemSha256": "60016dab5ed1b302e71de29221c43a23c017da2325c3becbfe9e788b5646b5a5",
+      "expected": "94",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "94",
+        "80",
+        "90",
+        "96"
+      ],
+      "markedIndex": 0,
+      "markedValue": "94",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:002",
+      "conditions": "两队总96，原3:5；乙调6给甲。",
+      "method": "比例份数后定量转移",
+      "stemSha256": "442562e397d715b0d50e31da3f729f4605e0d0e95dc596d372cb94a66fcbb8e7",
+      "expected": "42",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "30",
+        "42",
+        "36",
+        "48"
+      ],
+      "markedIndex": 1,
+      "markedValue": "42",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:003",
+      "conditions": "件数固定、单价加2元、总价加120元。",
+      "method": "变化量方程",
+      "stemSha256": "fbdea6f9dddc1f93b633d7611a13b9e657e8ee867b75cfa23e212ac08abaa445",
+      "expected": "60",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "30",
+        "62",
+        "60",
+        "120"
+      ],
+      "markedIndex": 2,
+      "markedValue": "60",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:004",
+      "conditions": "人数n为正整数且75<n<85，实操占精确3/8且人数整数。",
+      "method": "范围内逐个检验整除",
+      "stemSha256": "f75e8574a54af4707341b8d7cfc112c82f599879bc078cd127212a5fb6fe3553",
+      "expected": "80",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "78",
+        "82",
+        "84",
+        "80"
+      ],
+      "markedIndex": 3,
+      "markedValue": "80",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:005",
+      "conditions": "两人独做12、18天，效率恒定相加，合作3天，求未完成比例。",
+      "method": "有理数工作量",
+      "stemSha256": "01717828b18aedd233808ddb4658d26af78fd7315b92ad165111eb3881d58828",
+      "expected": "7/12",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "7/12",
+        "5/12",
+        "1/2",
+        "2/3"
+      ],
+      "markedIndex": 0,
+      "markedValue": "7/12",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:006",
+      "conditions": "三对合工期12、15、20天，各效率恒定相加，求三人全做工期。",
+      "method": "成对效率和除2",
+      "stemSha256": "2370a400678c48e9413a40b9e1606ef9f795f67dd24aaa27f625a3c69c14c8e7",
+      "expected": "10",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：三对效率要识别每人被重复计算两次，需要求和后再除2。",
+      "options": [
+        "5",
+        "10",
+        "8",
+        "12"
+      ],
+      "markedIndex": 1,
+      "markedValue": "10",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:007",
+      "conditions": "同一路线等距离往返，不停留，速度60、40。",
+      "method": "总路程/总时间",
+      "stemSha256": "16971d1416431a8a44fe1efdc02bfd6a6e4f7c02a1687bdf7081a0b6fed85669",
+      "expected": "48",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "45",
+        "50",
+        "48",
+        "52"
+      ],
+      "markedIndex": 2,
+      "markedValue": "48",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:008",
+      "conditions": "环长400，同点同时反向，匀速3和5，首次再会。",
+      "method": "一圈/速度和",
+      "stemSha256": "373a216b4c79d3805c1922e18887d6129bc9c68431378c455e2aea8e9fba605f",
+      "expected": "50",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "40",
+        "80",
+        "200",
+        "50"
+      ],
+      "markedIndex": 3,
+      "markedValue": "50",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:009",
+      "conditions": "5红4蓝，不放回，保证至少一红。",
+      "method": "枚举所有取球顺序的首红最坏位置",
+      "stemSha256": "952d4379f5d7ba020186eb1af2bf5c26692317700df085ee6d719ef51a9a4046",
+      "expected": "5",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "5",
+        "2",
+        "4",
+        "6"
+      ],
+      "markedIndex": 0,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:010",
+      "conditions": "26人，各组互异正整数，求最大组数。",
+      "method": "最小序列下界及余量并入末组",
+      "stemSha256": "ffcb8d9475379dbf9146441d260c0225e31f73d9094a8f0f001fb89003de210a",
+      "expected": "6",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：互异人数先用最小总和证明组数上界，再构造余量分配达到上界。",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "markedIndex": 1,
+      "markedValue": "6",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:011",
+      "conditions": "6个不同人选无序2人，索引0和1禁止同选。",
+      "method": "枚举2子集",
+      "stemSha256": "33fc2926405362d365c76d55778bdc7ab38cecf906b810dd74390ac0f3b4aff7",
+      "expected": "14",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "10",
+        "15",
+        "14",
+        "28"
+      ],
+      "markedIndex": 2,
+      "markedValue": "14",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:012",
+      "conditions": "5个不同人全排列，0和1相邻，内部次序不限。",
+      "method": "枚举120个排列",
+      "stemSha256": "c392f370ea83c10e5e9ae94f6bf128744adfe0ebaa1746ce475f68fbb0f08ff9",
+      "expected": "48",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "24",
+        "36",
+        "60",
+        "48"
+      ],
+      "markedIndex": 3,
+      "markedValue": "48",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:013",
+      "conditions": "3红2蓝，5个球各有唯一索引，等可能不放回选2球。",
+      "method": "枚举10个等可能子集",
+      "stemSha256": "3b1ac7ccbdfd9d9dae107e71829e5e83ddfe940b1e1677465f2d167a0f323c66",
+      "expected": "3/10",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "3/10",
+        "2/5",
+        "9/25",
+        "3/5"
+      ],
+      "markedIndex": 0,
+      "markedValue": "3/10",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:014",
+      "conditions": "甲成功3/5，乙成功1/2，独立，求至少一个成功。",
+      "method": "5×2等可能微样本直接枚举",
+      "stemSha256": "ee606f6fdf8c329a998d0deab85a3da92c902cc3e505b8e599d4e7ad8b339508",
+      "expected": "4/5",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "3/10",
+        "4/5",
+        "1/2",
+        "9/10"
+      ],
+      "markedIndex": 1,
+      "markedValue": "4/5",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:015",
+      "conditions": "三角形两边中点，共角小三角形面积9。",
+      "method": "面积行列式缩放",
+      "stemSha256": "9d53c364c06a099fc04189d236b04a169aea602d75d3d00e1f3ce870e7a9cc5a",
+      "expected": "36",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "18",
+        "27",
+        "36",
+        "45"
+      ],
+      "markedIndex": 2,
+      "markedValue": "36",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:016",
+      "conditions": "矩形周长40，长宽为正实数，最大面积。",
+      "method": "平方非负证明乘积上界并取等号",
+      "stemSha256": "732d91c1037102ed000d6d1e4301293f9678c14db00498dcfb0c0e9d0b9c0e6a",
+      "expected": "100",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "80",
+        "96",
+        "120",
+        "100"
+      ],
+      "markedIndex": 3,
+      "markedValue": "100",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:017",
+      "conditions": "31天，首日周五，求周日个数。",
+      "method": "逐日取模",
+      "stemSha256": "6d7b678b26f5e620e7e805fd94e2b17c51ca43decdc9ab8088597854779b77d5",
+      "expected": "5",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "markedIndex": 0,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:018",
+      "conditions": "第1天共同检查，日期差周期4、6，求下一共同日期编号。",
+      "method": "正天数逐日检验",
+      "stemSha256": "44d0f7b58109961434423ed0dedccf4620a475c6d930ed52d35425b609b67b5a",
+      "expected": "13",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "12",
+        "13",
+        "24",
+        "25"
+      ],
+      "markedIndex": 1,
+      "markedValue": "13",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:019",
+      "conditions": "成本80，按成本加价25%，再按定价九折，求利润元。",
+      "method": "精确倍率相乘减成本",
+      "stemSha256": "1696e8cfc38a6949ab94d902c46256a41bc36102ff41e2339bff191c74b38601",
+      "expected": "10",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "0",
+        "8",
+        "10",
+        "20"
+      ],
+      "markedIndex": 2,
+      "markedValue": "10",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:020",
+      "conditions": "单价乘4/5，总收入不变，求次数增幅的百分数数值。",
+      "method": "反比例倍率",
+      "stemSha256": "16c147efdbabd21dc03f8edb4e2242cd8327cb00e2aaa316cf86e89fce39c8b0",
+      "expected": "25",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "25"
+      ],
+      "markedIndex": 3,
+      "markedValue": "25",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:021",
+      "conditions": "两人今年总54，6年前甲2倍乙，每年各+1，求年龄差。",
+      "method": "统一到6年前的总量再比例分解",
+      "stemSha256": "6bcbdfef31eb6eba1ba2592ce788a684eb1bf887b09dae5632a09c9be2c2038e",
+      "expected": "14",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "14",
+        "12",
+        "18",
+        "20"
+      ],
+      "markedIndex": 0,
+      "markedValue": "14",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:022",
+      "conditions": "10千克20%盐水，加5千克水，无损失，求质量分数。",
+      "method": "溶质/最终总质量",
+      "stemSha256": "a6425f4b08b76f40c5aa1fe688bed199bcb4f6e5f6a783e749653d9018b3dcac",
+      "expected": "2/15",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "1/10",
+        "2/15",
+        "1/5",
+        "3/10"
+      ],
+      "markedIndex": 1,
+      "markedValue": "2/15",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:023",
+      "conditions": "全集60，A38，B32，两项都不参加10，求交集。",
+      "method": "集合恒等式",
+      "stemSha256": "315d601133f8d3e78c2702e7cac8e3ff5312beea96c92c6a8cf849f7570d9709",
+      "expected": "20",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "10",
+        "12",
+        "20",
+        "22"
+      ],
+      "markedIndex": 2,
+      "markedValue": "20",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:024",
+      "conditions": "等差7项总140，公差3，求末项。",
+      "method": "首末均值关系",
+      "stemSha256": "2c740b4bec7012f4a4f1d560645e0c1bf958600c1860dae0c6f911b604562b37",
+      "expected": "29",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "20",
+        "23",
+        "26",
+        "29"
+      ],
+      "markedIndex": 3,
+      "markedValue": "29",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:025",
+      "conditions": "整数数量40<n<70，n%6=5且n%8=5。",
+      "method": "完整范围枚举所有解",
+      "stemSha256": "d76b15659553eb38544666c1ff2e970fd578bc7a868603be1c9fe46ba2e36f47",
+      "expected": "53",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口",
+      "options": [
+        "53",
+        "45",
+        "48",
+        "61"
+      ],
+      "markedIndex": 0,
+      "markedValue": "53",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:026",
+      "conditions": "原四部门共240，甲=丁+12；乙转24给丙后全并丁，最终甲丙丁3:3:4。",
+      "method": "反推未变部门和总量",
+      "stemSha256": "f62c013eb0e46ab5e317800e7a9863dfe82f8079eb1775110731cca0d8a71ce0",
+      "expected": "60",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "36",
+        "60",
+        "48",
+        "72"
+      ],
+      "markedIndex": 1,
+      "markedValue": "60",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:027",
+      "conditions": "20人均80，剔除2人后18人均81，求剔除者均分。",
+      "method": "总分差除被剔人数",
+      "stemSha256": "b0f3bb1ed6efecf3b9410c3a436116cb9ab50fb8f295ac261c5bef24ab2e87dd",
+      "expected": "71",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "70",
+        "72",
+        "71",
+        "79"
+      ],
+      "markedIndex": 2,
+      "markedValue": "71",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:028",
+      "conditions": "两类票全价40优惠25，共30张总990，求全价整数张数。",
+      "method": "全可行张数枚举",
+      "stemSha256": "3975a57ae8d628dd6848534d2c43eeed377dffa2f85944294bd399dd3614d7ee",
+      "expected": "16",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "14",
+        "15",
+        "18",
+        "16"
+      ],
+      "markedIndex": 3,
+      "markedValue": "16",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:029",
+      "conditions": "100件成本各50，80件售价60、20件售价45，无附费，求总利润。",
+      "method": "逐批收入减总成本",
+      "stemSha256": "5e74b58ba4471b989dfad09238df5c7eb435ae2a7535ce9e90ea266696ba0746",
+      "expected": "700",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "700",
+        "500",
+        "600",
+        "1000"
+      ],
+      "markedIndex": 0,
+      "markedValue": "700",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:030",
+      "conditions": "恒定效率独做12、18天，合作3天后乙退出，求自开始总工期。",
+      "method": "分段工作守恒",
+      "stemSha256": "ca1b8d89748e48121bd11d6e74bdee0d3205766ffdb2d96926f2c0ef57bad54e",
+      "expected": "10",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "7",
+        "10",
+        "9",
+        "12"
+      ],
+      "markedIndex": 1,
+      "markedValue": "10",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:031",
+      "conditions": "AB合6天，AC合8天，BC合12天，恒定可加，求B工期。",
+      "method": "解三人线性效率",
+      "stemSha256": "9527bbe2ca876be4044fce1cb52bcd13036f70349080db758ca0e3a7ef8de12b",
+      "expected": "16",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "12",
+        "20",
+        "16",
+        "24"
+      ],
+      "markedIndex": 2,
+      "markedValue": "16",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:032",
+      "conditions": "进水6小时满，排水12小时空，空池同开4小时再仅进水，流量恒定。",
+      "method": "净流量再切换",
+      "stemSha256": "5058f9d3fe00b267f5b959e0637d03eb4db2897c54300d9311cc26fc5e5c7273",
+      "expected": "8",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "8"
+      ],
+      "markedIndex": 3,
+      "markedValue": "8",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:033",
+      "conditions": "初始乙领先300，乙速4先走20秒，甲速6才启，求甲启动后追上用时。",
+      "method": "在甲启动时统一位置",
+      "stemSha256": "4dce4f55a6b15e7f0dd76fed61f24f11c4658548a843a9c999c50cc984058a0f",
+      "expected": "190",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "190",
+        "150",
+        "170",
+        "210"
+      ],
+      "markedIndex": 0,
+      "markedValue": "190",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:034",
+      "conditions": "静水船速恒定，水速3，同河段顺3小时逆5小时。",
+      "method": "解3(v+3)=5(v-3)",
+      "stemSha256": "c911256e4bc44b2ba0dc69aa1b2f626851638bde73fa37565e6ffcd077987647",
+      "expected": "45",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "30",
+        "45",
+        "36",
+        "60"
+      ],
+      "markedIndex": 1,
+      "markedValue": "45",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:035",
+      "conditions": "前段50后段75，全程150，耗时5/2，无停留，求慢段距离。",
+      "method": "一元时间方程",
+      "stemSha256": "e724ebe078051ec3480d698dc475feadbfef70f3dc11f6d768e5fec688e7cdcd",
+      "expected": "75",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "50",
+        "60",
+        "75",
+        "100"
+      ],
+      "markedIndex": 2,
+      "markedValue": "75",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:036",
+      "conditions": "95箱，每车至多8箱，一趟可不满载，求最少整数车数。",
+      "method": "枚举容量阈值",
+      "stemSha256": "8902e554121006abaf9e55e735d0b6c78c2bd51a1362b5fc3b025f445ce8c415",
+      "expected": "12",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：只有容量向上取整，无第二约束。",
+      "options": [
+        "11",
+        "13",
+        "14",
+        "12"
+      ],
+      "markedIndex": 3,
+      "markedValue": "12",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:037",
+      "conditions": "5项各为0..90整数，总410，无互异要求，求第5项最小。",
+      "method": "其余4项最大占用且构造可行",
+      "stemSha256": "696114cdce94bb6ec908908fa76eaf4970e635f3e3fddb68affe1d9e6a441615",
+      "expected": "50",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：其余四项取上限后一次相减，没有互异或名次耦合。",
+      "options": [
+        "50",
+        "40",
+        "60",
+        "80"
+      ],
+      "markedIndex": 0,
+      "markedValue": "50",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:038",
+      "conditions": "5人选两个有名岗位不兼任，0不能第一个岗位。",
+      "method": "枚举有序不同人",
+      "stemSha256": "49ba02d85ef2ef9809b056c656ab233ddd380f16bf80d8eceda97dc1c7a45177",
+      "expected": "16",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：先选有限制的组长，再选不同副手，是标准有名位置计数。",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "25"
+      ],
+      "markedIndex": 1,
+      "markedValue": "16",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:039",
+      "conditions": "3男3女中选3人恰2女，选人无顺序。",
+      "method": "枚举三人子集",
+      "stemSha256": "80faf4412cae8c79fcdda25f91fc8ed96a8cbe9983cc9cf4da5b3ee6897ece8b",
+      "expected": "9",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：男女定额已经给定，按类别组合相乘，无禁配或条件样本耦合。",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "18"
+      ],
+      "markedIndex": 2,
+      "markedValue": "9",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:040",
+      "conditions": "数字1..4选两个不同者形成两位偶数。",
+      "method": "枚举两位整数",
+      "stemSha256": "ae8cd766915f2991c4c2260bbddba95b1397b7ee29e2068a3ee5aeafe62fb534",
+      "expected": "6",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：先选偶数个位，再选剩余十位，只有末位限制。",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "6"
+      ],
+      "markedIndex": 3,
+      "markedValue": "6",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:041",
+      "conditions": "4红3蓝，等可能不放回抽2；条件至少1红，事件全红。",
+      "method": "先过滤条件再数事件",
+      "stemSha256": "bb15846c07fbbe07183817063406ac4308eb36921cdeee33ba81a5a90efe7fe0",
+      "expected": "1/3",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "1/3",
+        "2/7",
+        "3/7",
+        "1/2"
+      ],
+      "markedIndex": 0,
+      "markedValue": "1/3",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:042",
+      "conditions": "两个独立公平六面骰，条件点数不同，事件和8；有序样本。",
+      "method": "枚举36有序对",
+      "stemSha256": "19749769bb1a4ad3a5c1773c9325958ef66cd6806bfa930c8b99502157a9d297",
+      "expected": "2/15",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "1/9",
+        "2/15",
+        "1/6",
+        "1/5"
+      ],
+      "markedIndex": 1,
+      "markedValue": "2/15",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:043",
+      "conditions": "矩形12×8，内部四边含四角统一宽1，求步道面积。",
+      "method": "外矩形减内矩形",
+      "stemSha256": "1837e2f8808e9df5461e0a5bbb66e5a9aedd46aaa927fa3d531b57bd5e53b30c",
+      "expected": "36",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "32",
+        "40",
+        "36",
+        "44"
+      ],
+      "markedIndex": 2,
+      "markedValue": "36",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:044",
+      "conditions": "圆柱等高，半径大:小=2:1；同恒定体积流量，小满需9分钟。",
+      "method": "体积比映射时间比",
+      "stemSha256": "41c2cc9671af23d49dee2f80c8a4051970def772cb3588988d3b4014d3d191b9",
+      "expected": "36",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "18",
+        "27",
+        "72",
+        "36"
+      ],
+      "markedIndex": 3,
+      "markedValue": "36",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:045",
+      "conditions": "ABC面积96，AD:DB=1:2，AE:EC=1:3，求ADE面积。",
+      "method": "共角双边比乘积",
+      "stemSha256": "5bee78442ef4164765c99bd87fd34b0c96ca87722cd103bc144e02bb83fc7c70",
+      "expected": "8",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "8",
+        "6",
+        "12",
+        "16"
+      ],
+      "markedIndex": 0,
+      "markedValue": "8",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:046",
+      "conditions": "30天月份，周一和周二各5次，求月末星期编号1..7。",
+      "method": "遍历7种月初并要求结果唯一",
+      "stemSha256": "638465a50063331f81f46bd2f8b036f450f294bbaa7c04ef9d9ba74d5d87614d",
+      "expected": "2",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "markedIndex": 1,
+      "markedValue": "2",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:047",
+      "conditions": "工作2休1，统计开始为工作首日，前17天每工作日10件。",
+      "method": "逐日模拟循环",
+      "stemSha256": "36172d397673f6a07c979c20c4d75343b9a6dd02273ea6d6cf5a609dc73c0da9",
+      "expected": "120",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "markedIndex": 2,
+      "markedValue": "120",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:048",
+      "conditions": "固定成本300，单位成本20售价35，整数接待人数，利润严格正。",
+      "method": "搜索严格利润阈值",
+      "stemSha256": "cfb8d99997f90e15055fbd8db207fea6d8487b4585aea01dbe85240feeb46282",
+      "expected": "21",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "20",
+        "22",
+        "30",
+        "21"
+      ],
+      "markedIndex": 3,
+      "markedValue": "21",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:049",
+      "conditions": "100千克20%盐水加水至16%，无损失，求所加水量。",
+      "method": "溶质守恒精确有理数",
+      "stemSha256": "4032a535a1a42e53513cc38b18ef31a26d2779d845bc015d0edcd96adda5271e",
+      "expected": "25",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "40"
+      ],
+      "markedIndex": 0,
+      "markedValue": "25",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:050",
+      "conditions": "整数n>50，n%5=2且n%7=3，求最小。",
+      "method": "穷举至一个完整35天余类区间",
+      "stemSha256": "b9abfe6bd093775491b08657ce9395b781eca3dafd8d6c6ea58a52dd81fc2589",
+      "expected": "52",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界",
+      "options": [
+        "57",
+        "52",
+        "62",
+        "67"
+      ],
+      "markedIndex": 1,
+      "markedValue": "52",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:051",
+      "conditions": "两组共50，均82/76，总均79.6精确；甲调10人均80给乙，求乙新均。",
+      "method": "枚举初始人数再转移真实总分",
+      "stemSha256": "49a36408795a51a9aecfea141d295041e9c3604b60f3301610f3a7115b371978",
+      "expected": "232/3",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "76",
+        "78",
+        "232/3",
+        "80"
+      ],
+      "markedIndex": 2,
+      "markedValue": "232/3",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:052",
+      "conditions": "原5:4，从甲转8到乙后相等；人数整数，求总数。",
+      "method": "独立枚举比例份数",
+      "stemSha256": "aa42f7d0cbed54b17549091ba4e784e5cb8d447fdb67bfb5583608a89c733bee",
+      "expected": "144",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：调8人使人数差减少16，单一差量模型即可锁一份和总人数。",
+      "options": [
+        "72",
+        "128",
+        "160",
+        "144"
+      ],
+      "markedIndex": 3,
+      "markedValue": "144",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:053",
+      "conditions": "100件成本40，先20件各卖60，余80件同整数价，总利润≥1200。",
+      "method": "全整数候选价搜索最小",
+      "stemSha256": "a191c963691f4ec349741675ca1c97fec1a65616dc21fd196dacade4d00993d2",
+      "expected": "50",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：利润目标转总收入后扣已售收入，余货单价下界恰为整数，无额外搜索。",
+      "options": [
+        "50",
+        "45",
+        "48",
+        "55"
+      ],
+      "markedIndex": 0,
+      "markedValue": "50",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:054",
+      "conditions": "甲20天乙30天，合作3天，乙退后甲效率乘3/2，求总工期。",
+      "method": "分阶段精确速率",
+      "stemSha256": "3a16229cdaeefbe3d2be1714ed89c4fc5d54afba3f4d5b8e940ca96fa89bb275",
+      "expected": "13",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "10",
+        "13",
+        "12",
+        "15"
+      ],
+      "markedIndex": 1,
+      "markedValue": "13",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:055",
+      "conditions": "甲12乙18天效率恒定，每人交替1天甲先，可部分末日，求总工期。",
+      "method": "逐日推进直到剩余量不足一天",
+      "stemSha256": "7cb8b794ed2e86215c5ea37d52f2d7fa5ba58ffb14e625a28ee60700d927fbb4",
+      "expected": "43/3",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "14",
+        "15",
+        "43/3",
+        "16"
+      ],
+      "markedIndex": 2,
+      "markedValue": "43/3",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:056",
+      "conditions": "直线两端同时相向，端点折返，首遇距A150，再遇距B100且各折返一次。",
+      "method": "实数域线性方程唯一根，再核两人路程与折返位置",
+      "stemSha256": "99432070ba361fbebe3136725361123e3cd8a0d95365e7af6526a0e103007bd5",
+      "expected": "350",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "250",
+        "300",
+        "400",
+        "350"
+      ],
+      "markedIndex": 3,
+      "markedValue": "350",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:057",
+      "conditions": "600环道同点同向5/3，60秒后慢者立即反向，求转向后首次会面。",
+      "method": "解相对位置模600，正根最小",
+      "stemSha256": "9b63f787ac4e733a0a6ba44d1498030f81ddd26ab9911f6b7470fbc14128f91c",
+      "expected": "60",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "60",
+        "15",
+        "40",
+        "75"
+      ],
+      "markedIndex": 0,
+      "markedValue": "60",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:058",
+      "conditions": "420直路，甲60先出发，乙80晚1小时相向，求甲出发至会面。",
+      "method": "总路程时间方程",
+      "stemSha256": "d5f936cc0fa560fa205d166951b6ddbf95b57fe08c5aa9172e3b53e8e9d46b70",
+      "expected": "25/7",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "18/7",
+        "25/7",
+        "3",
+        "4"
+      ],
+      "markedIndex": 1,
+      "markedValue": "25/7",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:059",
+      "conditions": "50人5组互异，每组≥3，最大组尽可能大。",
+      "method": "其他四组最小占用并验构造",
+      "stemSha256": "68a830c12f5e14fb10a3498bd8b546062d30352d3683a90bcab4c4174b9242da",
+      "expected": "32",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：其余四组取最小互异人数，剩余归目标组，是一层边界构造。",
+      "options": [
+        "26",
+        "30",
+        "32",
+        "35"
+      ],
+      "markedIndex": 2,
+      "markedValue": "32",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:060",
+      "conditions": "4色各10个，不放回，保证某色至少3个。",
+      "method": "禁止目标时最大抽屉容量+1",
+      "stemSha256": "aeafd4214583a6a62edc39271bc8da804e0fb10ddc6502d45020b89faf5a62bd",
+      "expected": "9",
+      "level": "入门",
+      "t": "钩子",
+      "cost": "低",
+      "targetSeconds": 35,
+      "difficultyBasis": "一个主要关系，识别后一步收口；本题：每色先取2再多取1，是标准抽屉保证模型。",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "markedIndex": 3,
+      "markedValue": "9",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:061",
+      "conditions": "12相同物资分3有名部门，各≥2，甲≤5；各部门份数允许相同，至少一部门数量变化才视为不同方案。",
+      "method": "穷举有序三元组",
+      "stemSha256": "545db15ffe7820701381c591650e71f622e808b85f276756319e655105ee8e7f",
+      "expected": "22",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "22",
+        "18",
+        "20",
+        "28"
+      ],
+      "markedIndex": 0,
+      "markedValue": "22",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:062",
+      "conditions": "7人选4，0/1恰选1，2/3不同时选。",
+      "method": "枚举35个4人子集",
+      "stemSha256": "698f67586a92a74d3612a7ebb51d8b2aa2e45173eb64f17db9370db939f9eeb6",
+      "expected": "14",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "12",
+        "14",
+        "18",
+        "20"
+      ],
+      "markedIndex": 1,
+      "markedValue": "14",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:063",
+      "conditions": "6步±1，从0出发各3步，每个前缀≥0。",
+      "method": "全64条路径和DP交叉",
+      "stemSha256": "cceb86ebed820abaf5f5e57840385bc8b8d2154bc7561ba3b39a206c56661fa0",
+      "expected": "5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "10"
+      ],
+      "markedIndex": 2,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:064",
+      "conditions": "5步±1，从0出发，每步后严格>0，终点不限。",
+      "method": "全32条路径和严格边界DP交叉",
+      "stemSha256": "599eee7889eac214c8c3d733b5c5665ad90f1505793489625e9fb43245460d98",
+      "expected": "6",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "5",
+        "10",
+        "16",
+        "6"
+      ],
+      "markedIndex": 3,
+      "markedValue": "6",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:065",
+      "conditions": "5红3蓝，等可能不放回取3，事件红球数≥2。",
+      "method": "枚举56个3球子集",
+      "stemSha256": "69a587ffd3fd435bd2c8089a098fa783fc060d68dbde06fefaa7c1f737beb5f4",
+      "expected": "5/7",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "5/7",
+        "5/14",
+        "1/2",
+        "3/4"
+      ],
+      "markedIndex": 0,
+      "markedValue": "5/7",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:066",
+      "conditions": "等可能选2红1蓝或1红3蓝盒，盒内等可能选1；条件红，求来源甲。",
+      "method": "12公分母的先验加权并归一化",
+      "stemSha256": "9accc94b0e425e4df352efd8f3e4a96e97b3bfe2ef13e5f56affa29dbd4fbbb1",
+      "expected": "8/11",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "1/2",
+        "8/11",
+        "2/3",
+        "3/4"
+      ],
+      "markedIndex": 1,
+      "markedValue": "8/11",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:067",
+      "conditions": "ABC面积80，D为AB中点，AE:EC=1:2，P=BE∩CD，求BDP面积。",
+      "method": "归一化坐标解线性方程与面积行列式",
+      "stemSha256": "6a4db1271aa9282b68fd5fd6420be6019754d5c4b9bacf82e53483043ad4a667",
+      "expected": "8",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "16"
+      ],
+      "markedIndex": 2,
+      "markedValue": "8",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:068",
+      "conditions": "边长6立方体沿面平行切2厚和4厚两块，无损，求两块表面积和。",
+      "method": "分别直接计算两个长方体表面",
+      "stemSha256": "52e69c85a69c9bf30fd018f296676e47f1c2057682abba2c35c265a8089733c7",
+      "expected": "288",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：一个切面暴露两次，切块厚度不引入新约束。",
+      "options": [
+        "216",
+        "252",
+        "324",
+        "288"
+      ],
+      "markedIndex": 3,
+      "markedValue": "288",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:069",
+      "conditions": "圆柱r3h8无损熔铸圆锥r2h6，求完整个数。",
+      "method": "两体积有理系数相除，π约掉",
+      "stemSha256": "9f63711ed364c5f0a466dbbc8004329cefff274b994e10608594b8b52a852477",
+      "expected": "9",
+      "level": "熟练",
+      "t": "转化钩",
+      "cost": "中",
+      "targetSeconds": 55,
+      "difficultyBasis": "两步转换或一个明确边界；本题：一个体积守恒模型，直接用圆柱圆锥的体积比，π不增加耦合。",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "12"
+      ],
+      "markedIndex": 0,
+      "markedValue": "9",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:070",
+      "conditions": "31日，周一二三天数总和15，求首周五日期。",
+      "method": "遍历月初星期及日历",
+      "stemSha256": "a84919b50d814a90463b2a33715fe1116b5cb7522e8e70e8e1d6d0f86c0d369b",
+      "expected": "5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "markedIndex": 1,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:071",
+      "conditions": "检查周期6和8，首日1，要求同检且同星期，求下个日期。",
+      "method": "枚举同余交集",
+      "stemSha256": "3901e182cd1d7b874e5a4430e8e2d8da3bf70904ee96b7025ac787af6f48d717",
+      "expected": "169",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "25",
+        "49",
+        "169",
+        "168"
+      ],
+      "markedIndex": 2,
+      "markedValue": "169",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:072",
+      "conditions": "甲3工作1休息，乙2工作1休息，同从首个工作日开始，统计12日交集；周期4和3互质，12为完整共同周期。",
+      "method": "逐日模拟与互质完整周期的比例法交叉",
+      "stemSha256": "2d1e60dee082b5ababf234b9fcd09030360174b40ef081733b16014cb879d9e6",
+      "expected": "6",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "markedIndex": 3,
+      "markedValue": "6",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:073",
+      "conditions": "成本20，价50销量100；整数降k次每次2元销量+20，0≤k≤10，求最大利润。",
+      "method": "枚举全部11个允许价格档",
+      "stemSha256": "d22ff126c2ebca200597bb7bafe976ee5f2f6889719f722102dd530a020b0126",
+      "expected": "4000",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "4000",
+        "3000",
+        "3600",
+        "4200"
+      ],
+      "markedIndex": 0,
+      "markedValue": "4000",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:074",
+      "conditions": "大8箱500，小5箱350，41箱一趟可不满，非负整数车辆不限，求最小成本。",
+      "method": "完整非支配辆数组合枚举",
+      "stemSha256": "7fab8f846b122be050299f789484986d8c1daffa43d85db4af5d27525f9a0208",
+      "expected": "2700",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "2650",
+        "2700",
+        "2750",
+        "2850"
+      ],
+      "markedIndex": 1,
+      "markedValue": "2700",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:075",
+      "conditions": "初100kg浓度1/5；取混合物20补水20，再取混合物20补浓度2/5溶液20，求百分数。",
+      "method": "逐次精确更新溶质量与总质量",
+      "stemSha256": "83ba592c1d53b20cce2dd18f575a2e156929f1020e644185a1f37fc9b7b8aff7",
+      "expected": "104/5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换",
+      "options": [
+        "16",
+        "20",
+        "20.8",
+        "24"
+      ],
+      "markedIndex": 2,
+      "markedValue": "104/5",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:076",
+      "conditions": "人数比1:2:3，甲均80丙均90，丙转10人均92给甲后甲均86，求丙新均。",
+      "method": "枚举人数尺度，独立转移丙总分",
+      "stemSha256": "98a42dc61f4c3a030ce0756f65f60971c89822bb9ed428d2b29e5f8ab87add16",
+      "expected": "89",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "88",
+        "90",
+        "91",
+        "89"
+      ],
+      "markedIndex": 3,
+      "markedValue": "89",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:077",
+      "conditions": "原三队180，先甲1/4给乙，后按新乙的1/7给丙，最终1:2:3，各转移人数整数。",
+      "method": "枚举原人数再正向执行两次调动",
+      "stemSha256": "306da4bb9ada3888fc5ea6a05a09c0dd3d4fcc2e92c0898b5d553d3d8804c1be",
+      "expected": "60",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：两次比例操作改变中间基数，逆序恢复即可，属于多事件比例深化。",
+      "options": [
+        "60",
+        "50",
+        "70",
+        "80"
+      ],
+      "markedIndex": 0,
+      "markedValue": "60",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:078",
+      "conditions": "两阶段各36，阶段一甲3乙2/天、阶段二甲3/2乙3/天；甲t0乙t2，之后合作，无切换延迟可部分天。",
+      "method": "按事件时刻计算两个阶段的完成时刻",
+      "stemSha256": "f01da4788981f2e945bd2a8dee273f68fd0f38263675a8a3b6b1930d760e2410",
+      "expected": "16",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "markedIndex": 1,
+      "markedValue": "16",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:079",
+      "conditions": "任务24/20，机器6/4每小时，同任务禁并机，随时可抢占换机、无损。",
+      "method": "总容量下界+双任务互换排程的精确验证",
+      "stemSha256": "9468638d0f6c0cd11439f8caccd14cc230d4dbaa280232b254879bd90fccddb2",
+      "expected": "22/5",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "4",
+        "24/5",
+        "22/5",
+        "5"
+      ],
+      "markedIndex": 2,
+      "markedValue": "22/5",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:080",
+      "conditions": "三任务20/26/28，甲6乙4每整日，每组一天一任务可次日换，允许两组同任务且余力不转用。",
+      "method": "穷举各任务整数甲日数、补足最少乙日数，求最短共同工期",
+      "stemSha256": "0634017a735ff8aa7154781a229187ce0f5d92c3ef02810dcde11b25f3624c85",
+      "expected": "8",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "markedIndex": 3,
+      "markedValue": "8",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:081",
+      "conditions": "600环道，初位0/0/300，速度6/4/3同向，求首次三人同点的正时间。",
+      "method": "甲乙重合时间300k上验证甲丙位置同余",
+      "stemSha256": "43cb910254aac298ae78ab71709680f7a33a2e367367d3fb5e3be28450552acc",
+      "expected": "300",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "300",
+        "100",
+        "200",
+        "600"
+      ],
+      "markedIndex": 0,
+      "markedValue": "300",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:082",
+      "conditions": "往返速60/40，停1/2小时，总≤4小时，耗油去0.10回0.08L/km，总油14.4L，求最大单程。",
+      "method": "两个线性预算上界的交集",
+      "stemSha256": "454ea567a97d770635763ed4dd7a0378413d42f2065970e24a37f860734ec90f",
+      "expected": "80",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：两个线性预算直接给同一距离的上界，取小并验证，没有整数资源配置。",
+      "options": [
+        "72",
+        "80",
+        "84",
+        "96"
+      ],
+      "markedIndex": 1,
+      "markedValue": "80",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:083",
+      "conditions": "A料2时3利70，B料3时2利80，料≤30时≤29，非负整数件数。",
+      "method": "穷举整个有限整数可行域",
+      "stemSha256": "305ad9e05cd6e6ed03caf4acef76f399c1c16d4d28a47033cc607d53cdd8c1d4",
+      "expected": "850",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "830",
+        "840",
+        "850",
+        "890"
+      ],
+      "markedIndex": 2,
+      "markedValue": "850",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:084",
+      "conditions": "6个互异0..100整数总550，其中90分；按降序求90的最大名次数值。",
+      "method": "有界子集和DP，分高于90和低于90分别计人数总分",
+      "stemSha256": "56251b162b3e0a3d1c163de121de8fba754941754275e133ec433179f6fddf4b",
+      "expected": "5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：固定目标分数，用高分组最低总和排除最差名次，再给可行构造。",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "5"
+      ],
+      "markedIndex": 3,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:085",
+      "conditions": "4组互异正整数共30，最大恰为最小2倍，求最小组最大值。",
+      "method": "枚举所有递增四元组",
+      "stemSha256": "0e09fd89823ba4a9aed3680ddd8ecd3d13b31c61e2a6a2931f095f260240ec3d",
+      "expected": "5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：互异和倍数可压入同一最小人数变量，得到单一总量上界后构造。",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "markedIndex": 0,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:086",
+      "conditions": "7人分有名3天人数3/2/2，甲0在首日，乙1丙2不同日，组内无序。",
+      "method": "逐组枚举有名划分",
+      "stemSha256": "7aa4cf0a53424a133e5ac8d39818c0411589bc1f3866b06f714e1a77295b6c83",
+      "expected": "72",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "48",
+        "72",
+        "60",
+        "84"
+      ],
+      "markedIndex": 1,
+      "markedValue": "72",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:087",
+      "conditions": "6人全排列，甲0在乙1之前，丙2丁3不邻，戊4不在端点。",
+      "method": "720排列直接筛三条件",
+      "stemSha256": "a75dc6c6990c5e3086a36478e65d087aabec5b1b659d5d3801e7f8e96175023a",
+      "expected": "168",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "144",
+        "192",
+        "168",
+        "240"
+      ],
+      "markedIndex": 2,
+      "markedValue": "168",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:088",
+      "conditions": "8步±1各4，从0非负，第四步后余额2，末0。",
+      "method": "256路径与带中途约束DP交叉",
+      "stemSha256": "ed362b0027804714bfb8c7f4e3244f849670edc8066bb607f402d3ad78948df8",
+      "expected": "9",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "6",
+        "8",
+        "14",
+        "9"
+      ],
+      "markedIndex": 3,
+      "markedValue": "9",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:089",
+      "conditions": "卡1..6等可能不放回选3，条件至少一偶；事件最大5且和偶。",
+      "method": "全20个子集按条件与事件筛选",
+      "stemSha256": "af15e2244124feb1e30e1ac15a6374fc7ecb8e8b41558db7b0e7fc88cf1fd19d",
+      "expected": "4/19",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "4/19",
+        "1/5",
+        "5/19",
+        "1/4"
+      ],
+      "markedIndex": 0,
+      "markedValue": "4/19",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:090",
+      "conditions": "等概率选2红2蓝或3红1蓝盒，连续不放回取2；条件首红，事件次红。",
+      "method": "枚举带盒标签的24个等可能有序样本",
+      "stemSha256": "0adf17630a9c302c16d05e83473310d33a228486d800e2b154c397edc156b1ae",
+      "expected": "8/15",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "1/2",
+        "8/15",
+        "3/5",
+        "2/3"
+      ],
+      "markedIndex": 1,
+      "markedValue": "8/15",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:091",
+      "conditions": "倒锥高9，上圆柱同半径，恒体积流量；第1分钟水高3，总81分钟满，求总高。",
+      "method": "底面积单位化、锥相似体积与柱体积守恒",
+      "stemSha256": "0b749f1e16c973e6ea771834659c39811fbdd1c4f61141ad3825c75e1232cc1d",
+      "expected": "15",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "12",
+        "18",
+        "15",
+        "27"
+      ],
+      "markedIndex": 2,
+      "markedValue": "15",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:092",
+      "conditions": "直角三角形高落斜边分9/16，过半高平行斜边截去含直角顶点小三角形，求余梯形周长。",
+      "method": "射影关系求两腰、相似比1/2计算4边",
+      "stemSha256": "53ba3d436454775d13fe91c0589a0ee9022747fa0756e1a9c32bc7a1a0be6411",
+      "expected": "55",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "50",
+        "60",
+        "65",
+        "55"
+      ],
+      "markedIndex": 3,
+      "markedValue": "55",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:093",
+      "conditions": "边10立方体正方形直孔垂直贯通，剩体积84%，孔侧面平行原侧面，求含孔壁总表面。",
+      "method": "体积损失求孔边，再外面减孔口加内壁",
+      "stemSha256": "31e0e9c2d316d6307828f614978a7d759484fde2ad9d9f39ff5ca16e2cb04521",
+      "expected": "728",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "728",
+        "568",
+        "600",
+        "696"
+      ],
+      "markedIndex": 0,
+      "markedValue": "728",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:094",
+      "conditions": "30天第1天周一，同时为工作3休1首工作日；仅工作日且周一到周五办理。",
+      "method": "逐日交叉日历模拟",
+      "stemSha256": "8d183112fcf6705da4d90847efebe7b5838b04021ddb05ba098357a086280ad3",
+      "expected": "17",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "15",
+        "17",
+        "16",
+        "18"
+      ],
+      "markedIndex": 1,
+      "markedValue": "17",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:095",
+      "conditions": "第1天周一，原始日程周期4/7/9从1开始，周六日顺延到下一周一且不重置周期，求下次三者实际同日。",
+      "method": "分别生成原计划与顺延日期，再取交集最小正后继",
+      "stemSha256": "4bea67ddc4004908dc29a280a8d8745a3d3367edd24f022053a79898b761fe1a",
+      "expected": "29",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "22",
+        "28",
+        "29",
+        "253"
+      ],
+      "markedIndex": 2,
+      "markedValue": "29",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:096",
+      "conditions": "成本30初价70需求100，降价次数整数0..10，每次降3需求+20，要求需求全满足且供应≤160。",
+      "method": "先过滤产能再枚举利润",
+      "stemSha256": "8e936d28f27334fd2e4b116d65371e3aa3e33368473db379fbe83250ce90859e",
+      "expected": "4960",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "4800",
+        "4900",
+        "5040",
+        "4960"
+      ],
+      "markedIndex": 3,
+      "markedValue": "4960",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:097",
+      "conditions": "小包7件100、大包11件150，整数包数，总件数在闭区间80..83，最小费用。",
+      "method": "全包数组合枚举",
+      "stemSha256": "822559743542be1d233c2aa673d2a771de42fc764a3037147629710f31d7fd1e",
+      "expected": "1100",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "1100",
+        "1050",
+        "1150",
+        "1200"
+      ],
+      "markedIndex": 0,
+      "markedValue": "1100",
+      "satisfyingOptionIndices": [
+        0
+      ],
+      "satisfyingOptions": [
+        "A"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:098",
+      "conditions": "100人并集，3集合人数60/55/50，恰一项40，求三项交集且边际须可实现。",
+      "method": "参与次数分层整数方程+三集合Venn区域可行性枚举",
+      "stemSha256": "9395337a29875f6a1338eb49949dbb6e9bff8fa6f7456c5b6a9f948c4da62ee0",
+      "expected": "5",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：按参与次数分层后两条总量关系消元，不需逐一枚举三个两两交集。",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "25"
+      ],
+      "markedIndex": 1,
+      "markedValue": "5",
+      "satisfyingOptionIndices": [
+        1
+      ],
+      "satisfyingOptions": [
+        "B"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:099",
+      "conditions": "月经费等差递增，前三月1800前六月4500，求第7..12月和。",
+      "method": "精确解首项公差，再逐目标月份求和",
+      "stemSha256": "84e6af9ff97520403b007cc020b6cdccc4ad48e8864fc3c1885ed4ae083426d8",
+      "expected": "8100",
+      "level": "深化",
+      "t": "二步钩",
+      "cost": "中",
+      "targetSeconds": 75,
+      "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：等长季度块的差直接锁增长，再求后两季度总和，无需逐月列多变量。",
+      "options": [
+        "7200",
+        "7500",
+        "8100",
+        "9000"
+      ],
+      "markedIndex": 2,
+      "markedValue": "8100",
+      "satisfyingOptionIndices": [
+        2
+      ],
+      "satisfyingOptions": [
+        "C"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    },
+    {
+      "uid": "hand100:v2:100",
+      "conditions": "8天甲连续2乙连续3不重叠，其余3休，等可能原日程，事件休息日不相邻。",
+      "method": "直接枚举两课程原日程起点，不用捆绑公式",
+      "stemSha256": "547647f90340fb1b0cd923e39fa556dd6848955fe910ff7f7f7f5f9108a747c6",
+      "expected": "1/10",
+      "level": "综合",
+      "t": "综合建模",
+      "cost": "高",
+      "targetSeconds": 100,
+      "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+      "options": [
+        "1/20",
+        "1/5",
+        "1/4",
+        "1/10"
+      ],
+      "markedIndex": 3,
+      "markedValue": "1/10",
+      "satisfyingOptionIndices": [
+        3
+      ],
+      "satisfyingOptions": [
+        "D"
+      ],
+      "uniqueOption": true,
+      "pass": true,
+      "issues": []
+    }
+  ]
+}

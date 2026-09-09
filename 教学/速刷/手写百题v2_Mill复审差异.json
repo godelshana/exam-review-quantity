@@ -1,0 +1,876 @@
+{
+  "status": "已执行Mill建议，待其绑定新hash复审，不自批放行",
+  "previousBankSha256": "b61231a6cce5248bfd836b4a27ffb7bfc977065eeb239c3efd9db3485a21039e",
+  "bankSha256": "351b721ec0c208105bccc898a49d2557690cc74527241f84cfbb8cbed2301d96",
+  "independentReportSha256": "a2dea1ffa683e035f505a10882458dab343664d95823a185543722298644171d",
+  "levelCounts": {
+    "入门": 29,
+    "熟练": 27,
+    "深化": 25,
+    "综合": 19
+  },
+  "changedRecords": 21,
+  "levelAdjustments": [
+    {
+      "id": 6,
+      "uid": "hand100:v2:006",
+      "before": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：三对效率要识别每人被重复计算两次，需要求和后再除2。"
+      }
+    },
+    {
+      "id": 10,
+      "uid": "hand100:v2:010",
+      "before": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：互异人数先用最小总和证明组数上界，再构造余量分配达到上界。"
+      }
+    },
+    {
+      "id": 36,
+      "uid": "hand100:v2:036",
+      "before": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：只有容量向上取整，无第二约束。"
+      }
+    },
+    {
+      "id": 37,
+      "uid": "hand100:v2:037",
+      "before": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：其余四项取上限后一次相减，没有互异或名次耦合。"
+      }
+    },
+    {
+      "id": 38,
+      "uid": "hand100:v2:038",
+      "before": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：先选有限制的组长，再选不同副手，是标准有名位置计数。"
+      }
+    },
+    {
+      "id": 39,
+      "uid": "hand100:v2:039",
+      "before": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：男女定额已经给定，按类别组合相乘，无禁配或条件样本耦合。"
+      }
+    },
+    {
+      "id": 40,
+      "uid": "hand100:v2:040",
+      "before": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：先选偶数个位，再选剩余十位，只有末位限制。"
+      }
+    },
+    {
+      "id": 52,
+      "uid": "hand100:v2:052",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：调8人使人数差减少16，单一差量模型即可锁一份和总人数。"
+      }
+    },
+    {
+      "id": 53,
+      "uid": "hand100:v2:053",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：利润目标转总收入后扣已售收入，余货单价下界恰为整数，无额外搜索。"
+      }
+    },
+    {
+      "id": 59,
+      "uid": "hand100:v2:059",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：其余四组取最小互异人数，剩余归目标组，是一层边界构造。"
+      }
+    },
+    {
+      "id": 60,
+      "uid": "hand100:v2:060",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "入门",
+        "t": "钩子",
+        "cost": "低",
+        "targetSeconds": 35,
+        "difficultyBasis": "一个主要关系，识别后一步收口；本题：每色先取2再多取1，是标准抽屉保证模型。"
+      }
+    },
+    {
+      "id": 68,
+      "uid": "hand100:v2:068",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：一个切面暴露两次，切块厚度不引入新约束。"
+      }
+    },
+    {
+      "id": 69,
+      "uid": "hand100:v2:069",
+      "before": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换"
+      },
+      "after": {
+        "level": "熟练",
+        "t": "转化钩",
+        "cost": "中",
+        "targetSeconds": 55,
+        "difficultyBasis": "两步转换或一个明确边界；本题：一个体积守恒模型，直接用圆柱圆锥的体积比，π不增加耦合。"
+      }
+    },
+    {
+      "id": 77,
+      "uid": "hand100:v2:077",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：两次比例操作改变中间基数，逆序恢复即可，属于多事件比例深化。"
+      }
+    },
+    {
+      "id": 82,
+      "uid": "hand100:v2:082",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：两个线性预算直接给同一距离的上界，取小并验证，没有整数资源配置。"
+      }
+    },
+    {
+      "id": 84,
+      "uid": "hand100:v2:084",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：固定目标分数，用高分组最低总和排除最差名次，再给可行构造。"
+      }
+    },
+    {
+      "id": 85,
+      "uid": "hand100:v2:085",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：互异和倍数可压入同一最小人数变量，得到单一总量上界后构造。"
+      }
+    },
+    {
+      "id": 98,
+      "uid": "hand100:v2:098",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：按参与次数分层后两条总量关系消元，不需逐一枚举三个两两交集。"
+      }
+    },
+    {
+      "id": 99,
+      "uid": "hand100:v2:099",
+      "before": {
+        "level": "综合",
+        "t": "综合建模",
+        "cost": "高",
+        "targetSeconds": 100,
+        "difficultyBasis": "至少两个约束共用中间量，或需要上界与可行构造闭合"
+      },
+      "after": {
+        "level": "深化",
+        "t": "二步钩",
+        "cost": "中",
+        "targetSeconds": 75,
+        "difficultyBasis": "隐藏状态、条件空间或事件切换；本题：等长季度块的差直接锁增长，再求后两季度总和，无需逐月列多变量。"
+      }
+    }
+  ],
+  "all100OptionsAndAnswersUnchanged": true,
+  "question100Unchanged": true,
+  "question052MathUnchanged": true,
+  "changes": [
+    {
+      "uid": "hand100:v2:006",
+      "id": 6,
+      "fields": {
+        "cost": {
+          "before": "低",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "一个主要关系，识别后一步收口",
+          "after": "两步转换或一个明确边界；本题：三对效率要识别每人被重复计算两次，需要求和后再除2。"
+        },
+        "level": {
+          "before": "入门",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "钩子",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 35,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:010",
+      "id": 10,
+      "fields": {
+        "cost": {
+          "before": "低",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "一个主要关系，识别后一步收口",
+          "after": "两步转换或一个明确边界；本题：互异人数先用最小总和证明组数上界，再构造余量分配达到上界。"
+        },
+        "level": {
+          "before": "入门",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "钩子",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 35,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:036",
+      "id": 36,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "两步转换或一个明确边界",
+          "after": "一个主要关系，识别后一步收口；本题：只有容量向上取整，无第二约束。"
+        },
+        "level": {
+          "before": "熟练",
+          "after": "入门"
+        },
+        "t": {
+          "before": "转化钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 55,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:037",
+      "id": 37,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "两步转换或一个明确边界",
+          "after": "一个主要关系，识别后一步收口；本题：其余四项取上限后一次相减，没有互异或名次耦合。"
+        },
+        "level": {
+          "before": "熟练",
+          "after": "入门"
+        },
+        "t": {
+          "before": "转化钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 55,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:038",
+      "id": 38,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "两步转换或一个明确边界",
+          "after": "一个主要关系，识别后一步收口；本题：先选有限制的组长，再选不同副手，是标准有名位置计数。"
+        },
+        "level": {
+          "before": "熟练",
+          "after": "入门"
+        },
+        "t": {
+          "before": "转化钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 55,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:039",
+      "id": 39,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "两步转换或一个明确边界",
+          "after": "一个主要关系，识别后一步收口；本题：男女定额已经给定，按类别组合相乘，无禁配或条件样本耦合。"
+        },
+        "level": {
+          "before": "熟练",
+          "after": "入门"
+        },
+        "t": {
+          "before": "转化钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 55,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:040",
+      "id": 40,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "两步转换或一个明确边界",
+          "after": "一个主要关系，识别后一步收口；本题：先选偶数个位，再选剩余十位，只有末位限制。"
+        },
+        "level": {
+          "before": "熟练",
+          "after": "入门"
+        },
+        "t": {
+          "before": "转化钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 55,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:052",
+      "id": 52,
+      "fields": {
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "两步转换或一个明确边界；本题：调8人使人数差减少16，单一差量模型即可锁一份和总人数。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:053",
+      "id": 53,
+      "fields": {
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "两步转换或一个明确边界；本题：利润目标转总收入后扣已售收入，余货单价下界恰为整数，无额外搜索。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:059",
+      "id": 59,
+      "fields": {
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "两步转换或一个明确边界；本题：其余四组取最小互异人数，剩余归目标组，是一层边界构造。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:060",
+      "id": 60,
+      "fields": {
+        "cost": {
+          "before": "中",
+          "after": "低"
+        },
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "一个主要关系，识别后一步收口；本题：每色先取2再多取1，是标准抽屉保证模型。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "入门"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "钩子"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 35
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:061",
+      "id": 61,
+      "fields": {
+        "e": {
+          "before": "按甲拿2、3、4、5分类，乙丙在各自至少2份下分别有7、6、5、4种，合22。",
+          "after": "按甲拿2、3、4、5分类，乙丙各至少2份，分别有7、6、5、4种，合22。部门有名称，但所得份数允许相同，不额外添加互异条件。"
+        },
+        "s": {
+          "before": "12份相同物资全部分给甲乙丙三个有名部门，每部门至少2份，且甲最多5份。不同部门得到的份数不同即算不同方案。共有多少种？",
+          "after": "12份相同物资全部分给甲乙丙三个有名部门，每部门至少2份，且甲最多5份。各部门所得份数允许相同；只要至少一个部门所得份数发生变化，就视为不同分配方案。共有多少种？"
+        },
+        "signal": {
+          "before": "先枚举有上界的一个变量，余下两量由总和确定。",
+          "after": "先枚举有上界的甲，再用总量确定乙丙；部门有名不等于所得份数必须互异。"
+        },
+        "tr": {
+          "before": "物资相同，不能对每一份编号后排列。",
+          "after": "物资相同但部门有名称，按谁拿多少区分方案；允许同份数，不能误加三部门份数互异的条件（那会变为14种）。"
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:068",
+      "id": 68,
+      "fields": {
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "两步转换或一个明确边界；本题：一个切面暴露两次，切块厚度不引入新约束。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:069",
+      "id": 69,
+      "fields": {
+        "difficultyBasis": {
+          "before": "隐藏状态、条件空间或事件切换",
+          "after": "两步转换或一个明确边界；本题：一个体积守恒模型，直接用圆柱圆锥的体积比，π不增加耦合。"
+        },
+        "level": {
+          "before": "深化",
+          "after": "熟练"
+        },
+        "t": {
+          "before": "二步钩",
+          "after": "转化钩"
+        },
+        "targetSeconds": {
+          "before": 75,
+          "after": 55
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:072",
+      "id": 72,
+      "fields": {
+        "e": {
+          "before": "12天是两个周期的公倍数。甲休4、8、12日，乙休3、6、9、12日；工作交集=12−3−4+1=6。",
+          "after": "周期4与3互质，12天覆盖完整共同周期，各种相位配对恰出现一次，可直接算12×3/4×2/3=6。也可容斥：甲休3天、乙休4天，共同休1天，同工作12−3−4+1=6。"
+        },
+        "signal": {
+          "before": "共同周期内，用休息日的并集求工作日交集。",
+          "after": "先查周期是否互质、窗口是否完整；满足时比例乘法可直算，否则检查相位、用逐日或容斥计数。"
+        },
+        "tr": {
+          "before": "不能直接把两个出勤率相乘，因为休息日有特定相位重合。",
+          "after": "不能对任意周期、任意窗口无条件相乘；本题周期互质且窗口是完整共同周期，比例乘法成立。周期不互质或窗口不完整时，需核对相位与余段。"
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:077",
+      "id": 77,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：两次比例操作改变中间基数，逆序恢复即可，属于多事件比例深化。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:082",
+      "id": 82,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：两个线性预算直接给同一距离的上界，取小并验证，没有整数资源配置。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:084",
+      "id": 84,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：固定目标分数，用高分组最低总和排除最差名次，再给可行构造。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:085",
+      "id": 85,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：互异和倍数可压入同一最小人数变量，得到单一总量上界后构造。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:098",
+      "id": 98,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：按参与次数分层后两条总量关系消元，不需逐一枚举三个两两交集。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    },
+    {
+      "uid": "hand100:v2:099",
+      "id": 99,
+      "fields": {
+        "cost": {
+          "before": "高",
+          "after": "中"
+        },
+        "difficultyBasis": {
+          "before": "至少两个约束共用中间量，或需要上界与可行构造闭合",
+          "after": "隐藏状态、条件空间或事件切换；本题：等长季度块的差直接锁增长，再求后两季度总和，无需逐月列多变量。"
+        },
+        "level": {
+          "before": "综合",
+          "after": "深化"
+        },
+        "t": {
+          "before": "综合建模",
+          "after": "二步钩"
+        },
+        "targetSeconds": {
+          "before": 100,
+          "after": 75
+        }
+      }
+    }
+  ]
+}

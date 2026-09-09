@@ -1,0 +1,605 @@
+{
+  "hand100:v2:001": {
+    "stemSha256": "60016dab5ed1b302e71de29221c43a23c017da2325c3becbfe9e788b5646b5a5",
+    "conditions": "原8人均76，增加1人后9人均78；总分可加。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:002": {
+    "stemSha256": "442562e397d715b0d50e31da3f729f4605e0d0e95dc596d372cb94a66fcbb8e7",
+    "conditions": "两队总96，原3:5；乙调6给甲。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:003": {
+    "stemSha256": "fbdea6f9dddc1f93b633d7611a13b9e657e8ee867b75cfa23e212ac08abaa445",
+    "conditions": "件数固定、单价加2元、总价加120元。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:004": {
+    "stemSha256": "f75e8574a54af4707341b8d7cfc112c82f599879bc078cd127212a5fb6fe3553",
+    "conditions": "人数n为正整数且75<n<85，实操占精确3/8且人数整数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:005": {
+    "stemSha256": "01717828b18aedd233808ddb4658d26af78fd7315b92ad165111eb3881d58828",
+    "conditions": "两人独做12、18天，效率恒定相加，合作3天，求未完成比例。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:006": {
+    "stemSha256": "2370a400678c48e9413a40b9e1606ef9f795f67dd24aaa27f625a3c69c14c8e7",
+    "conditions": "三对合工期12、15、20天，各效率恒定相加，求三人全做工期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:007": {
+    "stemSha256": "16971d1416431a8a44fe1efdc02bfd6a6e4f7c02a1687bdf7081a0b6fed85669",
+    "conditions": "同一路线等距离往返，不停留，速度60、40。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:008": {
+    "stemSha256": "373a216b4c79d3805c1922e18887d6129bc9c68431378c455e2aea8e9fba605f",
+    "conditions": "环长400，同点同时反向，匀速3和5，首次再会。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:009": {
+    "stemSha256": "952d4379f5d7ba020186eb1af2bf5c26692317700df085ee6d719ef51a9a4046",
+    "conditions": "5红4蓝，不放回，保证至少一红。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:010": {
+    "stemSha256": "ffcb8d9475379dbf9146441d260c0225e31f73d9094a8f0f001fb89003de210a",
+    "conditions": "26人，各组互异正整数，求最大组数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:011": {
+    "stemSha256": "33fc2926405362d365c76d55778bdc7ab38cecf906b810dd74390ac0f3b4aff7",
+    "conditions": "6个不同人选无序2人，索引0和1禁止同选。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:012": {
+    "stemSha256": "c392f370ea83c10e5e9ae94f6bf128744adfe0ebaa1746ce475f68fbb0f08ff9",
+    "conditions": "5个不同人全排列，0和1相邻，内部次序不限。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:013": {
+    "stemSha256": "3b1ac7ccbdfd9d9dae107e71829e5e83ddfe940b1e1677465f2d167a0f323c66",
+    "conditions": "3红2蓝，5个球各有唯一索引，等可能不放回选2球。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:014": {
+    "stemSha256": "ee606f6fdf8c329a998d0deab85a3da92c902cc3e505b8e599d4e7ad8b339508",
+    "conditions": "甲成功3/5，乙成功1/2，独立，求至少一个成功。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:015": {
+    "stemSha256": "9d53c364c06a099fc04189d236b04a169aea602d75d3d00e1f3ce870e7a9cc5a",
+    "conditions": "三角形两边中点，共角小三角形面积9。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:016": {
+    "stemSha256": "732d91c1037102ed000d6d1e4301293f9678c14db00498dcfb0c0e9d0b9c0e6a",
+    "conditions": "矩形周长40，长宽为正实数，最大面积。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:017": {
+    "stemSha256": "6d7b678b26f5e620e7e805fd94e2b17c51ca43decdc9ab8088597854779b77d5",
+    "conditions": "31天，首日周五，求周日个数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:018": {
+    "stemSha256": "44d0f7b58109961434423ed0dedccf4620a475c6d930ed52d35425b609b67b5a",
+    "conditions": "第1天共同检查，日期差周期4、6，求下一共同日期编号。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:019": {
+    "stemSha256": "1696e8cfc38a6949ab94d902c46256a41bc36102ff41e2339bff191c74b38601",
+    "conditions": "成本80，按成本加价25%，再按定价九折，求利润元。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:020": {
+    "stemSha256": "16c147efdbabd21dc03f8edb4e2242cd8327cb00e2aaa316cf86e89fce39c8b0",
+    "conditions": "单价乘4/5，总收入不变，求次数增幅的百分数数值。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:021": {
+    "stemSha256": "6bcbdfef31eb6eba1ba2592ce788a684eb1bf887b09dae5632a09c9be2c2038e",
+    "conditions": "两人今年总54，6年前甲2倍乙，每年各+1，求年龄差。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:022": {
+    "stemSha256": "a6425f4b08b76f40c5aa1fe688bed199bcb4f6e5f6a783e749653d9018b3dcac",
+    "conditions": "10千克20%盐水，加5千克水，无损失，求质量分数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:023": {
+    "stemSha256": "315d601133f8d3e78c2702e7cac8e3ff5312beea96c92c6a8cf849f7570d9709",
+    "conditions": "全集60，A38，B32，两项都不参加10，求交集。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:024": {
+    "stemSha256": "2c740b4bec7012f4a4f1d560645e0c1bf958600c1860dae0c6f911b604562b37",
+    "conditions": "等差7项总140，公差3，求末项。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:025": {
+    "stemSha256": "d76b15659553eb38544666c1ff2e970fd578bc7a868603be1c9fe46ba2e36f47",
+    "conditions": "整数数量40<n<70，n%6=5且n%8=5。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:026": {
+    "stemSha256": "f62c013eb0e46ab5e317800e7a9863dfe82f8079eb1775110731cca0d8a71ce0",
+    "conditions": "原四部门共240，甲=丁+12；乙转24给丙后全并丁，最终甲丙丁3:3:4。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:027": {
+    "stemSha256": "b0f3bb1ed6efecf3b9410c3a436116cb9ab50fb8f295ac261c5bef24ab2e87dd",
+    "conditions": "20人均80，剔除2人后18人均81，求剔除者均分。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:028": {
+    "stemSha256": "3975a57ae8d628dd6848534d2c43eeed377dffa2f85944294bd399dd3614d7ee",
+    "conditions": "两类票全价40优惠25，共30张总990，求全价整数张数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:029": {
+    "stemSha256": "5e74b58ba4471b989dfad09238df5c7eb435ae2a7535ce9e90ea266696ba0746",
+    "conditions": "100件成本各50，80件售价60、20件售价45，无附费，求总利润。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:030": {
+    "stemSha256": "ca1b8d89748e48121bd11d6e74bdee0d3205766ffdb2d96926f2c0ef57bad54e",
+    "conditions": "恒定效率独做12、18天，合作3天后乙退出，求自开始总工期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:031": {
+    "stemSha256": "9527bbe2ca876be4044fce1cb52bcd13036f70349080db758ca0e3a7ef8de12b",
+    "conditions": "AB合6天，AC合8天，BC合12天，恒定可加，求B工期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:032": {
+    "stemSha256": "5058f9d3fe00b267f5b959e0637d03eb4db2897c54300d9311cc26fc5e5c7273",
+    "conditions": "进水6小时满，排水12小时空，空池同开4小时再仅进水，流量恒定。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:033": {
+    "stemSha256": "4dce4f55a6b15e7f0dd76fed61f24f11c4658548a843a9c999c50cc984058a0f",
+    "conditions": "初始乙领先300，乙速4先走20秒，甲速6才启，求甲启动后追上用时。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:034": {
+    "stemSha256": "c911256e4bc44b2ba0dc69aa1b2f626851638bde73fa37565e6ffcd077987647",
+    "conditions": "静水船速恒定，水速3，同河段顺3小时逆5小时。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:035": {
+    "stemSha256": "e724ebe078051ec3480d698dc475feadbfef70f3dc11f6d768e5fec688e7cdcd",
+    "conditions": "前段50后段75，全程150，耗时5/2，无停留，求慢段距离。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:036": {
+    "stemSha256": "8902e554121006abaf9e55e735d0b6c78c2bd51a1362b5fc3b025f445ce8c415",
+    "conditions": "95箱，每车至多8箱，一趟可不满载，求最少整数车数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:037": {
+    "stemSha256": "696114cdce94bb6ec908908fa76eaf4970e635f3e3fddb68affe1d9e6a441615",
+    "conditions": "5项各为0..90整数，总410，无互异要求，求第5项最小。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:038": {
+    "stemSha256": "49ba02d85ef2ef9809b056c656ab233ddd380f16bf80d8eceda97dc1c7a45177",
+    "conditions": "5人选两个有名岗位不兼任，0不能第一个岗位。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:039": {
+    "stemSha256": "80faf4412cae8c79fcdda25f91fc8ed96a8cbe9983cc9cf4da5b3ee6897ece8b",
+    "conditions": "3男3女中选3人恰2女，选人无顺序。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:040": {
+    "stemSha256": "ae8cd766915f2991c4c2260bbddba95b1397b7ee29e2068a3ee5aeafe62fb534",
+    "conditions": "数字1..4选两个不同者形成两位偶数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:041": {
+    "stemSha256": "bb15846c07fbbe07183817063406ac4308eb36921cdeee33ba81a5a90efe7fe0",
+    "conditions": "4红3蓝，等可能不放回抽2；条件至少1红，事件全红。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:042": {
+    "stemSha256": "19749769bb1a4ad3a5c1773c9325958ef66cd6806bfa930c8b99502157a9d297",
+    "conditions": "两个独立公平六面骰，条件点数不同，事件和8；有序样本。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:043": {
+    "stemSha256": "1837e2f8808e9df5461e0a5bbb66e5a9aedd46aaa927fa3d531b57bd5e53b30c",
+    "conditions": "矩形12×8，内部四边含四角统一宽1，求步道面积。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:044": {
+    "stemSha256": "41c2cc9671af23d49dee2f80c8a4051970def772cb3588988d3b4014d3d191b9",
+    "conditions": "圆柱等高，半径大:小=2:1；同恒定体积流量，小满需9分钟。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:045": {
+    "stemSha256": "5bee78442ef4164765c99bd87fd34b0c96ca87722cd103bc144e02bb83fc7c70",
+    "conditions": "ABC面积96，AD:DB=1:2，AE:EC=1:3，求ADE面积。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:046": {
+    "stemSha256": "638465a50063331f81f46bd2f8b036f450f294bbaa7c04ef9d9ba74d5d87614d",
+    "conditions": "30天月份，周一和周二各5次，求月末星期编号1..7。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09",
+    "reviewNote": "明确星期编号定义；数学条件及求解器不变。"
+  },
+  "hand100:v2:047": {
+    "stemSha256": "36172d397673f6a07c979c20c4d75343b9a6dd02273ea6d6cf5a609dc73c0da9",
+    "conditions": "工作2休1，统计开始为工作首日，前17天每工作日10件。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:048": {
+    "stemSha256": "cfb8d99997f90e15055fbd8db207fea6d8487b4585aea01dbe85240feeb46282",
+    "conditions": "固定成本300，单位成本20售价35，整数接待人数，利润严格正。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:049": {
+    "stemSha256": "4032a535a1a42e53513cc38b18ef31a26d2779d845bc015d0edcd96adda5271e",
+    "conditions": "100千克20%盐水加水至16%，无损失，求所加水量。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:050": {
+    "stemSha256": "b9abfe6bd093775491b08657ce9395b781eca3dafd8d6c6ea58a52dd81fc2589",
+    "conditions": "整数n>50，n%5=2且n%7=3，求最小。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:051": {
+    "stemSha256": "49a36408795a51a9aecfea141d295041e9c3604b60f3301610f3a7115b371978",
+    "conditions": "两组共50，均82/76，总均79.6精确；甲调10人均80给乙，求乙新均。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:052": {
+    "stemSha256": "aa42f7d0cbed54b17549091ba4e784e5cb8d447fdb67bfb5583608a89c733bee",
+    "conditions": "原5:4，从甲转8到乙后相等；人数整数，求总数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:053": {
+    "stemSha256": "a191c963691f4ec349741675ca1c97fec1a65616dc21fd196dacade4d00993d2",
+    "conditions": "100件成本40，先20件各卖60，余80件同整数价，总利润≥1200。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:054": {
+    "stemSha256": "3a16229cdaeefbe3d2be1714ed89c4fc5d54afba3f4d5b8e940ca96fa89bb275",
+    "conditions": "甲20天乙30天，合作3天，乙退后甲效率乘3/2，求总工期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:055": {
+    "stemSha256": "7cb8b794ed2e86215c5ea37d52f2d7fa5ba58ffb14e625a28ee60700d927fbb4",
+    "conditions": "甲12乙18天效率恒定，每人交替1天甲先，可部分末日，求总工期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:056": {
+    "stemSha256": "99432070ba361fbebe3136725361123e3cd8a0d95365e7af6526a0e103007bd5",
+    "conditions": "直线两端同时相向，端点折返，首遇距A150，再遇距B100且各折返一次。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:057": {
+    "stemSha256": "9b63f787ac4e733a0a6ba44d1498030f81ddd26ab9911f6b7470fbc14128f91c",
+    "conditions": "600环道同点同向5/3，60秒后慢者立即反向，求转向后首次会面。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:058": {
+    "stemSha256": "d5f936cc0fa560fa205d166951b6ddbf95b57fe08c5aa9172e3b53e8e9d46b70",
+    "conditions": "420直路，甲60先出发，乙80晚1小时相向，求甲出发至会面。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:059": {
+    "stemSha256": "68a830c12f5e14fb10a3498bd8b546062d30352d3683a90bcab4c4174b9242da",
+    "conditions": "50人5组互异，每组≥3，最大组尽可能大。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:060": {
+    "stemSha256": "aeafd4214583a6a62edc39271bc8da804e0fb10ddc6502d45020b89faf5a62bd",
+    "conditions": "4色各10个，不放回，保证某色至少3个。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:061": {
+    "stemSha256": "545db15ffe7820701381c591650e71f622e808b85f276756319e655105ee8e7f",
+    "conditions": "12相同物资分3有名部门，各≥2，甲≤5；各部门份数允许相同，至少一部门数量变化才视为不同方案。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09",
+    "reviewNote": "依Mill建议消除歧义：允许各部门份数相同；预期22不变。 作者执行后待Mill复审，不自批。"
+  },
+  "hand100:v2:062": {
+    "stemSha256": "698f67586a92a74d3612a7ebb51d8b2aa2e45173eb64f17db9370db939f9eeb6",
+    "conditions": "7人选4，0/1恰选1，2/3不同时选。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:063": {
+    "stemSha256": "cceb86ebed820abaf5f5e57840385bc8b8d2154bc7561ba3b39a206c56661fa0",
+    "conditions": "6步±1，从0出发各3步，每个前缀≥0。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:064": {
+    "stemSha256": "599eee7889eac214c8c3d733b5c5665ad90f1505793489625e9fb43245460d98",
+    "conditions": "5步±1，从0出发，每步后严格>0，终点不限。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:065": {
+    "stemSha256": "69a587ffd3fd435bd2c8089a098fa783fc060d68dbde06fefaa7c1f737beb5f4",
+    "conditions": "5红3蓝，等可能不放回取3，事件红球数≥2。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:066": {
+    "stemSha256": "9accc94b0e425e4df352efd8f3e4a96e97b3bfe2ef13e5f56affa29dbd4fbbb1",
+    "conditions": "等可能选2红1蓝或1红3蓝盒，盒内等可能选1；条件红，求来源甲。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:067": {
+    "stemSha256": "6a4db1271aa9282b68fd5fd6420be6019754d5c4b9bacf82e53483043ad4a667",
+    "conditions": "ABC面积80，D为AB中点，AE:EC=1:2，P=BE∩CD，求BDP面积。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:068": {
+    "stemSha256": "52e69c85a69c9bf30fd018f296676e47f1c2057682abba2c35c265a8089733c7",
+    "conditions": "边长6立方体沿面平行切2厚和4厚两块，无损，求两块表面积和。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:069": {
+    "stemSha256": "9f63711ed364c5f0a466dbbc8004329cefff274b994e10608594b8b52a852477",
+    "conditions": "圆柱r3h8无损熔铸圆锥r2h6，求完整个数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:070": {
+    "stemSha256": "a84919b50d814a90463b2a33715fe1116b5cb7522e8e70e8e1d6d0f86c0d369b",
+    "conditions": "31日，周一二三天数总和15，求首周五日期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:071": {
+    "stemSha256": "3901e182cd1d7b874e5a4430e8e2d8da3bf70904ee96b7025ac787af6f48d717",
+    "conditions": "检查周期6和8，首日1，要求同检且同星期，求下个日期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:072": {
+    "stemSha256": "2d1e60dee082b5ababf234b9fcd09030360174b40ef081733b16014cb879d9e6",
+    "conditions": "甲3工作1休息，乙2工作1休息，同从首个工作日开始，统计12日交集；周期4和3互质，12为完整共同周期。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09",
+    "reviewNote": "题面不变；补明互质且完整周期的合法比例法，修正误否定捷径的e/tr/signal。 作者执行后待Mill复审，不自批。"
+  },
+  "hand100:v2:073": {
+    "stemSha256": "d22ff126c2ebca200597bb7bafe976ee5f2f6889719f722102dd530a020b0126",
+    "conditions": "成本20，价50销量100；整数降k次每次2元销量+20，0≤k≤10，求最大利润。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:074": {
+    "stemSha256": "7fab8f846b122be050299f789484986d8c1daffa43d85db4af5d27525f9a0208",
+    "conditions": "大8箱500，小5箱350，41箱一趟可不满，非负整数车辆不限，求最小成本。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:075": {
+    "stemSha256": "83ba592c1d53b20cce2dd18f575a2e156929f1020e644185a1f37fc9b7b8aff7",
+    "conditions": "初100kg浓度1/5；取混合物20补水20，再取混合物20补浓度2/5溶液20，求百分数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:076": {
+    "stemSha256": "98a42dc61f4c3a030ce0756f65f60971c89822bb9ed428d2b29e5f8ab87add16",
+    "conditions": "人数比1:2:3，甲均80丙均90，丙转10人均92给甲后甲均86，求丙新均。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:077": {
+    "stemSha256": "306da4bb9ada3888fc5ea6a05a09c0dd3d4fcc2e92c0898b5d553d3d8804c1be",
+    "conditions": "原三队180，先甲1/4给乙，后按新乙的1/7给丙，最终1:2:3，各转移人数整数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:078": {
+    "stemSha256": "f01da4788981f2e945bd2a8dee273f68fd0f38263675a8a3b6b1930d760e2410",
+    "conditions": "两阶段各36，阶段一甲3乙2/天、阶段二甲3/2乙3/天；甲t0乙t2，之后合作，无切换延迟可部分天。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:079": {
+    "stemSha256": "9468638d0f6c0cd11439f8caccd14cc230d4dbaa280232b254879bd90fccddb2",
+    "conditions": "任务24/20，机器6/4每小时，同任务禁并机，随时可抢占换机、无损。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:080": {
+    "stemSha256": "0634017a735ff8aa7154781a229187ce0f5d92c3ef02810dcde11b25f3624c85",
+    "conditions": "三任务20/26/28，甲6乙4每整日，每组一天一任务可次日换，允许两组同任务且余力不转用。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:081": {
+    "stemSha256": "43cb910254aac298ae78ab71709680f7a33a2e367367d3fb5e3be28450552acc",
+    "conditions": "600环道，初位0/0/300，速度6/4/3同向，求首次三人同点的正时间。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:082": {
+    "stemSha256": "454ea567a97d770635763ed4dd7a0378413d42f2065970e24a37f860734ec90f",
+    "conditions": "往返速60/40，停1/2小时，总≤4小时，耗油去0.10回0.08L/km，总油14.4L，求最大单程。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:083": {
+    "stemSha256": "305ad9e05cd6e6ed03caf4acef76f399c1c16d4d28a47033cc607d53cdd8c1d4",
+    "conditions": "A料2时3利70，B料3时2利80，料≤30时≤29，非负整数件数。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:084": {
+    "stemSha256": "56251b162b3e0a3d1c163de121de8fba754941754275e133ec433179f6fddf4b",
+    "conditions": "6个互异0..100整数总550，其中90分；按降序求90的最大名次数值。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:085": {
+    "stemSha256": "0e09fd89823ba4a9aed3680ddd8ecd3d13b31c61e2a6a2931f095f260240ec3d",
+    "conditions": "4组互异正整数共30，最大恰为最小2倍，求最小组最大值。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:086": {
+    "stemSha256": "7aa4cf0a53424a133e5ac8d39818c0411589bc1f3866b06f714e1a77295b6c83",
+    "conditions": "7人分有名3天人数3/2/2，甲0在首日，乙1丙2不同日，组内无序。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:087": {
+    "stemSha256": "a75dc6c6990c5e3086a36478e65d087aabec5b1b659d5d3801e7f8e96175023a",
+    "conditions": "6人全排列，甲0在乙1之前，丙2丁3不邻，戊4不在端点。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:088": {
+    "stemSha256": "ed362b0027804714bfb8c7f4e3244f849670edc8066bb607f402d3ad78948df8",
+    "conditions": "8步±1各4，从0非负，第四步后余额2，末0。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:089": {
+    "stemSha256": "af15e2244124feb1e30e1ac15a6374fc7ecb8e8b41558db7b0e7fc88cf1fd19d",
+    "conditions": "卡1..6等可能不放回选3，条件至少一偶；事件最大5且和偶。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:090": {
+    "stemSha256": "0adf17630a9c302c16d05e83473310d33a228486d800e2b154c397edc156b1ae",
+    "conditions": "等概率选2红2蓝或3红1蓝盒，连续不放回取2；条件首红，事件次红。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:091": {
+    "stemSha256": "0b749f1e16c973e6ea771834659c39811fbdd1c4f61141ad3825c75e1232cc1d",
+    "conditions": "倒锥高9，上圆柱同半径，恒体积流量；第1分钟水高3，总81分钟满，求总高。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:092": {
+    "stemSha256": "53ba3d436454775d13fe91c0589a0ee9022747fa0756e1a9c32bc7a1a0be6411",
+    "conditions": "直角三角形高落斜边分9/16，过半高平行斜边截去含直角顶点小三角形，求余梯形周长。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:093": {
+    "stemSha256": "31e0e9c2d316d6307828f614978a7d759484fde2ad9d9f39ff5ca16e2cb04521",
+    "conditions": "边10立方体正方形直孔垂直贯通，剩体积84%，孔侧面平行原侧面，求含孔壁总表面。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:094": {
+    "stemSha256": "8d183112fcf6705da4d90847efebe7b5838b04021ddb05ba098357a086280ad3",
+    "conditions": "30天第1天周一，同时为工作3休1首工作日；仅工作日且周一到周五办理。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:095": {
+    "stemSha256": "4bea67ddc4004908dc29a280a8d8745a3d3367edd24f022053a79898b761fe1a",
+    "conditions": "第1天周一，原始日程周期4/7/9从1开始，周六日顺延到下一周一且不重置周期，求下次三者实际同日。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:096": {
+    "stemSha256": "8e936d28f27334fd2e4b116d65371e3aa3e33368473db379fbe83250ce90859e",
+    "conditions": "成本30初价70需求100，降价次数整数0..10，每次降3需求+20，要求需求全满足且供应≤160。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:097": {
+    "stemSha256": "822559743542be1d233c2aa673d2a771de42fc764a3037147629710f31d7fd1e",
+    "conditions": "小包7件100、大包11件150，整数包数，总件数在闭区间80..83，最小费用。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:098": {
+    "stemSha256": "9395337a29875f6a1338eb49949dbb6e9bff8fa6f7456c5b6a9f948c4da62ee0",
+    "conditions": "100人并集，3集合人数60/55/50，恰一项40，求三项交集且边际须可实现。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:099": {
+    "stemSha256": "84e6af9ff97520403b007cc020b6cdccc4ad48e8864fc3c1885ed4ae083426d8",
+    "conditions": "月经费等差递增，前三月1800前六月4500，求第7..12月和。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  },
+  "hand100:v2:100": {
+    "stemSha256": "547647f90340fb1b0cd923e39fa556dd6848955fe910ff7f7f7f5f9108a747c6",
+    "conditions": "8天甲连续2乙连续3不重叠，其余3休，等可能原日程，事件休息日不相邻。",
+    "reviewedBy": "编题代理按题面逐条转录核读；待外部独立复审",
+    "reviewDate": "2026-09-09"
+  }
+}
