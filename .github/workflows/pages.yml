@@ -24,7 +24,8 @@ jobs:
       - name: Audit questions and training engine
         run: |
           python 教学/速刷/gen/select_curated_bank.py --self-test
-          python 教学/速刷/gen/select_curated_bank.py`n          python 教学/速刷/gen/select_curated_bank.py --check
+          python 教学/速刷/gen/select_curated_bank.py
+          python 教学/速刷/gen/select_curated_bank.py --check
           python 教学/速刷/make_hand100.py --check
           python 教学/速刷/make_challenge24.py --check
           python 教学/速刷/build_training_families.py --check
