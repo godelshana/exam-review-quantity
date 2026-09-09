@@ -64,7 +64,7 @@
     <button class="chip" data-v="all">全部</button>
   </div>
   <b>训练策略</b>
-  <div class="chips" id="strategyChips"><button class="chip on" data-v="random">随机混合</button><button class="chip" data-v="weak">强化薄弱</button><button class="chip" data-v="fresh">优先新题</button></div>
+  <div class="chips" id="strategyChips"><button class="chip on" data-v="random">随机混合</button><button class="chip" data-v="weak">强化薄弱</button><button class="chip" data-v="fresh">优先新题</button><button class="chip" data-v="ladder">天梯递进</button></div>
   <b>题源筛选</b>
   <div class="chips" id="sourceChips"></div>
   <b>年份 / 卷别</b>
@@ -255,6 +255,7 @@ function saveMemory(m){localStorage.setItem("qtyMemory",JSON.stringify(m));}
 function ranked(src){
   const m=memory();
   const pool=src.map(q=>({q,w:strategy==="weak"?1+(m[scoreKey(q)]?.wrong||0)*3+(m[scoreKey(q)]?.slow||0)*2:strategy==="fresh"?(m[scoreKey(q)]?0.2:4):1}));
+  if(strategy==="ladder") pool.sort((a,b)=>({"入门":0,"熟练":1,"深化":2,"综合":3}[a.q.level]-({"入门":0,"熟练":1,"深化":2,"综合":3}[b.q.level]) || Math.random()-.5);
   // 加权随机 + 模板去簇：随机模式/优先新题的前5题尽量不重复同构模板。
   const out=[], used=new Set();
   while(pool.length){
