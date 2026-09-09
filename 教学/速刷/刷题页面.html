@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>数量关系 · 巧劲速刷</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Microsoft YaHei", sans-serif; background: #f4f5f7; color: #222; max-width: 760px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; margin: 8px 0 4px; }
+  .sub { color: #888; font-size: 13px; margin-bottom: 12px; }
+  .card { background: #fff; border-radius: 10px; padding: 18px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 10px; margin-right: 6px; background: #eef; color: #345; }
+  .tag.red { background: #fee; color: #a33; }
+  .timer { float: right; font-size: 15px; font-variant-numeric: tabular-nums; }
+  .timer.slow { color: #d33; font-weight: bold; }
+  .stem { font-size: 16px; line-height: 1.7; margin: 12px 0; white-space: pre-wrap; }
+  .opt { display: block; width: 100%; text-align: left; font-size: 15px; padding: 10px 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; background: #fafbfc; cursor: pointer; }
+  .opt:hover { border-color: #7a9; background: #f2f8f4; }
+  .opt.right { border-color: #2a2; background: #e6f6e6; }
+  .opt.wrong { border-color: #c44; background: #fdecec; }
+  .opt:disabled { cursor: default; }
+  .feedback { margin-top: 10px; font-size: 14px; line-height: 1.7; padding: 10px 12px; border-radius: 8px; display: none; white-space: pre-wrap; }
+  .feedback.ok { background: #e6f6e6; }
+  .feedback.bad { background: #fdecec; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  button.primary { background: #2a7; color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-size: 15px; cursor: pointer; }
+  button.plain { background: #eee; border: none; border-radius: 8px; padding: 10px 14px; font-size: 14px; cursor: pointer; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+  .chip { font-size: 13px; padding: 5px 10px; border-radius: 14px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
+  .chip.on { background: #2a7; color: #fff; border-color: #2a7; }
+  .stat { display: flex; gap: 16px; font-size: 14px; margin: 8px 0; flex-wrap: wrap; }
+  .stat b { font-size: 20px; }
+  table.hb { width: 100%; font-size: 13px; border-collapse: collapse; margin-top: 8px; }
+  table.hb td, table.hb th { border-bottom: 1px solid #eee; padding: 4px 6px; text-align: left; }
+  .kbd { font-size: 12px; color: #999; margin-top: 8px; }
+  .mini { font-size: 12px; color:#667085; line-height:1.6; }
+  .insight { background:#f0f7ff; border:1px solid #cfe3ff; border-radius:8px; padding:10px 12px; margin-top:10px; line-height:1.6; font-size:13px; }
+  .progress { height:6px; background:#e8edf2; border-radius:8px; overflow:hidden; margin-top:8px; }
+  .progress i { display:block; height:100%; background:#2a7; transition:width .2s; }
+  @media (max-width:560px){ body{padding:10px}.card{padding:14px}.stem{font-size:15px} }
+</style>
+</head>
+<body>
+<h1>数量关系 · 巧劲速刷</h1>
+<div class="sub">目标：20 秒判钩子，45 秒内口算选出；跳过卡（无钩题）要敢于放手。</div>
+
+<div id="menu" class="card">
+  <b>选择模式</b>
+  <div class="chips" id="modeChips">
+    <button class="chip on" data-v="practice">练习模式（即时反馈）</button>
+    <button class="chip" data-v="exam">考试模式（做完统一对答案）</button>
+  </div>
+  <b>本轮题量</b>
+  <div class="mini">每轮建议 10 题；先练识别和取舍，再追求计算完整。</div>
+  <div class="chips" id="lenChips">
+    <button class="chip" data-v="10">10 题</button>
+    <button class="chip on" data-v="20">20 题</button>
+    <button class="chip" data-v="30">30 题</button>
+    <button class="chip" data-v="all">全部</button>
+  </div>
+  <b>训练策略</b>
+  <div class="chips" id="strategyChips"><button class="chip on" data-v="random">随机混合</button><button class="chip" data-v="weak">强化薄弱</button><button class="chip" data-v="fresh">优先新题</button></div>
+  <b>卡型筛选</b>（按住现状，建议先全混）
+  <div class="chips" id="typeChips"></div>
+  <div class="row" style="margin-top:14px">
+    <button class="primary" onclick="startDeck(false)">开始速刷</button>
+    <button class="plain" onclick="startDeck(true)">只刷重刷池（<span id="poolCnt">0</span> 题）</button>
+    <button class="plain" onclick="resetPool()">清空重刷池</button>
+  </div>
+  <div class="kbd" id="his"></div>
+  <div class="kbd">快捷键：A/B/C/D 选答案，J = 跳过，回车 = 下一题</div>
+</div>
+
+<div id="quiz" style="display:none">
+  <div class="card">
+    <div class="timer" id="timer">0s</div>
+    <span class="tag" id="qno"></span><span class="tag" id="qmode"></span>
+    <div class="stem" id="stem"></div>
+    <div class="progress"><i id="progressBar" style="width:0%"></i></div>
+    <div id="opts"></div>
+    <div class="feedback" id="fb"></div>
+    <div class="row">
+      <button class="plain" id="skipBtn" onclick="answer(-1)">跳过 (J)</button>
+      <button class="primary" id="nextBtn" onclick="nextQ()" style="display:none">下一题 (回车)</button>
+    </div>
+  </div>
+</div>
+
+<div id="result" class="card" style="display:none"></div>
+
+<script src="题库数据.js"></script>
+<script>
+// ============ 题库 ============
+// 内置 54 题为手工精编样库；外载 题库数据.js 为批量生成库（由 gen/merge.py 合并）。
+// type: 热身/钩子/双钩/估算/深钩/跳过 ; ans: 正确选项下标；跳过卡 ans=-1 表示"跳"为正确动作
+const INLINE_Q = [
+// ---- 数字敏感热身 ----
+{h:"热身",t:"热身",s:"37.5% 等于下面哪个分数？",o:["3/8","5/8","3/7","4/9"],a:0,e:"37.5%=3/8（1/8=12.5%，×3）。常用：1/8=12.5%、3/8=37.5%、5/8=62.5%、7/8=87.5%。"},
+{h:"热身",t:"热身",s:"5/16 化成百分数是？",o:["31.25%","32.5%","35%","25%"],a:0,e:"1/16=6.25%，5/16=31.25%。"},
+{h:"热身",t:"热身",s:"87.5% ÷ 12.5% = ？",o:["5","6","7","8"],a:2,e:"(7/8)÷(1/8)=7。看见 12.5% 就想 1/8，除法变乘法。"},
+{h:"热身",t:"热身",s:"25² = ？",o:["525","625","675","225"],a:1,e:"25²=625。25 的平方在数量关系里高频出现（尾数 25/625）。"},
+{h:"热身",t:"热身",s:"直角三角形两条直角边为 15 和 8，斜边长为？",o:["16","17","18","19"],a:1,e:"8、15、17 勾股组。常用组还有 3,4,5 / 5,12,13 / 7,24,25 / 1,1,√2。"},
+// ---- 整除/倍数钩 ----
+{h:"整除倍数",t:"双钩",s:"某班人数在 40～50 之间，分成 6 人一组或分成 8 人一组都多出 2 人。这个班有多少人？",o:["42","44","46","50"],a:3,e:"多 2 人 ⇒ 人数−2 同时被 6 和 8 整除 ⇒ 是 24 的倍数 ⇒ 24 或 48 ⇒ 人数=26 或 50 ⇒ 结合范围选 50。单钩不锁答案，范围是第二钩。",tr:"42/46 不满足差 2 后是 24 的倍数。"},
+{h:"整除倍数",t:"钩子",s:"某商品降价 20% 后售价正好 96 元。原价是多少元？",o:["110","115","120","125"],a:2,e:"原价×0.8=96 ⇒ 96 可被 8 整除的倍数关系 ⇒ 96÷4×5=120。降 20%=剩 4/5，量 96 对应 4 份、1 份 24、5 份 120。",tr:"110/125 与 4:5 份数不符。"},
+{h:"整除倍数",t:"钩子",s:"全班人数的 3/8 参加合唱队，参加的有 21 人。全班多少人？",o:["48","54","56","60"],a:2,e:"21 对应 3 份 ⇒ 1 份 7 ⇒ 全班 8 份 = 56。选项需被 8 的份数结构容纳。",tr:"48 会得出 18 人（非 21）。"},
+{h:"整除倍数",t:"钩子",s:"甲的书是乙的 1.25 倍，两人共有 135 本。乙有多少本？",o:["54","60","64","75"],a:1,e:"1.25=5/4 ⇒ 总 9 份 ⇒ 1 份 15 ⇒ 乙 4 份=60。看见 1.25 立刻翻成 5/4。",tr:"75 是甲；54 不满足 5:4 结构。"},
+{h:"整除倍数",t:"钩子",s:"某单位 80% 的员工参保，参保的比未参保的多 60 人。全单位多少人？",o:["90","100","110","120"],a:1,e:"参保:未参保=4:1，差 3 份=60 ⇒ 1 份 20 ⇒ 总 5 份=100。",tr:"份数差是 3 份不是 4 份。"},
+// ---- 百分数↔分数 ----
+{h:"百分互化",t:"钩子",s:"一件商品先涨价 25%，再降价 20%，现价 120 元。原价多少元？",o:["110","115","120","125"],a:2,e:"1.25×0.8=1 ⇒ 一涨一降正好抵消 ⇒ 原价=现价=120。涨 25% 与降 20% 是互逆操作（4/3 与 4/5）。",tr:"涨降顺序不影响结果（乘法交换律）；别选 125。"},
+{h:"百分互化",t:"钩子",s:"浓度 12.5% 的盐水 400 克，加入 100 克水后浓度变为？",o:["8%","10%","11%","12%"],a:1,e:"盐=400×1/8=50 克，总 500 克 ⇒ 10%。12.5%=1/8 直接口算盐量。"},
+{h:"百分互化",t:"钩子",s:"某厂产量今年比去年多 33.3%（约 1/3）。今年是去年的几分之几？",o:["3/4","4/3","1/3","7/3"],a:1,e:"多 1/3 ⇒ 今年=4/3 倍。33.3%、66.7% 这类小数见到就翻分数。"},
+{h:"百分互化",t:"钩子",s:"62.5% 的甲溶液 200 克与 25% 的乙溶液 100 克混合，浓度为？",o:["40%","45%","50%","55%"],a:2,e:"62.5%=5/8 ⇒ 甲含盐 125；乙含盐 25；共 150/300=50%。1/8 系数让乘法变除法。"},
+// ---- 奇偶 ----
+{h:"奇偶",t:"钩子",s:"三个连续奇数之和为 147，其中最大的数是？",o:["49","51","47","53"],a:1,e:"连续奇数和=3×中间数 ⇒ 中间=49 ⇒ 三数为 47,49,51 ⇒ 最大 51。",tr:"49 是中间数，问的是最大。"},
+{h:"奇偶",t:"双钩",s:"a、b 均为质数且 a+b=25。a×b = ？",o:["30","46","42","21"],a:1,e:"和为奇 ⇒ 一奇一偶 ⇒ 偶质数只有 2 ⇒ 2+23 ⇒ 积 46。奇偶钩锁定偶质数是唯一入口。"},
+{h:"奇偶",t:"钩子",s:"1+2+3+⋯+50 的和是奇数还是偶数？",o:["奇数","偶数","0","无法确定"],a:0,e:"1..50 中有 25 个奇数 ⇒ 奇数个奇数相加为奇（偶数相加不影响奇偶）⇒ 和为奇（1275）。"},
+// ---- 尾数 ----
+{h:"尾数",t:"钩子",s:"123×456−789 的结果的个位数字是？",o:["7","8","9","0"],a:2,e:"3×6 个位 8，8−9 不够减借位 ⇒ 个位 9。只算个位即可锁定。"},
+{h:"尾数",t:"钩子",s:"2²⁰ 的个位数字是？",o:["2","4","6","8"],a:2,e:"2 的幂个位循环 2,4,8,6，周期 4 ⇒ 20÷4 余 0 ⇒ 个位 6。"},
+{h:"尾数",t:"钩子",s:"1!+2!+3!+⋯+10! 的个位数字是？",o:["1","3","5","7"],a:1,e:"1!+2!+3!+4!=1+2+6+24 个位 3；从 5! 起每个都含 2×5 ⇒ 尾数 0 ⇒ 总个位 3。"},
+// ---- 估算 ----
+{h:"估算",t:"估算",s:"498×502 最接近多少？",o:["24.5 万","25 万","25.5 万","26 万"],a:1,e:"(500−2)(500+2)=500²−4≈25 万。平方差一眼出量级，精确算反而慢。"},
+{h:"估算",t:"估算",s:"圆形花坛半径约 3.2 米，面积最接近多少平方米？",o:["28","32","36","40"],a:1,e:"3.14×3.2²≈3.14×10.24≈32。πr² 用 3.14 乘即可，区间选项允许粗算。"},
+{h:"估算",t:"估算",s:"某市人口 847.6 万，其中约 21.4% 为 65 岁以上。65 岁以上人口约多少万？",o:["150","181","210","250"],a:1,e:"847×0.21≈178，最近 181。量级题：先除后乘或拆 21.4%≈20%+1.4%。"},
+// ---- 比例⇔反比 ----
+{h:"比例反比",t:"钩子",s:"甲、乙效率比 3:4，完成同一任务甲比乙多用 2 小时。乙需要几小时？",o:["5","6","7","8"],a:1,e:"效率比 3:4 ⇒ 时间比 4:3 ⇒ 差 1 份=2h ⇒ 乙 3 份=6h。速度/效率比永远反着变时间。",tr:"5 是把时间比顺过来算的。"},
+{h:"比例反比",t:"钩子",s:"去程速度 60 千米/时，返程 40 千米/时，往返平均速度为？",o:["45","48","50","52"],a:1,e:"2×60×40÷(60+40)=48。调和平均，恒小于算术平均 50。",tr:"50 是算术平均——平均速度必须总路程÷总时间。"},
+{h:"比例反比",t:"深钩",s:"甲:乙=2:3，乙:丙=4:5。甲比丙少几分之几？",o:["7/15","8/15","1/2","2/3"],a:0,e:"乙是桥梁取 12：甲 8、丙 15 ⇒ 差 7 ⇒ 7/15。比传导必须过桥统一公共份数。",tr:"1/2 是用 2:3 和 4:5 直接硬拼的错。"},
+{h:"比例反比",t:"深钩",s:"A 队单独 8 天完成一项工程，B 队单独 10 天完成。两队合作 4 天完成总量的几分之几？",o:["8/9","9/10","4/5","1/2"],a:1,e:"总量赋 40 ⇒ A 每天 5、B 每天 4 ⇒ 合作 4 天 (5+4)×4=36 ⇒ 9/10。赋公倍数后全是小学加法。"},
+// ---- 假设法 ----
+{h:"假设法",t:"钩子",s:"40 人租船，大船坐 6 人、小船坐 4 人，共租 8 条船恰好坐满。大船几条？",o:["3","4","5","6"],a:1,e:"假设全小船坐 32 人，差 8 人；每换一条大船多坐 2 人 ⇒ 大船 8÷2=4 条。",tr:"6 条会超员（6×6+2×4=44）。"},
+{h:"假设法",t:"钩子",s:"100 人吃 100 个馒头，大人每人 3 个，小孩每 3 人 1 个。大人多少人？",o:["20","25","30","75"],a:1,e:"经典鸡兔同笼：全小孩只吃 100/3 个，差 200/3；每换 1 大人多吃 3−1/3=8/3 ⇒ 大人 25。方程：3x+(100−x)/3=100。"},
+{h:"假设法",t:"钩子",s:"搬运 200 个玻璃杯，完好每只付 3 元，破损每只赔 5 元，共结 480 元。破损多少只？",o:["10","15","20","25"],a:1,e:"假设全完好得 600 元，差 120；每破一只损失 3+5=8 元 ⇒ 120÷8=15 只。关键：损失是'赔'与'少赚'之和 8 不是 5。"},
+// ---- 中项/挪补 ----
+{h:"中项挪补",t:"钩子",s:"7 个连续自然数之和为 203，其中最大的数是？",o:["30","31","32","33"],a:2,e:"奇数个连续数：和÷个数=中项=29 ⇒ 最大 29+3=32。",tr:"33 是把中项当成了最小数。"},
+{h:"中项挪补",t:"钩子",s:"等差数列中 a₂+a₈=20，则前 9 项之和为？",o:["80","90","100","110"],a:1,e:"a₂+a₈=2a₅ ⇒ a₅=10 ⇒ S₉=9a₅=90。等差中项一步出，不用求首项公差。"},
+{h:"中项挪补",t:"钩子",s:"车间男工 20 人平均身高 172cm，女工 30 人平均 165cm。全体平均身高？",o:["167.2","167.8","168","168.5"],a:1,e:"男女比 2:3 ⇒ (2×172+3×165)÷5=167.8。权重挪补：整体平均离 165 更近，因为女工多。",tr:"168.5≈两平均的算术平均 168.5——那是人数相等时才对。"},
+// ---- 周期余数 ----
+{h:"周期余数",t:"钩子",s:"今天是周三，100 天后是星期几？",o:["周四","周五","周六","周日"],a:1,e:"100÷7 余 2 ⇒ 周三+2=周五。",tr:"周六是多加了 3 天。"},
+{h:"周期余数",t:"钩子",s:"气球按'红黄蓝绿'循环排列，第 2026 个是什么颜色？",o:["红","黄","蓝","绿"],a:1,e:"2026÷4=506 余 2 ⇒ 第 2 个颜色=黄。大数直接取余。"},
+{h:"周期余数",t:"钩子",s:"某年 3 月 1 日是周六，4 月 1 日是星期几？",o:["周日","周一","周二","周三"],a:2,e:"3 月 31 天，31÷7 余 3 ⇒ 周六+3=周二。大小月天数是周期题的基本件。"},
+// ---- 几何结论 ----
+{h:"几何结论",t:"钩子",s:"等底等高的圆锥体积为 12，圆柱体积比圆锥多多少？",o:["12","24","36","48"],a:1,e:"V柱=3×V锥=36 ⇒ 多 24。同底等高，圆锥是圆柱的 1/3。"},
+{h:"几何结论",t:"钩子",s:"正方体棱长扩大到原来的 2 倍，体积扩大到原来的几倍？",o:["2","4","6","8"],a:3,e:"体积是棱长的立方 ⇒ 2³=8。面积是平方（4 倍），别混。"},
+{h:"几何结论",t:"深钩",s:"直角三角形两直角边为 5 和 12，斜边上的高为？",o:["60/13","65/12","13/2","30/13"],a:0,e:"斜边=13（勾股组）；等面积法：5×12=13×h ⇒ h=60/13。斜边上的高=两直角边之积÷斜边。"},
+{h:"几何结论",t:"钩子",s:"两相似三角形相似比为 2:3，小的面积为 8，大的面积为？",o:["12","16","18","27"],a:2,e:"面积比=相似比平方=4:9 ⇒ 2 份=8 ⇒ 大=9 份=18。",tr:"12 用的是相似比本身——面积是平方。"},
+// ---- 枚举 ----
+{h:"枚举",t:"钩子",s:"从 4 本不同的书中选 2 本送给同一位朋友，有多少种选法？",o:["4","6","12","24"],a:1,e:"C(4,2)=6。送给一个人无排序 ⇒ 组合不是排列。",tr:"12 是 A(4,2)——同一个朋友不区分先后。"},
+{h:"枚举",t:"钩子",s:"5 人排成一排，甲必须在最左端，有多少种排法？",o:["12","24","48","120"],a:1,e:"甲固定 ⇒ 其余 4 人全排 4!=24。约束先行，剩下全排。"},
+{h:"枚举",t:"钩子",s:"3 封不同的信投入 2 个邮筒（每个邮筒可投多封），有多少种投法？",o:["6","8","9","12"],a:1,e:"每封信独立 2 选 ⇒ 2³=8。分步乘法，别用 C 或 P。"},
+// ---- 正难则反 ----
+{h:"正难则反",t:"钩子",s:"从 3 男 2 女中任选 3 人，至少有 1 名女性的概率是？",o:["1/10","3/10","9/10","7/10"],a:2,e:"反面=全男 C(3,3)/C(5,3)=1/10 ⇒ 1−1/10=9/10。'至少'先想反面。",tr:"逐类加正面的情况多且易漏，慢一倍。"},
+{h:"正难则反",t:"钩子",s:"事件 A 概率 0.3、B 概率 0.4，相互独立。A、B 都不发生的概率是？",o:["0.12","0.42","0.58","0.7"],a:1,e:"都不发生=(1−0.3)(1−0.4)=0.42。独立⇒取补相乘。",tr:"0.12 是都发生；0.58 是至少一个。"},
+{h:"正难则反",t:"双钩",s:"10 张牌中有 3 张红桃，抽 2 张（不放回），至少 1 张红桃的概率是？",o:["8/15","7/15","3/10","2/5"],a:0,e:"反面=两张都非红桃=C(7,2)/C(10,2)=21/45=7/15 ⇒ 1−7/15=8/15。"},
+// ---- 深钩卡（等量代换/传导口算） ----
+{h:"深钩代换",t:"深钩",s:"甲 6 天的工作量等于乙 10 天的工作量。同一任务，甲先做 3 天后由乙接着做，乙还需几天？",o:["4","5","6","7"],a:1,e:"等量代换：甲 3 天=乙 5 天（3/6=1/2 任务=乙 10 天的一半）。全程口算，不用设效率。",tr:"列 1/6、1/10 通分也能做，但代换快一倍。"},
+{h:"深钩代换",t:"深钩",s:"3 台 A 型打印机 4 分钟共打 24 页；1 台 B 型 1 分钟打 4 页。2 台 A 配 3 台 B 打 80 页需几分钟？",o:["4","5","6","8"],a:1,e:"先折算：1 台 A 每分钟 24÷12=2 页 ⇒ 合计每分钟 2×2+4×3=16 页 ⇒ 80÷16=5。把'3台4分钟'折成'每台每分钟'是关键一步。"},
+{h:"深钩代换",t:"深钩",s:"甲:乙=3:4，乙比甲多 12；丙=甲+乙。丙是多少？",o:["72","84","96","108"],a:1,e:"差 1 份=12 ⇒ 丙=7 份=84。份数传导全程不设未知数。"},
+{h:"深钩代换",t:"深钩",s:"甲的效率是乙的 2 倍，乙单独 10 天完成。两队合作需要多少天？",o:["3","10/3","4","7/2"],a:1,e:"甲 5 天 ⇒ 合作效率 = 1/5 + 1/10 = 3/10 ⇒ 时间 = 10/3 天。记结构：效率比 2:1、慢者 10 天时，合作时间 = 2×10÷3。"},
+// ---- 跳过卡（正确动作=跳） ----
+{h:"跳过卡",t:"跳过",s:"两位数 ab 与 cd 满足 ab×cd=2025，问这样的有序数对(ab,cd)共有多少组？",o:["3","5","7","9"],a:-1,e:"【考场正确动作：跳过】需要枚举 2025=3⁴×5² 的两位数因数对（实际 5 组：25×81、81×25、27×75、75×27、45×45），20 秒内判不完 ⇒ 蒙一个字母走人。复盘时可作为枚举练习。"},
+{h:"跳过卡",t:"跳过",s:"各位数字互不相同的四位偶数共有多少个？",o:["2104","2224","2296","2412"],a:-1,e:"【考场正确动作：跳过】需按个位分两类枚举：个位 0 一类 9×8×7=504，个位 2/4/6/8 一类 8×8×7×4=1792，共 2296 个。分类多、易漏，考场性价比极低 ⇒ 蒙。复盘时可补枚举功底。"},
+{h:"跳过卡",t:"跳过",s:"（题型识别卡）甲说'乙在说谎'，乙说'丙在说谎'，丙说'甲和乙都在说谎'，此外三人还各有两句补充陈述、共五真两假……问谁在说谎。这类多重逻辑嵌套题的特征：互相指认+多层真假约束。",o:["甲","乙","丙","无法确定"],a:-1,e:"【考场正确动作：跳过】识别特征即可，不需要真的推：互相指认+真假计数约束=分支爆炸的枚举验证题。国考数量不考此类纯逻辑题，遇到基本是回忆版杂题或压轴陷阱 ⇒ 蒙一个走人。"},
+{h:"跳过卡",t:"跳过",s:"六人传球，从甲开始经过 5 次传递后球恰好回到甲手中（每次传给除自己外任意一人），共有多少种传递方式？",o:["1024","1280","170","1020"],a:-1,e:"【考场正确动作：跳过】需建递推：设 f(k)=传 k 次回到甲的方式数，5 次共 5⁵=3125 条路径，用容斥递推得 170 种。考场上建递推+计算超过 2 分钟 ⇒ 蒙。复盘可学'递推计数'思想。"},
+];
+const Q = [...INLINE_Q, ...(window.BANK || [])];
+if (typeof window.BANK === "undefined") console.warn("未加载到题库数据.js，仅使用内置 54 题");
+
+// ============ 状态 ============
+let mode="practice", len=20, strategy="random", typeFilter=new Set(), deck=[], idx=0, results=[], t0=0, timerH=null, answered=false;
+const pool=()=>JSON.parse(localStorage.getItem("sq_pool")||"[]");
+const savePool=p=>localStorage.setItem("sq_pool",JSON.stringify(p));
+const hist=()=>JSON.parse(localStorage.getItem("sq_hist")||"[]");
+const saveHist=h=>localStorage.setItem("sq_hist",JSON.stringify(h.slice(-30)));
+
+// 选项洗牌映射
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function shuffled(q){
+  const idxs=shuffle([0,1,2,3]);
+  return {opts:idxs.map(i=>q.o[i]), ans:idxs.indexOf(q.a), real:q.a};
+}
+
+function initChips(){
+  const types=[...new Set(Q.map(q=>q.t))];
+  const c=document.getElementById("typeChips");
+  c.innerHTML=types.map(t=>`<button class="chip on" data-t="${t}">${t}</button>`).join("");
+  c.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{b.classList.toggle("on");});
+  document.getElementById("poolCnt").textContent=pool().length;
+  const h=hist();
+  document.getElementById("his").textContent=h.length?`最近：${h.map(x=>x.acc+"%").join(" → ")}（正确率）`:"";
+}
+document.querySelectorAll("#strategyChips .chip").forEach(b=>b.onclick=()=>{ [...b.parentElement.children].forEach(x=>x.classList.remove("on")); b.classList.add("on"); strategy=b.dataset.v; });
+document.querySelectorAll("#modeChips .chip,#lenChips .chip").forEach(b=>b.onclick=()=>{
+  [...b.parentElement.children].forEach(x=>x.classList.remove("on")); b.classList.add("on");
+  if(b.parentElement.id==="modeChips") mode=b.dataset.v; else len=b.dataset.v;
+});
+
+function scoreKey(q){ return q.h+q.s.slice(0,10); }
+function memory(){ try{return JSON.parse(localStorage.getItem("qtyMemory")||"{}")}catch(e){return {}} }
+function saveMemory(m){localStorage.setItem("qtyMemory",JSON.stringify(m));}
+function ranked(src){ const m=memory(); return src.map(q=>({q,w:strategy==="weak"?1+(m[scoreKey(q)]?.wrong||0)*3+(m[scoreKey(q)]?.slow||0)*2:strategy==="fresh"?(m[scoreKey(q)]?0.2:4):1})).sort((a,b)=>Math.random()*b.w-Math.random()*a.w).map(x=>x.q); }
+function startDeck(poolOnly){
+  const on=new Set([...document.querySelectorAll("#typeChips .chip.on")].map(b=>b.dataset.t));
+  let src=poolOnly? Q.filter(q=>pool().includes(scoreKey(q))) : Q.filter(q=>on.has(q.t));
+  if(!src.length){alert("没有可用题目");return;}
+  deck=ranked(src); if(len!=="all") deck=deck.slice(0,+len); idx=0; results=[];
+  document.getElementById("menu").style.display="none"; document.getElementById("result").style.display="none"; document.getElementById("quiz").style.display="block"; showQ();
+}
+
+function showQ(){
+  const q=deck[idx], m=shuffled(q);
+  q._m=m;
+  document.getElementById("qno").textContent=`第 ${idx+1}/${deck.length} 题`;
+  document.getElementById("qmode").textContent=`目标 ${q.t==="跳过"?"15":"45"}s`;
+  document.getElementById("stem").textContent=q.s;
+  document.getElementById("progressBar").style.width=((idx/deck.length)*100)+"%"; answered=false;
+  const o=document.getElementById("opts");
+  o.innerHTML=m.opts.map((t,i)=>`<button class="opt" onclick="answer(${i})">${"ABCD"[i]}. ${t}</button>`).join("");
+  const fb=document.getElementById("fb"); fb.style.display="none"; fb.className="feedback";
+  document.getElementById("nextBtn").style.display="none";
+  document.getElementById("skipBtn").style.display="";
+  t0=Date.now();
+  const t=document.getElementById("timer"); t.textContent="0s"; t.className="timer";
+  clearInterval(timerH);
+  timerH=setInterval(()=>{const s=Math.floor((Date.now()-t0)/1000);
+    t.textContent=s+"s"; if(s>=45)t.className="timer slow";},250);
+}
+
+function answer(i){ // i=-1 表示跳
+  if(answered)return; answered=true;
+  clearInterval(timerH);
+  const q=deck[idx], secs=Math.floor((Date.now()-t0)/1000);
+  const m=q._m;
+  const isSkip = i===-1;
+  const correct = isSkip ? (q.a===-1) : (q.a!==-1 && i===m.ans);
+  let act = isSkip ? "跳过" : "ABCD"[i];
+  results.push({q, act, correct, isSkip, secs});
+  const mm=memory(), key=scoreKey(q); mm[key]=mm[key]||{wrong:0,slow:0,seen:0}; mm[key].seen++; if(!correct)mm[key].wrong++; if(secs>(q.t==="跳过"?15:45))mm[key].slow++; saveMemory(mm);
+  // 重刷池：做错或对跳过卡误选
+  if(!correct && !isSkip){ const p=pool(); p.push(q.h+q.s.slice(0,10)); savePool([...new Set(p)]); }
+  document.getElementById("poolCnt").textContent=pool().length;
+  if(mode==="practice"){
+    document.querySelectorAll("#opts .opt").forEach((b,j)=>{
+      b.disabled=true;
+      if(q.a!==-1 && j===m.ans) b.classList.add("right");
+      else if(j===i) b.classList.add("wrong");
+    });
+    document.getElementById("skipBtn").style.display="none";
+    const fb=document.getElementById("fb");
+    fb.style.display="block";
+    fb.className="feedback "+(correct?"ok":"bad");
+    const tag=`[${q.h}·${q.t}]`;
+    if(q.a===-1) fb.textContent=`${correct?"✓ 会放手！":"✗ 该跳的题"} ${tag}\n正确动作：跳过（蒙一个字母走人）。\n${q.e}`;
+    else fb.textContent=`${correct?"✓ 对":"✗ 错（正确答案 "+ "ABCD"[m.ans] +"）"} ${tag} 用时 ${secs}s\n${q.e}${q.tr?("\n陷阱："+q.tr):""}`;
+    document.getElementById("nextBtn").style.display="";
+  } else { nextQ(); }
+}
+
+function nextQ(){
+  if(idx<deck.length-1){ idx++; showQ(); }
+  else finish();
+}
+
+function finish(){
+  document.getElementById("quiz").style.display="none";
+  const r=document.getElementById("result"); r.style.display="block";
+  const scored=results.filter(x=>!x.isSkip||x.q.a===-1);
+  const right=scored.filter(x=>x.correct).length;
+  const acc=Math.round(100*right/scored.length);
+  const avg=Math.round(results.reduce((s,x)=>s+x.secs,0)/results.length);
+  const skips=results.filter(x=>x.isSkip).length;
+  const byHook={};
+  results.forEach(x=>{const k=x.q.h; byHook[k]=byHook[k]||{n:0,c:0}; byHook[k].n++; if(x.correct)byHook[k].c++;});
+  const h=hist(); h.push({acc,d:new Date().toLocaleDateString()}); saveHist(h);
+  r.innerHTML=`<h1>本轮战报</h1>
+  <div class="stat"><span>题量 <b>${results.length}</b></span><span>正确率 <b>${isNaN(acc)?"—":acc+"%"}</b></span><span>平均用时 <b>${avg}s</b></span><span>主动跳过 <b>${skips}</b> 题</span></div>
+  <table class="hb"><tr><th>钩子</th><th>成绩</th></tr>
+  ${Object.entries(byHook).map(([k,v])=>`<tr><td>${k}</td><td>${v.c}/${v.n}</td></tr>`).join("")}</table>
+  <div class="row" style="margin-top:14px">
+    <button class="primary" onclick="location.reload()">再来一轮</button>
+  </div>
+  <div class="insight">训练解读：<b>${right>=scored.length*.8?"准确性不错，下一轮压缩反应时间。":"先别急着提速，优先复盘错因与卡型识别。"}</b><br>错题已进入重刷池；“强化薄弱”会按错题和超时次数提高出现概率。</div><div class="kbd">目标线：识别正确率 ≥70%，跳过卡判别 ≥75%。</div>`;
+}
+
+function resetPool(){ if(confirm("确认清空重刷池？")){ savePool([]); document.getElementById("poolCnt").textContent=0; } }
+
+document.addEventListener("keydown",e=>{
+  if(document.getElementById("quiz").style.display==="none")return;
+  const k=e.key.toLowerCase();
+  if(["a","b","c","d"].includes(k) && document.getElementById("nextBtn").style.display==="none"){
+    const i="abcd".indexOf(k); const b=document.querySelectorAll("#opts .opt")[i]; if(b&&!b.disabled) b.click();
+  }
+  if(k==="j" && document.getElementById("nextBtn").style.display==="none") answer(-1);
+  if(e.key==="Enter" && document.getElementById("nextBtn").style.display!=="none") nextQ();
+});
+initChips();
+</script>
+</body>
+</html>
