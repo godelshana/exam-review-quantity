@@ -38,6 +38,9 @@
   .insight { background:#f0f7ff; border:1px solid #cfe3ff; border-radius:8px; padding:10px 12px; margin-top:10px; line-height:1.6; font-size:13px; }
   .progress { height:6px; background:#e8edf2; border-radius:8px; overflow:hidden; margin-top:8px; }
   .progress i { display:block; height:100%; background:#2a7; transition:width .2s; }
+  .review { margin:8px 0; border:1px solid #dfe5eb; border-radius:8px; padding:9px 11px; line-height:1.6; background:#fbfcfd; }
+  .review.ok { border-left:4px solid #2a7; } .review.bad { border-left:4px solid #c44; }
+  .review summary { cursor:pointer; font-size:13px; } .review-body { padding:9px 2px 2px; font-size:13px; color:#344054; white-space:pre-wrap; }
   @media (max-width:560px){ body{padding:10px}.card{padding:14px}.stem{font-size:15px} }
 </style>
 </head>
@@ -52,10 +55,11 @@
     <button class="chip" data-v="exam">考试模式（做完统一对答案）</button>
   </div>
   <b>本轮题量</b>
-  <div class="mini">每轮建议 10 题；先练识别和取舍，再追求计算完整。</div>
+  <div class="mini">碎片时间优先选 5 题；每套结束都会给出完整题解，不只报答案。</div>
   <div class="chips" id="lenChips">
+    <button class="chip on" data-v="5">5 题</button>
     <button class="chip" data-v="10">10 题</button>
-    <button class="chip on" data-v="20">20 题</button>
+    <button class="chip" data-v="20">20 题</button>
     <button class="chip" data-v="30">30 题</button>
     <button class="chip" data-v="all">全部</button>
   </div>
@@ -186,10 +190,11 @@ function normalizeQuestion(q, i){
   return q;
 }
 const ALL_Q = [...Q, ...REAL_Q].map(normalizeQuestion);
-if (typeof window.BANK === "undefined") console.warn("未加载到题库数据.js，仅使用内置 54 题");
+if (typeof window.BANK === "undefined") console.warn("未加载到题库数据.js，仅使用内置题目");
+const MOCK_COUNT = ALL_Q.filter(q=>q.sourceType==="mock").length;
 
 // ============ 状态 ============
-let mode="practice", len=20, strategy="random", typeFilter=new Set(), sourceFilter=new Set(["mock"]), yearFilter=new Set(["all"]), deck=[], idx=0, results=[], t0=0, timerH=null, answered=false;
+let mode="practice", len=5, strategy="random", typeFilter=new Set(), sourceFilter=new Set(["mock"]), yearFilter=new Set(["all"]), deck=[], idx=0, results=[], t0=0, timerH=null, answered=false;
 const pool=()=>JSON.parse(localStorage.getItem("sq_pool")||"[]");
 const savePool=p=>localStorage.setItem("sq_pool",JSON.stringify(p));
 const hist=()=>JSON.parse(localStorage.getItem("sq_hist")||"[]");
@@ -203,6 +208,7 @@ function shuffled(q){
 }
 
 function initChips(){
+  document.getElementById("sourceChips").setAttribute("aria-label", "题源筛选：默认仅模拟题");
   const types=[...new Set(ALL_Q.map(q=>q.t))];
   const c=document.getElementById("typeChips");
   c.innerHTML=types.map(t=>`<button class="chip on" data-t="${t}">${t}</button>`).join("");
@@ -232,7 +238,8 @@ function updateFilters(){
 function updateFilterSummary(){
   const types=new Set([...document.querySelectorAll("#typeChips .chip.on")].map(b=>b.dataset.t));
   const n=ALL_Q.filter(q=>(!sourceFilter.size||sourceFilter.has(q.sourceType))&& (yearFilter.has("all")||yearFilter.has(q.year)) && types.has(q.t)).length;
-  document.getElementById("filterSummary").textContent=`当前筛选可用 ${n} 题｜模拟题与真题分开统计；真题记录需带 sourceType/year/paper/number 字段`;
+  const mock=ALL_Q.filter(q=>q.sourceType==="mock").length, real=ALL_Q.filter(q=>q.sourceType==="real").length;
+  document.getElementById("filterSummary").textContent=`当前筛选可用 ${n} 题｜题库：模拟题 ${mock}，真题 ${real}｜默认仅刷模拟题`;
 }
 function matchesFilters(q, types){ return (!sourceFilter.size||sourceFilter.has(q.sourceType)) && (yearFilter.has("all")||yearFilter.has(q.year)) && types.has(q.t); }
 function scoreKey(q){ return q.uid || q.h+q.s.slice(0,10); }
@@ -254,7 +261,7 @@ function showQ(){
   document.getElementById("qsource").textContent=q.sourceType==="real"?`${q.year||""}国考·${q.paper||"真题"}·${q.number?"第"+q.number+"题":""}`:"GLM模拟";
   document.getElementById("qmode").textContent=`${q.t} · 目标 ${q.t==="跳过"?"15":"45"}s`;
   document.getElementById("stem").textContent=q.s;
-  document.getElementById("progressBar").style.width=((idx/deck.length)*100)+"%"; answered=false;
+  document.getElementById("progressBar").style.width=(((idx+1)/deck.length)*100)+"%"; answered=false;
   const o=document.getElementById("opts");
   o.innerHTML=m.opts.map((t,i)=>`<button class="opt" onclick="answer(${i})">${"ABCD"[i]}. ${t}</button>`).join("");
   const fb=document.getElementById("fb"); fb.style.display="none"; fb.className="feedback";
@@ -264,7 +271,7 @@ function showQ(){
   const t=document.getElementById("timer"); t.textContent="0s"; t.className="timer";
   clearInterval(timerH);
   timerH=setInterval(()=>{const s=Math.floor((Date.now()-t0)/1000);
-    t.textContent=s+"s"; if(s>=45)t.className="timer slow";},250);
+    t.textContent=s+"s"; if(s>=(q.t==="跳过"?15:45))t.className="timer slow";},250);
 }
 
 function answer(i){ // i=-1 表示跳
@@ -278,7 +285,7 @@ function answer(i){ // i=-1 表示跳
   results.push({q, act, correct, isSkip, secs});
   const mm=memory(), key=scoreKey(q); mm[key]=mm[key]||{wrong:0,slow:0,seen:0}; mm[key].seen++; if(!correct)mm[key].wrong++; if(secs>(q.t==="跳过"?15:45))mm[key].slow++; saveMemory(mm);
   // 重刷池：做错或对跳过卡误选
-  if(!correct && !isSkip){ const p=pool(); p.push(q.h+q.s.slice(0,10)); savePool([...new Set(p)]); }
+  if(!correct && !isSkip){ const p=pool(); p.push(scoreKey(q)); savePool([...new Set(p)]); }
   document.getElementById("poolCnt").textContent=pool().length;
   if(mode==="practice"){
     document.querySelectorAll("#opts .opt").forEach((b,j)=>{
@@ -313,15 +320,19 @@ function finish(){
   const byHook={};
   results.forEach(x=>{const k=x.q.h; byHook[k]=byHook[k]||{n:0,c:0}; byHook[k].n++; if(x.correct)byHook[k].c++;});
   const h=hist(); h.push({acc,d:new Date().toLocaleDateString()}); saveHist(h);
+  const sourceCount={}; results.forEach(x=>{const k=x.q.sourceType==="real"?"真题":"模拟题"; sourceCount[k]=(sourceCount[k]||0)+1;});
+  const explanation=results.map((x,n)=>{const q=x.q, m=q._m, ans=q.a===-1?"跳过":"ABCD"[m.ans]; const picked=x.isSkip?"跳过":"ABCD"[m.opts.indexOf(q.o[q.a])]; const status=x.correct?"✓":"✗"; const tag=q.sourceType==="real"?`${q.year}·${q.paper}·第${q.number}题`:"GLM模拟题"; return `<details class="review ${x.correct?"ok":"bad"}" ${x.correct?"":"open"}><summary>${status} ${n+1}. ${tag}｜${q.h}｜你的选择：${picked||"—"}｜答案：${ans}</summary><div class="review-body"><b>题目：</b>${escapeHtml(q.s)}<br><b>解题：</b>${escapeHtml(q.e||"暂无解析")}${q.tr?`<br><b>陷阱：</b>${escapeHtml(q.tr)}`:""}<br><b>复盘提示：</b>${x.correct?"这道题的入口识别和选项判断有效。":"回看第一步：先问能否用比例、总量、不变量、边界或选项反推压缩题目。"}</div></details>`;}).join("");
   r.innerHTML=`<h1>本轮战报</h1>
   <div class="stat"><span>题量 <b>${results.length}</b></span><span>正确率 <b>${isNaN(acc)?"—":acc+"%"}</b></span><span>平均用时 <b>${avg}s</b></span><span>主动跳过 <b>${skips}</b> 题</span></div>
-  <table class="hb"><tr><th>钩子</th><th>成绩</th></tr>
+  <div class="mini">题源统计：${Object.entries(sourceCount).map(([k,v])=>`${k} ${v}题`).join("｜")||"—"}。正确率只统计本轮，不把模拟题成绩当作真题成绩。</div>
+  <table class="hb"><tr><th>考点入口</th><th>成绩</th></tr>
   ${Object.entries(byHook).map(([k,v])=>`<tr><td>${k}</td><td>${v.c}/${v.n}</td></tr>`).join("")}</table>
-  <div class="row" style="margin-top:14px">
-    <button class="primary" onclick="location.reload()">再来一轮</button>
-  </div>
-  <div class="insight">训练解读：<b>${right>=scored.length*.8?"准确性不错，下一轮压缩反应时间。":"先别急着提速，优先复盘错因与卡型识别。"}</b><br>错题已进入重刷池；“强化薄弱”会按错题和超时次数提高出现概率。</div><div class="kbd">目标线：识别正确率 ≥70%，跳过卡判别 ≥75%。</div>`;
+  <h2 style="font-size:17px;margin-top:18px">逐题题解（点击展开）</h2><div class="mini">先自己回忆“为什么选”，再看题解；错题和超时题已自动进入重刷池。</div>${explanation}
+  <div class="row" style="margin-top:14px"><button class="primary" onclick="location.reload()">再来一轮</button></div>
+  <div class="insight">训练解读：<b>${right>=scored.length*.8?"准确性不错，下一轮压缩反应时间。":"先别急着提速，优先复盘错因与卡型识别。"}</b><br>5题模式适合碎片时间：每套结束必须看完题解，再开始下一套。</div><div class="kbd">目标线：识别正确率 ≥70%，跳过卡判别 ≥75%。</div>`;
 }
+
+function escapeHtml(v){return String(v||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
 
 function resetPool(){ if(confirm("确认清空重刷池？")){ savePool([]); document.getElementById("poolCnt").textContent=0; } }
 
