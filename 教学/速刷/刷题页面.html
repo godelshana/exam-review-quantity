@@ -187,6 +187,7 @@ function normalizeQuestion(q, i){
   q.paper = q.paper || q["卷别"] || q["卷种"] || "";
   q.number = q.number || q.no || q.题号 || "";
   q.uid = q.uid || `${q.sourceType}:${q.year}:${q.paper}:${q.number}:${i}`;
+  q.template = q.template || String(q.s).replace(/\s+/g, "").replace(/\d+(?:\.\d+)?/g, "#").slice(0,80);
   return q;
 }
 const ALL_Q = [...Q, ...REAL_Q].map(normalizeQuestion);
@@ -245,7 +246,18 @@ function matchesFilters(q, types){ return (!sourceFilter.size||sourceFilter.has(
 function scoreKey(q){ return q.uid || q.h+q.s.slice(0,10); }
 function memory(){ try{return JSON.parse(localStorage.getItem("qtyMemory")||"{}")}catch(e){return {}} }
 function saveMemory(m){localStorage.setItem("qtyMemory",JSON.stringify(m));}
-function ranked(src){ const m=memory(); return src.map(q=>({q,w:strategy==="weak"?1+(m[scoreKey(q)]?.wrong||0)*3+(m[scoreKey(q)]?.slow||0)*2:strategy==="fresh"?(m[scoreKey(q)]?0.2:4):1})).sort((a,b)=>Math.random()*b.w-Math.random()*a.w).map(x=>x.q); }
+function ranked(src){
+  const m=memory();
+  const pool=src.map(q=>({q,w:strategy==="weak"?1+(m[scoreKey(q)]?.wrong||0)*3+(m[scoreKey(q)]?.slow||0)*2:strategy==="fresh"?(m[scoreKey(q)]?0.2:4):1}));
+  // 加权随机 + 模板去簇：随机模式/优先新题的前5题尽量不重复同构模板。
+  const out=[], used=new Set();
+  while(pool.length){
+    let best=-1, bestScore=-Infinity;
+    pool.forEach((x,i)=>{const novelty=used.has(x.q.template)?0.08:1; const score=Math.log(Math.random())/x.w*novelty; if(score>bestScore){bestScore=score;best=i;}});
+    const x=pool.splice(best,1)[0]; out.push(x.q); if(out.length<=5)used.add(x.q.template);
+  }
+  return out;
+}
 function startDeck(poolOnly){
   const on=new Set([...document.querySelectorAll("#typeChips .chip.on")].map(b=>b.dataset.t));
   let src=poolOnly? ALL_Q.filter(q=>pool().includes(scoreKey(q))) : ALL_Q.filter(q=>matchesFilters(q,on));
