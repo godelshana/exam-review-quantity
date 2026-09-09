@@ -69,6 +69,7 @@
   <div class="chips" id="sourceChips"></div>
   <b>年份 / 卷别</b>
   <div class="chips" id="yearChips"></div>
+  <b>难度梯度</b><div class="chips" id="levelChips"></div>
   <b>卡型筛选</b>（可与题源、年份叠加）
   <div class="chips" id="typeChips"></div>
   <div class="mini" id="filterSummary"></div>
@@ -100,6 +101,7 @@
 
 <script src="题库数据.js"></script>
 <script src="真题数量关系.js"></script>
+<script src="手写模拟题.js"></script>
 <script>
 // ============ 题库 ============
 // 内置 54 题为手工精编样库；外载 题库数据.js 为批量生成库（由 gen/merge.py 合并）。
@@ -177,25 +179,28 @@ const INLINE_Q = [
 ];
 const Q = [...INLINE_Q, ...(window.BANK || [])];
 const REAL_Q = window.REAL_Q || [];
+const HAND_Q = window.HAND_Q || [];
 // 兼容未来接入的真题记录：页面只负责识别/筛选，不改自动生成题库。
 // 推荐字段：sourceType=real|mock、year=2025、paper=地市级、number=65、sourceLabel。
 function normalizeQuestion(q, i){
   const isReal = q.sourceType === "real" || q.source === "real" || q.origin === "真题" || q.year;
   q.sourceType = isReal ? "real" : (q.sourceType || "mock");
   q.sourceLabel = q.sourceLabel || (isReal ? "国考真题" : (q.generator || "GLM模拟"));
+  q.level = q.level || (q.t==="跳过"?"综合":q.t==="深钩"?"深化":q.t==="双钩"?"熟练":"入门");
   q.year = q.year ? String(q.year).replace("年", "") : "";
   q.paper = q.paper || q["卷别"] || q["卷种"] || "";
   q.number = q.number || q.no || q.题号 || "";
   q.uid = q.uid || `${q.sourceType}:${q.year}:${q.paper}:${q.number}:${i}`;
+  q.level = q.level || (q.t==="跳过"?"综合":q.t==="深钩"?"深化":q.t==="双钩"?"熟练":"入门");
   q.template = q.template || String(q.s).replace(/\s+/g, "").replace(/\d+(?:\.\d+)?/g, "#").slice(0,80);
   return q;
 }
-const ALL_Q = [...Q, ...REAL_Q].map(normalizeQuestion);
+const ALL_Q = [...Q, ...HAND_Q, ...REAL_Q].map(normalizeQuestion);
 if (typeof window.BANK === "undefined") console.warn("未加载到题库数据.js，仅使用内置题目");
 const MOCK_COUNT = ALL_Q.filter(q=>q.sourceType==="mock").length;
 
 // ============ 状态 ============
-let mode="practice", len=5, strategy="random", typeFilter=new Set(), sourceFilter=new Set(["mock"]), yearFilter=new Set(["all"]), deck=[], idx=0, results=[], t0=0, timerH=null, answered=false;
+let mode="practice", len=5, strategy="random", typeFilter=new Set(), sourceFilter=new Set(["mock"]), yearFilter=new Set(["all"]), levelFilter=new Set(["all"]), deck=[], idx=0, results=[], t0=0, timerH=null, answered=false;
 const pool=()=>JSON.parse(localStorage.getItem("sq_pool")||"[]");
 const savePool=p=>localStorage.setItem("sq_pool",JSON.stringify(p));
 const hist=()=>JSON.parse(localStorage.getItem("sq_hist")||"[]");
@@ -234,15 +239,16 @@ document.querySelectorAll("#modeChips .chip,#lenChips .chip").forEach(b=>b.oncli
 function updateFilters(){
   sourceFilter=new Set([...document.querySelectorAll("#sourceChips .chip.on")].map(b=>b.dataset.source));
   yearFilter=new Set([...document.querySelectorAll("#yearChips .chip.on")].map(b=>b.dataset.year));
+  levelFilter=new Set([...document.querySelectorAll("#levelChips .chip.on")].map(b=>b.dataset.level));
   updateFilterSummary();
 }
 function updateFilterSummary(){
   const types=new Set([...document.querySelectorAll("#typeChips .chip.on")].map(b=>b.dataset.t));
-  const n=ALL_Q.filter(q=>(!sourceFilter.size||sourceFilter.has(q.sourceType))&& (yearFilter.has("all")||yearFilter.has(q.year)) && types.has(q.t)).length;
+  const n=ALL_Q.filter(q=>(!sourceFilter.size||sourceFilter.has(q.sourceType))&& (yearFilter.has("all")||yearFilter.has(q.year)) && (levelFilter.has("all")||levelFilter.has(q.level)) && types.has(q.t)).length;
   const mock=ALL_Q.filter(q=>q.sourceType==="mock").length, real=ALL_Q.filter(q=>q.sourceType==="real").length;
   document.getElementById("filterSummary").textContent=`当前筛选可用 ${n} 题｜题库：模拟题 ${mock}，真题 ${real}｜默认仅刷模拟题`;
 }
-function matchesFilters(q, types){ return (!sourceFilter.size||sourceFilter.has(q.sourceType)) && (yearFilter.has("all")||yearFilter.has(q.year)) && types.has(q.t); }
+function matchesFilters(q, types){ return (!sourceFilter.size||sourceFilter.has(q.sourceType)) && (yearFilter.has("all")||yearFilter.has(q.year)) && (levelFilter.has("all")||levelFilter.has(q.level)) && types.has(q.t); }
 function scoreKey(q){ return q.uid || q.h+q.s.slice(0,10); }
 function memory(){ try{return JSON.parse(localStorage.getItem("qtyMemory")||"{}")}catch(e){return {}} }
 function saveMemory(m){localStorage.setItem("qtyMemory",JSON.stringify(m));}
