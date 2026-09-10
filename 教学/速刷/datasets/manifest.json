@@ -1,0 +1,1458 @@
+{
+  "builderSha256": "707cc2dd233dfde919354b1facce41edf7f119875bb910f0f7d92869b4b5dba6",
+  "certificatesSha256": "16dd4a8c3759091b05febde5cb7f4f494e154d23294ce3481bee38a7f49c660e",
+  "guangdongGaps": [
+    {
+      "availableQuestions": 0,
+      "exam": "广东省考",
+      "expectedSlots": null,
+      "reason": "本地真题库无广东题面、卷别目录或可靠答案；题量未知，不能生成虚构槽位",
+      "required": [
+        "真实试卷及卷别清单",
+        "数量关系逐题题面与选项",
+        "可靠答案及原图"
+      ],
+      "searchedRoots": [
+        "真题库",
+        "教学/速刷/gen"
+      ],
+      "status": "missing_source",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "availableQuestions": 0,
+      "exam": "广东省考",
+      "expectedSlots": null,
+      "reason": "本地真题库无广东题面、卷别目录或可靠答案；题量未知，不能生成虚构槽位",
+      "required": [
+        "真实试卷及卷别清单",
+        "数量关系逐题题面与选项",
+        "可靠答案及原图"
+      ],
+      "searchedRoots": [
+        "真题库",
+        "教学/速刷/gen"
+      ],
+      "status": "missing_source",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "availableQuestions": 0,
+      "exam": "广东省考",
+      "expectedSlots": null,
+      "reason": "本地真题库无广东题面、卷别目录或可靠答案；题量未知，不能生成虚构槽位",
+      "required": [
+        "真实试卷及卷别清单",
+        "数量关系逐题题面与选项",
+        "可靠答案及原图"
+      ],
+      "searchedRoots": [
+        "真题库",
+        "教学/速刷/gen"
+      ],
+      "status": "missing_source",
+      "validationStatus": "V3",
+      "year": 2026
+    }
+  ],
+  "nationalSlots": [
+    {
+      "moduleIndex": 1,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:61",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:62",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:63",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:64",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "副省级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:65",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "副省级",
+      "reasons": [
+        "suspected_missing_formula",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:66",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "副省级",
+      "reasons": [
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:67",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "副省级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "prior_ai_unresolved_flag:?图",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:68",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:69",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:70",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 11,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:71",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 12,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:72",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 13,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:73",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 14,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:74",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 15,
+      "paper": "副省级",
+      "reasons": [
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:副省级:75",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:61",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "地市级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:62",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "地市级",
+      "reasons": [
+        "prior_ai_unresolved_flag:?矛盾",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:63",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "地市级",
+      "reasons": [
+        "stem_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:64",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "地市级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:65",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "地市级",
+      "reasons": [
+        "prior_ai_unresolved_flag:?矛盾",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:66",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "地市级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:67",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:68",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "地市级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:69",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "地市级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:地市级:70",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "行政执法类",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:61",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "行政执法类",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:62",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:63",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "行政执法类",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:64",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:65",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:66",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "行政执法类",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:67",
+      "validationStatus": "V1",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:68",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "行政执法类",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:69",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "行政执法类",
+      "reasons": [
+        "prior_ai_unresolved_flag:?矛盾",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2024:行政执法类:70",
+      "validationStatus": "V3",
+      "year": 2024
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:66",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "副省级",
+      "reasons": [
+        "option_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:67",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:68",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:69",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:70",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:71",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:72",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:73",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "副省级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:74",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:75",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 11,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:76",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 12,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:77",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 13,
+      "paper": "副省级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "stem_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:78",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 14,
+      "paper": "副省级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:79",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 15,
+      "paper": "副省级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:副省级:80",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "地市级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "known_source_dispute",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:66",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "地市级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:67",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "地市级",
+      "reasons": [
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:68",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "地市级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:69",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "地市级",
+      "reasons": [
+        "stem_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:70",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "地市级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:71",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "地市级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:72",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "地市级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:73",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "地市级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:74",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "地市级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:地市级:75",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "行政执法类",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:66",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:67",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:68",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:69",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "行政执法类",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:70",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:71",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "行政执法类",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:72",
+      "validationStatus": "V1",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "行政执法类",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:73",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "行政执法类",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:74",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "行政执法类",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2025:行政执法类:75",
+      "validationStatus": "V3",
+      "year": 2025
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:66",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "副省级",
+      "reasons": [
+        "stem_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:67",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:68",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:69",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "副省级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:70",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "副省级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:71",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "副省级",
+      "reasons": [
+        "source_visual_reference_not_reviewed",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:72",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:73",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "副省级",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:74",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "副省级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "stem_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:75",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 11,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:76",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 12,
+      "paper": "副省级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "prior_ai_unresolved_flag:?表",
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:77",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 13,
+      "paper": "副省级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:78",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 14,
+      "paper": "副省级",
+      "reasons": [
+        "unconfirmed_source_answer",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:79",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 15,
+      "paper": "副省级",
+      "reasons": [
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:副省级:80",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:66",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "地市级",
+      "reasons": [
+        "known_source_dispute"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:67",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:68",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:69",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:70",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:71",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "地市级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:72",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "地市级",
+      "reasons": [
+        "option_footer_contamination",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:73",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "地市级",
+      "reasons": [],
+      "scorable": true,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:74",
+      "validationStatus": "V1",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "地市级",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "prior_ai_unresolved_flag:?表",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:地市级:75",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 1,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:66",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 2,
+      "paper": "行政执法类",
+      "reasons": [
+        "unconfirmed_source_answer",
+        "known_source_dispute",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:67",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 3,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:68",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 4,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:69",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 5,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:70",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 6,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:71",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 7,
+      "paper": "行政执法类",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "prior_ai_unresolved_flag:?表",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:72",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 8,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:73",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 9,
+      "paper": "行政执法类",
+      "reasons": [
+        "required_image_or_table_not_bundled",
+        "no_independent_math_certificate"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:74",
+      "validationStatus": "V3",
+      "year": 2026
+    },
+    {
+      "moduleIndex": 10,
+      "paper": "行政执法类",
+      "reasons": [
+        "fenbi_ai_answer_conflict",
+        "independent_source_disagreement"
+      ],
+      "scorable": false,
+      "sourcePresent": true,
+      "uid": "real:2026:行政执法类:75",
+      "validationStatus": "V3",
+      "year": 2026
+    }
+  ],
+  "sourceSnapshotSha256": "2c1b1824c773a43889180c67fa707b16d17437ccb127b415f545527d8f9352e2",
+  "summary": {
+    "glmInventory": 545,
+    "limitations": [
+      "独立指从题干复算、不以来源答案为计算输入；非独立第二审查者。",
+      "未复算条目只做逐题结构审查，绝不冒称数学通过。",
+      "V2单列暂定成绩、不进入正式验证指标；未满足usable/资格门禁不练；V3不计分。",
+      "难度与快法时间收益是教学判断，不是考生群体实测。",
+      "广东近三年缺资料，无法证明对未知题零泄漏；low只表示已收录范围未命中，不是对缺失广东题的保证。",
+      "不包含主代理包装的原创124题。"
+    ],
+    "math": {
+      "attempted": 81,
+      "failed": [
+        "glm:D:30"
+      ],
+      "notAttempted": 864,
+      "passedCalculation": 80,
+      "sourceDisagreements": [
+        "real:2014:合卷:62",
+        "real:2020:副省级:62",
+        "real:2025:副省级:80",
+        "real:2025:地市级:75",
+        "real:2026:行政执法类:67",
+        "real:2026:行政执法类:68",
+        "real:2026:行政执法类:71",
+        "real:2026:行政执法类:75"
+      ]
+    },
+    "oldRealAuditedInventory": 295,
+    "quarantine": {
+      "byExam": {
+        "GLM模拟": 536,
+        "国考": 269
+      },
+      "reasonCounts": {
+        "duplicate_options": 4,
+        "duplicate_training_family": 6,
+        "fenbi_ai_answer_conflict": 15,
+        "independent_source_disagreement": 8,
+        "known_source_dispute": 4,
+        "missing_options": 8,
+        "no_independent_math_certificate": 865,
+        "nonunique_equal_volume_partition": 1,
+        "option_footer_contamination": 3,
+        "prior_ai_unresolved_flag:?图": 2,
+        "prior_ai_unresolved_flag:?矛盾": 3,
+        "prior_ai_unresolved_flag:?表": 3,
+        "required_image_or_table_not_bundled": 21,
+        "source_visual_reference_not_reviewed": 18,
+        "stem_footer_contamination": 8,
+        "suspected_missing_formula": 3,
+        "unconfirmed_source_answer": 82,
+        "validation_family_or_text_leakage": 13
+      },
+      "trainCount": 805
+    },
+    "realSourceQuestions": 400,
+    "templateScreening": {
+      "authored": {
+        "high": 10,
+        "low": 112,
+        "medium": 2
+      },
+      "glm": {
+        "high": 13,
+        "low": 532
+      },
+      "independentMathClaim": false,
+      "total": 669
+    },
+    "train": {
+      "byExam": {
+        "GLM模拟": 9,
+        "国考": 26
+      },
+      "byLevel": {
+        "入门": 15,
+        "深化": 3,
+        "熟练": 17
+      },
+      "byYear": {
+        "2011": 8,
+        "2012": 2,
+        "2013": 4,
+        "2014": 2,
+        "2015": 2,
+        "2018": 1,
+        "2019": 2,
+        "2021": 2,
+        "2022": 1,
+        "2023": 2,
+        "None": 9
+      },
+      "total": 35
+    },
+    "validation": {
+      "byStatus": {
+        "V1": 30,
+        "V3": 75
+      },
+      "completeScorable": false,
+      "expectedNationalSlots": 105,
+      "guangdongComplete": false,
+      "inventorySlots": 105,
+      "scorable": 30,
+      "uniqueScorableIdentities": 21,
+      "withStem": 105
+    },
+    "validationYears": [
+      2024,
+      2025,
+      2026
+    ],
+    "version": "2026-09-11.v1"
+  },
+  "validationPolicy": {
+    "exams": [
+      "国考",
+      "广东省考"
+    ],
+    "forbidTrain": true,
+    "guangdongExpectedSlots": null,
+    "years": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "version": "2026-09-11.v1"
+}

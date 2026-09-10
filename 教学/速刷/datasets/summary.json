@@ -1,0 +1,115 @@
+{
+  "glmInventory": 545,
+  "limitations": [
+    "独立指从题干复算、不以来源答案为计算输入；非独立第二审查者。",
+    "未复算条目只做逐题结构审查，绝不冒称数学通过。",
+    "V2单列暂定成绩、不进入正式验证指标；未满足usable/资格门禁不练；V3不计分。",
+    "难度与快法时间收益是教学判断，不是考生群体实测。",
+    "广东近三年缺资料，无法证明对未知题零泄漏；low只表示已收录范围未命中，不是对缺失广东题的保证。",
+    "不包含主代理包装的原创124题。"
+  ],
+  "math": {
+    "attempted": 81,
+    "failed": [
+      "glm:D:30"
+    ],
+    "notAttempted": 864,
+    "passedCalculation": 80,
+    "sourceDisagreements": [
+      "real:2014:合卷:62",
+      "real:2020:副省级:62",
+      "real:2025:副省级:80",
+      "real:2025:地市级:75",
+      "real:2026:行政执法类:67",
+      "real:2026:行政执法类:68",
+      "real:2026:行政执法类:71",
+      "real:2026:行政执法类:75"
+    ]
+  },
+  "oldRealAuditedInventory": 295,
+  "quarantine": {
+    "byExam": {
+      "GLM模拟": 536,
+      "国考": 269
+    },
+    "reasonCounts": {
+      "duplicate_options": 4,
+      "duplicate_training_family": 6,
+      "fenbi_ai_answer_conflict": 15,
+      "independent_source_disagreement": 8,
+      "known_source_dispute": 4,
+      "missing_options": 8,
+      "no_independent_math_certificate": 865,
+      "nonunique_equal_volume_partition": 1,
+      "option_footer_contamination": 3,
+      "prior_ai_unresolved_flag:?图": 2,
+      "prior_ai_unresolved_flag:?矛盾": 3,
+      "prior_ai_unresolved_flag:?表": 3,
+      "required_image_or_table_not_bundled": 21,
+      "source_visual_reference_not_reviewed": 18,
+      "stem_footer_contamination": 8,
+      "suspected_missing_formula": 3,
+      "unconfirmed_source_answer": 82,
+      "validation_family_or_text_leakage": 13
+    },
+    "trainCount": 805
+  },
+  "realSourceQuestions": 400,
+  "templateScreening": {
+    "authored": {
+      "high": 10,
+      "low": 112,
+      "medium": 2
+    },
+    "glm": {
+      "high": 13,
+      "low": 532
+    },
+    "independentMathClaim": false,
+    "total": 669
+  },
+  "train": {
+    "byExam": {
+      "GLM模拟": 9,
+      "国考": 26
+    },
+    "byLevel": {
+      "入门": 15,
+      "深化": 3,
+      "熟练": 17
+    },
+    "byYear": {
+      "2011": 8,
+      "2012": 2,
+      "2013": 4,
+      "2014": 2,
+      "2015": 2,
+      "2018": 1,
+      "2019": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "None": 9
+    },
+    "total": 35
+  },
+  "validation": {
+    "byStatus": {
+      "V1": 30,
+      "V3": 75
+    },
+    "completeScorable": false,
+    "expectedNationalSlots": 105,
+    "guangdongComplete": false,
+    "inventorySlots": 105,
+    "scorable": 30,
+    "uniqueScorableIdentities": 21,
+    "withStem": 105
+  },
+  "validationYears": [
+    2024,
+    2025,
+    2026
+  ],
+  "version": "2026-09-11.v1"
+}

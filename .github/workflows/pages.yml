@@ -36,6 +36,13 @@ jobs:
           node --check 教学/速刷/app.js
           node --check 教学/速刷/core.js
           node 教学/速刷/test_core.cjs
+          node 教学/速刷/test_isolation.cjs
+          node 教学/速刷/test_dataset_integration.cjs
+          python 教学/速刷/build_datasets.py --check
+          python 教学/速刷/test_datasets.py
+          python 教学/速刷/build_authored_methods.py --check
+          python 教学/速刷/test_authored_methods.py
+          python 教学/速刷/audit_datasets_independent.py
           python 教学/速刷/build_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

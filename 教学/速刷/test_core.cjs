@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict');const C=require('./core.js');
 let seed=20260909;const rng=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
-const bank=Array.from({length:100},(_,i)=>({uid:`t:${i}`,s:`题目${i}`,o:['1','2','3','4'],a:i%4,t:'模型',h:`h${i%6}`,level:C.levels[i%4],template:`f${i%10}`}));
+const bank=Array.from({length:100},(_,i)=>({dataset:"train",answerStatus:"confirmed",imageStatus:"complete",explanationStatus:"P2",mathAudit:"passed",leakageRisk:"low",e:"derive",tr:"trap",uid:`t:${i}`,s:`题目${i}`,o:['1','2','3','4'],a:i%4,t:'模型',h:`h${i%6}`,level:C.levels[i%4],template:`f${i%10}`}));
 const out=C.sample(bank,{size:30,rng}).questions;
 assert.equal(out.length,30);assert.equal(new Set(out.map(q=>q.uid)).size,30);
 for(let i=0;i<30;i+=5){const chunk=out.slice(i,i+5);assert.equal(new Set(chunk.map(q=>q.template)).size,5);}
@@ -8,12 +8,12 @@ assert.equal(C.sample([{...bank[0],a:-1,t:'跳过'}]).questions.length,0);
 assert.equal(C.sample([bank[0],{...bank[0],uid:'duplicate'}]).questions.length,1);
 assert.equal(C.sample(bank.slice(0,2),{size:5}).questions.length,2);
 assert.equal(C.summary([]).accuracy,0);
-const rows=Array.from({length:10},(_,i)=>({uid:`t:${i}`,level:'入门',source:'authored',training:'ladder',pick:i<8?0:-1,correct:i<8,secs:20,limit:35,hinted:false,paused:false,confidence:'确定'}));
+const rows=Array.from({length:10},(_,i)=>({dataset:"train",answerStatus:"confirmed",imageStatus:"complete",explanationStatus:"P2",mathAudit:"passed",leakageRisk:"low",e:"derive",tr:"trap",uid:`t:${i}`,level:'入门',source:'authored',training:'ladder',pick:i<8?0:-1,correct:i<8,secs:20,limit:35,hinted:false,paused:false,confidence:'确定'}));
 const active=rows.map(r=>C.normalize({...bank[0],uid:r.uid,s:r.uid,level:r.level}));rows.forEach((r,i)=>r.q={...active[i]});
 assert.equal(C.summary(rows).accuracy,.8);assert.equal(C.summary(rows).skips,2);assert.equal(C.summary(rows).attemptAccuracy,1);assert.equal(C.promotion(rows,'入门',active).ready,true);
 assert.equal(C.promotion(rows.map(r=>({...r,uid:'same'})),'入门',active).ready,false);
 assert.equal(C.promotion(rows.map(r=>({...r,hinted:true})),'入门',active).ready,false);
-assert.equal(C.promotion(rows.map(r=>({...r,source:'glm'})),'入门',active).ready,false);
+assert.equal(C.promotion(rows.map(r=>({...r,source:'glm'})),'入门',active).ready,true); // Individually audited GLM is allowed.
 assert.equal(C.summary(rows.map(r=>({...r,pick:-1,correct:false}))).accuracy,0);
 for(const q of bank){const m=C.shuffled(q,rng);assert.equal(m.opts[m.answer],q.o[q.a]);assert.equal(C.mappedExplanation(`故选[[option:${'ABCD'[q.a]}]]`,m.map),`故选${'ABCD'[m.answer]}`);}
 // Higher weight must actually increase sampling probability; not sort using random comparator.
