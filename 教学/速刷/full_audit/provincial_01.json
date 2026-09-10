@@ -1,0 +1,5443 @@
+[
+  {
+    "uid": "prov:17337",
+    "fenbiId": "17337",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "在1000以内，除以3余2，除以7余3，除以11余4的数有多少个：",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在1000以内，除以3余2，除以7余3，除以11余4的数有多少个：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3a269dc64937ca356c96140521d0f8049f547f4527a04ccb2f9749bddf8a7980"
+  },
+  {
+    "uid": "prov:17353",
+    "fenbiId": "17353",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "甲、乙两人同地同向直线行走，其速度分别为7千米/时和5千米/时。乙先走2小时后甲才开始走，则甲追上乙需：",
+    "o": [
+      "4小时",
+      "5小时",
+      "6小时",
+      "7小时"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两人同地同向直线行走，其速度分别为7千米/时和5千米/时。乙先走2小时后甲才开始走，则甲追上乙需：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "dccc1afecf568069c14f0222178befde07bf9cf1aae444222afc125f04ab9ef2"
+  },
+  {
+    "uid": "prov:17487",
+    "fenbiId": "17487",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "如图所示，有两排蜂房，一只蜜蜂从左下角的1号蜂房开始去8号蜂房，假设只朝右上或右下逐个爬行。则不同的走法有：",
+    "o": [
+      "16种",
+      "18种",
+      "21种",
+      "24种"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图所示，有两排蜂房，一只蜜蜂从左下角的1号蜂房开始去8号蜂房，假设只朝右上或右下逐个爬行。则不同的走法有：</p><p><img width=\"172px\" height=\"89px\" src=\"//fb.fbstatic.cn/api/tarzan/images/14149d2a53130e3.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/14149d2a53130e3.png?width=700",
+        "path": "真题库/图片/省考/406492363ab9.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "481751bcb57bca54754f527b1e365608ac9d2cd0b0307c1459823bad1bc3ccd7"
+  },
+  {
+    "uid": "prov:17551",
+    "fenbiId": "17551",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "有一种红砖，长24厘米、宽12厘米、高5厘米，至少用多少块红砖才能拼成一个实心的正方体：",
+    "o": [
+      "600块",
+      "800块",
+      "1000块",
+      "1200块"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有一种红砖，长24厘米、宽12厘米、高5厘米，至少用多少块红砖才能拼成一个实心的正方体：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5a8a93573e6667226b87e639d7546308d96bd22c75f2aad7a6c84333a01b7040"
+  },
+  {
+    "uid": "prov:17571",
+    "fenbiId": "17571",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "某学校的全体学生刚好排成一个方阵，最外层的人数是108人，则这个学校共有多少学生：",
+    "o": [
+      "724人",
+      "744人",
+      "764人",
+      "784人"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某学校的全体学生刚好排成一个方阵，最外层的人数是108人，则这个学校共有多少学生：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "256a8bd6af260bbd8215b17a844ef90ce82b8202e7320b9bea67bff73204e85c"
+  },
+  {
+    "uid": "prov:17587",
+    "fenbiId": "17587",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "某工厂的一个生产小组，当每个工人都在岗位工作时，9小时可以完成一项生产任务。如果交换工人甲和乙的岗位，其他人不变，可提前1小时完成任务；如果交换工人丙和丁的岗位，其他人不变，也可提前1小时完成任务。如果同时交换甲和乙、丙和丁的岗位，其他人不变，可以提前多少小时完成这项任务：",
+    "o": [
+      "1.4",
+      "1.8",
+      "2.2",
+      "2.6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某工厂的一个生产小组，当每个工人都在岗位工作时，9小时可以完成一项生产任务。如果交换工人甲和乙的岗位，其他人不变，可提前1小时完成任务；如果交换工人丙和丁的岗位，其他人不变，也可提前1小时完成任务。如果同时交换甲和乙、丙和丁的岗位，其他人不变，可以提前多少小时完成这项任务：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b7a43c324dd42bd6ec12ddf3bdaf95adda0699c0ba24e50c3b77c307e3724c60"
+  },
+  {
+    "uid": "prov:17607",
+    "fenbiId": "17607",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2011,
+    "paper": "2011年安徽省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_AH_2011.json",
+    "s": "一满杯纯牛奶，喝去20%后用水加满，再喝去60%。此时杯中的纯牛奶占杯子容积的百分数为：",
+    "o": [
+      "52%",
+      "48%",
+      "42%",
+      "32%"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一满杯纯牛奶，喝去20%后用水加满，再喝去60%。此时杯中的纯牛奶占杯子容积的百分数为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2011,
+        "paper": "2011年安徽省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_AH_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "bede9b4541c16d143a532c6de871fc0f9bb258794df49b526c578d9fb0fbe24f"
+  },
+  {
+    "uid": "prov:21537",
+    "fenbiId": "21537",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 56,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "计算的值为：",
+    "o": [
+      "4555940.8",
+      "4555940.9",
+      "4555941.18",
+      "4555940.29"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>计算<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=BDQlR8tZjWvquAEcjXBhhTvZEARMbsH3OO9YaliJTpUKd9kTxWB5-DilkOZIC6i7\">的值为： </p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BDQlR8tZjWvquAEcjXBhhTvZEARMbsH3OO9YaliJTpUKd9kTxWB5-DilkOZIC6i7",
+        "path": "真题库/图片/省考/e310a839db06.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 56
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0b5cd153953b13e5ac183fe50e28343ab3f62ba7623cbc4e75000eec2faf8812"
+  },
+  {
+    "uid": "prov:21549",
+    "fenbiId": "21549",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 57,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "",
+    "o": [
+      "98",
+      "99",
+      "100",
+      "101"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=ObNkBxdWVEJUAZqw65moC99GC7WHJBvOblAuue1zw-gMjapZEVfRweTFPGrSfaeN74JSuABpIVieuLANugn3O3SfF2A8jl0TtruVraZbCcY\"><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=Mk4kZd4BRh7WLVMA8CfGrh6mpVbkSZIDdrj5-thXmKMm_Vvja_KZbG-mVRz5d_id\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ObNkBxdWVEJUAZqw65moC99GC7WHJBvOblAuue1zw-gMjapZEVfRweTFPGrSfaeN74JSuABpIVieuLANugn3O3SfF2A8jl0TtruVraZbCcY",
+        "path": "真题库/图片/省考/40dd13b1638e.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=Mk4kZd4BRh7WLVMA8CfGrh6mpVbkSZIDdrj5-thXmKMm_Vvja_KZbG-mVRz5d_id",
+        "path": "真题库/图片/省考/a950847500d8.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 57
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "90260568ede965ff6c2c9701db34d0340a720005db946fee7f2c509929c96f0b"
+  },
+  {
+    "uid": "prov:21551",
+    "fenbiId": "21551",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 58,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "以正方形的4个顶点和中心点中的任意三点为顶点可以构成几种面积不等的三角形：",
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>以正方形的4个顶点和中心点中的任意三点为顶点可以构成几种面积不等的三角形：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 58
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2c6ed5f472cc9adbf3009db246349d30497b7ad2ee0a6a28d67d5159a21ba991"
+  },
+  {
+    "uid": "prov:21553",
+    "fenbiId": "21553",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 59,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "两个圆柱形水井，甲井的水深是乙井的一半，水面直径是乙井的2倍，蓄水量为40立方米，问乙井的蓄水量为多少立方米：",
+    "o": [
+      "20",
+      "40",
+      "60",
+      "80"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>两个圆柱形水井，甲井的水深是乙井的一半，水面直径是乙井的2倍，蓄水量为40立方米，问乙井的蓄水量为多少立方米：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 59
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d803371362075567eb3b843f1ec6ab29251e2966bde0e596465644347ba07be5"
+  },
+  {
+    "uid": "prov:21557",
+    "fenbiId": "21557",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 60,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "将25台笔记本电脑奖励给不同的单位，每个单位奖励的电脑数量均不等，最多可以奖励几个单位：",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>将25台笔记本电脑奖励给不同的单位，每个单位奖励的电脑数量均不等，最多可以奖励几个单位：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 60
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d05bb4fa4645f5025a5cc02f12903d511e0c6765a7694761907cd2f314d8cf5c"
+  },
+  {
+    "uid": "prov:21559",
+    "fenbiId": "21559",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 61,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "某数加上5再乘以5再减去5再除以5结果还是5，这个数是多少：",
+    "o": [
+      "0",
+      "1",
+      "－1",
+      "5"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某数加上5再乘以5再减去5再除以5结果还是5，这个数是多少：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 61
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0bd3c3244d930291e71f5feb022e2f44856bea4363041687598e36bebea74547"
+  },
+  {
+    "uid": "prov:21561",
+    "fenbiId": "21561",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 62,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "在某状态下，将28克某种溶质放入99克水中，恰好配成饱和溶液。从中取出溶液，加入4克溶质和11克水，请问此时浓度变为多少：",
+    "o": [
+      "21.61%",
+      "22.05%",
+      "23.53%",
+      "24.15%"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在某状态下，将28克某种溶质放入99克水中，恰好配成饱和溶液。从中取出<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=9FH_UkQdvmu2YOEIH8q1-g\">溶液，加入4克溶质和11克水，请问此时浓度变为多少：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=9FH_UkQdvmu2YOEIH8q1-g",
+        "path": "真题库/图片/省考/261f44d77727.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 62
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "31e3ee3eaa883e398b9f6be45a43f4addc782f6fe10aafb94d66550f4b5be94f"
+  },
+  {
+    "uid": "prov:21563",
+    "fenbiId": "21563",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 63,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "现在是下午三点半，那么20万秒之后你能听到的第一声整点报时是几点钟的：",
+    "o": [
+      "凌晨0点",
+      "凌晨4点",
+      "下午2点",
+      "下午6点"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p> 现在是下午三点半，那么20万秒之后你能听到的第一声整点报时是几点钟的：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 63
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "08687671e0d88760449e391b3fbfc790b836e4a1b89c1d3a42a1e2440336fa70"
+  },
+  {
+    "uid": "prov:21567",
+    "fenbiId": "21567",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 64,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "一支600米长的队伍行军，队尾的通讯员要与最前面的连长联系，他用3分钟跑步追上了连长，又在队伍休息的时间以同样的速度跑回了队尾，用了2分24秒，如队伍和通讯员均匀速前进，则通讯员在行军时从最前面跑步回到队尾需要多长时间：",
+    "o": [
+      "48秒",
+      "1分钟",
+      "1分48秒",
+      "2分钟"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一支600米长的队伍行军，队尾的通讯员要与最前面的连长联系，他用3分钟跑步追上了连长，又在队伍休息的时间以同样的速度跑回了队尾，用了2分24秒，如队伍和通讯员均匀速前进，则通讯员在行军时从最前面跑步回到队尾需要多长时间：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 64
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "04621655a7206c630c14a38685ff710ad03aaaa4b64e0103ae14c6bcf582226f"
+  },
+  {
+    "uid": "prov:21569",
+    "fenbiId": "21569",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 65,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "一件商品相继两次分别按折扣率为10%和20%进行折扣，已知折扣后的售价为540元，那么折扣前的售价为：",
+    "o": [
+      "600元",
+      "680元",
+      "720元",
+      "750元"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一件商品相继两次分别按折扣率为10%和20%进行折扣，已知折扣后的售价为540元，那么折扣前的售价为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 65
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "eecff1692e816c2176a0b3e539ede5abe92dfbb08abff9342c798b57c8da27f6"
+  },
+  {
+    "uid": "prov:21575",
+    "fenbiId": "21575",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 66,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "社区活动中心有40名会员，全部由老人和儿童组成。第一次社区活动组织全体老年会员参加，第二次活动组织全体女性成员参加。结果共有12人两次活动全部参加，6人两次活动全未参加。已知老人与儿童的男女比例相同，且老人数量多于儿童，问社区活动中心的会员中，老人，儿童各多少名：",
+    "o": [
+      "30 10",
+      "18 22",
+      "28 12",
+      "25 15"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>社区活动中心有40名会员，全部由老人和儿童组成。第一次社区活动组织全体老年会员参加，第二次活动组织全体女性成员参加。结果共有12人两次活动全部参加，6人两次活动全未参加。已知老人与儿童的男女比例相同，且老人数量多于儿童，问社区活动中心的会员中，老人，儿童各多少名：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 66
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a69815205fb961808a09207201ceb11166786e171fe7638dcd8d4c51e5f691a5"
+  },
+  {
+    "uid": "prov:21579",
+    "fenbiId": "21579",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 67,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "工作人员做成了一个长60厘米，宽40厘米，高22厘米的箱子，因丈量错误，长和宽均比设计尺寸多了2厘米，而高比设计尺寸少了3厘米，那么该箱子的表面积与设计时的表面积相差多少平方厘米：",
+    "o": [
+      "4",
+      "20",
+      "8",
+      "40"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>工作人员做成了一个长60厘米，宽40厘米，高22厘米的箱子，因丈量错误，长和宽均比设计尺寸多了2厘米，而高比设计尺寸少了3厘米，那么该箱子的表面积与设计时的表面积相差多少平方厘米：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 67
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "902837acd99b439ca6feeb7fa6d7644a8058795c33c2057878a7cd54336da59d"
+  },
+  {
+    "uid": "prov:21585",
+    "fenbiId": "21585",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 68,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "如图，街道XYZ在Y处拐弯，XY＝1125米，YZ＝855米，在街道一侧等距装路灯，要求X，Y，Z处各装一盏路灯，这条街道最少要安装多少盏路灯：",
+    "o": [
+      "47",
+      "46",
+      "45",
+      "44"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图，街道XYZ在Y处拐弯，XY＝1125米，YZ＝855米，在街道一侧等距装路灯，要求X，Y，Z处各装一盏路灯，这条街道最少要安装多少盏路灯：</p><p><img width=\"154px\" height=\"81px\" src=\"//fb.fenbike.cn/api/tarzan/images/13b06e7c8b05b74.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/13b06e7c8b05b74.png?width=700",
+        "path": "真题库/图片/省考/6728e59d6519.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 68
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "140ecc8cadf2ac0f546300ff6a9ba391a9664c32c6cffa2bb78907972efab973"
+  },
+  {
+    "uid": "prov:21589",
+    "fenbiId": "21589",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 69,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "",
+    "o": [
+      "9月18日",
+      "10月14日",
+      "11月14日",
+      "12月18日"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 69
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3943249a42ac9a9df3908d6e986bbb6e2d2a464de8005fa23f9d04ab5e214a83"
+  },
+  {
+    "uid": "prov:21593",
+    "fenbiId": "21593",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2012,
+    "paper": "2012年安徽省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 70,
+    "sourceFile": "_downloads/fb/paper_AH_2012.json",
+    "s": "如下图所示，A、B两点是圆形体育场直径的两端，两人从A、B点同时出发，沿环形跑道相向匀速而行，他们在距A点弧形距离80米处的C点第一次相遇，接着又在距B点弧形距离60米处的D点第二次相遇，问这个圆形体育场的周长是多少米：",
+    "o": [
+      "240",
+      "300",
+      "360",
+      "420"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如下图所示，A、B两点是圆形体育场直径的两端，两人从A、B点同时出发，沿环形跑道相向匀速而行，他们在距A点弧形距离80米处的C点第一次相遇，接着又在距B点弧形距离60米处的D点第二次相遇，问这个圆形体育场的周长是多少米：</p><p><img width=\"361px\" height=\"296px\" src=\"//fb.fbstatic.cn/api/tarzan/images/15da6f2706e70d6.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/15da6f2706e70d6.png?width=700",
+        "path": "真题库/图片/省考/112e180a0186.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 70
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2012,
+        "paper": "2012年安徽省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_AH_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "748f17e5ea90f3a5d084987779750ea848d34d4ef9dd5fcf7ea29f7862949094"
+  },
+  {
+    "uid": "prov:2616068",
+    "fenbiId": "2616068",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 1,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某学习平台的学习内容由观看视频、阅读文章、收藏分享、论坛交流、考试答题五个部分组成。某学员要先后学完这五个部分，若观看视频和阅读文章不能连续进行，该学员学习顺序的选择有：",
+    "o": [
+      "24种",
+      "72种",
+      "96种",
+      "120种"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某学习平台的学习内容由观看视频、阅读文章、收藏分享、论坛交流、考试答题五个部分组成。某学员要先后学完这五个部分，若观看视频和阅读文章不能连续进行，该学员学习顺序的选择有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 1
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 1,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f089e51f9d90cb732c30ea6031e0a5ddcceedd6b5bc7d6b60d13d1e50ab829ad"
+  },
+  {
+    "uid": "prov:2616070",
+    "fenbiId": "2616070",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "小明每天从家中出发骑自行车经过一段平路，再经过一道斜坡后到达学校上课。某天早上，小明从家中骑车出发，一到校门口就发现忘带课本，马上返回，从离家到赶回家中共用了1个小时，假设小明当天平路骑行速度为9千米/小时，上坡速度为6千米/小时，下坡速度为18千米/小时，那么小明的家距离学校多远？",
+    "o": [
+      "3.5千米",
+      "4.5千米",
+      "5.5千米",
+      "6.5千米"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小明每天从家中出发骑自行车经过一段平路，再经过一道斜坡后到达学校上课。某天早上，小明从家中骑车出发，一到校门口就发现忘带课本，马上返回，从离家到赶回家中共用了1个小时，假设小明当天平路骑行速度为9千米/小时，上坡速度为6千米/小时，下坡速度为18千米/小时，那么小明的家距离学校多远？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c0e5608d1c2969a0a5524ec38ea03c5bd31ea048419d16aac0a6f5341e6f8fe6"
+  },
+  {
+    "uid": "prov:2616079",
+    "fenbiId": "2616079",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 3,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某电商平台每隔5千米有一座仓库，共有A、B、C、D四座仓库，图中数字表示各仓库库存货物的吨数。现需要把所有的货物集中存放在其中某一个仓库中，如果每吨货物运输1千米需要运费3元，要使运费最少，则需将货物集中到哪座仓库？",
+    "o": [
+      "仓库A",
+      "仓库B",
+      "仓库C",
+      "仓库D"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某电商平台每隔5千米有一座仓库，共有A、B、C、D四座仓库，图中数字表示各仓库库存货物的吨数。现需要把所有的货物集中存放在其中某一个仓库中，如果每吨货物运输1千米需要运费3元，要使运费最少，则需将货物集中到哪座仓库？</p><p><img width=\"700px\" height=\"125px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1741599247d4519.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1741599247d4519.png?width=700",
+        "path": "真题库/图片/省考/19ebab826a39.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 3
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7e6c7baddfee74bf38c9e6fc071b0fd4efc5d27e48aed3fbd96454ea7d58b408"
+  },
+  {
+    "uid": "prov:2616081",
+    "fenbiId": "2616081",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某会展中心布置会场，从花卉市场购买郁金香、月季花、牡丹花三种花卉各20盆，每盆均用纸箱打包好装车运送至会展中心，再由工人搬运至布展区。问至少要搬出多少盆花卉才能保证搬出的鲜花中一定有郁金香？",
+    "o": [
+      "20盆",
+      "21盆",
+      "40盆",
+      "41盆"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某会展中心布置会场，从花卉市场购买郁金香、月季花、牡丹花三种花卉各20盆，每盆均用纸箱打包好装车运送至会展中心，再由工人搬运至布展区。问至少要搬出多少盆花卉才能保证搬出的鲜花中一定有郁金香？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "814cd097f75224d988f930c7f0ffcf132576b8cc42550e855d04db38cc1dabce"
+  },
+  {
+    "uid": "prov:2616085",
+    "fenbiId": "2616085",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "南部某战区一个10人小分队里有6人是特种兵，某次突击任务需派出5人参战，若抽到3名或3名以上特种兵可成功完成突击任务，那么成功完成突击任务的概率有多大？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>南部某战区一个10人小分队里有6人是特种兵，某次突击任务需派出5人参战，若抽到3名或3名以上特种兵可成功完成突击任务，那么成功完成突击任务的概率有多大？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=87zfg5Y6D9ejjsANH40afVCQspEeI0zjwjjMLwskhMo",
+        "path": "真题库/图片/省考/3e510bc41059.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=4zbOnagufiP9A9SEx1irp2aj2tHhDhbc3DOVA6StjIU",
+        "path": "真题库/图片/省考/2cb69a039592.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=PZFtMnw6zaupNRa5gLmYOsvN-lUXjouAzH8lkGR745I",
+        "path": "真题库/图片/省考/a28068b02565.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=tjFqZTH3q_ARNrIo814M5tlo8XCLsmjDmvWFQK47Bmg",
+        "path": "真题库/图片/省考/b82e1d94e1d5.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "223e4b1ab8c602006f06c8518e9c59d9d69678cf57301116df29de8a591f2840"
+  },
+  {
+    "uid": "prov:2616078",
+    "fenbiId": "2616078",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "植树节期间，某单位购进一批树苗，在林场工人的指导下组织员工植树造林。假设植树的成活率为80%，那么，该单位职工小张种植3棵树苗，至少成活2棵的概率是：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>植树节期间，某单位购进一批树苗，在林场工人的指导下组织员工植树造林。假设植树的成活率为80%，那么，该单位职工小张种植3棵树苗，至少成活2棵的概率是：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=2rmt9GTD9ufoXAR0o3cjCwRPqI-YJBpnwWVxNdkdJlU",
+        "path": "真题库/图片/省考/0a2e062df7a0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ZqdqUl-t12hDQKp1CeltGL_nr5VOZTOtL4aqjLlNS2M",
+        "path": "真题库/图片/省考/869dc30248ac.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=-CfjquMgcsa3O3qpcp5LFg53-zcsz-tnGq5IDsAIcD4",
+        "path": "真题库/图片/省考/64ed20e57a13.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=iLphvxTFu9t3Ey6kFRUEkfKrbcmGTRo6eQBc3DrsTEI",
+        "path": "真题库/图片/省考/1c8157b4ff8c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "94b8c54b65111c129a0279d4794a4a7b4748bb556cdcd5c5ba931867383b452c"
+  },
+  {
+    "uid": "prov:2616083",
+    "fenbiId": "2616083",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某公司现有6箱不同的水果，安排三个配送员送到A、B、C三个不同的仓储点，其中A地1箱，B地2箱，C地3箱，问配送方式有：",
+    "o": [
+      "60种",
+      "180种",
+      "360种",
+      "420种"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司现有6箱不同的水果，安排三个配送员送到A、B、C三个不同的仓储点，其中A地1箱，B地2箱，C地3箱，问配送方式有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "752d7eeb4052bac209f28dd4156830af4dab4b14fa47e815c481d5acb97372ca"
+  },
+  {
+    "uid": "prov:2616086",
+    "fenbiId": "2616086",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "甲、乙、丙三人去超市买了100元的商品，如果甲付钱，那么甲剩下的钱是乙、丙两人钱数之和的；如果乙付钱，则乙剩下的钱是甲、丙两人钱数之和的；如果丙付钱，丙用他的会员卡可享受9折优惠，结果丙剩下的钱是甲、乙两人钱数之和的；那么，甲、乙、丙三人开始时一共带了多少钱？",
+    "o": [
+      "850元",
+      "900元",
+      "950元",
+      "1000元"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙三人去超市买了100元的商品，如果甲付钱，那么甲剩下的钱是乙、丙两人钱数之和的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=RrGBJ63nbAQ6FPuct-U71LDp8lbsET1NCoox-8L_ylE\">；如果乙付钱，则乙剩下的钱是甲、丙两人钱数之和的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=76UwJ108QHBDzedz9Ej6ATMfu8XdKsbLSPcLThVZQAQ\">；如果丙付钱，丙用他的会员卡可享受9折优惠，结果丙剩下的钱是甲、乙两人钱数之和的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY\">；那么，甲、乙、丙三人开始时一共带了多少钱？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=RrGBJ63nbAQ6FPuct-U71LDp8lbsET1NCoox-8L_ylE",
+        "path": "真题库/图片/省考/bc2dd8f8009b.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=76UwJ108QHBDzedz9Ej6ATMfu8XdKsbLSPcLThVZQAQ",
+        "path": "真题库/图片/省考/9eac3abf3200.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/492a97cbaa93.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0cfa05ee2ddbf71c003fd1b0b48e50296d893053b59d7519f64d882d3fa8436f"
+  },
+  {
+    "uid": "prov:2616087",
+    "fenbiId": "2616087",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某企业员工组织周末自驾游。集合后发现，如果每辆小车坐5人，则空出4个座位；如果每辆小车少坐1人，则有8人没坐上车。那么，参加自驾游的小车有：",
+    "o": [
+      "9辆",
+      "10辆",
+      "11辆",
+      "12辆"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业员工组织周末自驾游。集合后发现，如果每辆小车坐5人，则空出4个座位；如果每辆小车少坐1人，则有8人没坐上车。那么，参加自驾游的小车有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3240d6449415d6730f087b1dd4ecfc27a7891ad24ff59577813440dffd8aa5f0"
+  },
+  {
+    "uid": "prov:2616088",
+    "fenbiId": "2616088",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某社区拟对一块梯形活动场地进行扩建，经测算，如果将梯形的上底边增加1米，下底边增加1米，则面积将扩大10平方米；如果将梯形的上底边增加1倍，下底边增加1米，则面积将扩大55平方米；如果将上底边增加1米，下底边增加1倍，则面积将扩大105平方米。现拟将梯形的上底边增加1倍还多2米，下底边增加3倍还多4米，则面积将扩大多少？",
+    "o": [
+      "280平方米",
+      "380平方米",
+      "420平方米",
+      "480平方米"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某社区拟对一块梯形活动场地进行扩建，经测算，如果将梯形的上底边增加1米，下底边增加1米，则面积将扩大10平方米；如果将梯形的上底边增加1倍，下底边增加1米，则面积将扩大55平方米；如果将上底边增加1米，下底边增加1倍，则面积将扩大105平方米。现拟将梯形的上底边增加1倍还多2米，下底边增加3倍还多4米，则面积将扩大多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5ed5a8ba6f3955a59094e67339055cc97e6a740ee46a00c912a97e7cacbedf58"
+  },
+  {
+    "uid": "prov:2616069",
+    "fenbiId": "2616069",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某篮球队共有九人，分三组举行三人制篮球赛，他们的球衣号码分别是从1号到9号，分组后发现三组的球衣号码之和不同，且最大和是最小和的两倍。则各组号码之和不可能是下列哪个数？",
+    "o": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某篮球队共有九人，分三组举行三人制篮球赛，他们的球衣号码分别是从1号到9号，分组后发现三组的球衣号码之和不同，且最大和是最小和的两倍。则各组号码之和不可能是下列哪个数？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d75751c7540e5bb4dac107ac3f43826392fe58b83853eb46fdcab30b1cefa2d5"
+  },
+  {
+    "uid": "prov:2616072",
+    "fenbiId": "2616072",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 12,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "野外生存需要用一个简易的圆锥型过滤器（如下图所示）装满溪水进行过滤。过滤器的底面直径为20cm，高为6cm。问全部过滤完毕后，在不考虑损耗的情况下，可使底面半径为5cm，高为15cm的圆柱型容器的水面高度达到：",
+    "o": [
+      "4cm",
+      "6cm",
+      "8cm",
+      "12cm"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>野外生存需要用一个简易的圆锥型过滤器（如下图所示）装满溪水进行过滤。过滤器的底面直径为20cm，高为6cm。问全部过滤完毕后，在不考虑损耗的情况下，可使底面半径为5cm，高为15cm的圆柱型容器的水面高度达到：</p><p><img width=\"179px\" height=\"175px\" src=\"//fb.fenbike.cn/api/tarzan/images/174159840c94e63.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/174159840c94e63.png?width=700",
+        "path": "真题库/图片/省考/f93af3f86230.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 12
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 12,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5a903c2e87b613fd40a438d706a84edf65a38a56efab72805dc6383e1d9ee5c2"
+  },
+  {
+    "uid": "prov:2616073",
+    "fenbiId": "2616073",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 13,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "某城市一条道路上有4个十字路口，每个十字路口至少有1名交通协管员，现将8个协管员名额分配到这4个路口，则每个路口协管员名额的分配方案有：",
+    "o": [
+      "35种",
+      "70种",
+      "96种",
+      "114种"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某城市一条道路上有4个十字路口，每个十字路口至少有1名交通协管员，现将8个协管员名额分配到这4个路口，则每个路口协管员名额的分配方案有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 13
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 13,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2923f375b83cf44dde1fdcaeae99cd47e953fb18266f390c36694352199f43e6"
+  },
+  {
+    "uid": "prov:2616076",
+    "fenbiId": "2616076",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2020,
+    "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 14,
+    "sourceFile": "_downloads/fb/paper_AH_2020.json",
+    "s": "甲乙丙丁四人通过手机的位置共享，发现乙在甲正南方向2公里处，丙在乙北偏西方向2公里处，丁在甲北偏西方向。若丁与甲、丙的距离相等，则该距离为：",
+    "o": [
+      "1公里",
+      "公里",
+      "公里",
+      "2公里"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲乙丙丁四人通过手机的位置共享，发现乙在甲正南方向2公里处，丙在乙北偏西<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=LZaviVTSIl-v2ZJdrJZPfQ\">方向2公里处，丁在甲北偏西<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=dZ1YlGipK8P3FdhEM_FQHQ\">方向。若丁与甲、丙的距离相等，则该距离为：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=LZaviVTSIl-v2ZJdrJZPfQ",
+        "path": "真题库/图片/省考/9d5226774611.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=dZ1YlGipK8P3FdhEM_FQHQ",
+        "path": "真题库/图片/省考/deb1e7c8e3f0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=vnu16qOLKR3i2rUecVooXA",
+        "path": "真题库/图片/省考/01a45d1c3831.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=o_1btxLdZSckqyDcLwDh3A",
+        "path": "真题库/图片/省考/3693cc9f434d.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 14
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2020,
+        "paper": "2020年安徽省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 14,
+        "sourceFile": "_downloads/fb/paper_AH_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "55c7b87eb29b496104c1b3b3e171c020b8d0c3fe4881652d7ca7d6f831dabeb3"
+  },
+  {
+    "uid": "prov:3522354",
+    "fenbiId": "3522354",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 21,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "小明去某楼盘售楼部咨询售房情况。置业顾问告诉他，如果再卖出50套，则已卖出的数量与未卖出的数量相等；如果再卖出150套，则已卖出的数量比未卖出的数量多一半，问该楼盘目前还剩下多少套房子未卖出？",
+    "o": [
+      "350套",
+      "450套",
+      "550套",
+      "650套"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小明去某楼盘售楼部咨询售房情况。置业顾问告诉他，如果再卖出50套，则已卖出的数量与未卖出的数量相等；如果再卖出150套，则已卖出的数量比未卖出的数量多一半，问该楼盘目前还剩下多少套房子未卖出？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 21
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 21,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 51,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c0f8ea5a7ecdf6052a390d93dc90815611701c80315946982a44e53b94b5b99d"
+  },
+  {
+    "uid": "prov:3522371",
+    "fenbiId": "3522371",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 22,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "不超过100名的小朋友站成一列。如果从第一人开始依次按1，2，3，···，9的顺序循环报数，最后一名小朋友报的是7；如果按1，2，3，···，11的顺序循环报数，最后一名小朋友报的是9，那么一共有多少名小朋友？",
+    "o": [
+      "98",
+      "97",
+      "96",
+      "95"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>不超过100名的小朋友站成一列。如果从第一人开始依次按1，2，3，···，9的顺序循环报数，最后一名小朋友报的是7；如果按1，2，3，···，11的顺序循环报数，最后一名小朋友报的是9，那么一共有多少名小朋友？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 22
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 22,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 52,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "74b21d939ebc34bc5103844859dee205fa69c4c5bc6b1a8c4344e30785fc4037"
+  },
+  {
+    "uid": "prov:3522373",
+    "fenbiId": "3522373",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 23,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "随着人们生活水平的提高，汽车拥有量迅速增长，汽车牌照号码需要扩容。某地级市交通管理部门出台了一种小型汽车牌照组成办法，每个汽车牌照后五位的要求必须是：前三位为阿拉伯数字，后两位为两个不重复的英文字母（字母O、I不参与组牌），那么用这种方法可以给该地区汽车上牌照的数量为：",
+    "o": [
+      "397440辆",
+      "402400辆",
+      "552000辆",
+      "576000辆"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>随着人们生活水平的提高，汽车拥有量迅速增长，汽车牌照号码需要扩容。某地级市交通管理部门出台了一种小型汽车牌照组成办法，每个汽车牌照后五位的要求必须是：前三位为阿拉伯数字，后两位为两个不重复的英文字母（字母O、I不参与组牌），那么用这种方法可以给该地区汽车上牌照的数量为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 23
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 23,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ff69045cb320e97ef205de5a7b910b9dc985044e4b39e7872ed20c71ff99bbde"
+  },
+  {
+    "uid": "prov:3522376",
+    "fenbiId": "3522376",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 24,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某高校开设A类选修课四门，B类选修课三门。小刘从中共选取四门课程，若要求两类课程各至少选一门，则选法有：",
+    "o": [
+      "18种",
+      "22种",
+      "26种",
+      "34种"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某高校开设A类选修课四门，B类选修课三门。小刘从中共选取四门课程，若要求两类课程各至少选一门，则选法有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 24
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 24,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 54,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f883c95b6cef798e714b499fe9df06a39ff8f6d8400d24383ae77578adf0d47b"
+  },
+  {
+    "uid": "prov:3522392",
+    "fenbiId": "3522392",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 25,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某商场为了促销，进行掷飞镖游戏。每位参与人员投掷一次，假设掷出的飞镖均扎在飞镖板上且位置完全随机，扎中阴影部分区域（含边线）即为中奖。该商场预设中奖概率约为60%，仅考虑中奖概率的前提下，以下四幅图形（图中的正三角形和正方形均与圆外切或内接）最适合作为飞镖板的是：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某商场为了促销，进行掷飞镖游戏。每位参与人员投掷一次，假设掷出的飞镖均扎在飞镖板上且位置完全随机，扎中阴影部分区域（含边线）即为中奖。该商场预设中奖概率约为60%，仅考虑中奖概率的前提下，以下四幅图形（图中的正三角形和正方形均与圆外切或内接）最适合作为飞镖板的是：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/178732e15b40ec0.png?width=700",
+        "path": "真题库/图片/省考/8c3609a051bd.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/178732e27cb07df.png?width=700",
+        "path": "真题库/图片/省考/3156405a3c3c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/178732e3d9ef8a8.png?width=700",
+        "path": "真题库/图片/省考/0149f0548dfa.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/178732e4f87b1b2.png?width=700",
+        "path": "真题库/图片/省考/231566f5f75f.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 25
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 25,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 55,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "27757410bfa71903ade3f859a138c007f811f36ddab15c382c9ea415277645ea"
+  },
+  {
+    "uid": "prov:3522412",
+    "fenbiId": "3522412",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "大江两岸有两个正面相对的码头，可供客轮往返。如下图所示，根据河流水文情况，“幸福号”客轮星期一沿着河岸60度夹角方向前行，刚好达到对岸码头；星期二“幸福号”准备返回时，发现河流水文情况发生变化，船长调整航向，沿河岸30度夹角方向返回，顺利到达码头。假设客轮往返速度均是V千米/小时，且行驶过程中河水流速是恒定的，问返程时河水流速是去程时的多少倍？",
+    "o": [
+      "",
+      "",
+      "",
+      "2"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>大江两岸有两个正面相对的码头，可供客轮往返。如下图所示，根据河流水文情况，“幸福号”客轮星期一沿着河岸60度夹角方向前行，刚好达到对岸码头；星期二“幸福号”准备返回时，发现河流水文情况发生变化，船长调整航向，沿河岸30度夹角方向返回，顺利到达码头。假设客轮往返速度均是V千米/小时，且行驶过程中河水流速是恒定的，问返程时河水流速是去程时的多少倍？</p><p><img width=\"330px\" height=\"281px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17872a90e8b6c69.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17872a90e8b6c69.png?width=700",
+        "path": "真题库/图片/省考/5bdcc14a6f33.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=o_1btxLdZSckqyDcLwDh3A",
+        "path": "真题库/图片/省考/3693cc9f434d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=RH0us_WUcPyLUw4F7ellq5-AJls8xyof4KOU2SuMvNs",
+        "path": "真题库/图片/省考/66b1d32d882a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=4HxptsXXGVzE18Uu2hj3h6C5Sxg2DM0D87ElHtd7URI",
+        "path": "真题库/图片/省考/a1a47986e27f.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "bd7522c36104eaa20b3cab6a8a14de1062a25462625f8a6b6ff83ccc59c42a47"
+  },
+  {
+    "uid": "prov:3522421",
+    "fenbiId": "3522421",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "一个不计厚度的圆柱型无盖透明塑料桶，桶高2.5分米，底面周长为24分米，AB为底面直径。在塑料桶内壁桶底的B处有一只蚊子，此时，一只壁虎正好在塑料桶外壁的A处，则壁虎从外壁A处爬到内壁B处吃到蚊子所爬过的最短路径长约为：",
+    "o": [
+      "10分米",
+      "12.25分米",
+      "12.64分米",
+      "13分米"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一个不计厚度的圆柱型无盖透明塑料桶，桶高2.5分米，底面周长为24分米，AB为底面直径。在塑料桶内壁桶底的B处有一只蚊子，此时，一只壁虎正好在塑料桶外壁的A处，则壁虎从外壁A处爬到内壁B处吃到蚊子所爬过的最短路径长约为：</p><p><img width=\"445px\" height=\"287px\" src=\"//fb.fenbike.cn/api/tarzan/images/17872ebefc692a7.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/17872ebefc692a7.png?width=700",
+        "path": "真题库/图片/省考/c1cd2b9b974d.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2ab0f890618914bb1fb51ae8a41c21ca7b6fd2896478bfa23e4ae59270937ce0"
+  },
+  {
+    "uid": "prov:3522372",
+    "fenbiId": "3522372",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "如下图1所示，在一个金字塔造型（底面为正方形，侧面为四个全等的等腰三角形）的铸造件内部挖空一个圆柱。现沿铸造件顶点A且垂直底面的方向切开，切开后的截面如下图2所示，已知DE、GF为圆柱的高，分米，DE=2分米，AO=4分米，那么挖后铸造件的体积是：",
+    "o": [
+      "128-4π立方分米",
+      "立方分米",
+      "立方分米",
+      "64-4π立方分米"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如下图1所示，在一个金字塔造型（底面为正方形，侧面为四个全等的等腰三角形）的铸造件内部挖空一个圆柱。现沿铸造件顶点A且垂直底面的方向切开，切开后的截面如下图2所示，已知DE、GF为圆柱的高，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=LSvEUibWOMTsMQiKiHBs6A\">分米，DE=2分米，AO=4分米，那么挖后铸造件的体积是：</p><p><img width=\"696px\" height=\"351px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17873469d498822.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=LSvEUibWOMTsMQiKiHBs6A",
+        "path": "真题库/图片/省考/2acb71d48f3c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17873469d498822.png?width=700",
+        "path": "真题库/图片/省考/59357a5a5a2d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=9k0BxfyEJapUV2ZIwo9HU4DGgV7_C-kYTY5Cx26aw9c",
+        "path": "真题库/图片/省考/5d742b3e967d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=m-TbO-T9o3UaJnnF3CcnCiG5wF8jAN-FmVPWjo-D2eo",
+        "path": "真题库/图片/省考/2a6f65d19664.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "65e95253a55bd66eb079a80187690595834a294e49dfe7d5740e907c5f89ac81"
+  },
+  {
+    "uid": "prov:3522375",
+    "fenbiId": "3522375",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某装修公司订购了一条长为2.5m的长方体条形不锈钢管，要剪裁成60cm和43cm长的两种规格长度不锈钢管若干根，所裁钢管的横截面与原来一样，不考虑剪裁时材料的损耗，要使剩下的钢管尽量少，此时材料的利用率为：",
+    "o": [
+      "0.998",
+      "0.996",
+      "0.928",
+      "0.824"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某装修公司订购了一条长为2.5m的长方体条形不锈钢管，要剪裁成60cm和43cm长的两种规格长度不锈钢管若干根，所裁钢管的横截面与原来一样，不考虑剪裁时材料的损耗，要使剩下的钢管尽量少，此时材料的利用率为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "58632b398fbbf4850c2fe0cd52e8c25973b9bfb4cab9b61079ba64f7f2ed1482"
+  },
+  {
+    "uid": "prov:3522382",
+    "fenbiId": "3522382",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某公司职员小王要乘坐公司班车上班，班车到站点的时间为上午7点到8点之间，班车接人后立刻开走；小王到站点的时间为上午6点半至7点半之间。假设班车和小王到站的概率是相等（均匀分布）的，那么小王能够坐上班车的概率为：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司职员小王要乘坐公司班车上班，班车到站点的时间为上午7点到8点之间，班车接人后立刻开走；小王到站点的时间为上午6点半至7点半之间。假设班车和小王到站的概率是相等（均匀分布）的，那么小王能够坐上班车的概率为：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=KrmUUrJmRP25-tGkpQJ23Q",
+        "path": "真题库/图片/省考/3db9a9843ead.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=OOk7MWpc5E6DhCHuU6oAbg",
+        "path": "真题库/图片/省考/4990bd819365.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=VHfb11h5UQw-QbKDZV1Wlw",
+        "path": "真题库/图片/省考/9878459a6ed3.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=kus5ovIc89ILfbTUjlQ9eg",
+        "path": "真题库/图片/省考/e885c3801f3d.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "89a04cb4a5bb0c603cde9a66e77c4b876e3a187c57063166d5d3ab018804bbf0"
+  },
+  {
+    "uid": "prov:3522397",
+    "fenbiId": "3522397",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某果品公司急需将一批不易存放的水果从A市运到B市销售。现有四家运输公司可供选择，这四家运输公司提供的信息如下：如果A、B两市的距离为S千米（S&lt;550千米），且这批水果在包装与装卸以及运输过程中的损耗为300元/小时，那么要使果品公司支付的总费用（包装与装卸费用、运输费用及损耗三项之和）最小，应选择哪家运输公司？",
+    "o": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某果品公司急需将一批不易存放的水果从A市运到B市销售。现有四家运输公司可供选择，这四家运输公司提供的信息如下：</p><p><img width=\"700px\" height=\"237px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1787278140aec6c.png?width=700\"></p><p>如果A、B两市的距离为S千米（S&lt;550千米），且这批水果在包装与装卸以及运输过程中的损耗为300元/小时，那么要使果品公司支付的总费用（包装与装卸费用、运输费用及损耗三项之和）最小，应选择哪家运输公司？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1787278140aec6c.png?width=700",
+        "path": "真题库/图片/省考/7c9894208e14.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6f92d8bbd31215bd648886d7a8e0d9da67e5b572486cfd0ddc4b3d16b165a290"
+  },
+  {
+    "uid": "prov:3522399",
+    "fenbiId": "3522399",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "送奶工人给11楼住户送牛奶，由于小区停电导致电梯无法使用。如果他走楼梯从第1层到第2层需要5秒，以后每多走一层需多花2秒，其中走到5层以后每多走一层需多休息5秒，那么他走到11层需要多少秒？",
+    "o": [
+      "210",
+      "215",
+      "220",
+      "235"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>送奶工人给11楼住户送牛奶，由于小区停电导致电梯无法使用。如果他走楼梯从第1层到第2层需要5秒，以后每多走一层需多花2秒，其中走到5层以后每多走一层需多休息5秒，那么他走到11层需要多少秒？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1eb434cba3396010954f72897772e17ccd23caacb1901751fafa536c97f3dd20"
+  },
+  {
+    "uid": "prov:3522411",
+    "fenbiId": "3522411",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "我国一支工兵部队在某国执行维和任务，负责道路抢修工作。某天，该部队负责的道路被炮弹炸出一个球面形状的大坑。经测量，弹坑直径16m，深4m。现需用车辆运送混凝土填充弹坑，铺平道路，假设每车次可运输的混凝土，问抢修道路至少需要出动运输车多少车次？（球缺体积计算公式为，其中r为球半径，h为球缺高，V为球缺体积）",
+    "o": [
+      "65",
+      "66",
+      "67",
+      "68"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>我国一支工兵部队在某国执行维和任务，负责道路抢修工作。某天，该部队负责的道路被炮弹炸出一个球面形状的大坑。经测量，弹坑直径16m，深4m。现需用车辆运送混凝土填充弹坑，铺平道路，假设每车次可运输<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=CrEOM3Vbm26zMinEbuetaw\">的混凝土，问抢修道路至少需要出动运输车多少车次？（球缺体积计算公式为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=v1HByMRSIaRbFavSb8DdL5IfEd3UdC-qsjnxQaZLV3s\">，其中r为球半径，h为球缺高，V为球缺体积）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=CrEOM3Vbm26zMinEbuetaw",
+        "path": "真题库/图片/省考/296326a28af6.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=v1HByMRSIaRbFavSb8DdL5IfEd3UdC-qsjnxQaZLV3s",
+        "path": "真题库/图片/省考/a4dd89efd2a5.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4e066395861406efee5ba891a304400877394ea535a480f43e7528a21bbc243d"
+  },
+  {
+    "uid": "prov:3522427",
+    "fenbiId": "3522427",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "太平洋上有一个圆形的平坦小岛，岛上遍布森林，闪电击中处于小岛边缘的树木引发森林火灾（如下图所示）。假设火线是以圆弧状往小岛深处推进，问当大火烧到小岛中心位置时，过火面积占全岛面积的比例大约是多少？",
+    "o": [
+      "45%",
+      "40%",
+      "35%",
+      "30%"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>太平洋上有一个圆形的平坦小岛，岛上遍布森林，闪电击中处于小岛边缘的树木引发森林火灾（如下图所示）。假设火线是以圆弧状往小岛深处推进，问当大火烧到小岛中心位置时，过火面积占全岛面积的比例大约是多少？</p><p><img width=\"483px\" height=\"458px\" src=\"//fb.fbstatic.cn/api/tarzan/images/178731f034502fc.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/178731f034502fc.png?width=700",
+        "path": "真题库/图片/省考/d4f547e212f1.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1bd3cc049cbf1c9288937f05afa194e07b4f6edf0d5440dbbf9847d19282b591"
+  },
+  {
+    "uid": "prov:3522433",
+    "fenbiId": "3522433",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2021,
+    "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_AH_2021.json",
+    "s": "某市江滨有一处边长为50米的等边三角形广场。广场里设计有三个大小相等的圆环鹅卵石道路供市民散步。如下图所示，各圆相切，各圆与三角形也相切。问沿三个圆环外围石道（不含圆切点之间的弧）散步一圈约为多少米？",
+    "o": [
+      "95",
+      "105",
+      "115",
+      "125"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某市江滨有一处边长为50米的等边三角形广场。广场里设计有三个大小相等的圆环鹅卵石道路供市民散步。如下图所示，各圆相切，各圆与三角形也相切。问沿三个圆环外围石道（不含圆切点之间的弧）散步一圈约为多少米？</p><p><img width=\"606px\" height=\"487px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17872fd53f0c21f.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17872fd53f0c21f.png?width=700",
+        "path": "真题库/图片/省考/8451a5b7c7e5.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2021,
+        "paper": "2021年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_AH_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "516156f20e348e29d527d98acf0d6831fce1399a88cc9bb6f49f3703f33061f4"
+  },
+  {
+    "uid": "prov:5102155",
+    "fenbiId": "5102155",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 1,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "滑雪和滑冰是冬奥会的两大项赛事，其中高山滑雪、自由式滑雪、单板滑雪、跳台滑雪、越野滑雪和北欧两项是滑雪大项中的6个分项，短道速滑、速度滑冰和花样滑冰是滑冰大项中的3个分项。小林打算去现场观看比赛，共选择6个项目，并且每个大项不少于1个，若所有项目比赛时间均不交叉，则不同的观赛方式有：",
+    "o": [
+      "83种",
+      "84种",
+      "92种",
+      "102种"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>滑雪和滑冰是冬奥会的两大项赛事，其中高山滑雪、自由式滑雪、单板滑雪、跳台滑雪、越野滑雪和北欧两项是滑雪大项中的6个分项，短道速滑、速度滑冰和花样滑冰是滑冰大项中的3个分项。小林打算去现场观看比赛，共选择6个项目，并且每个大项不少于1个，若所有项目比赛时间均不交叉，则不同的观赛方式有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 1
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 1,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "79caf7fa2547e2bb7a9d67e90238c196d8da5a50addc5ceea0ccff20dab4d4c3"
+  },
+  {
+    "uid": "prov:5102131",
+    "fenbiId": "5102131",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某单位四个党史宣讲小组各有若干组员，现增加2人并重新分配，使得四个小组人数相等。此时与原先相比，第一小组人数增加10人，第二小组人数减少1人，第三小组人数增加一倍，第四小组人数减半。则原先人数最多的小组与人数最少的小组之间相差：",
+    "o": [
+      "15人",
+      "21人",
+      "24人",
+      "32人"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位四个党史宣讲小组各有若干组员，现增加2人并重新分配，使得四个小组人数相等。此时与原先相比，第一小组人数增加10人，第二小组人数减少1人，第三小组人数增加一倍，第四小组人数减半。则原先人数最多的小组与人数最少的小组之间相差：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "51cc35d42b8aaa308493fa5e6fd4c7b0e96e3e994217431f843b073d3fa89e6a"
+  },
+  {
+    "uid": "prov:5102162",
+    "fenbiId": "5102162",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 3,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某方舱医院配有1000张床位，现已接收新冠确诊患者200名，并按床护比（护士数与床位数的比值）0.6：1配齐了护士人员。因疫情发展迅速，该医院又收治了700名患者，此时床护比下调为0.2：1，那么还需增加护士：",
+    "o": [
+      "80名",
+      "60名",
+      "40名",
+      "20名"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某方舱医院配有1000张床位，现已接收新冠确诊患者200名，并按床护比（护士数与床位数的比值）0.6：1配齐了护士人员。因疫情发展迅速，该医院又收治了700名患者，此时床护比下调为0.2：1，那么还需增加护士：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 3
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5949d14b0fc01d3538765ba4d039b25c310410ed36e0f7c441a650f9efbc2fae"
+  },
+  {
+    "uid": "prov:5102321",
+    "fenbiId": "5102321",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某助农志愿小分队采摘到甲、乙、丙三筐枸杞共144斤。第一次从甲筐中取出与乙筐一样重的枸杞放入乙筐，第二次再从现有乙筐中取出与丙筐一样重的枸杞放入丙筐，第三次从现有丙筐中取出与现有甲筐一样重的枸杞放入甲筐，此时三筐枸杞一样重。那么原来甲筐中有枸杞：",
+    "o": [
+      "36斤",
+      "48斤",
+      "56斤",
+      "66斤"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某助农志愿小分队采摘到甲、乙、丙三筐枸杞共144斤。第一次从甲筐中取出与乙筐一样重的枸杞放入乙筐，第二次再从现有乙筐中取出与丙筐一样重的枸杞放入丙筐，第三次从现有丙筐中取出与现有甲筐一样重的枸杞放入甲筐，此时三筐枸杞一样重。那么原来甲筐中有枸杞：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "24dee0e963b1d8eff429d1badb61dad0f33eb248259fde96b161577e2d410579"
+  },
+  {
+    "uid": "prov:5102142",
+    "fenbiId": "5102142",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某地采用传统销售模式，销售一批鸡蛋需要20天，销售一批桃子需要25天。为推动销售，当地开启县领导直播带货模式，直播带货期间，鸡蛋的销售效率提高为原来的2倍，桃子销售效率为原来的3倍；其余销售时间依然按照传统模式进行，结果两种产品同时销售完成。那么销售期间直播带货的天数为：",
+    "o": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地采用传统销售模式，销售一批鸡蛋需要20天，销售一批桃子需要25天。为推动销售，当地开启县领导直播带货模式，直播带货期间，鸡蛋的销售效率提高为原来的2倍，桃子销售效率为原来的3倍；其余销售时间依然按照传统模式进行，结果两种产品同时销售完成。那么销售期间直播带货的天数为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e611c846122a1def2fe77f5634dc3c7b81cd18c411538afde44d8f88b60af160"
+  },
+  {
+    "uid": "prov:5102161",
+    "fenbiId": "5102161",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "为了加强环境治理和生态修复，某市派出4位专家（甲、乙、丙、丁）前往某山区3个勘探点进行环境检测，要求每个勘探点至少安排一名专家。那么甲、乙两名专家去了不同勘探点的概率是：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为了加强环境治理和生态修复，某市派出4位专家（甲、乙、丙、丁）前往某山区3个勘探点进行环境检测，要求每个勘探点至少安排一名专家。那么甲、乙两名专家去了不同勘探点的概率是：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=VHh4K_v3geyqhHxktVBovr9BIxyYdgWYbi8kAwRifqk",
+        "path": "真题库/图片/省考/6b96ed379139.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=GAcI3fE8pyvGdZEQJiceGYGbOLIbzBDdMqkyIn7QavQ",
+        "path": "真题库/图片/省考/b31409fc531a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=R9QYBLwQQOO66s8Ntng_em9de2khC-yOwwaSNPcyfxg",
+        "path": "真题库/图片/省考/6e445dc91de6.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=8LOZvfaA060x3KUZsCwudJ0rlt7eVdAqpKOvBVsRV4U",
+        "path": "真题库/图片/省考/9ab6b77c7f55.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8bf5b73d6a8a1ff26a40610326ecfbd43d905348bd626c72e4db948cc5a099d1"
+  },
+  {
+    "uid": "prov:5102140",
+    "fenbiId": "5102140",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "北京冬奥会期间，冬奥会吉祥物“冰墩墩”纪念品十分畅销。销售期间某商家发现，进价为每个40元的“冰墩墩”，当售价定为44元时，每天可售出300个，售价每上涨1元，每天销量减少10个。现商家决定提价销售，若要使销售利润达到最大，则售价应为：",
+    "o": [
+      "51元",
+      "52元",
+      "54元",
+      "57元"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>北京冬奥会期间，冬奥会吉祥物“冰墩墩”纪念品十分畅销。销售期间某商家发现，进价为每个40元的“冰墩墩”，当售价定为44元时，每天可售出300个，售价每上涨1元，每天销量减少10个。现商家决定提价销售，若要使销售利润达到最大，则售价应为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "22667d758d23edd7b5ee1d87e7d43273ff867d1e59e926b2c556a628207a78a2"
+  },
+  {
+    "uid": "prov:5102311",
+    "fenbiId": "5102311",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某商场为庆祝开业三周年，制作了一个长方形大蛋糕，并切成四块，如图所示。假设这个蛋糕可供350人享用，左下角那块蛋糕平均可供50人享用，右上角那块蛋糕平均可供70人，则中间最大块蛋糕平均可供多少人享用？",
+    "o": [
+      "150",
+      "155",
+      "175",
+      "180"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某商场为庆祝开业三周年，制作了一个长方形大蛋糕，并切成四块，如图所示。假设这个蛋糕可供350人享用，左下角那块蛋糕平均可供50人享用，右上角那块蛋糕平均可供70人，则中间最大块蛋糕平均可供多少人享用？</p><p><img width=\"412px\" height=\"253px\" src=\"//fb.fbstatic.cn/api/tarzan/images/181e31662486804.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/181e31662486804.png?width=700",
+        "path": "真题库/图片/省考/0004a72d89e0.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cae21cec777dc821529051aa5050f034a64beecff58cc2971fe1a4b8b1a35f5d"
+  },
+  {
+    "uid": "prov:5102127",
+    "fenbiId": "5102127",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某市举行庆典活动，将依次升空105架无人机，升空方式如下：每架无人机间距均相等，第一次升空n架，第二次升空n-1架，以此类推，最终在夜空中组成一个近似等边三角形背景的灯光秀，那么第10次升空的无人机数量是：",
+    "o": [
+      "3架",
+      "5架",
+      "8架",
+      "10架"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某市举行庆典活动，将依次升空105架无人机，升空方式如下：每架无人机间距均相等，第一次升空n架，第二次升空n-1架，以此类推，最终在夜空中组成一个近似等边三角形背景的灯光秀，那么第10次升空的无人机数量是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "339097477179c5e75b600456bfd02564dc124494f9c66a43267a45e0a9d40bce"
+  },
+  {
+    "uid": "prov:5102135",
+    "fenbiId": "5102135",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某城市规划馆有一个边长为40米的正三角形数字展厅，展厅中布置有5台投影设备，用于展示城市的过去、现在以及畅想城市的未来。每台投影设备的尺寸忽略不计，则任意两台设备之间的最小距离：",
+    "o": [
+      "小于10米",
+      "不超过16米",
+      "不超过20米",
+      "在23～28米之间"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某城市规划馆有一个边长为40米的正三角形数字展厅，展厅中布置有5台投影设备，用于展示城市的过去、现在以及畅想城市的未来。每台投影设备的尺寸忽略不计，则任意两台设备之间的最小距离：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b4fe90f244f9c5268586857ff704c2c8cf21802ea29c2489f2a9ee4bd2d223d1"
+  },
+  {
+    "uid": "prov:5102309",
+    "fenbiId": "5102309",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "某镇卫生院50多名医生被平均分配到13个基层诊所参与工作，其中男医生比女医生多4人。工作结束后，25％的男医生和一部分女医生继续到邻镇4个医疗点支援工作，这批人员中任意6人必有男医生，且保证必有一个医疗点的女医生多于1人。那么该卫生院到邻镇支援工作的医生共有：",
+    "o": [
+      "12人",
+      "14人",
+      "16人",
+      "18人"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某镇卫生院50多名医生被平均分配到13个基层诊所参与工作，其中男医生比女医生多4人。工作结束后，25％的男医生和一部分女医生继续到邻镇4个医疗点支援工作，这批人员中任意6人必有男医生，且保证必有一个医疗点的女医生多于1人。那么该卫生院到邻镇支援工作的医生共有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "44cb81348960e9fdb53ca70f90f25e7d0b367af7ca99d89f2bb136b6a3b03f1c"
+  },
+  {
+    "uid": "prov:5102138",
+    "fenbiId": "5102138",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 12,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "用一个长为20厘米、宽为2厘米、高为1.5厘米的长方体木料，制作一串半径最大的木珠子，不考虑制作过程中的损耗，则这串珠子的数量最多为：",
+    "o": [
+      "10个",
+      "13个",
+      "14个",
+      "20个"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>用一个长为20厘米、宽为2厘米、高为1.5厘米的长方体木料，制作一串半径最大的木珠子，不考虑制作过程中的损耗，则这串珠子的数量最多为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 12
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 12,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b8ef06b93971cb82e99002f51db7d8304334b2c7a50babe826709553ffed9fae"
+  },
+  {
+    "uid": "prov:5102159",
+    "fenbiId": "5102159",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2022,
+    "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 13,
+    "sourceFile": "_downloads/fb/paper_AH_2022.json",
+    "s": "三星堆一号祭祀坑出土一枚金杖（如下图所示），全长1.42米，直径2.3厘米，采用的是金皮包卷在圆柱形木头上，出土时，金皮重约500克，已知60克黄金的体积是3.1088立方厘米，则金皮的厚度大约是：（保留小数点后两位）",
+    "o": [
+      "0.25mm",
+      "0.51mm",
+      "0.87mm",
+      "1.02mm"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>三星堆一号祭祀坑出土一枚金杖（如下图所示），全长1.42米，直径2.3厘米，采用的是金皮包卷在圆柱形木头上，出土时，金皮重约500克，已知60克黄金的体积是3.1088立方厘米，则金皮的厚度大约是：（保留小数点后两位）</p><p><img width=\"99px\" height=\"400px\" src=\"//fb.fbstatic.cn/api/tarzan/images/182a607331431f2.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/182a607331431f2.png?width=700",
+        "path": "真题库/图片/省考/0d3d0114adc0.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 13
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2022,
+        "paper": "2022年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 13,
+        "sourceFile": "_downloads/fb/paper_AH_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "75009f4e8a7728b8010c22b251446b73bca873513f2edb014dd76477619886bc"
+  },
+  {
+    "uid": "prov:5509969",
+    "fenbiId": "5509969",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 21,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某村拟建造一个容积为144立方米，深度为4米的长方体无盖蓄水池。为节约成本，侧面积最小为多少平方米？",
+    "o": [
+      "24",
+      "36",
+      "96",
+      "132"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某村拟建造一个容积为144立方米，深度为4米的长方体无盖蓄水池。为节约成本，侧面积最小为多少平方米？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 21
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 21,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "dec318ece5d1f6e9f6bdf29ac3570cd6746ae0aa11c593ce93112d1a47db85cc"
+  },
+  {
+    "uid": "prov:5509973",
+    "fenbiId": "5509973",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 22,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "浮雕银杯是我国古代常见的一种盛酒容器，有大银杯和小银杯之分。已知5个大银杯加1个小银杯，可以盛酒3斛（斛，是古代的一种容量单位），5个小银杯加1个大银杯，可以盛酒2斛，则1斛酒至多可以倒满小银杯的数量为：",
+    "o": [
+      "2个",
+      "3个",
+      "4个",
+      "5个"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>浮雕银杯是我国古代常见的一种盛酒容器，有大银杯和小银杯之分。已知5个大银杯加1个小银杯，可以盛酒3斛（斛，是古代的一种容量单位），5个小银杯加1个大银杯，可以盛酒2斛，则1斛酒至多可以倒满小银杯的数量为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 22
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 22,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "17aac2e68ce30df260ab1c498f7d8c8847408ed8a5b055aadb728201cf3f492b"
+  },
+  {
+    "uid": "prov:5509979",
+    "fenbiId": "5509979",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 23,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某智慧公共停车场的收费标准如下：停车不超过15分钟，不收费；超过15分钟但不超过60分钟，按1小时计，收费5元；超过1小时后，超过的部分按每30分钟4元收费（不足30分钟，按30分钟计）。若李先生支付停车费17元，则他停车的时长可能为：",
+    "o": [
+      "2小时",
+      "2小时15分钟",
+      "2小时45分钟",
+      "3小时"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某智慧公共停车场的收费标准如下：停车不超过15分钟，不收费；超过15分钟但不超过60分钟，按1小时计，收费5元；超过1小时后，超过的部分按每30分钟4元收费（不足30分钟，按30分钟计）。若李先生支付停车费17元，则他停车的时长可能为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 23
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 23,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4cbcf416725834c4ad5ca86f1e6f2fffb432e819496e31b3e7dd2387cc623594"
+  },
+  {
+    "uid": "prov:5510000",
+    "fenbiId": "5510000",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 24,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某公司自主研发生产的A、B、C三种型号氢燃料电池，解决了该公司今年生产轿车所需电池数量的10%（按一辆车配一块电池计算）。其中A型号氢燃料电池的产量是B型号的2倍，C型号的产量比A、B两种型号的产量之和还多400块。预计该公司今年的轿车总产量是42.4万辆，那么B型号氢燃料电池的产量是：",
+    "o": [
+      "3500块",
+      "7000块",
+      "14000块",
+      "21400块"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司自主研发生产的A、B、C三种型号氢燃料电池，解决了该公司今年生产轿车所需电池数量的10%（按一辆车配一块电池计算）。其中A型号氢燃料电池的产量是B型号的2倍，C型号的产量比A、B两种型号的产量之和还多400块。预计该公司今年的轿车总产量是42.4万辆，那么B型号氢燃料电池的产量是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 24
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 24,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "37ce7d8b4a720bd228daca90229739aa35adf819aeb01e4dce4eaf3a6e719459"
+  },
+  {
+    "uid": "prov:5510001",
+    "fenbiId": "5510001",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 25,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某学习平台收到的征文，将通过两轮评审决定能否采用。先由两位编辑进行初审，若两位编辑评审都通过，则予以采用；若两位编辑都未予通过，则不予采用；若仅有一位编辑初审通过，则再由主编进行复审，若复审通过，则予以采用，否则不予采用。设稿件能通过各初审编辑评审的概率均为0.4，复审的稿件能通过的概率为0.2，各编辑独立评审，则每篇征文被采用的概率为：",
+    "o": [
+      "0.32",
+      "0.256",
+      "0.24",
+      "0.208"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某学习平台收到的征文，将通过两轮评审决定能否采用。先由两位编辑进行初审，若两位编辑评审都通过，则予以采用；若两位编辑都未予通过，则不予采用；若仅有一位编辑初审通过，则再由主编进行复审，若复审通过，则予以采用，否则不予采用。设稿件能通过各初审编辑评审的概率均为0.4，复审的稿件能通过的概率为0.2，各编辑独立评审，则每篇征文被采用的概率为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 25
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 25,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4bfc8507c641d26940968f9392b2c29d1224964e0d6f5521dbf42511758342bb"
+  },
+  {
+    "uid": "prov:5510002",
+    "fenbiId": "5510002",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某小区物业准备了230盒口罩免费派发给10栋楼，要求任意两栋楼派发的口罩数量都不相同，但最多相差不超过1倍。假设口罩不拆盒发放，那么派发口罩数量最少的那栋楼最少可派发口罩：",
+    "o": [
+      "18盒",
+      "15盒",
+      "14盒",
+      "12盒"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某小区物业准备了230盒口罩免费派发给10栋楼，要求任意两栋楼派发的口罩数量都不相同，但最多相差不超过1倍。假设口罩不拆盒发放，那么派发口罩数量最少的那栋楼最少可派发口罩：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3008a9aeb0899bf0da90b533511543fe2f26478349728fa5cd3f6832a6f353a4"
+  },
+  {
+    "uid": "prov:5510003",
+    "fenbiId": "5510003",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某市公立小学入学实行摇号方式，依次分别从十个号码球中（内置0至9十个号码）摇号抽取个、十、百位数号码，组成一个数。与该数字相同编号（如001即为1）学生即为第一个中签录取的学生，第二位录取的学生为第一位录取学生的编号+等差数，以此类推确定中签号。参加摇号的学生总人数为950人，若在第一轮摇号中，第一个中签数是270，等差数是8，那么以下哪一个号段中签的人数最多？",
+    "o": [
+      "100至200",
+      "200至300",
+      "300至400",
+      "400至500"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某市公立小学入学实行摇号方式，依次分别从十个号码球中（内置0至9十个号码）摇号抽取个、十、百位数号码，组成一个数。与该数字相同编号（如001即为1）学生即为第一个中签录取的学生，第二位录取的学生为第一位录取学生的编号+等差数，以此类推确定中签号。参加摇号的学生总人数为950人，若在第一轮摇号中，第一个中签数是270，等差数是8，那么以下哪一个号段中签的人数最多？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "83dc817cf6180b03d0780153070eb740c53f3d7996b7a23eee5e2f0075833fe7"
+  },
+  {
+    "uid": "prov:5510004",
+    "fenbiId": "5510004",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某空军基地举行飞行训练，有8架歼击机、3架预警直升机、2架反潜直升机参与训练，每架飞机编号不同。训练时，需派出3架歼击机、2架预警直升机、1架反潜直升机进行起降飞行。若每次只能起飞1架飞机，其中3架歼击机必须相邻起飞，2架预警直升机不能相邻起飞，那么不同的起飞方式有多少种？",
+    "o": [
+      "504",
+      "4032",
+      "8064",
+      "24192"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某空军基地举行飞行训练，有8架歼击机、3架预警直升机、2架反潜直升机参与训练，每架飞机编号不同。训练时，需派出3架歼击机、2架预警直升机、1架反潜直升机进行起降飞行。若每次只能起飞1架飞机，其中3架歼击机必须相邻起飞，2架预警直升机不能相邻起飞，那么不同的起飞方式有多少种？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d281ba03e3eeb5cf7a2bc50ab61a81dad36cf35d932c40ee0f44bfc7ee4a3b4f"
+  },
+  {
+    "uid": "prov:5509974",
+    "fenbiId": "5509974",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "小林因病入院需挂瓶输液，上午9点开始输液，输液袋上标有“容量300毫升，每毫升15滴”等药液信息。输液开始时，药液滴速为75滴/分钟。输液5分钟后小林感觉身体不适，护士帮忙调整了药液滴速（调整时间不计），又继续输液10分钟，药液还剩235毫升，那么输液结束的时间是：",
+    "o": [
+      "10点26分",
+      "10点18分",
+      "10点14分",
+      "10点10分"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小林因病入院需挂瓶输液，上午9点开始输液，输液袋上标有“容量300毫升，每毫升15滴”等药液信息。输液开始时，药液滴速为75滴/分钟。输液5分钟后小林感觉身体不适，护士帮忙调整了药液滴速（调整时间不计），又继续输液10分钟，药液还剩235毫升，那么输液结束的时间是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7e0f67f5eb5b63abcf070c2d8339a433023f775f338635dad432581069137be3"
+  },
+  {
+    "uid": "prov:5509971",
+    "fenbiId": "5509971",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "世界非物质文化遗产高峰论坛召开记者会，共有10家国内媒体和4家国外媒体参加。组委会从中选出3家媒体回答他们的问题，要求这3家媒体中既有国内媒体又有国外媒体，且国内外媒体交叉提问，则不同的提问方式有：",
+    "o": [
+      "240种",
+      "360种",
+      "480种",
+      "1440种"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>世界非物质文化遗产高峰论坛召开记者会，共有10家国内媒体和4家国外媒体参加。组委会从中选出3家媒体回答他们的问题，要求这3家媒体中既有国内媒体又有国外媒体，且国内外媒体交叉提问，则不同的提问方式有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "60f76f1988fabc5498e52580237505e889c3ca51af981bd92b77b524e21b6f21"
+  },
+  {
+    "uid": "prov:5509977",
+    "fenbiId": "5509977",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某产业展洽会主办方融合“七巧板”元素设计了七大展示区域（如下图所示），甲、乙、丙三家参展公司从7块展区中分别选择面积各不相同的一个区域进行布展，则共有多少种选择方案？",
+    "o": [
+      "48",
+      "72",
+      "96",
+      "192"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某产业展洽会主办方融合“七巧板”元素设计了七大展示区域（如下图所示），甲、乙、丙三家参展公司从7块展区中分别选择面积各不相同的一个区域进行布展，则共有多少种选择方案？</p><p><img width=\"200px\" height=\"201px\" src=\"//fb.fbstatic.cn/api/tarzan/images/186897517aff0ca.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/186897517aff0ca.png?width=700",
+        "path": "真题库/图片/省考/bd5fa5561540.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e35e6de74177b800f5152ed4811c80ec029c5aae032f995d550a42a028eb83e7"
+  },
+  {
+    "uid": "prov:5509982",
+    "fenbiId": "5509982",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某餐馆承诺25分钟内上齐一桌菜，若超时则未上的菜品免单。每张餐桌上都有一个装满后正好25分钟漏完的圆锥形沙漏（如下图所示）。某位顾客在等待的过程中发现沙漏内上方沙子的高度为原先的一半，此时还差一道菜未上，则再过多久还未上菜，这位顾客将享受免单服务？",
+    "o": [
+      "不到3分钟",
+      "3-4分钟之间",
+      "4-5分钟之间",
+      "超过6分钟"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某餐馆承诺25分钟内上齐一桌菜，若超时则未上的菜品免单。每张餐桌上都有一个装满后正好25分钟漏完的圆锥形沙漏（如下图所示）。某位顾客在等待的过程中发现沙漏内上方沙子的高度为原先的一半，此时还差一道菜未上，则再过多久还未上菜，这位顾客将享受免单服务？</p><p><img width=\"114px\" height=\"191px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1868975fad3102b.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1868975fad3102b.png?width=700",
+        "path": "真题库/图片/省考/c69a408d6866.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "dd6ec63484eb573c1963c25148dfdd9a3427c141243b30d726b0e0ae540bf2c4"
+  },
+  {
+    "uid": "prov:5509988",
+    "fenbiId": "5509988",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "厦门鼓浪屿海滨覆鼎岩上屹立着一尊郑成功雕像。为了测量石像的高度，某测量小组选取的测量点A与覆鼎岩底部D在同一水平线上，如下图所示。已知覆鼎岩高CD为24米，在A处测得石像头顶部B的仰角为，石像底部C的仰角为（参考数据：，，），则石像BC的高度约为：",
+    "o": [
+      "20米",
+      "18米",
+      "16米",
+      "14米"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>厦门鼓浪屿海滨覆鼎岩上屹立着一尊郑成功雕像。为了测量石像的高度，某测量小组选取的测量点A与覆鼎岩底部D在同一水平线上，如下图所示。已知覆鼎岩高CD为24米，在A处测得石像头顶部B的仰角为<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=eiqR_iE9D2yWkX3n01QwTQ\">，石像底部C的仰角为<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=INPUauyXf-H_kSv6rQKz-w\">（参考数据：<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=wPjIQYjGB1yJEf_-uSAfTBXkFim-GJ0qOE33k6bLOj8\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=MxVELeb4pHMXo6gjkcBa7Mb4_wikmgFweWlqktN-olQ\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=EXC_6il3WidKjgTdPEFLnscILSvP2PfonaRWXy_0yUk\">），则石像BC的高度约为：</p><p><img width=\"506px\" height=\"204px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18689789a338a89.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=eiqR_iE9D2yWkX3n01QwTQ",
+        "path": "真题库/图片/省考/9c8cd017d02a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=INPUauyXf-H_kSv6rQKz-w",
+        "path": "真题库/图片/省考/c453b34bbc6f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=wPjIQYjGB1yJEf_-uSAfTBXkFim-GJ0qOE33k6bLOj8",
+        "path": "真题库/图片/省考/a5b262cff319.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=MxVELeb4pHMXo6gjkcBa7Mb4_wikmgFweWlqktN-olQ",
+        "path": "真题库/图片/省考/2ab644be2f2d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=EXC_6il3WidKjgTdPEFLnscILSvP2PfonaRWXy_0yUk",
+        "path": "真题库/图片/省考/ba77f1da52dc.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18689789a338a89.png?width=700",
+        "path": "真题库/图片/省考/63a00889dbde.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c66fafed80ebcdd2639e3cf8773ead2f88d70cf794cfd2c0bc9797c3131da229"
+  },
+  {
+    "uid": "prov:5509990",
+    "fenbiId": "5509990",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某品牌圆形扫地机器人升级设计方案，是在原有扫地机器人的前端伸出8cm可转动的边刷进行清扫（如下图所示），目的是将无法触及的边边角角都彻底清扫干净，那么，为保证这一效果，该型号扫地机器人圆形机身的最大直径是：（答案取整数位）",
+    "o": [
+      "30cm",
+      "36cm",
+      "38cm",
+      "40cm"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某品牌圆形扫地机器人升级设计方案，是在原有扫地机器人的前端伸出8cm可转动的边刷进行清扫（如下图所示），目的是将无法触及的边边角角都彻底清扫干净，那么，为保证这一效果，该型号扫地机器人圆形机身的最大直径是：（答案取整数位）</p><p><img width=\"522px\" height=\"178px\" src=\"//fb.fbstatic.cn/api/tarzan/images/186897a910e2db9.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/186897a910e2db9.png?width=700",
+        "path": "真题库/图片/省考/0f918bc67345.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8e2f82c85a47c82260ba3869298d4c692617646b26447c5d4017b009642a8e07"
+  },
+  {
+    "uid": "prov:5509995",
+    "fenbiId": "5509995",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2023,
+    "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_AH_2023.json",
+    "s": "某大型商场的地下停车场入口处横截面如下图所示，入口处斜坡的坡角为30度，下坡起点至入口顶部水平距离为6米，楼板厚为0.6米。商场管理处需在入口处张贴限高标志，以便告知车辆能否安全驶入。若停车场内部的高度均高于入口处汽车可通过的最低高度，则下列限高最为合理的是：",
+    "o": [
+      "1.8米",
+      "2.3米",
+      "2.6米",
+      "3.2米"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某大型商场的地下停车场入口处横截面如下图所示，入口处斜坡的坡角为30度，下坡起点至入口顶部水平距离为6米，楼板厚为0.6米。商场管理处需在入口处张贴限高标志，以便告知车辆能否安全驶入。若停车场内部的高度均高于入口处汽车可通过的最低高度，则下列限高最为合理的是：</p><p><img width=\"617px\" height=\"251px\" src=\"//fb.fenbike.cn/api/tarzan/images/186897b5b59c411.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/186897b5b59c411.png?width=700",
+        "path": "真题库/图片/省考/4adf3af4c393.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2023,
+        "paper": "2023年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_AH_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f8af98f98fb1fe5310ec7270b4d91dbe61e006a5a45a99e7be484cfbf30f0b98"
+  },
+  {
+    "uid": "prov:16592955",
+    "fenbiId": "16592955",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 25,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "某农产品基地对外供应一批农副产品。假设这批农副产品每天都有定量的自然损耗，如果提货方每天运走1.5吨产品，则50天运完；如果提货方每天运走2吨产品，则40天运完。那么这批农副产品有多少吨?",
+    "o": [
+      "75",
+      "80",
+      "100",
+      "110"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某农产品基地对外供应一批农副产品。假设这批农副产品每天都有定量的自然损耗，如果提货方每天运走1.5吨产品，则50天运完；如果提货方每天运走2吨产品，则40天运完。那么这批农副产品有多少吨?</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 25
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 25,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ae3ad5b5ac313b705eda5dad76377ebfe7138ad45c32b9290587f199613f04ae"
+  },
+  {
+    "uid": "prov:16592956",
+    "fenbiId": "16592956",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "运输公司准备将475箱相同的救灾物资运往灾区。现在有足够多的大、小两种货车可供选择，大货车每辆最多可装载48箱物资，小货车每辆最多可装载32箱物资。每辆大货车配两名驾驶员，每辆小货车配一名驾驶员，目前公司有17名驾驶员可供派遣。若装载物资时，应先装满大货车，再依次装满小货车，且最后一辆小货车的装载率至少要达到三分之二，则可选择的派车方案有多少种?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>运输公司准备将475箱相同的救灾物资运往灾区。现在有足够多的大、小两种货车可供选择，大货车每辆最多可装载48箱物资，小货车每辆最多可装载32箱物资。每辆大货车配两名驾驶员，每辆小货车配一名驾驶员，目前公司有17名驾驶员可供派遣。若装载物资时，应先装满大货车，再依次装满小货车，且最后一辆小货车的装载率至少要达到三分之二，则可选择的派车方案有多少种?</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "276cf12bb598420ceb83a41be7ff7d9b4b0fef2f85a73364db2218fa42dfe177"
+  },
+  {
+    "uid": "prov:16592933",
+    "fenbiId": "16592933",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "某公司开展迎新春三分球投篮比赛。3个部门分别派出2、4、4个选手共计10人参加。规则要求同一个部门的选手顺序相连、全部投完再安排另一个部门的人员开始投篮，则这10人不同的投篮顺序种数的范围是：",
+    "o": [
+      "小于1000",
+      "1000~5000",
+      "5001~10000",
+      "10000以上"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司开展迎新春三分球投篮比赛。3个部门分别派出2、4、4个选手共计10人参加。规则要求同一个部门的选手顺序相连、全部投完再安排另一个部门的人员开始投篮，则这10人不同的投篮顺序种数的范围是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a7fc4f71b26467c7378d79df93fbf360fcb61f5060bd8504f9cddcf835b31c3f"
+  },
+  {
+    "uid": "prov:16592953",
+    "fenbiId": "16592953",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "某旅游公司定制甲、乙两种纪念品，第一次共定制50个。试销后根据反馈，第二次定制两种纪念品共70个，其中乙纪念品个数是第一次的。已知甲纪念品单价为15元，第一次定制花费1150元，那么第二次定制花费多少元?",
+    "o": [
+      "1150",
+      "1725",
+      "2300",
+      "2875"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某旅游公司定制甲、乙两种纪念品，第一次共定制50个。试销后根据反馈，第二次定制两种纪念品共70个，其中乙纪念品个数是第一次的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=IH0IkRk5QWSA4O9-El0bAA\">。已知甲纪念品单价为15元，第一次定制花费1150元，那么第二次定制花费多少元?</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=IH0IkRk5QWSA4O9-El0bAA",
+        "path": "真题库/图片/省考/068ad0b9a93a.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cfcff08143f67596397116a7d2e17464def9c1e850a1a1454c53288453586103"
+  },
+  {
+    "uid": "prov:16592959",
+    "fenbiId": "16592959",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "原油A每吨的价格为0.3万元，可提炼苯乙烯0.5吨，提炼过程中每吨原油产生的废气量为0.4吨；原油B每吨的价格为0.4万元，可提炼苯乙烯0.7吨，提炼过程中每吨原油产生的废气量为0.3吨。若要提炼至少1.9吨的苯乙烯且产生的废气量不超过1吨，则购买原油的最低费用为多少万元？",
+    "o": [
+      "1",
+      "1.1",
+      "1.2",
+      "1.3"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>原油A每吨的价格为0.3万元，可提炼苯乙烯0.5吨，提炼过程中每吨原油产生的废气量为0.4吨；原油B每吨的价格为0.4万元，可提炼苯乙烯0.7吨，提炼过程中每吨原油产生的废气量为0.3吨。若要提炼至少1.9吨的苯乙烯且产生的废气量不超过1吨，则购买原油的最低费用为多少万元？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "87969d855c66f632bc877c8d3b345a07a49579281514fbbf457908fa61433bf8"
+  },
+  {
+    "uid": "prov:16592952",
+    "fenbiId": "16592952",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "中国空间站主体由天和核心舱、问天实验舱、梦天实验舱构成。某次实验需要5名宇航员同时在三个舱中开展，每个人只能去一个舱，每个舱至少安排1名宇航员，其中甲宇航员只能去问天实验舱和梦天实验舱中的一个，则不同的安排方法有多少种？",
+    "o": [
+      "72",
+      "88",
+      "100",
+      "144"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>中国空间站主体由天和核心舱、问天实验舱、梦天实验舱构成。某次实验需要5名宇航员同时在三个舱中开展，每个人只能去一个舱，每个舱至少安排1名宇航员，其中甲宇航员只能去问天实验舱和梦天实验舱中的一个，则不同的安排方法有多少种？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "de1f0ee92e248e5ee63f17c11439af67e2a05158aa480d745a49c50b90af1a44"
+  },
+  {
+    "uid": "prov:16592957",
+    "fenbiId": "16592957",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "气象学中，24小时内降落在某面积上的雨水深度叫做日降雨量（不考虑渗漏、蒸发、流失等损耗，单位：mm），将日降雨量记为w，其等级划分如下：小雨（），中雨（），大雨（），暴雨（）。某地某日用一个圆锥形容器接了24小时的雨水（如下图所示），则该地日降雨量等级是：",
+    "o": [
+      "暴雨",
+      "大雨",
+      "中雨",
+      "小雨"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>气象学中，24小时内降落在某面积上的雨水深度叫做日降雨量（不考虑渗漏、蒸发、流失等损耗，单位：mm），将日降雨量记为w，其等级划分如下：小雨（<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=5cVYgo3-ekvJjLG9kK_Ego_8F2JrzFHjhYB74Z4kv88\">），中雨（<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=t2Q8FTceftD_zdd79GOBipu1k-sla2vgRhmS3ged94s\">），大雨（<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=Itxy8RCkU7Tr4F31ZpTNNg\">），暴雨（<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=YHVQvURMPq-08o3dQ3DEY4FQ71gur6ruuXaSmbdK5Hg\">）。某地某日用一个圆锥形容器接了24小时的雨水（如下图所示），则该地日降雨量等级是：</p><p><img width=\"348px\" height=\"423px\" src=\"//fb.fenbike.cn/api/tarzan/images/18e472a16186585.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=5cVYgo3-ekvJjLG9kK_Ego_8F2JrzFHjhYB74Z4kv88",
+        "path": "真题库/图片/省考/120d282d1616.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=t2Q8FTceftD_zdd79GOBipu1k-sla2vgRhmS3ged94s",
+        "path": "真题库/图片/省考/3a3e4f0a2d82.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=Itxy8RCkU7Tr4F31ZpTNNg",
+        "path": "真题库/图片/省考/ddee525d1966.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=YHVQvURMPq-08o3dQ3DEY4FQ71gur6ruuXaSmbdK5Hg",
+        "path": "真题库/图片/省考/76b52d4e70c8.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18e472a16186585.png?width=700",
+        "path": "真题库/图片/省考/c740d12167d0.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b664e379997e50f0a8b5f7b5cd22d09b3e74f3ab1258f5e30c0d97aacc82841a"
+  },
+  {
+    "uid": "prov:16592938",
+    "fenbiId": "16592938",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "某地人工湖景区开辟了沿湖福道和环湖乐道两条圆形观景道供市民休闲健身（如下图所示）。小李和他的妈妈分别沿乐道和福道从A、B两地同时同向而行（A、B两点间距离为50米），小李骑自行车的速度是妈妈步行速度的6倍，已知妈妈步行速度为每小时5千米，妈妈沿福道步行一周的时间是小李骑行乐道时间的4倍，那么这个湖面的面积约多少万平方米?（圆周率取3）",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地人工湖景区开辟了沿湖福道和环湖乐道两条圆形观景道供市民休闲健身（如下图所示）。小李和他的妈妈分别沿乐道和福道从A、B两地同时同向而行（A、B两点间距离为50米），小李骑自行车的速度是妈妈步行速度的6倍，已知妈妈步行速度为每小时5千米，妈妈沿福道步行一周的时间是小李骑行乐道时间的4倍，那么这个湖面的面积约多少万平方米?（圆周率取3）</p><p><img width=\"320px\" height=\"292px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18e46bb66454351.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18e46bb66454351.png?width=700",
+        "path": "真题库/图片/省考/eef015e73696.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "48feea25457ce1ae8974d94b09d0235dcec7e47a95574fecfe8b3bf808ca14f1"
+  },
+  {
+    "uid": "prov:10204649",
+    "fenbiId": "10204649",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "一个机器零部件的三视图如下图所示。为防生锈，要给其内部以及外表面均匀涂抹机油，若零件厚度忽略不计，则涂抹机油的面积为多少平方厘米？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一个机器零部件的三视图如下图所示。为防生锈，要给其内部以及外表面均匀涂抹机油，若零件厚度忽略不计，则涂抹机油的面积为多少平方厘米？</p><p><img width=\"700px\" height=\"157px\" src=\"//fb.fenbike.cn/api/tarzan/images/18e4f4e19cb3c95.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18e4f4e19cb3c95.png?width=700",
+        "path": "真题库/图片/省考/838c5d00ae25.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ZRHqQzbVYmMGvqqPXu3eV2RPQdryMZQ2gVhaiz2hbXE",
+        "path": "真题库/图片/省考/053cc0f8654f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=2RqBsrRj0fc9SqTDPFvR0BfKS4TpEKXQiNjr20QMQtM",
+        "path": "真题库/图片/省考/c0aa27074363.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=snECNtRSq3jgeuY--CTTzA",
+        "path": "真题库/图片/省考/04ec18591294.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=vqOL1BpUzwzeCCNl6XN6Sg",
+        "path": "真题库/图片/省考/1b5f90a4875a.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "9eefbea435347454ca4f53d5ada8334c55880c035ae9a68cb80a91d48aaa1669"
+  },
+  {
+    "uid": "prov:16592942",
+    "fenbiId": "16592942",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "",
+    "o": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=b5S2bmIZRMa2QsRS8XnpUoBDU1mu6XNw7cQKfcUdMB0",
+        "path": "真题库/图片/省考/3b5448f6ca95.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18e46d8839e7115.png?width=700",
+        "path": "真题库/图片/省考/1141dd982d80.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d2ea06e0fc4507dc66ce12d235ebf6b9be660c4aaccd8b8c0e7bbb84222a01c7"
+  },
+  {
+    "uid": "prov:16592954",
+    "fenbiId": "16592954",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2024,
+    "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_AH_2024.json",
+    "s": "莱洛三角形是以等边三角形三个顶点为圆心，边长为半径，在顶点的对边画弧所得的封闭图形，这种形状的钻头可钻出四角为圆弧的正方形的孔洞（如左下图所示）。现将某莱洛三角形钻头所钻孔洞近似为正方形，测得该正方形孔洞截面积为（如右下图所示），则该钻头的截面积为：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>莱洛三角形是以等边三角形三个顶点为圆心，边长为半径，在顶点的对边画弧所得的封闭图形，这种形状的钻头可钻出四角为圆弧的正方形的孔洞（如左下图所示）。现将某莱洛三角形钻头所钻孔洞近似为正方形，测得该正方形孔洞截面积为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=WloMEGrb5riaJmBku-zuqg\">（如右下图所示），则该钻头的截面积为：</p><p><img width=\"533px\" height=\"132px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18e46c8c5b4e03a.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=WloMEGrb5riaJmBku-zuqg",
+        "path": "真题库/图片/省考/dabe83a7be82.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18e46c8c5b4e03a.png?width=700",
+        "path": "真题库/图片/省考/47f53582840c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6azrK81jl39zCu2E_8H4aGXSS6e4Skm0KSWYcI6mYlfZjKt4_h22diECrYCLYF6e",
+        "path": "真题库/图片/省考/552d0f24328a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6azrK81jl39zCu2E_8H4aFL2TLX0VSt6MXkS0wQ8ykQi1jh83wbpiVa2jLE5z1HH",
+        "path": "真题库/图片/省考/5b120489ba74.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6azrK81jl39zCu2E_8H4aIP0cNoDSlPt-bGNOYFJEDbwWkEs3LHGoDHlEv8uKZJp",
+        "path": "真题库/图片/省考/1c9e6d02fcb7.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=6azrK81jl39zCu2E_8H4aOWZZDgkI-HUuSTyvgZ5d40KH9ZjkW2fi20un3LTownn",
+        "path": "真题库/图片/省考/2ee263b7a2c1.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2024,
+        "paper": "2024年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_AH_2024.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "920ee3cbab822a02d69ad5a15db4596ccaca672a0219328428787e0e41d71d38"
+  },
+  {
+    "uid": "prov:13504430",
+    "fenbiId": "13504430",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "小明在网络二手交易平台按照每张150元的价格转手了两张珍藏版CD，其中一张盈利25%，另一张亏损25%，则小明转手这两张CD总的盈亏情况是：",
+    "o": [
+      "不盈不亏",
+      "盈利20元",
+      "亏损20元",
+      "亏损25元"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小明在网络二手交易平台按照每张150元的价格转手了两张珍藏版CD，其中一张盈利25%，另一张亏损25%，则小明转手这两张CD总的盈亏情况是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "308c3da45feef2f96b09a03d3c110a64eb1d1018e16d26d7a7f8a98eeee8a965"
+  },
+  {
+    "uid": "prov:13504431",
+    "fenbiId": "13504431",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某小区组织“情满金秋”柑橘采摘活动，参加人员按年龄分成老、中、青三组，老年组、中年组的人数之比为5：2，中年组、青年组的人数之比为3：4。老年组、中年组、青年组平均每人采摘速度之比为1：2：3。已知青年组共采摘80斤柑橘，那么三组人员一共采摘柑橘：",
+    "o": [
+      "170斤",
+      "212斤",
+      "255斤",
+      "298斤"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某小区组织“情满金秋”柑橘采摘活动，参加人员按年龄分成老、中、青三组，老年组、中年组的人数之比为5：2，中年组、青年组的人数之比为3：4。老年组、中年组、青年组平均每人采摘速度之比为1：2：3。已知青年组共采摘80斤柑橘，那么三组人员一共采摘柑橘：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "94eaab7011c01eee5195a8cf232ce9b5795b29c174e6d46a83c55fdb66ead5dd"
+  },
+  {
+    "uid": "prov:12881893",
+    "fenbiId": "12881893",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某展览馆最多可以容纳1040人。该展览馆有A、B、C三个逃生出口，其中A出口每分钟可以通过150人，B出口每分钟可以通过100人，C出口每分钟可以通过80人，从A、B、C出口到达安全疏散点分别还需要1分钟、3分钟、2分钟。那么展览馆在满员情况下，全部人员紧急疏散到安全疏散点至少需要多少分钟？",
+    "o": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某展览馆最多可以容纳1040人。该展览馆有A、B、C三个逃生出口，其中A出口每分钟可以通过150人，B出口每分钟可以通过100人，C出口每分钟可以通过80人，从A、B、C出口到达安全疏散点分别还需要1分钟、3分钟、2分钟。那么展览馆在满员情况下，全部人员紧急疏散到安全疏散点至少需要多少分钟？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c99ffe63a791561ae913637fb2057df3d7021f205c986e1d87a0ff615cc36fd5"
+  },
+  {
+    "uid": "prov:12881895",
+    "fenbiId": "12881895",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某风景区内有5个收费景点，门票分别为10元、10元、20元、20元、20元。老李花了40元购买门票，依次游览了不同景点。那么可能的游览方式有多少种？",
+    "o": [
+      "6",
+      "18",
+      "24",
+      "60"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某风景区内有5个收费景点，门票分别为10元、10元、20元、20元、20元。老李花了40元购买门票，依次游览了不同景点。那么可能的游览方式有多少种？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d47ffea652e34077964ddb6c8f31210cd21f53ad71d028180d7cf1073c54d15e"
+  },
+  {
+    "uid": "prov:13504481",
+    "fenbiId": "13504481",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某地军工驿站就业直通车送6名工人到A、B、C三个开发区务工，实现从“家门”直达“厂门”就业。若A开发区至少需要2名工人，B、C开发区至少各安排1名工人，每名工人只能去其中的一个开发区，则共有多少种不同的安排方法？",
+    "o": [
+      "180",
+      "320",
+      "345",
+      "360"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地军工驿站就业直通车送6名工人到A、B、C三个开发区务工，实现从“家门”直达“厂门”就业。若A开发区至少需要2名工人，B、C开发区至少各安排1名工人，每名工人只能去其中的一个开发区，则共有多少种不同的安排方法？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ff7248f3067120824df5fce620c41f413148705f1cc1f9bb47e4b53622869f0a"
+  },
+  {
+    "uid": "prov:13504501",
+    "fenbiId": "13504501",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某汽车生产基地计划生产燃油车和电动汽车2种不同的汽车，为了响应国家节能减排政策，总公司规定每生产一辆燃油车减去2个环保积分，生产一辆电动汽车增加3个环保积分，已知生产一辆燃油车、电动车的利润分别为2万元、1万元，该基地每月最多能生产3000辆汽车。那么环保积分总和不为负数的情况下，该基地一个月的最大利润是多少万元？",
+    "o": [
+      "5200",
+      "5000",
+      "4800",
+      "4000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某汽车生产基地计划生产燃油车和电动汽车2种不同的汽车，为了响应国家节能减排政策，总公司规定每生产一辆燃油车减去2个环保积分，生产一辆电动汽车增加3个环保积分，已知生产一辆燃油车、电动车的利润分别为2万元、1万元，该基地每月最多能生产3000辆汽车。那么环保积分总和不为负数的情况下，该基地一个月的最大利润是多少万元？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "19cdfd0479a81a29e42e953e92f5f34db99fcb2ccb97b236e4269ea14b04caed"
+  },
+  {
+    "uid": "prov:13504547",
+    "fenbiId": "13504547",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某研究机构对不同蔬果的代谢质量进行评分，分数越高代表代谢质量越高。现有13种蔬果，其中2种蔬果为5分，4种蔬果为4分，3种蔬果为3分，4种蔬果为2分，那么从中选取3种蔬果得分总和不低于13分的组合共有多少种？",
+    "o": [
+      "21",
+      "19",
+      "16",
+      "13"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某研究机构对不同蔬果的代谢质量进行评分，分数越高代表代谢质量越高。现有13种蔬果，其中2种蔬果为5分，4种蔬果为4分，3种蔬果为3分，4种蔬果为2分，那么从中选取3种蔬果得分总和不低于13分的组合共有多少种？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c4864cb7ba3355456bcb2c9d58ab51b91f56b498ee491b9b9e5d12ce2c14100d"
+  },
+  {
+    "uid": "prov:13504498",
+    "fenbiId": "13504498",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "21分制的羽毛球比赛，每赢一球得1分，下一球由上一球得分方发球，20：20平局以后，先多得2分的一方获胜，若甲发球时甲得分的概率为0.6、乙发球时乙得分的概率为0.7，各球的结果相互独立，乙将比分追成20：20平后，甲最终以23：21的比分获胜的概率在以下哪个范围？",
+    "o": [
+      "0.05-0.1",
+      "0.1-0.15",
+      "0.15-0.2",
+      "0.2-0.25"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>21分制的羽毛球比赛，每赢一球得1分，下一球由上一球得分方发球，20：20平局以后，先多得2分的一方获胜，若甲发球时甲得分的概率为0.6、乙发球时乙得分的概率为0.7，各球的结果相互独立，乙将比分追成20：20平后，甲最终以23：21的比分获胜的概率在以下哪个范围？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c6a8232868b30a676a975851a719bb07a56aad96c97160afa1949fa186ae3c3f"
+  },
+  {
+    "uid": "prov:12882057",
+    "fenbiId": "12882057",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某工厂生产A、B两种商品，需要用到猪肉和土豆两种原材料。已知生成100份A食品需要猪肉50公斤，土豆50公斤，利润为500元。生产100份B食品需要猪肉20公斤，土豆75公斤，利润400元。目前猪肉和土豆只能进货500公斤和600公斤，则生产A、B两种食品最大利润为：",
+    "o": [
+      "5272元",
+      "5313元",
+      "5363元",
+      "5432元"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某工厂生产A、B两种商品，需要用到猪肉和土豆两种原材料。已知生成100份A食品需要猪肉50公斤，土豆50公斤，利润为500元。生产100份B食品需要猪肉20公斤，土豆75公斤，利润400元。目前猪肉和土豆只能进货500公斤和600公斤，则生产A、B两种食品最大利润为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "275e94f94c0b6bd5f7c0a17b4ac316ef0b9c5accdbc45c049b272be24df94993"
+  },
+  {
+    "uid": "prov:13504499",
+    "fenbiId": "13504499",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "一只蜘蛛爬到一块正方形瓷砖上，该瓷砖的花纹由8个全等的菱形和12个全等的等腰直角三角形构成（如下图所示），假设蜘蛛的停留位置是随机的，那么蜘蛛恰好停在白色区域的概率最接近下列哪个值？",
+    "o": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一只蜘蛛爬到一块正方形瓷砖上，该瓷砖的花纹由8个全等的菱形和12个全等的等腰直角三角形构成（如下图所示），假设蜘蛛的停留位置是随机的，那么蜘蛛恰好停在白色区域的概率最接近下列哪个值？</p><p><img width=\"207px\" height=\"207px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19599aaaa26c52c.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19599aaaa26c52c.png?width=700",
+        "path": "真题库/图片/省考/b90ad115bd25.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "68e98ff475a0d553846b4cd47aca84f5b1cc62ace30f8fb1c6c85ba914510d7e"
+  }
+]

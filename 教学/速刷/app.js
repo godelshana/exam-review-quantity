@@ -1,8 +1,8 @@
 /* Five-question UI. Eligibility, validation history and promotion belong to DrillCore. */
 (()=>{'use strict';
 const C=window.DrillCore,$=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const ready=!!C&&['normalize','isValidation','trainEligible','validationEligible','trainingMemory','transferStats','validationIdentity'].every(k=>typeof C[k]==='function')&&Array.isArray(window.DATASET_TRAIN)&&Array.isArray(window.DATASET_VALIDATION)&&Array.isArray(window.HAND_LADDER_100)&&Array.isArray(window.CHALLENGE_Q)&&!!window.TRAINING_FAMILIES&&!!window.AUTHORED_METHODS&&!!window.DATASET_AUTHORED_OVERRIDES&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].length===124&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].every(q=>window.AUTHORED_METHODS[q.uid]&&Object.prototype.hasOwnProperty.call(window.DATASET_AUTHORED_OVERRIDES,q.uid)&&['low','medium','high'].includes(window.DATASET_AUTHORED_OVERRIDES[q.uid]?.leakageRisk));
-if(!ready){$('loadError').hidden=false;$('loadError').textContent='core、数据集、原创方法或逐题隔离策略缺失 / 不完整：已停止抽题且不改写旧记录。请检查 authored_methods.js / datasets/banks.js / datasets/authored_policy.js 等资源后刷新。';$('start').disabled=$('reviewPool').disabled=true;return;}
+const ready=Array.isArray(window.FULL_REAL_TRAIN)&&Array.isArray(window.FULL_REAL_VALIDATION)&&Array.isArray(window.FULL_REAL_STUDY)&&!!window.FULL_REAL_SUMMARY&&!!C&&['normalize','isValidation','trainEligible','validationEligible','trainingMemory','transferStats','validationIdentity','migrateValidationExposures'].every(k=>typeof C[k]==='function')&&Array.isArray(window.DATASET_TRAIN)&&Array.isArray(window.DATASET_VALIDATION)&&Array.isArray(window.HAND_LADDER_100)&&Array.isArray(window.CHALLENGE_Q)&&!!window.TRAINING_FAMILIES&&!!window.AUTHORED_METHODS&&!!window.DATASET_AUTHORED_OVERRIDES&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].length===124&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].every(q=>window.AUTHORED_METHODS[q.uid]&&Object.prototype.hasOwnProperty.call(window.DATASET_AUTHORED_OVERRIDES,q.uid)&&['low','medium','high'].includes(window.DATASET_AUTHORED_OVERRIDES[q.uid]?.leakageRisk));
+if(!ready){$('loadError').hidden=false;$('loadError').textContent='core、数据集、原创方法或逐题隔离策略缺失 / 不完整：已停止抽题且不改写旧记录。请检查 full_audit/banks.js / authored_methods.js / datasets/authored_policy.js 等资源后刷新。';$('start').disabled=$('reviewPool').disabled=true;return;}
 const STORE='quantity-ladder-v3',names={train:'训练混编天梯',transfer:'迁移混编（训练 + 未曝光验证）',validation:'最近三年验证首测','validation-review':'验证复盘'};
 let db={schema:3,attempts:[],exposures:[],level:'入门'},persist=true,pendingBackup=null,recoveryNote='';
 const backupKey=STORE+'-recovery-'+Date.now();
@@ -13,8 +13,10 @@ function save(){try{if(pendingBackup!==null){localStorage.setItem(backupKey,pend
 db.exposures=Array.isArray(db.exposures)?db.exposures:[];
 const normalized=q=>C.normalize({...q,...(window.AUTHORED_METHODS[q.uid]||{}),...(window.DATASET_AUTHORED_OVERRIDES?.[q.uid]||{}),template:window.TRAINING_FAMILIES[q.uid||q.curationId]||q.template});
 const authored=[...window.HAND_LADDER_100,...window.CHALLENGE_Q].map(q=>normalized({...q,source:'authored'}));
-const all=[...new Map([...authored,...window.DATASET_TRAIN,...window.DATASET_VALIDATION].map(q=>{const n=normalized(q);return [n.uid,n];})).values()];
+const all=[...new Map([...authored,...window.DATASET_TRAIN.filter(q=>q.sourceType==='glm'),...window.FULL_REAL_TRAIN,...window.FULL_REAL_VALIDATION].map(q=>{const n=normalized(q);return [n.uid,n];})).values()];
 const authoredIds=new Set(authored.map(q=>q.uid));
+// Source/diagram repairs must not turn previously exposed national questions into fresh tests.
+db.exposures=C.migrateValidationExposures(db.exposures,db.attempts,window.DATASET_VALIDATION,all);
 const labelOf=q=>q.sourceLabel||(q.exam&&q.year?`[${q.year}年${q.exam}·${q.paper||'卷别待核'}·${q.number??q.moduleIndex??'题号待核'}]`:q.source?.locator||({authored:'原创模拟（非真题）',glm:'审计通过GLM模拟',real:'审计通过真题'}[sourceOf(q)]));
 const sourceOf=q=>['authored','glm','real'].includes(q.source)?q.source:authoredIds.has(q.uid)?'authored':(q.sourceType==='glm'||String(q.uid||'').startsWith('glm:'))?'glm':'real';
 
@@ -26,7 +28,7 @@ const seen=q=>db.exposures.includes(identity(q))||db.attempts.some(r=>r.q&&ident
 const formal=()=>roundMode==='validation'||roundMode==='transfer';
 function inView(q,review=false){const mode=$('source').value;
  if(mode==='train'){
-  if(!C.trainEligible(q))return false;
+  if(!C.trainEligible(q)||!matchesFilters(q))return false;
   if(mode==='train'&&$('level').value!=='all'&&q.level!==$('level').value)return false;
   if(review){const r=C.currentAttempts(db.attempts,all).filter(r=>r.uid===q.uid&&(r.mode==='train'||r.mode==='transfer'||!r.mode)).at(-1);return !!r&&(!r.correct||r.secs>r.limit||r.hinted||r.paused||r.confidence==='猜测');}
   return true;
@@ -40,47 +42,66 @@ function inView(q,review=false){const mode=$('source').value;
 function statsHTML(){const s=C.transferStats(db.attempts,all);const answeredKeys=new Set(db.attempts.filter(r=>r.q&&C.isValidation(r.q)).map(r=>identity(r.q)));const exposedUnanswered=db.exposures.filter(key=>!answeredKeys.has(key)).length;const block=(label,v)=>`<div><strong>${v?.n?pct(v.accuracy):'—'}</strong><span>${label} · ${v?.n||0}题<br>快速独立 ${v?.fast||0}/${v?.n||0}</span></div>`;
  return `<h2>训练 → 真题迁移</h2><div class="stats">${block('训练',s.train)}${block('V1验证首测',s.firstValidation)}${block('重复 / 复盘（污染）',s.repeatValidation)}${block('V2暂定（单列）',s.provisional)}</div><p class="mini">迁移差（训练正确率 − V1首测正确率）：${s.gap==null?'样本不足，暂不计算':`${Math.round(s.gap*100)} 个百分点`}。已曝光未答 ${exposedUnanswered} 题（不计成绩，不可重置首测）。不同题量与难度不可直接等同；不是分数预测。提示、暂停、猜测不计快速独立；复盘不回填首测。</p>`;
 }
-function coverage(){const qs=all.filter(q=>C.isValidation(q));let html='<table><thead><tr><th>验证资料</th><th>已接入 / V1 / V2 / V3</th><th>资料状态</th></tr></thead><tbody>';
- for(const exam of ['国考','广东'])for(const year of [2024,2025,2026]){const bank=qs.filter(q=>Number(q.year)===year&&String(q.exam||'').includes(exam));const n=s=>bank.filter(q=>q.validationStatus===s).length;
- html+=`<tr><td>${year}年${exam}</td><td>${bank.length} / ${n('V1')} / ${n('V2')} / ${n('V3')}</td><td>${bank.length?'已接入不等于全卷齐备；仅V1正式验证':'缺资料 / 尚未接入；无占位练习题'}</td></tr>`;}
- html+='</tbody></table><p class="mini">年份固定为2024—2026。V3只作缺口记录，不可抽题；国考三年三卷理论105题，广东总量以原卷核对为准。</p>';
- if(window.DATASET_AUDIT_SUMMARY)html+=`<details><summary>数据层审计摘要（原样展示）</summary><pre>${esc(JSON.stringify(window.DATASET_AUDIT_SUMMARY,null,2))}</pre></details>`;
+function coverage(){const summary=window.FULL_REAL_SUMMARY;let html='<table><thead><tr><th>仅作测试</th><th>已接入 / V1 / V2 / 争议 / 缺损</th></tr></thead><tbody>';
+ for(const row of summary.coverage)html+=`<tr><td>${row.year}年${esc(row.exam)}</td><td>${row.slots} / ${row.verified} / ${row.provisional} / ${row.disputed} / ${row.invalid}</td></tr>`;
+ html+='</tbody></table><p class="mini">2024—2026年国考与广东保留给测试，不进入日常练习；其他省份近三年题正常用于训练。机构答案有争议的题不强行判分，真实缺损逐条列原因。这里的数量指来源题位，跨卷同题首测去重。</p>';
+ html+=`<p>逐题审核 ${summary.reviewed} 条；可训练真题 ${summary.train} 条、跨卷去重 ${summary.trainUnique} 道；正式测试去重 ${summary.validationUnique} 道。训练梯度：${esc(Object.entries(summary.byLevel).map(([k,v])=>k+' '+v).join(' / '))}。</p>`;
+ const issues=all.filter(q=>C.isValidation(q)&&q.validationStatus==='V3');
+ if(issues.length)html+=`<p class="warning">测试范围另有 ${issues.length} 道争议 / 缺损题，不能强行判分。可单独研读，查看会保留曝光。</p><button id="showValidationIssue">查看下一道测试争议题（记曝光，不计成绩）</button><div id="validationIssue"></div>`;
  $('coverage').innerHTML=html;
+ if($('showValidationIssue')){let i=0;$('showValidationIssue').onclick=()=>{const q=issues[i++%issues.length],key=identity(q);if(!db.exposures.includes(key))db.exposures.push(key);save();$('validationIssue').innerHTML=`<h3>${esc(labelOf(q))}</h3><div class="review-body">${renderText(q.s)}\n${q.o.map((o,i)=>'ABCD'[i]+'. '+renderText(o)).join('\n')}</div><p class="warning">本题只研读，不参与正确率。来源标记 ${esc(q.sourceAnswer)}，本次推导 ${esc(q.computedAnswer)}。争议请结合原卷或粉笔 / 华图复核。</p>${explanation(q,[0,1,2,3])}`;};}
+
+}
+function topicGroup(q){return String(q.h||q.topic||'其他').split(/[\/·（：]/)[0];}
+function matchesFilters(q){
+ const scope=$('bankScope').value,province=$('provinceFilter').value,topic=$('topicFilter').value;
+ return (scope==='all'||(scope==='real'?sourceOf(q)==='real':sourceOf(q)!=='real'))&&(province==='all'||q.province===province||q.exam===province||(q.occurrences||[]).some(o=>o.province===province))&&(topic==='all'||topicGroup(q)===topic);
+}
+let catalogPage=0;
+function renderCatalog(){
+ if($('catalogPanel').hidden||!$('catalogPanel').open)return;
+ const type=$('catalogType').value,items=(type==='study'?window.FULL_REAL_STUDY:all.filter(q=>C.trainEligible(q))).filter(q=>matchesFilters(q)&&($('level').value==='all'||q.level===$('level').value));
+ const pages=Math.max(1,Math.ceil(items.length/12));catalogPage=Math.min(catalogPage,pages-1);
+ $('catalogCount').textContent=`${items.length} 题 · 第 ${catalogPage+1} / ${pages} 页。题解仅在展开后显示；浏览训练题不造练习成绩。`;
+ $('catalogItems').innerHTML=items.slice(catalogPage*12,catalogPage*12+12).map(q=>`<details><summary>${esc(labelOf(q))} · ${esc(q.level)} · ${esc(q.h||q.topic)}${q.usable===false?' · 不强行评分':''}</summary><div class="review-body">${renderText(q.s)}\n${q.o.map((o,i)=>'ABCD'[i]+'. '+renderText(o)).join('\n')}</div>${q.usable===false?`${q.originalStem?`<details><summary>查看未补条件的原始题干</summary><div class="review-body">${renderText(q.originalStem)}</div></details>`:''}<p class="warning">${esc(q.verdict==='invalid'?'题面缺损或矛盾，未编造答案':'来源与复算存在争议')}。原标记 ${esc(q.sourceAnswer||'无')}；独立推导 ${esc(q.computedAnswer)}。建议在粉笔历年试卷或华图核对；未取得来源推理时不替机构编造理由。</p>`:`<button class="catalog-practice" data-uid="${esc(q.uid)}">单题限时练（不计天梯晋级）</button>`}<details><summary>查看两路题解、快法边界与核验</summary>${explanation(q,[0,1,2,3])}</details></details>`).join('');
+ for(const b of $('catalogItems').querySelectorAll('.catalog-practice'))b.onclick=()=>begin(false,b.dataset.uid);
+ $('catalogPrev').disabled=catalogPage===0;$('catalogNext').disabled=catalogPage===pages-1;
 }
 function refresh(){if(!ready){$('start').disabled=true;$('reviewPool').disabled=true;return;}
  const mode=$('source').value,formal=mode==='validation'||mode==='transfer',training=mode==='train';
+ $('trainingFilters').hidden=!training;$('catalogPanel').hidden=!training;
  $('level').disabled=!training;$('strategy').disabled=!training;$('mode').disabled=formal;if(formal)$('mode').value='exam';
  $('validationTierLabel').hidden=mode!=='validation-review';$('reviewPool').hidden=!training;
- $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混编，不计晋级。')+' 只用训练集；原创 + 审计通过的旧真题 / GLM按当前阶混编。':mode==='transfer'?'训练题与未曝光验证题混编（优先每五题3训练+2验证，资料不足按实际池调整），V1正式与V2暂定分列。整轮限时、无提示、不可暂停；本轮不晋级，验证题不参与训练记忆。首测只指本浏览器未曝光。':formal?'V1未曝光真题首测：整轮限时、无提示、不可暂停、结束后题解。首测仅指本浏览器未记录曝光，不保证你从未见过原题。题目一显示即留曝光记录，退出或刷新不能重置首测；未作答曝光不计成绩。':'V1 / V2都只复盘已曝光题；V2暂定题单列。可提示、可暂停，所有成绩均为复盘或暂定指标，不参与晋级和训练记忆。';
+ $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混编，不计晋级。')+' 默认用国考与各省考真题；可按地区、考点筛选，也可选原创/GLM补充。2024—2026年的其他省考照常训练。':mode==='transfer'?'训练题与未曝光验证题混编（优先每五题3训练+2验证，资料不足按实际池调整），V1正式与V2暂定分列。整轮限时、无提示、不可暂停；本轮不晋级，验证题不参与训练记忆。首测只指本浏览器未曝光。':formal?'V1未曝光真题首测：整轮限时、无提示、不可暂停、结束后题解。首测仅指本浏览器未记录曝光，不保证你从未见过原题。题目一显示即留曝光记录，退出或刷新不能重置首测；未作答曝光不计成绩。':'V1 / V2都只复盘已曝光题；V2暂定题单列。可提示、可暂停，所有成绩均为复盘或暂定指标，不参与晋级和训练记忆。';
  const candidates=all.filter(q=>inView(q));
  const count=new Set(candidates.map(q=>C.isValidation(q)?'validation:'+identity(q):'train:'+q.uid)).size;
  const formalQuestions=all.filter(q=>q.validationStatus==='V1'&&C.validationEligible(q));
  const formalUnique=new Set(formalQuestions.map(identity)).size;
- $('bankInfo').textContent=`${names[mode]} · 原创 ${authored.length} 题（当前可训练 ${authored.filter(q=>C.trainEligible(q)).length} 题）；合格训练池 ${all.filter(q=>C.trainEligible(q)).length} 题。V1正式验证 ${formalQuestions.length} 个卷内题位，跨卷去重 ${formalUnique} 道独立题；同题不重复首测。2024—2026国考、广东无论答案状态如何均不得进入训练。`;
+ $('bankInfo').textContent=`逐题审查 ${window.FULL_REAL_SUMMARY.reviewed} 条真题；已接入可训练真题 ${window.FULL_REAL_SUMMARY.train} 题。${names[mode]} · 原创 ${authored.length} 题（当前可训练 ${authored.filter(q=>C.trainEligible(q)).length} 题）；合格训练池 ${all.filter(q=>C.trainEligible(q)).length} 题。V1正式验证 ${formalQuestions.length} 个卷内题位，跨卷去重 ${formalUnique} 道独立题；同题不重复首测。2024—2026国考、广东无论答案状态如何均不得进入训练。`;
  $('start').textContent=`开始 ${$('length').value} 题${formal?'首测':''}`;$('start').disabled=!count||(formal&&!persist);
  $('filterInfo').textContent=`当前可选 ${count} 道独立题（${candidates.length} 个题位）。${count<+$('length').value?'不足题量只出可用题，不复制凑数。':''}${formal?'请在安静连续的时段作答；切换标签页不会停表。':''}`;
- $('metrics').innerHTML=statsHTML();coverage();
+ $('metrics').innerHTML=statsHTML();coverage();renderCatalog();
 }
 function stopTimer(){clearInterval(timer);timer=null;}
 function elapsed(){return Math.max(0,((paused?pauseAt:Date.now())-start-pausedTime)/1000);}
 function home(){stopTimer();state='menu';$('menu').hidden=false;$('quiz').hidden=true;$('result').hidden=true;refresh();}
-function begin(review=false){if(!ready)return;roundMode=$('source').value;if(formal()&&!persist)return;
+function begin(review=false,singleUid=null){if(!ready)return;roundMode=$('source').value;if(formal()&&!persist)return;
  // Always hand the complete bank and complete history to core; UI restrictions only narrow its output.
- const sampleBank=all.map(q=>roundMode==='train'&&!C.isValidation(q)&&!inView(q,review)?{...q,mathAudit:'ui-excluded'}:q);
- const selected=C.sample(sampleBank,{size:all.length,strategy:roundMode!=='train'?'random':$('strategy').value,memory:C.trainingMemory(db.attempts,all),mode:roundMode,attempts:db.attempts,exposures:db.exposures});
+ const sampleBank=all.map(q=>(!inView(q,review)||(singleUid&&q.uid!==singleUid))?{...q,usable:false}:q);
+ const selected=C.sample(sampleBank,{size:singleUid?1:+$('length').value,strategy:roundMode!=='train'?'random':$('strategy').value,memory:C.trainingMemory(db.attempts,all),mode:roundMode,attempts:db.attempts,exposures:db.exposures});
  const roundIdentities=new Set();
- deck=selected.questions.filter(q=>{if(!inView(q,review))return false;if(C.isValidation(q)){const key=identity(q);if(roundIdentities.has(key))return false;roundIdentities.add(key);}return true;}).slice(0,+$('length').value);
+ deck=selected.questions.filter(q=>{if(!inView(q,review))return false;if(C.isValidation(q)){const key=identity(q);if(roundIdentities.has(key))return false;roundIdentities.add(key);}return true;}).slice(0,singleUid?1:+$('length').value);
  if(!deck.length){$('filterInfo').textContent='数据层未返回可练题：可能已曝光、未通过审计或资料不足。不会回退到旧题库。';return;}
  $('samplingNote').textContent=`实际 ${deck.length} 题；按数据层资格抽样，不重复凑数。${selected.relaxed||selected.topicRelaxed?'题池较小时可能放宽考点 / 模板分散限制。':''}`;
- idx=0;rows=[];roundStrategy=roundMode==='train'&&$('level').value!=='all'?$('strategy').value:'random';roundFeedback=formal()?'exam':$('mode').value;
+ idx=0;rows=[];roundStrategy=!singleUid&&roundMode==='train'&&$('level').value!=='all'?$('strategy').value:'random';roundFeedback=formal()?'exam':$('mode').value;
  deadline=formal()?Date.now()+deck.reduce((n,q)=>n+q.timeLimit,0)*1000:0;
  $('menu').hidden=true;$('quiz').hidden=false;$('result').hidden=true;state='quiz';show();
 }
 function makeRow(pick,extra={}){const q=deck[idx];return {uid:q.uid,dataset:C.isValidation(q)?'validation':'train',exam:q.exam??'',year:q.year??null,validationStatus:q.validationStatus??null,source:sourceOf(q),mode:roundMode,label:labelOf(q),level:q.level||'未定级',training:roundStrategy,firstValidation:C.isValidation(q)?firstValidation:undefined,date:new Date().toISOString(),pick,correct:pick===mapping.answer,secs:Math.round(elapsed()*10)/10,limit:q.timeLimit,hinted,paused:hadPause,confidence:$('confidence').value,insightTime,q:{...q},map:[...mapping.map],options:[...mapping.opts],answer:mapping.answer,...extra};}
-function show(){answered=false;hinted=false;paused=false;hadPause=false;pausedTime=0;insightTime=null;firstValidation=false;const q=deck[idx];mapping=C.shuffled(q);start=Date.now();
+function show(){answered=false;hinted=false;paused=false;hadPause=false;pausedTime=0;insightTime=null;firstValidation=false;const q=deck[idx];mapping=sourceOf(q)==='real'?{opts:[...q.o],answer:q.a,map:[0,1,2,3]}:C.shuffled(q);start=Date.now();
  $('qno').textContent=`${idx+1} / ${deck.length}`;$('qsource').textContent=`${labelOf(q)} · ${C.isValidation(q)?q.validationStatus+'验证':'训练'}`;$('progress').value=idx/deck.length;
- $('stem').hidden=false;$('opts').hidden=false;$('stem').innerHTML=renderText(q.s);$('opts').replaceChildren();
- mapping.opts.forEach((text,i)=>{const b=document.createElement('button');b.className='opt';b.textContent=`${'ABCD'[i]}. ${text}`;b.onclick=()=>answer(i);$('opts').appendChild(b);});
+ $('stem').hidden=false;$('opts').hidden=false;$('stem').dataset.uid=q.uid;$('stem').innerHTML=(q.practiceAssumption?`<p class="warning">教学作答口径（与原题文字分开）：${esc(q.practiceAssumption)}</p>`:'')+renderText(q.s);$('opts').replaceChildren();
+ mapping.opts.forEach((text,i)=>{const b=document.createElement('button');b.className='opt';b.innerHTML=`${'ABCD'[i]}. ${renderText(text)}`;b.onclick=()=>answer(i);$('opts').appendChild(b);});
  for(const id of ['hintText','feedback','next'])$(id).hidden=true;$('skip').hidden=false;
  for(const id of ['confidence','insight','hint','pause'])$(id).disabled=false;
  $('confidence').value='未标记';$('insight').textContent='思路已定';$('pause').textContent='暂停';
@@ -100,7 +121,7 @@ function explanation(q,map){
  const pathTitles={high:'参考省步路径（快法评级：高）',medium:'可选省步路径（快法评级：中）',low:'常规解法（快法评级：低；未确认额外可靠快法）'};
  const path=rating==='low'?(q.normalPath||q.e):(q.fastPath||q.fastestPath||q.e);
  const mapped=t=>renderText(C.mappedExplanation(typeof t==='object'?JSON.stringify(t,null,2):t??'未提供；不编造该项结论。',map));
- return [['考点归类',q.h||q.topic],[pathTitles[rating],path],['常规路径 normalPath',q.normalPath],['快法适用边界 fastBoundary',q.fastBoundary],['取舍 / 跳题决策',skipText],['易错点与命题陷阱',q.tr||q.traps]].map(([label,text])=>`<section class="solution-part"><strong>${esc(label)}</strong><div>${mapped(text)}</div></section>`).join('');
+ return [...(q.practiceAssumption?[['教学作答口径（非原题新增事实）',q.practiceAssumption]]:[]),['考点归类',q.h||q.topic],['难度与分层理由',q.level+'：'+(q.difficultyReason||describes[q.level]||'按条件翻译复杂度分层')],[pathTitles[rating],path],['常规路径 normalPath',q.normalPath],['快法适用边界 fastBoundary',q.fastBoundary],['取舍 / 跳题决策',skipText],['易错点与命题陷阱',q.tr||q.traps],...(q.verification?[['独立核验',q.verification],['答案来源说明',`原资料标记：${q.sourceAnswer||'未定'}；本次独立复算：${q.computedAnswer}。${q.sourceAgreement===false?'原标记与本次复算不同，详见核验与修复说明；不代表官方公布答案。':'按选项内容核对，不把机构答案称为官方答案。'}\n${q.reviewNotes||''}`]]:[])].map(([label,text])=>`<section class="solution-part"><strong>${esc(label)}</strong><div>${mapped(text)}</div></section>`).join('');
 }
 function answer(pick,extra={}){if(state!=='quiz'||answered||paused||pick< -1||pick>3)return;
  if(deadline&&Date.now()>=deadline&&!expiring){tick();return;}answered=true;if(!formal())stopTimer();
@@ -118,12 +139,17 @@ function finish(){stopTimer();if(state!=='quiz')return;
  text+=`<p class="mini">实际记录 ${rows.length} / 本轮抽题 ${deck.length}。未显示题目不算曝光；已显示未作答的验证题保留曝光但不计成绩。${roundMode!=='train'?'验证永不影响晋级或训练记忆；复盘 / V2分开统计。':''}</p>`;
  if(canPromote)text+=`<div class="feedback">本阶训练最近不同题 ${p.n} 道；正确率 ${pct(p.accuracy)}，快速独立 ${p.fast} 道。${p.ready?'已达升阶建议。':'至少10道不同题、80%正确、60%快速独立，再建议升阶。'}</div>`;
  text+=statsHTML()+'<h2>逐题完整题解</h2>';
- rows.forEach((r,n)=>{text+=`<details ${!r.correct||r.secs>r.limit?'open':''}><summary>${n+1}. ${r.correct?'✓':'待复盘'} · ${esc(r.q.h)} · 你选${r.pick<0?'暂跳':'ABCD'[r.pick]} / 正解${'ABCD'[r.answer]}</summary><div class="review-body">${renderText(r.q.s)}\n${r.options.map((o,i)=>`${'ABCD'[i]}. ${o}`).map(esc).join('\n')}${explanation(r.q,r.map)}<p class="mini">${esc(r.label)} · ID ${esc(r.uid)} · ${r.secs}s${r.hinted?' · 已提示':''}${r.paused?' · 曾暂停':''} · ${esc(r.validationStatus||'训练')} / ${esc(r.mode||'旧记录')}</p></div></details>`;});
+ rows.forEach((r,n)=>{text+=`<details ${!r.correct||r.secs>r.limit?'open':''}><summary>${n+1}. ${r.correct?'✓':'待复盘'} · ${esc(r.q.h)} · 你选${r.pick<0?'暂跳':'ABCD'[r.pick]} / 正解${'ABCD'[r.answer]}</summary><div class="review-body">${renderText(r.q.s)}\n${r.options.map((o,i)=>`${'ABCD'[i]}. ${o}`).map(renderText).join('\n')}${explanation(r.q,r.map)}<p class="mini">${esc(r.label)} · ID ${esc(r.uid)} · ${r.secs}s${r.hinted?' · 已提示':''}${r.paused?' · 曾暂停':''} · ${esc(r.validationStatus||'训练')} / ${esc(r.mode||'旧记录')}</p></div></details>`;});
  text+='<div class="row"><button id="back" class="primary">回到训练设置</button><button id="again">再来一套</button>'+(roundMode!=='train'?'<button id="validationReview">进入验证复盘</button>':'')+(canPromote&&p.ready?'<button id="advance">进入下一阶</button>':'')+'</div>';
  $('result').innerHTML=text;$('back').onclick=home;$('again').onclick=()=>begin(false);
  if($('validationReview'))$('validationReview').onclick=()=>{$('source').value='validation-review';$('validationTier').value='V1';home();};
  if($('advance'))$('advance').onclick=()=>{db.level=C.levels[C.levels.indexOf(rows[0].level)+1];$('level').value=db.level;save();home();};window.scrollTo({top:0,behavior:'smooth'});
 }
+for(const [id,values] of [['provinceFilter',['国考','安徽','广东','湖北','河南','四川']],['topicFilter',[...new Set(window.FULL_REAL_TRAIN.map(topicGroup))].sort()]])for(const value of values){const option=document.createElement('option');option.value=value;option.textContent=value;$(id).appendChild(option);}
+for(const id of ['bankScope','provinceFilter','topicFilter'])$(id).onchange=()=>{catalogPage=0;refresh();};
+$('catalogPanel').ontoggle=renderCatalog;$('catalogType').onchange=()=>{catalogPage=0;renderCatalog();};
+$('catalogPrev').onclick=()=>{catalogPage--;renderCatalog();};$('catalogNext').onclick=()=>{catalogPage++;renderCatalog();};
+
 $('level').value=db.level;
 $('start').onclick=()=>begin();$('reviewPool').onclick=()=>begin(true);$('skip').onclick=()=>answer(-1);$('next').onclick=next;
 $('exit').onclick=()=>{if(confirm('结束本轮？验证题已显示就保留曝光，但未作答不计成绩；刷新不会重置首测。未显示题目不计曝光。'))finish();};

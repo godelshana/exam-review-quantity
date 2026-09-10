@@ -3,6 +3,7 @@ Network is explicitly routed through the user-requested localhost:7890 proxy.
 No credentials are read or printed. Public repository API only.
 """
 import argparse,hashlib,json,subprocess,time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[2]
@@ -32,13 +33,14 @@ def main():
         try:
             version=json.loads(get(BASE+'version.json?rev='+revision))
             if version['revision']!=revision:raise ValueError('Pages still serves another commit: '+version['revision'])
-            assets=[]
-            for name,expected in version['assets'].items():
+            def verify_asset(item):
+                name,expected=item
                 local=subprocess.check_output(['git','show',f'{revision}:{name}'],cwd=ROOT)
                 if hashlib.sha256(local).hexdigest()!=expected:raise ValueError('Published manifest not bound to committed source: '+name)
                 content=get(BASE+quote(name,safe='/')+'?rev='+revision)
                 if hashlib.sha256(content).hexdigest()!=expected:raise ValueError('Live asset mismatch: '+name)
-                assets.append(name)
+                return name
+            with ThreadPoolExecutor(max_workers=6) as executor:assets=list(executor.map(verify_asset,version['assets'].items()))
             assert version['validationYears']==[2024,2025,2026]
             print(json.dumps({'passed':True,'revision':revision,'actions':None if not run else {'id':run['id'],'conclusion':run['conclusion'],'url':run['html_url']},'url':BASE,'assetCount':len(assets),'verifiedAssets':assets},ensure_ascii=False,indent=2));return
         except (RuntimeError,ValueError,KeyError) as exc:

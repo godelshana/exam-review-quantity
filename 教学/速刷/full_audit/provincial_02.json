@@ -1,0 +1,4952 @@
+[
+  {
+    "uid": "prov:13504500",
+    "fenbiId": "13504500",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某农科所将一块上底长为20米的直角梯形状实验田划分为4个完全相同的区域（如下图所示），种上4个不同品种的玉米，产量分别为110、115、125和130千克。那么，该实验田玉米的平均产量为多少千克/平方米？",
+    "o": [
+      "0.6",
+      "0.8",
+      "1",
+      "1.25"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某农科所将一块上底长为20米的直角梯形状实验田划分为4个完全相同的区域（如下图所示），种上4个不同品种的玉米，产量分别为110、115、125和130千克。那么，该实验田玉米的平均产量为多少千克/平方米？</p><p><img width=\"309px\" height=\"161px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19599a55b147656.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19599a55b147656.png?width=700",
+        "path": "真题库/图片/省考/69bec122ff42.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5ada2ea96e6157c5a415915438ba38e20de9468d2f848a32f1ba8cb9ae40778d"
+  },
+  {
+    "uid": "prov:13504505",
+    "fenbiId": "13504505",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "高速公路某路段转向处靠近居民楼，为减少噪声需设置隔音板（如下图所示），安装隔音板范围为公路转向处的一段圆曲线（即从点A至点B圆弧），测控人员在过点A、B的两条切线的交点C处，测得从A到B转角为，若此圆曲线的半径OA=1km，则这段隔音板的安装长度为：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>高速公路某路段转向处靠近居民楼，为减少噪声需设置隔音板（如下图所示），安装隔音板范围为公路转向处的一段圆曲线（即从点A至点B圆弧），测控人员在过点A、B的两条切线的交点C处，测得从A到B转角<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=R_h5kyVmIgsRYKNMyFIpBg\">为<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=YqOnvRQdAcgJgKOAHNqXRw\">，若此圆曲线的半径OA=1km，则这段隔音板的安装长度为：</p><p><img width=\"200px\" height=\"231px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19599a7a0348798.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=R_h5kyVmIgsRYKNMyFIpBg",
+        "path": "真题库/图片/省考/a8dfe5f7fce1.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=YqOnvRQdAcgJgKOAHNqXRw",
+        "path": "真题库/图片/省考/293428320408.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19599a7a0348798.png?width=700",
+        "path": "真题库/图片/省考/6bc8849fca39.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=QpKoj6x40DNUBP5p94aqELrXVwrlSIYWw4PQRRthS7A",
+        "path": "真题库/图片/省考/6977590dd0bb.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=AaHkKGOm2HyyFyK4LSx6cvTy9fwpnl8aild2JZJg3Ko",
+        "path": "真题库/图片/省考/411b91e1d558.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=woOKGgtPkMKEnB6KqikSLgPYBAbVbV1ROMJcKsU3fNs",
+        "path": "真题库/图片/省考/e5ac088aee2e.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=8SKMXhllvvT64QLwkg0v0srSfNhHBemSMkQqjitjdjs",
+        "path": "真题库/图片/省考/19b2429bfa1c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6ae15f310f1a432e80962ceb84a12cb6b882de90e9fd58f6497d975c764544b5"
+  },
+  {
+    "uid": "prov:13504513",
+    "fenbiId": "13504513",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "为丰富儿童的暑假生活，某公园在半径为米的半圆形水池旁修建了一个弯月形儿童戏水池（如下图所示）。该弯月形戏水池可看作是由半径为20米的半圆O'和半径为米的半圆O的圆弧围成的阴影部分，圆心距OO'为20米且OO'垂直于直径AB，那么该戏水池的面积为多少平方米？",
+    "o": [
+      "400",
+      "",
+      "800",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为丰富儿童的暑假生活，某公园在半径为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=yvVEpHEw5-5nlIwmi_Mjig\">米的半圆形水池旁修建了一个弯月形儿童戏水池（如下图所示）。该弯月形戏水池可看作是由半径为20米的半圆O'和半径为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=yvVEpHEw5-5nlIwmi_Mjig\">米的半圆O的圆弧围成的阴影部分，圆心距OO'为20米且OO'垂直于直径AB，那么该戏水池的面积为多少平方米？</p><p><img width=\"300px\" height=\"216px\" src=\"//fb.fenbike.cn/api/tarzan/images/19599e6b07d2e0b.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=yvVEpHEw5-5nlIwmi_Mjig",
+        "path": "真题库/图片/省考/d15803b65011.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=yvVEpHEw5-5nlIwmi_Mjig",
+        "path": "真题库/图片/省考/d15803b65011.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19599e6b07d2e0b.png?width=700",
+        "path": "真题库/图片/省考/89a5de408987.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=OlV3wjgIQlgZCOq3QsSaCw",
+        "path": "真题库/图片/省考/f4cf7c9e918b.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=AZCl94NPiRPMhPNJgmttEQ",
+        "path": "真题库/图片/省考/0e159ade6a2b.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e41f91e14e618eb9d54697506a872f9839087316f70f22088dc8b78e0076a823"
+  },
+  {
+    "uid": "prov:13504523",
+    "fenbiId": "13504523",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "某三层高的露天平台每层可视作圆柱体（如下图所示）。已知每层高5米，下层直径100米，中层直径80米，上层直径68米，现要对平台的外表面进行清洁维护，共需要维护多少平方米？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某三层高的露天平台每层可视作圆柱体（如下图所示）。已知每层高5米，下层直径100米，中层直径80米，上层直径68米，现要对平台的外表面进行清洁维护，共需要维护多少平方米？</p><p><img width=\"432px\" height=\"148px\" src=\"//fb.fenbike.cn/api/tarzan/images/19599df3277b4a1.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19599df3277b4a1.png?width=700",
+        "path": "真题库/图片/省考/5f0230a81e12.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=XZ1yuIcH8DkYkk0sNjNbAQ",
+        "path": "真题库/图片/省考/f70cfdc6e9da.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=-Hk5PMDcdAuEfSgnp7ILyg",
+        "path": "真题库/图片/省考/72d2f2c8bc8a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=E3Vk4m0x-cVUWTPzDiRZRA",
+        "path": "真题库/图片/省考/2ca04fd70c18.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=uwTunWckcjTFXz6jaEY7AA",
+        "path": "真题库/图片/省考/bc66a63897fd.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "00fde4935dfed5dd2cb8f3fc3ef7b2050affbd03792848510996e2b9452cd564"
+  },
+  {
+    "uid": "prov:13504522",
+    "fenbiId": "13504522",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2025,
+    "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_AH_2025.json",
+    "s": "妈妈将一个圆锥形冰淇淋（如下图所示，顶面是半径为3厘米的平面）将距离顶面三分之一高的位置平行切开，下面那块给小安，上面那块给小凡，那么小安吃的冰淇淋份量是小凡的多少倍？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>妈妈将一个圆锥形冰淇淋（如下图所示，顶面是半径为3厘米的平面）将距离顶面三分之一高的位置平行切开，下面那块给小安，上面那块给小凡，那么小安吃的冰淇淋份量是小凡的多少倍？</p><p><img width=\"156px\" height=\"220px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19599dee1af1cb2.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19599dee1af1cb2.png?width=700",
+        "path": "真题库/图片/省考/270869811e49.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=IlN38u_8C9frjU9ulo4LjPDj5zZvGh4i__mhpqfzFz4",
+        "path": "真题库/图片/省考/dec5d339bc38.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=IeOi9Jf2_1KdbxQ1OKqcGaY60GrsDEhEpLqgns70E10",
+        "path": "真题库/图片/省考/54b6e686854b.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=LkTZ-whREjg99z56B36Nl_iB5ybOYWS_JCXFo3CC3Vg",
+        "path": "真题库/图片/省考/70ba3db5f189.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=bKfcxOTUOzDlOk3qjOOMqnnsRpWdz7hSDl8whHvtYeI",
+        "path": "真题库/图片/省考/7820f1be0a50.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2025,
+        "paper": "2025年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_AH_2025.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "41695e09750f0cdb1014fc463d3a8ba29bdd9bf6f8368f9296753533e159ae40"
+  },
+  {
+    "uid": "prov:16070166",
+    "fenbiId": "16070166",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "若将一个弹簧拉力器的一端固定在天花板上，握住另一端用力缓慢竖直下拉，假设弹簧具有一定的质量且均匀分布，则弹簧拉力器最可能断裂的位置是（ ）。",
+    "o": [
+      "弹簧拉力器的上部",
+      "弹簧拉力器的中部",
+      "弹簧拉力器的下部",
+      "上、下部同时断裂"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>若将一个弹簧拉力器的一端固定在天花板上，握住另一端用力缓慢竖直下拉，假设弹簧具有一定的质量且均匀分布，则弹簧拉力器最可能断裂的位置是（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "85ed025ec12c8c13f9d4a9d76727cd6afebd29ac56ea824a7c4a3d16611738c0"
+  },
+  {
+    "uid": "prov:16070159",
+    "fenbiId": "16070159",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "运动心率即人体在运动时保持的心率状态，保持最佳的运动心率对于运动安全及运动效果来说都十分重要。一般来说，正常人最佳运动心率的范围是：最大运动心率=（220-年龄）×0.8次/分；最小运动心率=（220-年龄）×0.6次/分。那么正常人40岁时，最佳运动心率的范围为：",
+    "o": [
+      "108~132次/分",
+      "132~144次/分",
+      "108~144次/分",
+      "144~176次/分"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>运动心率即人体在运动时保持的心率状态，保持最佳的运动心率对于运动安全及运动效果来说都十分重要。一般来说，正常人最佳运动心率的范围是：最大运动心率=（220-年龄）×0.8次/分；最小运动心率=（220-年龄）×0.6次/分。那么正常人40岁时，最佳运动心率的范围为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "729af16509eb1d16cd1a52b682ad6f9af9f8653d0985135a852170e1246e3ccb"
+  },
+  {
+    "uid": "prov:16070160",
+    "fenbiId": "16070160",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "木星冲日，即木星、地球和太阳三者处于一条直线上，且地球位于太阳和木星之间。已知2024年12月8日发生了木星冲日，若木星绕太阳公转的周期约为12个地球年，则下一次木星冲日发生于下列哪个时间段？",
+    "o": [
+      "2025年7月~9月",
+      "2026年1月~3月",
+      "2026年4月~6月",
+      "2026年7月~9月"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>木星冲日，即木星、地球和太阳三者处于一条直线上，且地球位于太阳和木星之间。已知2024年12月8日发生了木星冲日，若木星绕太阳公转的周期约为12个地球年，则下一次木星冲日发生于下列哪个时间段？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ada3778c537c185b1f3feb55c96f6babffb631a80d25ed1ef204e7ebfb44d4a5"
+  },
+  {
+    "uid": "prov:16070162",
+    "fenbiId": "16070162",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "某数字展馆沿入口两侧各设有3个展位。现需安排数字产品展位和人工智能展位各3个，且数字产品展位不能都安排在同一侧，那么共有多少种安排方式？",
+    "o": [
+      "244",
+      "648",
+      "684",
+      "720"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某数字展馆沿入口两侧各设有3个展位。现需安排数字产品展位和人工智能展位各3个，且数字产品展位不能都安排在同一侧，那么共有多少种安排方式？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "710e75d6f99b50b2a29e884a53ef18e8434a2040e9904d5da6fef86428719233"
+  },
+  {
+    "uid": "prov:16070173",
+    "fenbiId": "16070173",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "某县拟对某段运河开展河道治理。甲公司治理1米需要用时1.5天，投入5万元；乙公司治理1米需要用时2天，投入4万元。甲、乙两公司不能同时作业，若要求在365天内完成不少于200米的治理工作，则至少需要治理费用：",
+    "o": [
+      "832万元",
+      "845万元",
+      "860万元",
+      "870万元"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某县拟对某段运河开展河道治理。甲公司治理1米需要用时1.5天，投入5万元；乙公司治理1米需要用时2天，投入4万元。甲、乙两公司不能同时作业，若要求在365天内完成不少于200米的治理工作，则至少需要治理费用：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 66,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e354716855819758549553098a384b3560cbce83bfd7835d597a330840a6efdf"
+  },
+  {
+    "uid": "prov:16070165",
+    "fenbiId": "16070165",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "城区某中学安排2位数学老师、4位英语老师到A、B两所乡村中学任教，要求两所乡村中学各安排3位老师，其中A中学至少需要安排1位数学老师。那么有多少种不同的安排方式？",
+    "o": [
+      "9",
+      "12",
+      "16",
+      "20"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>城区某中学安排2位数学老师、4位英语老师到A、B两所乡村中学任教，要求两所乡村中学各安排3位老师，其中A中学至少需要安排1位数学老师。那么有多少种不同的安排方式？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "daad16d9aaff6a20a8a1e3216ccf30ff9784dc8bf211d772e6b98afcedbcc8a1"
+  },
+  {
+    "uid": "prov:17467542",
+    "fenbiId": "17467542",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "杜甫在《绝句》中写道：“两个黄鹂鸣翠柳，一行白鹭上青天。”从这十四个字中任取两个字，则声母相同的概率是多少？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>杜甫在《绝句》中写道：“两个黄鹂鸣翠柳，一行白鹭上青天。”从这十四个字中任取两个字，则声母相同的概率是多少？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=u-s9W8DHP9NiZw4ZrcQoow",
+        "path": "真题库/图片/省考/9e424271860f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=6qhaqui4TmCY2yeWtxX-vg",
+        "path": "真题库/图片/省考/cddd5d7c4aad.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=uX-Y72neyfCsAp7yl1URVAz2yT-bxEJdv90Hj9qFGjE",
+        "path": "真题库/图片/省考/05331a68a718.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=3HlpSdpRxWCuIxBoRz8Cpw",
+        "path": "真题库/图片/省考/b24abb16f7c7.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 59,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "61d51779bdc3fbfc31f3a4c110cf02459c53b4e4298620392abc1d8a24226d3f"
+  },
+  {
+    "uid": "prov:16070168",
+    "fenbiId": "16070168",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "体操世锦赛男团预赛一共有单杠、双杠、自由体操、鞍马、吊环、跳马六个项目，每个国家的比赛项目顺序由抽签决定。那么某个国家第一个比赛项目不是单杠，且自由体操不在双杠之后的概率是多少?",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>体操世锦赛男团预赛一共有单杠、双杠、自由体操、鞍马、吊环、跳马六个项目，每个国家的比赛项目顺序由抽签决定。那么某个国家第一个比赛项目不是单杠，且自由体操不在双杠之后的概率是多少?</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=lqBPjrB5Wmf3_HbJgJ3r3Q",
+        "path": "真题库/图片/省考/352493a7192d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=H5zhqVIusPx8Wdh2t7_pYQ",
+        "path": "真题库/图片/省考/eb52c8e80813.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=BZ4PJh9TgnUi06rGtHglnQ",
+        "path": "真题库/图片/省考/1b19a1c6c563.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ejkSEjBZIuYDxtGmR0bY0g",
+        "path": "真题库/图片/省考/e9b0596ac524.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "44e549e541b88107df984a3f06b9162b7c60840ee1f2648fadd48c3bf4a80833"
+  },
+  {
+    "uid": "prov:16070169",
+    "fenbiId": "16070169",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "为了节约资源，保护环境，某企业需要购买A、B两种型号的污水处理设备共8台。A型设备月污水处理能力为240吨，价格为每台12万元，B型设备月污水处理能力为160吨，价格为每台10万元，企业最多支出90万元购买设备，且要求月污水处理能力不低于1600吨。那么A型污水处理设备最多可购买：",
+    "o": [
+      "3台",
+      "4台",
+      "5台",
+      "6台"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为了节约资源，保护环境，某企业需要购买A、B两种型号的污水处理设备共8台。A型设备月污水处理能力为240吨，价格为每台12万元，B型设备月污水处理能力为160吨，价格为每台10万元，企业最多支出90万元购买设备，且要求月污水处理能力不低于1600吨。那么A型污水处理设备最多可购买：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c9060e48b1d047385e488c585c7c16e5aabb3e3fb9fdead7a1dc5b1f7a989eff"
+  },
+  {
+    "uid": "prov:16070163",
+    "fenbiId": "16070163",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "随着新型清洁能源、现代生态农牧的发展，昔日戈壁荒滩不仅成为光伏“蓝海”，还变成了养殖数万只“光伏羊”的繁茂草原。牧民甲、乙家中都有若干只“光伏羊”，乙若给甲20只羊，甲的羊数将是乙的K倍；甲若给乙K只羊，乙的羊数将是甲的一半；若K为正整数，那么K的值可能有多少个？",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>随着新型清洁能源、现代生态农牧的发展，昔日戈壁荒滩不仅成为光伏“蓝海”，还变成了养殖数万只“光伏羊”的繁茂草原。牧民甲、乙家中都有若干只“光伏羊”，乙若给甲20只羊，甲的羊数将是乙的K倍；甲若给乙K只羊，乙的羊数将是甲的一半；若K为正整数，那么K的值可能有多少个？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "91a87d0d0ec7ab33607ecc6c7aaead59b8061764bcd35d31a18716382b31f7bd"
+  },
+  {
+    "uid": "prov:16070268",
+    "fenbiId": "16070268",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "一家三口去旅游，拍摄单人照、合照一共68张。合照的数量比单人照的两倍少一张；合照中，全家福占了三分之二，且孩子出现的次数为爸爸妈妈出现次数之和的一半；孩子的单人照比爸爸、妈妈单人照数量之和多1张。那么孩子出现的照片一共有：",
+    "o": [
+      "52张",
+      "48张",
+      "45张",
+      "37张"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一家三口去旅游，拍摄单人照、合照一共68张。合照的数量比单人照的两倍少一张；合照中，全家福占了三分之二，且孩子出现的次数为爸爸妈妈出现次数之和的一半；孩子的单人照比爸爸、妈妈单人照数量之和多1张。那么孩子出现的照片一共有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1bf01c464a44b6dd4a38bb9943f67c36779a6478a3265e13daea3081fbaf7607"
+  },
+  {
+    "uid": "prov:17467567",
+    "fenbiId": "17467567",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "某小区内有一块直角扇形的草坪如下图所示，两条互相垂直的小路AC与BC分别长4米和3米。物业公司准备在四边形OACB围成的区域种植丁香花。如果小路面积忽略不计，则丁香花种植面积为多少平方米？",
+    "o": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某小区内有一块直角扇形的草坪如下图所示，两条互相垂直的小路AC与BC分别长4米和3米。物业公司准备在四边形OACB围成的区域种植丁香花。如果小路面积忽略不计，则丁香花种植面积为多少平方米？</p><p><img width=\"200px\" height=\"171px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19cecfa0521e88a.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19cecfa0521e88a.png?width=700",
+        "path": "真题库/图片/省考/c8ff4c71de8f.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8323443d03f419b61bc36ecd128a49107365adeb4927a97810c3df6c1558323c"
+  },
+  {
+    "uid": "prov:16070196",
+    "fenbiId": "16070196",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "某风力发电机的三片风叶之间两两所成的角度为，当其中一片风叶OB与塔杆叠合时，一位身高1.8米的技术人员站在另一片风叶OA端头的正下方，测得塔杆顶部仰角为（如左下图所示）；若该技术人员站在离塔杆60米处，则测得塔杆顶部仰角为（如右下图所示）。那么风叶转动时叶片顶端最高离地面：",
+    "o": [
+      "81.8米",
+      "89.8米",
+      "95.8米",
+      "101.8米"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某风力发电机的三片风叶之间两两所成的角度为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=lfj2wM1i9c9HYv5CYAlISA\">，当其中一片风叶OB与塔杆叠合时，一位身高1.8米的技术人员站在另一片风叶OA端头的正下方，测得塔杆顶部仰角为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=YqOnvRQdAcgJgKOAHNqXRw\">（如左下图所示）；若该技术人员站在离塔杆60米处，则测得塔杆顶部仰角为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=eiqR_iE9D2yWkX3n01QwTQ\">（如右下图所示）。那么风叶转动时叶片顶端最高离地面：</p><p><img width=\"300px\" height=\"128px\" src=\"//fb.fenbike.cn/api/tarzan/images/19cec5fd34a5ec7.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=lfj2wM1i9c9HYv5CYAlISA",
+        "path": "真题库/图片/省考/dfc28b0a7c2c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=YqOnvRQdAcgJgKOAHNqXRw",
+        "path": "真题库/图片/省考/2a717d523a88.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=eiqR_iE9D2yWkX3n01QwTQ",
+        "path": "真题库/图片/省考/66e07cc012b1.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19cec5fd34a5ec7.png?width=700",
+        "path": "真题库/图片/省考/c056d155b57b.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1396a782441fb5e25453fea5fb4ffb317f690a6c9f341da1429183b947e6dd6e"
+  },
+  {
+    "uid": "prov:16070171",
+    "fenbiId": "16070171",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "小刚新做了一个鞋柜，鞋柜的纵截面如左下图所示。鞋柜水平深度28.8厘米，隔板与水平面夹角为，这个格子刚好放得下一个15厘米高的鞋盒，则这双鞋的鞋码最大是：（参考数据：，，）",
+    "o": [
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小刚新做了一个鞋柜，鞋柜的纵截面如左下图所示。鞋柜水平深度28.8厘米，隔板与水平面夹角为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=R_h5kyVmIgsRYKNMyFIpBg\">，这个格子刚好放得下一个15厘米高的鞋盒，则这双鞋的鞋码最大是：（参考数据：<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=MkDwgIWQoBJM13rs8j_wz4O89-C8HAvy2cWbS4iwWcw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=uloOLC6xFIoJdOCAmbhV9ITs6cDNpwFC0zD0BZcGrqQ\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=AMsXAyU91HFggrV6C5YWFDClNuYBtjtHpSulys2dM8s\">）</p><p><img width=\"515px\" height=\"295px\" src=\"//fb.fenbike.cn/api/tarzan/images/19cec4c2a1c112c.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=R_h5kyVmIgsRYKNMyFIpBg",
+        "path": "真题库/图片/省考/b1e859428381.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=MkDwgIWQoBJM13rs8j_wz4O89-C8HAvy2cWbS4iwWcw",
+        "path": "真题库/图片/省考/12d7c468d225.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=uloOLC6xFIoJdOCAmbhV9ITs6cDNpwFC0zD0BZcGrqQ",
+        "path": "真题库/图片/省考/3fe239fa370b.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=AMsXAyU91HFggrV6C5YWFDClNuYBtjtHpSulys2dM8s",
+        "path": "真题库/图片/省考/e9c4ac7d4065.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19cec4c2a1c112c.png?width=700",
+        "path": "真题库/图片/省考/dd461f0a32ef.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 67,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0120e5a22f08bcabf1f4ce970e41243fc33f2b7b116b69f795ff791f63508296"
+  },
+  {
+    "uid": "prov:16070290",
+    "fenbiId": "16070290",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "某林场计划扩大荒原造林面积。下图中区域的荒原造林工作已由两人花费一天的时间完成。若将的AB边延长一倍到点D，BC边延长两倍到点E，CA边延长三倍到点F。假设每人的工作效率一致，则至少需要增加几人才能在接下来的5天内完成剩余区域的荒原造林工作？",
+    "o": [
+      "3",
+      "5",
+      "6",
+      "12"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某林场计划扩大荒原造林面积。下图中<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=nZw8W4pYTeiOZ0v_qoB2wCuyBghbKWuXWZGuEKTRurQ\">区域的荒原造林工作已由两人花费一天的时间完成。若将<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=nZw8W4pYTeiOZ0v_qoB2wCuyBghbKWuXWZGuEKTRurQ\">的AB边延长一倍到点D，BC边延长两倍到点E，CA边延长三倍到点F。假设每人的工作效率一致，则至少需要增加几人才能在接下来的5天内完成<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=FGLk8zIpZZcJEhIkLNuAg-AxFVnC22ddMZJ-t1D-MhQ\">剩余区域的荒原造林工作？</p><p><img width=\"250px\" height=\"223px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19cec7cc8d3f8f9.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=nZw8W4pYTeiOZ0v_qoB2wCuyBghbKWuXWZGuEKTRurQ",
+        "path": "真题库/图片/省考/5df80ecd7878.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=nZw8W4pYTeiOZ0v_qoB2wCuyBghbKWuXWZGuEKTRurQ",
+        "path": "真题库/图片/省考/5df80ecd7878.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=FGLk8zIpZZcJEhIkLNuAg-AxFVnC22ddMZJ-t1D-MhQ",
+        "path": "真题库/图片/省考/ddd0b859fd5c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19cec7cc8d3f8f9.png?width=700",
+        "path": "真题库/图片/省考/348a0906e5ea.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3e2c5bf2ca0f7b6e3b99fee04a6394cecb1db679576e6c42fae0a6f8b8e1e45c"
+  },
+  {
+    "uid": "prov:16070176",
+    "fenbiId": "16070176",
+    "exam": "安徽省考",
+    "province": "安徽",
+    "code": "AH",
+    "year": 2026,
+    "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_AH_2026.json",
+    "s": "为庆祝春节，某村计划在村口的两根圆柱体石柱上缠绕灯带。每根石柱需绕上3圈灯带，起始点为A，终点为B，如下图所示。若每根石柱高为5米，横截面圆的周长为4米，那么两根石柱所需的灯带总长度最短为多少米？",
+    "o": [
+      "13",
+      "25",
+      "26",
+      "50"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为庆祝春节，某村计划在村口的两根圆柱体石柱上缠绕灯带。每根石柱需绕上3圈灯带，起始点为A，终点为B，如下图所示。若每根石柱高为5米，横截面圆的周长为4米，那么两根石柱所需的灯带总长度最短为多少米？</p><p><img width=\"138px\" height=\"198px\" src=\"//fb.fbstatic.cn/api/tarzan/images/19cec4e3ef44315.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/19cec4e3ef44315.png?width=700",
+        "path": "真题库/图片/省考/6913b287b9aa.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_AH_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "安徽省考",
+        "province": "安徽",
+        "code": "AH",
+        "year": 2026,
+        "paper": "2026年安徽省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_AH_2026.json"
+      },
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "158c9e9f40c8e4a8b9bbe2d9fb7da9bec3a17f78b1135eab14d2c9dbf87193da"
+  },
+  {
+    "uid": "prov:769129",
+    "fenbiId": "769129",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "3，5，5，6，6.5，（ ）。",
+    "o": [
+      "6.25",
+      "6.5",
+      "7.25",
+      "7.5"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，5，5，6，6.5，（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3e1754981b90f317517052eb081bb4b34c5af1f2e1e0d3927df029141fc87827"
+  },
+  {
+    "uid": "prov:769131",
+    "fenbiId": "769131",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 3,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "30，15，1002，57，（ ）。",
+    "o": [
+      "78",
+      "77",
+      "68",
+      "67"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>30，15，1002，57，（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 3
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "517a2859e15abb456fb7d990644a7272e02ab76eafd73bd485860076e4608304"
+  },
+  {
+    "uid": "prov:769133",
+    "fenbiId": "769133",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "1，9，7，4，8，5，（ ），11。",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，9，7，4，8，5，（    ），11。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6f7fb65a2574e07288bc7446ee3e4c6cbfb630193f23222986562b6c64281067"
+  },
+  {
+    "uid": "prov:769135",
+    "fenbiId": "769135",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "",
+    "o": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"650px\" height=\"155px\" src=\"//fb.fbstatic.cn/api/tarzan/images/166e1e6be7924d1.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/166e1e6be7924d1.png?width=700",
+        "path": "真题库/图片/省考/3f136d3c7e5a.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "841716d5d2d4ef019c1bcbf0cf57a0f3bb575d00296992378284d3a813ad8cee"
+  },
+  {
+    "uid": "prov:769137",
+    "fenbiId": "769137",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "一个人从家到公司，当他走到路程的一半的时候，速度下降了10%，问：他走完全程所用时间的前半段和后半段所走的路程比是：",
+    "o": [
+      "10∶9",
+      "21∶19",
+      "11∶9",
+      "22∶18"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一个人从家到公司，当他走到路程的一半的时候，速度下降了10%，问：他走完全程所用时间的前半段和后半段所走的路程比是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d4b194b215691d7dd16d48825647643e4a7c6709b1529a5bad697ee54f1adf79"
+  },
+  {
+    "uid": "prov:18253",
+    "fenbiId": "18253",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "一个图书馆里有科技书和文学书两种类型，首先拿走25本科技书，剩下的文学书占剩下书的，又拿走42本文学书，剩下的科技书占所剩书的，问：最开始文学书占总共书的几分之几：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一个图书馆里有科技书和文学书两种类型，首先拿走25本科技书，剩下的文学书占剩下书的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=FGIw6m3As2I3ZsuxqoBEVQ\">，又拿走42本文学书，剩下的科技书占所剩书的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=c_uXAIHzRUn-2Tbz1Gz54Q\">，问：最开始文学书占总共书的几分之几：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=FGIw6m3As2I3ZsuxqoBEVQ",
+        "path": "真题库/图片/省考/6554f65d9114.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=c_uXAIHzRUn-2Tbz1Gz54Q",
+        "path": "真题库/图片/省考/fca326330209.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=tnKQHcbtRdaKWC2XjoO_fg",
+        "path": "真题库/图片/省考/6c9392b164c7.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=3FhCyLKBK_rejEbS8nnl-EeH3uqRpb2ox2lzT3-aXTY",
+        "path": "真题库/图片/省考/e1eb447838e0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/22f430d0cade.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=SkQEBO-bQoVMx3obfYkDVA",
+        "path": "真题库/图片/省考/9c4727c7d9ad.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5231f6a3d9764d175f37c376bc88a95fbea7b6fa1ba15edbeec5b1ccd1f21f32"
+  },
+  {
+    "uid": "prov:769141",
+    "fenbiId": "769141",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "三位运动员跨台阶，台阶总数在100-150级之间，第一位运动员每次跨3级台阶，最后一步还剩2级台阶。第二位运动员每次跨4级台阶，最后一步还剩3级台阶。第三位运动员每次跨5级台阶，最后一步还剩4级台阶。则这些台阶总共有多少级：",
+    "o": [
+      "119",
+      "121",
+      "129",
+      "131"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>三位运动员跨台阶，台阶总数在100-150级之间，第一位运动员每次跨3级台阶，最后一步还剩2级台阶。第二位运动员每次跨4级台阶，最后一步还剩3级台阶。第三位运动员每次跨5级台阶，最后一步还剩4级台阶。则这些台阶总共有多少级：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c2d5bd4a8e15335d21e8c9c5cbd22d4e994049d3b7d59d7fcedb8c5357a515c3"
+  },
+  {
+    "uid": "prov:769143",
+    "fenbiId": "769143",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "两人参加竞赛，甲做错了总数的，乙做错了6道题，两人都做错了总数的，两人都做对的题有多少道？",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>两人参加竞赛，甲做错了总数的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=HWUiiW14_FCicOnaJCTMGw\">，乙做错了6道题，两人都做错了总数的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=1K1C3omrYedmC4R1Dhe63A\">，两人都做对的题有多少道？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/14f0df17eeb4.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=1K1C3omrYedmC4R1Dhe63A",
+        "path": "真题库/图片/省考/9b25a627e0de.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b7976ba38ac03485a240216ccc3077db026b2c61d9d2c0d1c2ae0cf680194e49"
+  },
+  {
+    "uid": "prov:769145",
+    "fenbiId": "769145",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "一个产品生产线分为a、b、c三段，每个人每小时分别完成10、5、6件，现在总人数为71人，要使得完成的件数最多，71人的安排分别是：",
+    "o": [
+      "14∶28∶29",
+      "15∶31∶25",
+      "16∶32∶23",
+      "17∶33∶21"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一个产品生产线分为a、b、c三段，每个人每小时分别完成10、5、6件，现在总人数为71人，要使得完成的件数最多，71人的安排分别是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "78cf0248efa9cff895fe028293d927ab019aeb0df10e7a9a9b88f1fedc618a6a"
+  },
+  {
+    "uid": "prov:769147",
+    "fenbiId": "769147",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "A和B两个码头分别位于一条河的上下游，甲船从A码头到B码头需要4天，从B码头返回A码头需要6天；乙船在静水中速度是甲船的一半。乙船从B码头到A码头需要多少天：",
+    "o": [
+      "",
+      "",
+      "12",
+      "16"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>A和B两个码头分别位于一条河的上下游，甲船从A码头到B码头需要4天，从B码头返回A码头需要6天；乙船在静水中速度是甲船的一半。乙船从B码头到A码头需要多少天：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6DUbUcgec9s1XNgP5x2fpPEH_1oGrQHkJuFNPXLLAcs",
+        "path": "真题库/图片/省考/32de68d5d2d2.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=HmDGNIiVyfDvkFLssuQVyAvq5lzg7sLVzl384mF7W18",
+        "path": "真题库/图片/省考/54e4edc3d34f.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3577ce4d2be7a5f5ede52be65a899e17a4d94907e24168fd3b297cfaa89e2872"
+  },
+  {
+    "uid": "prov:769149",
+    "fenbiId": "769149",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 12,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "某展览馆计划4月上旬接待5个单位来参观，其中2个单位人数较多，分别连续参观3天和2天，其他单位只参观1天，且每天最多只接待1个单位。参观的时间安排共多少种：",
+    "o": [
+      "30",
+      "120",
+      "2520",
+      "30240"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某展览馆计划4月上旬接待5个单位来参观，其中2个单位人数较多，分别连续参观3天和2天，其他单位只参观1天，且每天最多只接待1个单位。参观的时间安排共多少种：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 12
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 12,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c7d6b995399298a1a0b91834444f96fa6f420af6543f15a0c234f6ace51a2f63"
+  },
+  {
+    "uid": "prov:769151",
+    "fenbiId": "769151",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 13,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "由20名工人修筑一段公路，计划15天完成。动工3天后抽出5人去其他工地，其余人继续修路。如果每人工作效率不变，那么修完这段公路实际用：",
+    "o": [
+      "19天",
+      "18天",
+      "17天",
+      "16天"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>由20名工人修筑一段公路，计划15天完成。动工3天后抽出5人去其他工地，其余人继续修路。如果每人工作效率不变，那么修完这段公路实际用：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 13
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 13,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "71e1fe9bc65389582e341d0b8491d4e598918031d3e45c31f7df133e86a2a851"
+  },
+  {
+    "uid": "prov:769153",
+    "fenbiId": "769153",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 14,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "办公室有甲、乙、丙、丁4位同志，甲比乙大5岁，丙比丁大2岁。丁三年前参加工作，当时22岁。他们四人现在的年龄之和为127岁。那么乙现在的年龄是：",
+    "o": [
+      "25岁",
+      "27岁",
+      "35岁",
+      "40岁"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>办公室有甲、乙、丙、丁4位同志，甲比乙大5岁，丙比丁大2岁。丁三年前参加工作，当时22岁。他们四人现在的年龄之和为127岁。那么乙现在的年龄是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 14
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 14,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a741adb9e8b32d73bebeb593ced3ff6791d95e3e499da8a8ebb2e0f1367d15b1"
+  },
+  {
+    "uid": "prov:769155",
+    "fenbiId": "769155",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 15,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "某公司100名员工对甲、乙两名经理进行满意度评议，对甲满意的人数占全体参加评议的，对乙满意的人数比甲的人数多6人，对甲、乙都不满意的占都满意人数的还多2人，则对甲、乙都满意的人数是：",
+    "o": [
+      "36人",
+      "26人",
+      "48人",
+      "42人"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司100名员工对甲、乙两名经理进行满意度评议，对甲满意的人数占全体参加评议的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=-YBKzysaRKCk5IKGRNJQ8A\">，对乙满意的人数比甲的人数多6人，对甲、乙都不满意的占都满意人数的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=HWUiiW14_FCicOnaJCTMGw\">还多2人，则对甲、乙都满意的人数是：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=-YBKzysaRKCk5IKGRNJQ8A",
+        "path": "真题库/图片/省考/0bcca98a3a64.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/14f0df17eeb4.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 15
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 15,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e6e70fe9cee402a0c075630e84808069d3d5041422b7c15148414e1411880a2e"
+  },
+  {
+    "uid": "prov:769157",
+    "fenbiId": "769157",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2011,
+    "paper": "2011年广东省公务员录用考试《行测》题",
+    "variant": "2011",
+    "number": 16,
+    "sourceFile": "_downloads/fb/paper_GD_2011.json",
+    "s": "人们的审美（ ）和文化消费方式在变，群众文化的“文化力量”正在被重新打量。社会的文化民生、文化平等因公益文化、共享文化而提速，群众自办文化逐步发展。在空格处选填最恰当的字是：",
+    "o": [
+      "情趣",
+      "情致",
+      "情怀",
+      "情调"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>人们的审美（    ）和文化消费方式在变，群众文化的“文化力量”正在被重新打量。社会的文化民生、文化平等因公益文化、共享文化而提速，群众自办文化逐步发展。<br>在空格处选填最恰当的字是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2011.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 16
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2011,
+        "paper": "2011年广东省公务员录用考试《行测》题",
+        "variant": "2011",
+        "number": 16,
+        "sourceFile": "_downloads/fb/paper_GD_2011.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1188fd40c2c2323d26b6750315a4d7d8b3feaad0dbf29de8b4ea3e8249903be7"
+  },
+  {
+    "uid": "prov:18665",
+    "fenbiId": "18665",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 1,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "0，1，3，9，33，（ ）",
+    "o": [
+      "147",
+      "150",
+      "153",
+      "156"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>0，1，3，9，33，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 1
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 1,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "af0dc676b205e81e8f83e572898dcbf2cfc527c1134fea45d8765cd3e03a9885"
+  },
+  {
+    "uid": "prov:18669",
+    "fenbiId": "18669",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "12，9，18，33，96，21，（ ），（ ）",
+    "o": [
+      "39，3",
+      "12，24",
+      "26，27",
+      "36，51"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>12，9，18，33，96，21，（    ），（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6822b7ec7db49c9df24b7120eafe2d014243e453dbdf0be456a898402dde98ae"
+  },
+  {
+    "uid": "prov:18677",
+    "fenbiId": "18677",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 3,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "3672，5458，9016，7450，（ ）",
+    "o": [
+      "3578",
+      "6473",
+      "9894",
+      "4785"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3672，5458，9016，7450，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 3
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a5bcc863eede1021b01cc63e506edc80de75a8433f7899b2bb72a75280b1737c"
+  },
+  {
+    "uid": "prov:18697",
+    "fenbiId": "18697",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "2，2，8，－1，－2，5，1，1，2，－1，1，( )",
+    "o": [
+      "－2",
+      "－1",
+      "1",
+      "2"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>2，2，8，－1，－2，5，1，1，2，－1，1，(     )</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2bd6cadf7e3fa47bd2138801390c8e366022b2e167389b6a8ccd7a660cac9b6f"
+  },
+  {
+    "uid": "prov:28575",
+    "fenbiId": "28575",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "",
+    "o": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"395px\" height=\"200px\" src=\"//fb.fbstatic.cn/api/tarzan/images/13b4b546224c0da.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/13b4b546224c0da.png?width=700",
+        "path": "真题库/图片/省考/ac6f8d1e7fe3.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "634ac19bd3da244320b34372175e6cba8758db5b7606eb5fa9df81a35ca67dec"
+  },
+  {
+    "uid": "prov:18785",
+    "fenbiId": "18785",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "某企业为全体员工定制工作服，请服装公司的裁缝量体裁衣。裁缝每小时为52名男员工和35名女员工量尺寸。几小时后，刚好量完所有女员工的尺寸，这时还有24名男员工没量。若男员工与女员工的人数比为11:7，则该企业共有多少名员工：",
+    "o": [
+      "720",
+      "810",
+      "900",
+      "1080"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业为全体员工定制工作服，请服装公司的裁缝量体裁衣。裁缝每小时为52名男员工和35名女员工量尺寸。几小时后，刚好量完所有女员工的尺寸，这时还有24名男员工没量。若男员工与女员工的人数比为11:7，则该企业共有多少名员工：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "44e36732c5aa7f9d845ad2f0c5037ba2dcc62b58c5d81bcdc8f9a961e035fddb"
+  },
+  {
+    "uid": "prov:18793",
+    "fenbiId": "18793",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "某市举办经济建设成就展，计划在六月上旬组织5个单位参观，其中一个单位由于人数较多，需要连续参观2天，其他4个单位只需参观1天。若每天最多只能安排一个单位参观，则参观的时间安排共有多少种：",
+    "o": [
+      "630",
+      "700",
+      "15120",
+      "16800"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某市举办经济建设成就展，计划在六月上旬组织5个单位参观，其中一个单位由于人数较多，需要连续参观2天，其他4个单位只需参观1天。若每天最多只能安排一个单位参观，则参观的时间安排共有多少种：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e02acb8f4cce37e0c23fea1b505c458779d08f599d658cb157ab5c2ef9a3ae8b"
+  },
+  {
+    "uid": "prov:18807",
+    "fenbiId": "18807",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "甲公司的一分厂制造了10台机床，二分厂制造了8台。乙公司向甲公司购买6台机床，丙公司向甲公司购买12台机床。每台机床的运费因运输距离的不同而有差异，具体情况如下表所示。乙、丙两公司购买机床的运费总和最低为多少元：",
+    "o": [
+      "12000",
+      "13500",
+      "15000",
+      "16000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲公司的一分厂制造了10台机床，二分厂制造了8台。乙公司向甲公司购买6台机床，丙公司向甲公司购买12台机床。每台机床的运费因运输距离的不同而有差异，具体情况如下表所示。乙、丙两公司购买机床的运费总和最低为多少元：</p><p><img width=\"410px\" height=\"88px\" src=\"//fb.fbstatic.cn/api/tarzan/images/13b032130346de6.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/13b032130346de6.png?width=700",
+        "path": "真题库/图片/省考/24fcf8124c80.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a1c113b5024b4b71fc5f862eaac08cf9f0483750edea44e78b9270c8973ff491"
+  },
+  {
+    "uid": "prov:18811",
+    "fenbiId": "18811",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "甲、乙二人在环湖小路上匀速步行，且绕行方向不变。19时，甲从A点、乙从B点同时出发相向而行。19时25分，两人相遇；19时45分，甲到达B点；20时5分，两人再次相遇。乙环湖一周需要多少分钟：",
+    "o": [
+      "72",
+      "81",
+      "90",
+      "100"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙二人在环湖小路上匀速步行，且绕行方向不变。19时，甲从A点、乙从B点同时出发相向而行。19时25分，两人相遇；19时45分，甲到达B点；20时5分，两人再次相遇。乙环湖一周需要多少分钟：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a3d0f2c849436ebefa82a168efc53edd88c9fd77201ff36865435e475702cd22"
+  },
+  {
+    "uid": "prov:18819",
+    "fenbiId": "18819",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "有绿、白两种颜色且尺寸相同的正方形瓷砖共400块，将这些瓷砖铺在一块正方形的地面上：最外面的一周用绿色瓷砖铺，从外往里数的第二周用白色瓷砖铺，第三周用绿色瓷砖，第四周用白色瓷砖……这样依次交替铺下去，恰好将所有瓷砖用完。这块正方形地面上的绿色瓷砖共有多少块：",
+    "o": [
+      "180",
+      "196",
+      "210",
+      "220"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有绿、白两种颜色且尺寸相同的正方形瓷砖共400块，将这些瓷砖铺在一块正方形的地面上：最外面的一周用绿色瓷砖铺，从外往里数的第二周用白色瓷砖铺，第三周用绿色瓷砖，第四周用白色瓷砖……这样依次交替铺下去，恰好将所有瓷砖用完。这块正方形地面上的绿色瓷砖共有多少块：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b6a19dadbd3eb413d789bf1b4080c0cba20e61b1fa784bc489147e9eff7350dc"
+  },
+  {
+    "uid": "prov:45851",
+    "fenbiId": "45851",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "小张的手表和闹钟走时都不准，手表比标准时间每9小时快3分钟，闹钟比标准时间每6小时慢5分钟。一天，小张发现手表指示9点27分钟，闹钟刚好指示9点41分，那么至少要经过多少小时，手表和闹钟才能指示同一时刻：",
+    "o": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小张的手表和闹钟走时都不准，手表比标准时间每9小时快3分钟，闹钟比标准时间每6小时慢5分钟。一天，小张发现手表指示9点27分钟，闹钟刚好指示9点41分，那么至少要经过多少小时，手表和闹钟才能指示同一时刻：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c0bdfc7bb29186fb9e3a9268588a609b0d6a031e16c5e9f3fd93b19a63394a77"
+  },
+  {
+    "uid": "prov:45857",
+    "fenbiId": "45857",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 12,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "某单位举办趣味体育比赛，共组织了甲、乙、丙、丁4个队，比赛共5项，每项第一名得3分，第二名得2分，第三名得1分，第四名不得分。已知甲队获得了3次第一名，乙队获得了3次第二名，那么得分最少的队的分数不可能超过多少分：",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位举办趣味体育比赛，共组织了甲、乙、丙、丁4个队，比赛共5项，每项第一名得3分，第二名得2分，第三名得1分，第四名不得分。已知甲队获得了3次第一名，乙队获得了3次第二名，那么得分最少的队的分数不可能超过多少分：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 12
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 12,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6b8d80b230bf60c058c2a6b80829ef66fe46e55381be6747c1285c3676edc453"
+  },
+  {
+    "uid": "prov:45867",
+    "fenbiId": "45867",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 13,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "一列火车出发1小时后因故障停车0.5小时，然后以原速度的行驶，到达目的地晚点1.5小时，若出发1小时后又行驶120公里再停车0.5小时，然后同样以原速度的行驶，则到达目的地晚点1小时，从起点到目的地的距离为：",
+    "o": [
+      "240",
+      "300",
+      "320",
+      "360"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一列火车出发1小时后因故障停车0.5小时，然后以原速度的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=5h3PGZBcXMECgvjQzPqyhw\">行驶，到达目的地晚点1.5小时，若出发1小时后又行驶120公里再停车0.5小时，然后同样以原速度的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=5h3PGZBcXMECgvjQzPqyhw\">行驶，则到达目的地晚点1小时，从起点到目的地的距离为：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=5h3PGZBcXMECgvjQzPqyhw",
+        "path": "真题库/图片/省考/65b8adf91e15.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=5h3PGZBcXMECgvjQzPqyhw",
+        "path": "真题库/图片/省考/65b8adf91e15.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 13
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 13,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "72e90a26da532f0fb8c343da6d12b1ccfeb16f1589a9f27543be9f12a2ea67cc"
+  },
+  {
+    "uid": "prov:45869",
+    "fenbiId": "45869",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 14,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "某公司举办年终晚宴，每桌安排7名普通员工与3名管理人员，到最后2桌时，由于管理人员安排完，便全部安排了普通员工，结果还差2个人才能刚好坐满，已知该公司普通员工人数是管理人员的3倍，则该公司有管理人员：",
+    "o": [
+      "24",
+      "27",
+      "33",
+      "36"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司举办年终晚宴，每桌安排7名普通员工与3名管理人员，到最后2桌时，由于管理人员安排完，便全部安排了普通员工，结果还差2个人才能刚好坐满，已知该公司普通员工人数是管理人员的3倍，则该公司有管理人员：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 14
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 14,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b60d04d6e8e3a1f7fb457ef5db5fcdc88140b32bd70e12343774905c729d62fa"
+  },
+  {
+    "uid": "prov:45877",
+    "fenbiId": "45877",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2012,
+    "paper": "2012年广东省公务员录用考试《行测》题",
+    "variant": "2012",
+    "number": 15,
+    "sourceFile": "_downloads/fb/paper_GD_2012.json",
+    "s": "某天，林伯的水果摊三种水果的价格分别为：苹果6元/斤，芒果5元/斤，香蕉3元/斤。当天，苹果与芒果的销售量之比为4：3，芒果与香蕉的销售量之比为2：11，卖香蕉比卖苹果多收入102元，林伯这天共销售三种水果多少斤：",
+    "o": [
+      "75",
+      "94",
+      "141",
+      "165"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某天，林伯的水果摊三种水果的价格分别为：苹果6元/斤，芒果5元/斤，香蕉3元/斤。当天，苹果与芒果的销售量之比为4：3，芒果与香蕉的销售量之比为2：11，卖香蕉比卖苹果多收入102元，林伯这天共销售三种水果多少斤：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2012.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 15
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2012,
+        "paper": "2012年广东省公务员录用考试《行测》题",
+        "variant": "2012",
+        "number": 15,
+        "sourceFile": "_downloads/fb/paper_GD_2012.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "223b45390a644d4a332ff2ea85d34d6b6616f10f3d5a5790af77a2cef4aa43a2"
+  },
+  {
+    "uid": "prov:50643",
+    "fenbiId": "50643",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 1,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "160，80，40，20，（ ）",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>160，80，40，20，（  ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 1
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 1,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "17cac32eaf98a130b40e8472cbd7d04b58668390a0464b0830d76bdaaf01db1b"
+  },
+  {
+    "uid": "prov:50441",
+    "fenbiId": "50441",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "6，14，22，（ ），38，46",
+    "o": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>6，14，22，（  ），38，46</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4c0c8bf0e57472f1b7e3418626d89c961e341ddf5a3e2dc3e692e107dfb0d36e"
+  },
+  {
+    "uid": "prov:50437",
+    "fenbiId": "50437",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 3,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "1.8，3.6，7.2，14.4，（ ），57.6",
+    "o": [
+      "18.4",
+      "22.6",
+      "28.8",
+      "34.4"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1.8，3.6，7.2，14.4，（  ），57.6</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 3
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 3,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 1,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2f69280962f41757d73647f90a26cd73f57b18c696d2071e4308234bd64560da"
+  },
+  {
+    "uid": "prov:50649",
+    "fenbiId": "50649",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "300，290，281，273，（ ），260",
+    "o": [
+      "270",
+      "266",
+      "264",
+      "262"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>300，290，281，273，（ ），260</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "36ee11cd70df554e7d78a35da6177491ecb7d3af1708f18bdb2c1843cdaab469"
+  },
+  {
+    "uid": "prov:50651",
+    "fenbiId": "50651",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "2，3，7，10，19，26，45，60，（ ）",
+    "o": [
+      "99",
+      "105",
+      "113",
+      "127"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>2，3，7，10，19，26，45，60，（ ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3a9797972dd3ce2220182287d68785e7fc2e9375bb9ac07a4e50ac23e711461c"
+  },
+  {
+    "uid": "prov:50653",
+    "fenbiId": "50653",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 6,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "一款手机打七折后价格为1050元，则该手机原价为（ ）元。",
+    "o": [
+      "1100",
+      "1400",
+      "1500",
+      "2100"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一款手机打七折后价格为1050元，则该手机原价为（  ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 6
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "bc59c3e4208b6fd2282e2705af32af5a08ad0c32b72a3c8c44c4054b391740fd"
+  },
+  {
+    "uid": "prov:50655",
+    "fenbiId": "50655",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 7,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某企业组织80名员工一起去划船，每条船乘客定员12人，则该企业最少需要租船多少条：",
+    "o": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业组织80名员工一起去划船，每条船乘客定员12人，则该企业最少需要租船多少条：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 7
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 7,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2ea3057d858c8fa9b80deba262909cdafcd2f0124f72fee4ff0605f96ba77751"
+  },
+  {
+    "uid": "prov:50657",
+    "fenbiId": "50657",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "师傅每小时加工25个零件，徒弟每小时加工20个零件，按每天工作8小时计算，师傅一天加工的零件比徒弟多几个：",
+    "o": [
+      "10",
+      "20",
+      "40",
+      "80"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>师傅每小时加工25个零件，徒弟每小时加工20个零件，按每天工作8小时计算，师傅一天加工的零件比徒弟多几个：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 6,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "afb3f3cab66191bf0fb6905c3f88cf3bbaa7a3a711a75abac402925afb5a8c6c"
+  },
+  {
+    "uid": "prov:50659",
+    "fenbiId": "50659",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某企业有员工500人，其中60%的员工是男性，则该企业男员工比女员工多多少人：",
+    "o": [
+      "100",
+      "200",
+      "300",
+      "400"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业有员工500人，其中60%的员工是男性，则该企业男员工比女员工多多少人：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d44c0e3fb98febc8d3731913a40a31f21570cb425892a3e720f39257df406a76"
+  },
+  {
+    "uid": "prov:50661",
+    "fenbiId": "50661",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某服装店三月份男装和女装的总销售额为8000元，已知三月份女装销售了50件，每件售价100元，则三月份男装销售额为多少元：",
+    "o": [
+      "1000",
+      "2000",
+      "3000",
+      "4000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某服装店三月份男装和女装的总销售额为8000元，已知三月份女装销售了50件，每件售价100元，则三月份男装销售额为多少元：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e0c6f88225ba6bf6110d0b6dcc77027f695df14fd5dadadee3f7c07e155fa15c"
+  },
+  {
+    "uid": "prov:50663",
+    "fenbiId": "50663",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某烟农晾晒一批重量为500斤的烟叶，晾晒期间有3天阴天，其余时间天气晴好，最后收获干烟叶约187斤。已知晴天时烟叶每天较前一天减重20%，阴天时每天较前一天减重10%。则这批烟叶一共晾晒了多少天：",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某烟农晾晒一批重量为500斤的烟叶，晾晒期间有3天阴天，其余时间天气晴好，最后收获干烟叶约187斤。已知晴天时烟叶每天较前一天减重20%，阴天时每天较前一天减重10%。</p><p>则这批烟叶一共晾晒了多少天：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "92ab579b6a920077cb59822b2983b772f40bd9d588ac5b7144d758fb28d476ee"
+  },
+  {
+    "uid": "prov:50665",
+    "fenbiId": "50665",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 12,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "有两堆材料需要搬运。工人先搬了第一堆材料的一半，然后分出3/5的人手去搬第二堆材料，其余工人继续搬第一堆。当第二堆材料刚好搬完时，第一堆材料还剩下10%没搬。则第二堆材料的数量比第一堆少多少：",
+    "o": [
+      "40%",
+      "50%",
+      "55%",
+      "60%"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有两堆材料需要搬运。工人先搬了第一堆材料的一半，然后分出3/5的人手去搬第二堆材料，其余工人继续搬第一堆。当第二堆材料刚好搬完时，第一堆材料还剩下10%没搬。</p><p>则第二堆材料的数量比第一堆少多少：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 12
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 12,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "db4d442fea06ca4d7a8a2e0d6e2e443a9bfa3cf06c092514b6097c0b8ba464fc"
+  },
+  {
+    "uid": "prov:50667",
+    "fenbiId": "50667",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 13,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某村村民经过集体投票民主选举村干部，5位村干部候选人中得票最高者将当选。经统计，本次选举有效选票一共395票，且当选者的得票数比其他4位候选人的平均得票数要多60票，则这名当选者一共获得多少票：",
+    "o": [
+      "62",
+      "67",
+      "122",
+      "127"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某村村民经过集体投票民主选举村干部，5位村干部候选人中得票最高者将当选。经统计，本次选举有效选票一共395票，且当选者的得票数比其他4位候选人的平均得票数要多60票，则这名当选者一共获得多少票：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 13
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 13,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "11ad145803d27af521918619229f2e1daa3d218b4e0663bed3253c4e46aaa565"
+  },
+  {
+    "uid": "prov:50669",
+    "fenbiId": "50669",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 14,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某单位购买了10台新电脑，计划分配给甲、乙、丙3个部门使用。已知每个部门都需要新电脑，且每个部门最多得到5台，那么电脑分配方法共有多少种：",
+    "o": [
+      "9",
+      "12",
+      "18",
+      "27"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位购买了10台新电脑，计划分配给甲、乙、丙3个部门使用。已知每个部门都需要新电脑，且每个部门最多得到5台，那么电脑分配方法共有多少种：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 14
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 14,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c9da85831080703d4125cc9e09144c255ec749534f708ed844443389d70d34cd"
+  },
+  {
+    "uid": "prov:50671",
+    "fenbiId": "50671",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（一）",
+    "variant": "2013p1",
+    "number": 15,
+    "sourceFile": "_downloads/fb/paper_GD_2013p1.json",
+    "s": "某单位举办活动，需要制作8米长的横幅20条。用来制作横幅的原料有两种，一种每卷10米，售价10元；另一种每卷25米，售价23元。如果每卷原料截断后无法拼接，则该单位购买横幅原料最少需要花费多少元：",
+    "o": [
+      "146",
+      "158",
+      "161",
+      "200"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位举办活动，需要制作8米长的横幅20条。用来制作横幅的原料有两种，一种每卷10米，售价10元；另一种每卷25米，售价23元。如果每卷原料截断后无法拼接，则该单位购买横幅原料最少需要花费多少元：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p1.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 15
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（一）",
+        "variant": "2013p1",
+        "number": 15,
+        "sourceFile": "_downloads/fb/paper_GD_2013p1.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1cc1f8de6d8bb2f49d0e480e97593feca709d76ae908e0768c517b82ed833d48"
+  },
+  {
+    "uid": "prov:50439",
+    "fenbiId": "50439",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 2,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "3，7，9，14，27，28，81，（ ）",
+    "o": [
+      "132",
+      "108",
+      "83",
+      "56"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，7，9，14，27，28，81，（  ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 2
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 2,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f1e72f1d51c1cfa471e887a5fa8f491f785639e8742ea3a60b76034b79852983"
+  },
+  {
+    "uid": "prov:50443",
+    "fenbiId": "50443",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 4,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "1，，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=a7rsUAIZ3hzWP_wCMzIr2w\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=0U2AB0rieq7NwYiITsFEdMjD0WmKOtBxQSqBcpThiSo\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=fq8lt9kd6uJHy40pODnXgQ\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=jZ62d7LnKcZQQMaDgUGNrWlCyhPiJKt0pTt0-vS_hck\">，（  ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=a7rsUAIZ3hzWP_wCMzIr2w",
+        "path": "真题库/图片/省考/de8ca52775a0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=0U2AB0rieq7NwYiITsFEdMjD0WmKOtBxQSqBcpThiSo",
+        "path": "真题库/图片/省考/d83c75099774.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=fq8lt9kd6uJHy40pODnXgQ",
+        "path": "真题库/图片/省考/a288ffa8d6a9.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=jZ62d7LnKcZQQMaDgUGNrWlCyhPiJKt0pTt0-vS_hck",
+        "path": "真题库/图片/省考/d0318fe16bc7.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=wp8ZVA3L8EKMkwKkAYR_6g",
+        "path": "真题库/图片/省考/2dd56007a8ad.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=IH0IkRk5QWSA4O9-El0bAA",
+        "path": "真题库/图片/省考/6c7977dd88f9.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ZH8tMWOm-lF--GL-4qEmBg",
+        "path": "真题库/图片/省考/1b0166fdb393.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=H5zhqVIusPx8Wdh2t7_pYQ",
+        "path": "真题库/图片/省考/eb52c8e80813.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 4
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 4,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "58e7c55606f1dfb2d71a0877570cb96f4b52ea68cc36bd2cf7ab4d9f8b4a11fe"
+  },
+  {
+    "uid": "prov:50445",
+    "fenbiId": "50445",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 5,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "24，35，55，57，（ ）",
+    "o": [
+      "64",
+      "68",
+      "75",
+      "79"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>24，35，55，57，（  ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 5
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 5,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0d0060bc11fb8417fa0bd84cb93dac0832786da5dea42ce0349e87a482c1e602"
+  },
+  {
+    "uid": "prov:50451",
+    "fenbiId": "50451",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 8,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "小陈家住在5楼，他每天上下楼各一次，共需走120级楼梯。后来小陈家搬到同一栋楼的8楼，如果每层楼的楼梯级数相同，则他搬家后每天上下楼一次共需走楼梯多少级？",
+    "o": [
+      "168",
+      "192",
+      "210",
+      "240"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小陈家住在5楼，他每天上下楼各一次，共需走120级楼梯。后来小陈家搬到同一栋楼的8楼，如果每层楼的楼梯级数相同，则他搬家后每天上下楼一次共需走楼梯多少级？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 8
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 8,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a05cdf86d6b485ec97ab4707a5664e1563ec22d344f5e1c426154352698d413b"
+  },
+  {
+    "uid": "prov:50453",
+    "fenbiId": "50453",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 9,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "某社区组织开展知识竞赛，有5个家庭成功晋级决赛的抢答环节，抢答环节共5道题。计分方式如下：每个家庭有10分为基础分；若抢答到题目，答对一题得5分，答错一题扣2分；抢答不到题目不得分。那么一个家庭在抢答环节有可能获得多少种不同的分数？",
+    "o": [
+      "18",
+      "21",
+      "25",
+      "36"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某社区组织开展知识竞赛，有5个家庭成功晋级决赛的抢答环节，抢答环节共5道题。计分方式如下：每个家庭有10分为基础分；若抢答到题目，答对一题得5分，答错一题扣2分；抢答不到题目不得分。那么一个家庭在抢答环节有可能获得多少种不同的分数？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 9
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 9,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d97e124832eeb41ec0da42cbe6f0f73a7fe6a7cd419090275b4abd670248c62a"
+  },
+  {
+    "uid": "prov:50455",
+    "fenbiId": "50455",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 10,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "一厂家生产销售某新型节能产品。产品生产成本是168元，销售定价为238元。一位买家向该厂家预订了120件产品，并提出产品销售价每降低2元，就多订购8件。则该厂家在这笔交易中能获得的最大利润是多少元？",
+    "o": [
+      "17920",
+      "13920",
+      "10000",
+      "8400"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一厂家生产销售某新型节能产品。产品生产成本是168元，销售定价为238元。一位买家向该厂家预订了120件产品，并提出产品销售价每降低2元，就多订购8件。则该厂家在这笔交易中能获得的最大利润是多少元？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 10
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 10,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d12b621be792c000dbdf9a45e88e5cf2631c225ea1a11d0759ffb6b1c7b9eb9c"
+  },
+  {
+    "uid": "prov:50457",
+    "fenbiId": "50457",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2013,
+    "paper": "2013年广东省公务员录用考试《行测》题（三）",
+    "variant": "2013p3",
+    "number": 11,
+    "sourceFile": "_downloads/fb/paper_GD_2013p3.json",
+    "s": "某礼堂的观众座椅共96张，分东、南、西三个区域摆放。现从东区搬出与南区同样多的座椅放到南区，再从南区搬出与西区同样多的座椅放到西区，最后从西区搬出与东区剩下的座椅数量相同的座椅放到东区，这时三个区域的座椅数量相同。则最初南区的座椅有多少张？",
+    "o": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某礼堂的观众座椅共96张，分东、南、西三个区域摆放。现从东区搬出与南区同样多的座椅放到南区，再从南区搬出与西区同样多的座椅放到西区，最后从西区搬出与东区剩下的座椅数量相同的座椅放到东区，这时三个区域的座椅数量相同。则最初南区的座椅有多少张？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2013p3.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 11
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2013,
+        "paper": "2013年广东省公务员录用考试《行测》题（三）",
+        "variant": "2013p3",
+        "number": 11,
+        "sourceFile": "_downloads/fb/paper_GD_2013p3.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1fdc78758013b13391162a436395eaa787b060aa848ae5bdcd67d41586dfcb30"
+  },
+  {
+    "uid": "prov:453807",
+    "fenbiId": "453807",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "2187，729，243，81，27，（ ）",
+    "o": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>2187，729，243，81，27，（   ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cee898086b718d24a68c397f0f3fec9e2a3638ad0d44f75c1c53ee8abada7508"
+  },
+  {
+    "uid": "prov:453809",
+    "fenbiId": "453809",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "4，6，10，18，34，66，（ ）",
+    "o": [
+      "82",
+      "98",
+      "114",
+      "130"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>4，6，10，18，34，66，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "fd6cd53ae233e9b23b903804cb94310421c45c01eaad089f7f70b5665fcf81a1"
+  },
+  {
+    "uid": "prov:453811",
+    "fenbiId": "453811",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "768，199，827，69，904，（ ）",
+    "o": [
+      "92",
+      "77",
+      "53",
+      "39"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>768，199，827，69，904，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c86622295be87ee848158ca72a9bd0216a6fd81505cd591d4582ea3edbc5011a"
+  },
+  {
+    "uid": "prov:453813",
+    "fenbiId": "453813",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "1，，2.6，，（ ）",
+    "o": [
+      "",
+      "",
+      "5.2",
+      "6.2"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=9nKerqXbkpqg5UhHvHMJlJf1b_P9VEvSNf7kttXpkJY\">，2.6，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=KHpe4zN69IExw2W5i6_j9lfWMv9mc69Nbg2cORQCeAE\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=9nKerqXbkpqg5UhHvHMJlJf1b_P9VEvSNf7kttXpkJY",
+        "path": "真题库/图片/省考/e4fa60aeadf8.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=KHpe4zN69IExw2W5i6_j9lfWMv9mc69Nbg2cORQCeAE",
+        "path": "真题库/图片/省考/d8cbbbbf38ac.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=xZLRofQZ5cgdpr7NsSoTq-GhIa833dc-wPwAjSCknT8",
+        "path": "真题库/图片/省考/b6addb7cb752.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ZC0xC7_nlEREjNmBZSnvswlBHNxIhdLx3VjJyKGmoME",
+        "path": "真题库/图片/省考/c64906bb6c1a.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e42e2c4b02decdc3801b1c0fb455e150276a33d45d404118a181659004fdea9a"
+  },
+  {
+    "uid": "prov:453815",
+    "fenbiId": "453815",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "8，3，17，5，24，9，26，18，30，（ ）",
+    "o": [
+      "22",
+      "25",
+      "33",
+      "36"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>8，3，17，5，24，9，26，18，30，（   ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "499afc6bf2bea5290f8df400cbbbdcc38d085050de7b0c0ef649629dd5c07493"
+  },
+  {
+    "uid": "prov:453817",
+    "fenbiId": "453817",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "办公室工作人员使用红、蓝两种颜色的文件袋装29份相同的文件。每个红色文件袋可以装7份文件，每个蓝色文件袋可以装4份文件。要使每个文件袋都恰好装满，需要红色、蓝色文件袋的数量分别为（ ）个。",
+    "o": [
+      "1、6",
+      "2、4",
+      "3、2",
+      "4、1"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>办公室工作人员使用红、蓝两种颜色的文件袋装29份相同的文件。每个红色文件袋可以装7份文件，每个蓝色文件袋可以装4份文件。要使每个文件袋都恰好装满，需要红色、蓝色文件袋的数量分别为（  ）个。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "abca42ba1d965629fee54efc7c11af2f3a5502386c54f1683e8de26f43d48b9c"
+  },
+  {
+    "uid": "prov:453819",
+    "fenbiId": "453819",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "一些员工在某工厂车间工作，如果有4名女员工离开车间，在剩余的员工中，女员工人数占，如果有4名男员工离开车间，在剩余的员工中，男员工人数占。原来在车间工作的员工共有（ ）名。",
+    "o": [
+      "36",
+      "40",
+      "48",
+      "72"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一些员工在某工厂车间工作，如果有4名女员工离开车间，在剩余的员工中，女员工人数占<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=v-IaauBERn_D3jTnrTWBMw\">，如果有4名男员工离开车间，在剩余的员工中，男员工人数占<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=HWUiiW14_FCicOnaJCTMGw\">。原来在车间工作的员工共有（    ）名。</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=v-IaauBERn_D3jTnrTWBMw",
+        "path": "真题库/图片/省考/b63a7814885a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/14f0df17eeb4.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d8aeb73fc782e23e8e501bb89e4d85858863a394df2c6f80ab92b462eed2413e"
+  },
+  {
+    "uid": "prov:453821",
+    "fenbiId": "453821",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "一辆客车与一辆货车从东、西两个车站同时出发匀速相向而行，客车和货车的行驶速度之比为4：3。两车相遇后，客车的行驶速度减少10%，货车的行驶速度增加20%，当客车到达西车站时，货车距离东车站还有17公里。东、西两个车站的距离是（ ）公里。",
+    "o": [
+      "59.5",
+      "77",
+      "119",
+      "154"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一辆客车与一辆货车从东、西两个车站同时出发匀速相向而行，客车和货车的行驶速度之比为4：3。两车相遇后，客车的行驶速度减少10%，货车的行驶速度增加20%，当客车到达西车站时，货车距离东车站还有17公里。东、西两个车站的距离是（   ）公里。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "02bca03ba85266bb90554ac5e45f266dcaeadcbff98fdc481e5a5b790b0482b3"
+  },
+  {
+    "uid": "prov:453823",
+    "fenbiId": "453823",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "为丰富职工业余文化生活，某单位组织了合唱、象棋、羽毛球三项活动。在该单位的所有职工中，参加合唱活动的有189人，参加象棋活动的有152人，参加羽毛球活动的有135人，参加两种活动的有130人，参加三种活动的有69人，不参加任何一种活动的有44人。该单位的职工人数为（ ）人。",
+    "o": [
+      "233",
+      "252",
+      "321",
+      "520"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为丰富职工业余文化生活，某单位组织了合唱、象棋、羽毛球三项活动。在该单位的所有职工中，参加合唱活动的有189人，参加象棋活动的有152人，参加羽毛球活动的有135人，参加两种活动的有130人，参加三种活动的有69人，不参加任何一种活动的有44人。该单位的职工人数为（  ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c34530b3ec0e017156e89f051df3178333f8995279cb3ef5d6132d6c42469cc1"
+  },
+  {
+    "uid": "prov:453825",
+    "fenbiId": "453825",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "在环保知识竞赛中，男选手的平均得分为80分，女选手的平均得分为65分，全部选手的平均得分为72分。已知全部选手人数在35到50之间，则全部选手人数为（ ）。",
+    "o": [
+      "48",
+      "45",
+      "43",
+      "40"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在环保知识竞赛中，男选手的平均得分为80分，女选手的平均得分为65分，全部选手的平均得分为72分。已知全部选手人数在35到50之间，则全部选手人数为（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "bf36a270fbc7a3e1f6a2737d2949131ef9858e63a7a9ea69c01ab98b6d71da19"
+  },
+  {
+    "uid": "prov:453827",
+    "fenbiId": "453827",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "在一条新修的道路两侧各安装了33座路灯，每侧相邻路灯之间的距离相同。为提高照明亮度，有关部门决定在该道路两侧共加装16座路灯，要使加路灯后相邻路灯之间的距离也相同，最多有（ ）座原来的路灯不需要挪动。",
+    "o": [
+      "9",
+      "10",
+      "18",
+      "20"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在一条新修的道路两侧各安装了33座路灯，每侧相邻路灯之间的距离相同。为提高照明亮度，有关部门决定在该道路两侧共加装16座路灯，要使加路灯后相邻路灯之间的距离也相同，最多有（  ）座原来的路灯不需要挪动。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "bf90b14fce779e2646a168a70ba7ffb4a0f43eb083ad56f17fa04d988332c96a"
+  },
+  {
+    "uid": "prov:453829",
+    "fenbiId": "453829",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "一名顾客购买两件均低于100元的商品，售货员在收款时错将其中一件商品标价的个位数和十位数弄反了，该顾客因此少付了27元。被弄错价格的这件商品的标价不可能是（ ）元。",
+    "o": [
+      "42",
+      "63",
+      "85",
+      "96"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一名顾客购买两件均低于100元的商品，售货员在收款时错将其中一件商品标价的个位数和十位数弄反了，该顾客因此少付了27元。被弄错价格的这件商品的标价不可能是（  ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "117b9ea00c94ae691894b4256f19f9ddd68d61f9c06cdee9f95c99a9a610bce8"
+  },
+  {
+    "uid": "prov:453831",
+    "fenbiId": "453831",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "某地民政部门对当地民间组织进行摸底调查，发现40%的民间组织有25人以上，20个民间组织有50人以上规模，80%的民间组织不足50人，人员规模在25人以上但不足50人的民间组织数量有（ ）个。",
+    "o": [
+      "20",
+      "40",
+      "60",
+      "80"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地民政部门对当地民间组织进行摸底调查，发现40%的民间组织有25人以上，20个民间组织有50人以上规模，80%的民间组织不足50人，人员规模在25人以上但不足50人的民间组织数量有（  ）个。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a9ef6fa4fc7aa0e1c4e7a345c46ea1dbb35ad69889d0fce30779ee036c746e45"
+  },
+  {
+    "uid": "prov:453833",
+    "fenbiId": "453833",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "在某公司年终晚会上，所有员工分组表演节目。如果按7男5女搭配分组，则只剩下8名男员工；如果按9男5女搭配分组，只剩下40名女员工。该公司员工总数为（ ）。",
+    "o": [
+      "446",
+      "488",
+      "508",
+      "576"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在某公司年终晚会上，所有员工分组表演节目。如果按7男5女搭配分组，则只剩下8名男员工；如果按9男5女搭配分组，只剩下40名女员工。该公司员工总数为（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8e42bc36f984be1798cf1b62ab5912f55b6700612efc8138c4eeb0d1e22a9ab1"
+  },
+  {
+    "uid": "prov:453835",
+    "fenbiId": "453835",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2014xj",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2014xj.json",
+    "s": "小王和小刘手工制作一种工艺品，每件工艺品由一个甲部件和一个乙部件组成，小王每天可以制作150个甲部件，或者制作75个乙部件；小刘每天可以制作60个甲部件，或者制作24个乙部件。现两人一起制作工艺品，10天时间最多可以制作该工艺品（ ）件。",
+    "o": [
+      "660",
+      "675",
+      "700",
+      "900"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小王和小刘手工制作一种工艺品，每件工艺品由一个甲部件和一个乙部件组成，小王每天可以制作150个甲部件，或者制作75个乙部件；小刘每天可以制作60个甲部件，或者制作24个乙部件。现两人一起制作工艺品，10天时间最多可以制作该工艺品（    ）件。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2014xj",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2014xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0ce7534f8b671871e1f1750f18facd148d67a54689143c23e864ec315c65d8be"
+  },
+  {
+    "uid": "prov:2036652",
+    "fenbiId": "2036652",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "11、18、25、32、( )",
+    "o": [
+      "34",
+      "37",
+      "39",
+      "41"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>11、18、25、32、(   )</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "996699824ad36c7034186642349ecf7d6a4b492dc043796a4a8026107c6a6c6b"
+  },
+  {
+    "uid": "prov:2036654",
+    "fenbiId": "2036654",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "4、12、36、108、( )",
+    "o": [
+      "223",
+      "257",
+      "315",
+      "324"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>4、12、36、108、(   )</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "085ca2aa450d736b59a966e3afb927121b2edc3c9b9fabed5b1f0ae1e4122b06"
+  },
+  {
+    "uid": "prov:2036656",
+    "fenbiId": "2036656",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "10、5、15、20、35、( )",
+    "o": [
+      "50",
+      "55",
+      "65",
+      "70"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>10、5、15、20、35、(    )</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7bbab55665d4d91cbf0c5f9faa3a153925f0edc889e819bd8f41e20733be5733"
+  },
+  {
+    "uid": "prov:2036658",
+    "fenbiId": "2036658",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "90、45、15、3.75、( )",
+    "o": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>90、45、15、3.75、(    )</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "568555c51585fab45a87ea42e06f5e639e70db738ef210b5e09c1e988181c039"
+  },
+  {
+    "uid": "prov:2036660",
+    "fenbiId": "2036660",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "从所给的四个选项中，选择最合适的一个填入括号处，使之呈现一定的规律性：",
+    "o": [
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>从所给的四个选项中，选择最合适的一个填入括号处，使之呈现一定的规律性：</p><p><img width=\"456px\" height=\"455px\" src=\"//fb.fenbike.cn/api/tarzan/images/15cf2e414a7609b.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/15cf2e414a7609b.png?width=700",
+        "path": "真题库/图片/省考/b57bcef7ec4c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ae41097e165b62db9654d6141a72644a1f8e99042f6cfb8d732a477f2f66db9b"
+  },
+  {
+    "uid": "prov:2036662",
+    "fenbiId": "2036662",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "做同一种零件，赵师傅3小时做15个，钱师傅4小时做21个，孙师傅5小时做27个，李师傅6小时做31个，则( )的工作效率最高。",
+    "o": [
+      "赵师傅",
+      "钱师傅",
+      "孙师傅",
+      "李师傅"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>做同一种零件，赵师傅3小时做15个，钱师傅4小时做21个，孙师傅5小时做27个，李师傅6小时做31个，则( )的工作效率最高。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d198a7e76f555542a1200c35a377a76692f62982b9f24bf41d56b4cf8c103ce8"
+  },
+  {
+    "uid": "prov:2036686",
+    "fenbiId": "2036686",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "某合作社农场有5块稻田，今年夏季每块稻田的产量分别为：580千克、562千克、517千克、543千克、529千克。则5块稻田的平均产量是( )千克。",
+    "o": [
+      "546.2",
+      "548.4",
+      "549.6",
+      "550.8"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某合作社农场有5块稻田，今年夏季每块稻田的产量分别为：580千克、562千克、517千克、543千克、529千克。则5块稻田的平均产量是(      )千克。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6d374b57c4fd0210c859c36d207c30d6d1174e97d718d312cec95c8e3bf173e3"
+  },
+  {
+    "uid": "prov:2036694",
+    "fenbiId": "2036694",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "某工程队给一个长方形广场铺地砖，已知每平方米铺设成本为25元，若广场的宽不变，长增加5米，总成本则上升1.25万元；若广场的长不变，宽增加3米，总成本则上升1.5万元。则广场原来铺设的总成本为( )万元。",
+    "o": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某工程队给一个长方形广场铺地砖，已知每平方米铺设成本为25元，若广场的宽不变，长增加5米，总成本则上升1.25万元；若广场的长不变，宽增加3米，总成本则上升1.5万元。则广场原来铺设的总成本为(    )万元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d34fe6dd97574a1046e62c45fb169f8f6c740e4c750f27ec4df5f149f8502a3a"
+  },
+  {
+    "uid": "prov:2036700",
+    "fenbiId": "2036700",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "小李晚上到镇中心广场看电影。第一排共有21个座位，部分座位已有人就座，小李发现，他无论坐在第一排的哪个位置，都将与第一排已经就座的人相邻。在小李之前已在第一排就坐的人数最少是（）。",
+    "o": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小李晚上到镇中心广场看电影。第一排共有21个座位，部分座位已有人就座，小李发现，他无论坐在第一排的哪个位置，都将与第一排已经就座的人相邻。在小李之前已在第一排就坐的人数最少是（）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f58885b8cd84d9b5f79e27e9a09924b23d174eb47df64b03adb8d42a43e5943c"
+  },
+  {
+    "uid": "prov:2036704",
+    "fenbiId": "2036704",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2014,
+    "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+    "variant": "2014xz",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2014xz.json",
+    "s": "某市组织技术人员到外地培训学习，需要先乘车再乘船才能到达目的地。要保证每个人都有座位，需要每辆有60个座位的大巴至少4辆，需要定员为70人的船至少3条。到达目的地之后，对技术人员进行分组培训，结果发现，分的组数跟每组的人数恰好相等，则参加这次培训学习的技术人员共有( )名。",
+    "o": [
+      "169",
+      "181",
+      "196",
+      "225"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某市组织技术人员到外地培训学习，需要先乘车再乘船才能到达目的地。要保证每个人都有座位，需要每辆有60个座位的大巴至少4辆，需要定员为70人的船至少3条。到达目的地之后，对技术人员进行分组培训，结果发现，分的组数跟每组的人数恰好相等，则参加这次培训学习的技术人员共有( )名。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2014xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2014,
+        "paper": "2014年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2014xz",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2014xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "016964a320657dbf3239e0fdd7df2e8d0ff6df6759669069c8190d6e49055947"
+  },
+  {
+    "uid": "prov:1325305",
+    "fenbiId": "1325305",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2015,
+    "paper": "2015年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2015xj",
+    "number": 25,
+    "sourceFile": "_downloads/fb/paper_GD_2015xj.json",
+    "s": "",
+    "o": [
+      "11 7",
+      "13 5",
+      "17 9",
+      "21 3"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"324px\" height=\"178px\" src=\"//fb.fbstatic.cn/api/tarzan/images/14c5e6ea3f2ebff.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/14c5e6ea3f2ebff.png?width=700",
+        "path": "真题库/图片/省考/6617e1518654.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2015xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 25
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2015,
+        "paper": "2015年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2015xj",
+        "number": 25,
+        "sourceFile": "_downloads/fb/paper_GD_2015xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2015,
+        "paper": "2015年广东省公务员录用考试《行测》题（乡镇）",
+        "variant": "2015xz",
+        "number": 25,
+        "sourceFile": "_downloads/fb/paper_GD_2015xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "24b5de93da163bf3457b4d80ca10be6182be31b69d4dc6b4b474aca3db626224"
+  },
+  {
+    "uid": "prov:1325309",
+    "fenbiId": "1325309",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2015,
+    "paper": "2015年广东省公务员录用考试《行测》题（县级以上）",
+    "variant": "2015xj",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_GD_2015xj.json",
+    "s": "阅览室有100本杂志，小赵借阅过其中75本，小王借阅过70本，小刘借阅过60本，则三人共同借阅过的杂志最少有（）本。",
+    "o": [
+      "5",
+      "10",
+      "15",
+      "30"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>阅览室有100本杂志，小赵借阅过其中75本，小王借阅过70本，小刘借阅过60本，则三人共同借阅过的杂志最少有（）本。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2015xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2015,
+        "paper": "2015年广东省公务员录用考试《行测》题（县级以上）",
+        "variant": "2015xj",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_GD_2015xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6dbb5f0765ed0b2eadca15d71a8488719589333097cf27e96ba893e35b31fec4"
+  }
+]

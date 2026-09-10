@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 _site/
+
+# Local audit scratch includes full PDF pages; publish only deliberate image copies.
+/教学/速刷/full_audit/work/
+/_release_check/

@@ -6,3 +6,7 @@
 /教学/速刷/gen/gen_*_output.json -text whitespace=cr-at-eol
 /教学/速刷/hand100_v1_拒收快照.json -text whitespace=cr-at-eol
 /教学/速刷/手写百题独立审计.md -text whitespace=cr-at-eol
+
+/真题库/图片/已审计/*.png binary
+
+/handoff.md text eol=lf

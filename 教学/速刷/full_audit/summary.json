@@ -1,0 +1,113 @@
+{
+  "input": {
+    "national": 400,
+    "provincialUnique": 705,
+    "provincePaperCount": 66,
+    "provincialOccurrences": 855,
+    "provinceUniqueByRepresentative": {
+      "安徽": 121,
+      "广东": 300,
+      "湖北": 20,
+      "河南": 124,
+      "四川": 140
+    },
+    "guangdongValidation": {
+      "2024": 15,
+      "2025": 15,
+      "2026": 15
+    },
+    "sourceImages": 430
+  },
+  "reviewed": 1105,
+  "verdicts": {
+    "verified": 1067,
+    "disputed": 23,
+    "invalid": 4,
+    "off_module": 11
+  },
+  "train": 917,
+  "trainUnique": 841,
+  "validationSlots": 150,
+  "validationUsable": 150,
+  "validationUnique": 116,
+  "study": 27,
+  "byLevel": {
+    "入门": 285,
+    "熟练": 465,
+    "深化": 156,
+    "综合": 11
+  },
+  "byProvince": {
+    "国考": 286,
+    "安徽": 113,
+    "广东": 249,
+    "湖北": 14,
+    "河南": 117,
+    "四川": 138
+  },
+  "trainByOccurrenceProvince": {
+    "国考": 286,
+    "安徽": 113,
+    "广东": 249,
+    "湖北": 87,
+    "河南": 131,
+    "四川": 151
+  },
+  "images": 129,
+  "coverage": [
+    {
+      "exam": "国考",
+      "year": 2024,
+      "slots": 35,
+      "verified": 33,
+      "provisional": 2,
+      "disputed": 0,
+      "invalid": 0
+    },
+    {
+      "exam": "国考",
+      "year": 2025,
+      "slots": 35,
+      "verified": 35,
+      "provisional": 0,
+      "disputed": 0,
+      "invalid": 0
+    },
+    {
+      "exam": "国考",
+      "year": 2026,
+      "slots": 35,
+      "verified": 35,
+      "provisional": 0,
+      "disputed": 0,
+      "invalid": 0
+    },
+    {
+      "exam": "广东省考",
+      "year": 2024,
+      "slots": 15,
+      "verified": 15,
+      "provisional": 0,
+      "disputed": 0,
+      "invalid": 0
+    },
+    {
+      "exam": "广东省考",
+      "year": 2025,
+      "slots": 15,
+      "verified": 15,
+      "provisional": 0,
+      "disputed": 0,
+      "invalid": 0
+    },
+    {
+      "exam": "广东省考",
+      "year": 2026,
+      "slots": 15,
+      "verified": 15,
+      "provisional": 0,
+      "disputed": 0,
+      "invalid": 0
+    }
+  ]
+}

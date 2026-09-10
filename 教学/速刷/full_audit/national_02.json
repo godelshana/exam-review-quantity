@@ -1,0 +1,3456 @@
+[
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "10",
+      "6",
+      "8",
+      "5"
+    ],
+    "paper": "地市级",
+    "s": "某电器工作功耗为370瓦，待机状态下功耗为37瓦，该电器周一从9:30到17:00处于工作状态，其余时间断电。周二从9:00到24:00处于待机状态，其余时间断电。问其周―的耗电量是周二的多少倍？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某电器工作功耗为370瓦，待机状态下功耗为37瓦，该电器周一从9:30到17:00处于工作状态，其余时间断电。周二从9:00到24:00处于待机状态，其余时间断…\n\n解析：作答本题可以采用“分情况讨论法”。公式：耗电量=功耗×时间周一耗电量=370 瓦×7.5 小时。周二耗电量=37 瓦×15 小时。则周一的耗电量是周二的倍数为：370×7.5 / 37×15 = 5（倍）。所以，正确选项是D。",
+    "uid": "real:2016:地市级:61",
+    "year": 2016,
+    "inputHash": "2ed30058bebf379e0e55bc16158d76692ce35c74540ae54c2411555243658e29",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "足球组人数与篮球组人数之和",
+      "乒乓球组人数与足球组人数之和",
+      "足球组人数的1.5倍",
+      "篮球组人数的3倍"
+    ],
+    "paper": "地市级",
+    "s": "某单位组建兴趣小组，每人选择―项参加。羽毛球组人数是乒乓球组人数的2倍，足球组人数是篮球组人数的3倍，乒乓球组人数的4倍与其他3个组人数的和相等。则羽毛球组人数等于：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:62",
+    "year": 2016,
+    "inputHash": "09211d7f761e52221d1f1c5cbb39f9f419e8338e131c9f2ecf612fa9e2dc50bc",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "5",
+      "2",
+      "6",
+      "3"
+    ],
+    "paper": "地市级",
+    "s": "某政府机关内甲、乙两部门通过门户网站定期向社会发布消息，甲部门每隔两天、乙部门每隔3天有―个发布日，节假日无休。问甲、乙两部门在一个自然月内最多有几天同时为发布日？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:63",
+    "year": 2016,
+    "inputHash": "863af0d2b898abdd376307dcbf653f2363377eef5700b619ff984170d7ad0bf4",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "33",
+      "34",
+      "36",
+      "37"
+    ],
+    "paper": "地市级",
+    "s": "某新建小区计划在小区主干道两侧种植银杏树和梧桐树绿化环境，一侧每隔3棵银杏树种一棵梧桐树，另一侧每隔4棵梧桐树种1棵银杏树，最终两侧各种植了35棵树，问最多栽种了多少棵银杏树？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:64",
+    "year": 2016,
+    "inputHash": "807d097333bd50c7329004f4d2871470bf54b6217f7e26b97ded7d3882930f83",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "paper": "地市级",
+    "s": "某集团三个分公司共同举行技能大赛，其中成绩靠前的X人获奖。如获奖人数最多的分公司获奖的人数为Y，问以下哪个图形能反映Y的上、下限分别与X的关系？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认",
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:65",
+    "year": 2016,
+    "inputHash": "ca7c5efbbd01d0f35b5edbcf7df79c3ed02c85e3e272ee73971848b1d048715c",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "paper": "地市级",
+    "s": "李主任在早上8点30分上班之后参加了一个会议，会议开始时发现其手表的时针和分针呈120度角，而上午会议结束时发现手表的时针和分针呈180度角。问在该会议举行的过程中，李主任的手表时针与分针呈90度角的情况最多可能出现几次？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：李主任在早上8点30分上班之后参加了一个会议，会议开始时发现其手表的时针和分针呈120度角，而上午会议结束时发现手表的时针和分针呈180度角。问在该会议举行的过…\n\n解析：如果考生的手头准备有一只机械手表，拨一下表针就可以轻松搞定了。作答本题可以采用“条件转化+分情况讨论法”。由问题可知，如果开会的时间越长，那么李主任的手表时针与分针呈90 度角的次数就会越多。根据题干条件“早上8 点30 分上班之后参加一个会议”与“会议开始时时针和分针呈120 度角”，可以推知：会议开始的时间应该为9 点稍过一点。根据题干条件“上午会议结束时时针和分针呈180 度角，可以推知：会议结束的时间应该在11 点稍过一点，但绝对不到11 点30 分。因此，开会时间为9 点稍过一点，到11 点稍过一点。情况1：从会议开始到10 点，时针和分针只能出现1 次90 度。情况2：从10 点到11 点，时针和分针能出现2 次90 度。情况3：从11 点到会议结束，时针和分针只能出现1 次90 度。1+2+1=4（次）。也就是说，在该会议举行的过程中，李主任的手表时针与分针呈90 度角的情况最多可能出现4 次。所以，正确选项是A。",
+    "uid": "real:2016:地市级:66",
+    "year": 2016,
+    "inputHash": "ca7d7141cf3a68ca2f33327b7f0c4f9cb2a9230bf10669634ae47584527d4ccb",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "小于1000",
+      "1000～5000",
+      "5001～20000",
+      "大于20000"
+    ],
+    "paper": "地市级",
+    "s": "为加强机关文化建设，某市直属机关在系统内举办演讲比赛，3个部门分别派出3、2、4名选手参加比赛，要求每个部门的参赛选手比赛顺序必须相连，问不同参赛顺序的种数在以下哪个范围之内？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:67",
+    "year": 2016,
+    "inputHash": "d4e8a161925092c3eac990459d4a3d7667b54e3e79e13b9923a96f5b50513c3d",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "40～50公里",
+      "大于50公里",
+      "小于30公里",
+      "30～40公里"
+    ],
+    "paper": "地市级",
+    "s": "A地到B地的道路是下坡路。小周早上6:00从A地出发匀速骑车前往B地，7:00时到达两地正中间的C地。到达B地后，小周立即匀速骑车返回，在10:00时又途经C地。此后小周的速度在此前速度的基础上增加1米／秒。最后在11：30回到A地。问A、B两地间的距离在以下哪个范围内？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：A地到B地的道路是下坡路。小周早上6:00从A地出发匀速骑车前往B地，7:00时到达两地正中间的C地。到达B地后，小周立即匀速骑车返回，在10:00时又途经C地…\n\n解析：作答本题可以采用“条件转化+分情况讨论法”。行程问题公式：路程＝速度×时间。已知C 为AB 之间的中点，小周6 点出发，7 点到达C，则8 点可到达终点。已知小周立即匀速骑车返回，在10:00 时又途经C 地，则小周返回前一半路程所用时间为2 小时。小周返回后一半路程，如果不提速，则应12 点到达A 地。但是后半程小周的速度比前半程增加1 米/秒，最后在11:30 回到A 地，则小周返回后一半路程所用时间为1.5 小时。已知差1 份速度=1 米/秒=3.6 公里/小时。设返程前半程的速度为v，则后半程的速度为v+3.6。根据前后两个半程的路程相等，可得算式：2v=1.5（v＋3.6）。解得：v=10.8（公里/小时）则可知AB 全程为：10.8×4=43.2（公里）。也就是在40～50 公里的范围内。所以，正确选项是A。",
+    "uid": "real:2016:地市级:68",
+    "year": 2016,
+    "inputHash": "09e54a551c981d23708019deec9b769ce360efeba2906fe339ab2cacac03876c",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "1.44",
+      "2.4",
+      "2.76",
+      "3.88"
+    ],
+    "paper": "地市级",
+    "s": "某集团有A和B两个公司，A公司全年的销售任务是B公司的1.2倍。前三季度B公司的销售业绩是A公司的1.2倍，如果照前三季度的平均销售业绩，B公司到年底正好能完成销售任务。问如果A公司希望完成全年的销售任务，第四季度的销售业绩需要达到前三季度平均销售业绩的多少倍？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某集团有A和B两个公司，A公司全年的销售任务是B公司的1.2倍。前三季度B公司的销售业绩是A公司的1.2倍，如果照前三季度的平均销售业绩，B公司到年底正好能完成…\n\n解析：作答本题可以采用“特殊赋值法”。由于AB 两个公司的销售任务没有具体数值，不好计算，可以考虑按照为它们的销售任务赋值。根据题意，设A 公司前三季度的销售业绩为300，则B 公司前三季度的销售业绩为360。根据如果照前三季度的平均销售业绩，B 公司到年底正好能完成销售任务，则B 公司全年的销售任务为480。根据A 公司全年的销售任务是B 公司的1.2 倍，可知A 公司全年的销售任务为：480×1.2=576。已经假设A 公司前三季度的销售业绩为300，则第四季度还需要完成销售业绩为：576-300=276。已知A 公司前三季度的平均销售业绩为：300÷3=100。则如果A 公司希望完成全年的销售任务，第四季度的销售业绩需要达到前三季度平均销售业绩的倍数为：276÷100=2.76（倍）。所以，正确选项是C。",
+    "uid": "real:2016:地市级:69",
+    "year": 2016,
+    "inputHash": "016ce346dc405176ae100edf8c87bb3abaf7ed198d299d11d46d51e83cc1007d",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "小于1%",
+      "1%～4%",
+      "4%～7%",
+      "7%～10%"
+    ],
+    "paper": "地市级",
+    "s": "某单位原有几十名职员，其中有14名女性。当两名女职员调出该单位后,女职员比重下降了3个百分点。现在该单位需要随机选派两名职员参加培训，问选派的两人都是女职员的概率在以下哪个范围内？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2016·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2016:地市级:70",
+    "year": 2016,
+    "inputHash": "b0ed5c270a41e32c156e1f69b4065c0071d256c53ea338d06ac2e1d198514bc8",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "45",
+      "48",
+      "36",
+      "42"
+    ],
+    "paper": "副省级",
+    "s": "面包房购买一包售价为的白糖，取其中的一部分加水溶解形成浓度为的糖水12千克，然后将剩余的白糖全部加入后溶解，糖水浓度变为，问购买白糖花了多少元钱？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:61",
+    "year": 2017,
+    "inputHash": "29e76ad25d01a7359997b5cc3ee2f9122019483d9b0ab945806f3000a05fc8ff",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "2006年",
+      "2007年",
+      "2008年",
+      "2009年"
+    ],
+    "paper": "副省级",
+    "s": "某人出生于20世纪70年代，某年他发现从当年起连续10年自己的年龄均与当年年份数字之和相等（出生当年算0岁）。问他在以下哪一年时，年龄为9的整数倍？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:62",
+    "year": 2017,
+    "inputHash": "b9ca679db97bdb9223d1e1676890eb2d17d2b3d48809f8fbdf02bfc9eb6db2a1",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "7月15日",
+      "7月22日",
+      "7月29日",
+      "8月5日"
+    ],
+    "paper": "副省级",
+    "s": "为维护办公环境，某办公室四人在工作日每天轮流打扫卫生，每周一打扫卫生的人给植物浇水。7月5日周五轮到小玲打扫卫生，下一次小玲给植物浇水是哪天？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：为维护办公环境，某办公室四人在工作日每天轮流打扫卫生，每周一打扫卫生的人给植物浇水。7月5日周五轮到小玲打扫卫生，下一次小玲给植物浇水是哪天？\n\n解析：作答本题可以采用“多情况讨论法”。注意题干所给条件：（1）办公室只有4 人。（2）只有工作日才轮班打扫卫生。（3）只有每周一打扫卫生的人才给植物浇水。（4）7 月5 日周五轮到小玲打扫卫生。问：下一次小玲给植物浇水是哪天？也就是问：下一次小玲恰好轮到星期一打扫卫生是哪一天？星期一星期二星期三星期四星期五星期六星期日5（小玲）6× 7× 11（小玲）13× 14× 17（小玲）20× 21× 23（小玲）27× 28× 29（小玲）所以，正确选项是C。",
+    "uid": "real:2017:副省级:63",
+    "year": 2017,
+    "inputHash": "90886a36a06d79e99d857a78e4395277c9ce4cd50fcfea5f62567b4e32291be9",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "3",
+      "8",
+      "10",
+      "15"
+    ],
+    "paper": "副省级",
+    "s": "某超市购入每瓶200毫升和500毫升两种规格的沐浴露各若干箱，200毫升沐浴露每箱20瓶，500毫升沐浴露每箱12瓶。定价分别为和。货品卖完后，发现两种规格沐浴露的销售收入相同，那么这批沐浴露中，200毫升的最少有几箱？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某超市购入每瓶200毫升和500毫升两种规格的沐浴露各若干箱，200毫升沐浴露每箱20瓶，500毫升沐浴露每箱12瓶。定价分别为和。货品卖完后，发现两种规格沐浴…\n\n解析：作答本题可以采用“方程法”。若设200 毫升和500 毫升两种规格的沐浴露分别购买了x、y 箱。因为货品卖完后，两种规格沐浴露的销售收入相同，则有（20x）×14=（12y）×25。整理得x/y=300/280=15/14。也就是说，200 毫升的沐浴露最少有15 箱。所以，正确选项是D。",
+    "uid": "real:2017:副省级:64",
+    "year": 2017,
+    "inputHash": "41481762578eb1e90d8cd60276b90e080aab9698817b3dbf663e9177b804a083",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "1/3",
+      "1/5",
+      "1/7",
+      "1/8"
+    ],
+    "paper": "副省级",
+    "s": "某次知识竞赛试卷包括3道每题10分的甲类题，2道每题20分的乙类题以及1道30分的丙类题。参赛者赵某随机选择其中的部分试题作答并全部答对，其最终得分为70分。问赵某未选择丙类题的概率为多少？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2017_副省_数量关系_065.png",
+        "../../图片/2017_副省_数量关系_065_3.png",
+        "../../图片/2017_副省_数量关系_065_4.png",
+        "../../图片/2017_副省_数量关系_065_5.png"
+      ],
+      "locator": "2017·副省·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:65",
+    "year": 2017,
+    "inputHash": "e4e4e0a08abe2e31e33af0e0246e01b30c83b2c97e5336bb1df4c12a5040997e",
+    "dataset": "train",
+    "images": [
+      {
+        "path": "真题库/图片/2017_副省_数量关系_065.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_065_3.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_065_4.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_065_5.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "paper": "副省级",
+    "s": "某人租下一店面准备卖服装，房租每月1万元，重新装修花费10万元。从租下店面到开始营业花费3个月时间。开始营业后第一个月，扣除所有费用后的纯利润为3万元。如每月纯利润都比上月增加2000元而成本不变，问该店在租下店面后第几个月内收回投资？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某人租下一店面准备卖服装，房租每月1万元，重新装修花费10万元。从租下店面到开始营业花费3个月时间。开始营业后第一个月，扣除所有费用后的纯利润为3万元。如每月纯…\n\n解析：作答本题可以采用“多情况讨论法”。根据题意可知：该人房租每月1 万元，装修时间3 个月；重新装修花费10 万元，则开业时他共投入了13 万元。要想收回投资，则纯利润必须超过13 万元。第四个月是营业的第一个月，纯利润为3 万元。第五个月纯利润为3.2 万元。第六个月纯利润为3.4 万元。第七个月纯利润为3.6 万元。3+3.2+3.4+3.6=13.2 万元，超过了13 万元。也就是说，他在第七个月就可以收回投资。所以，正确选项是A。",
+    "uid": "real:2017:副省级:66",
+    "year": 2017,
+    "inputHash": "a2aee062e32f5c548dc605da64118048ea5556840ca9c00b912d5301f7d2b135",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "paper": "副省级",
+    "s": "某抗洪指挥部的所有人员中，有的人在前线指挥抢险。由于汛情紧急，又增派6人前往，此时在前线指挥抢险的人数占总人数的。如该抗洪指挥部需要保留至少的人员在应急指挥中心，那么最多还能再增派多少人去前线？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:67",
+    "year": 2017,
+    "inputHash": "886360c535f102c7efbf3c34c9ba2c138891b8a02b299a19b68196b4a8dfb2af",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "12",
+      "6",
+      "24",
+      "18"
+    ],
+    "paper": "副省级",
+    "s": "小张需要在5个长度分别为15秒、53秒、22秒、47秒和23秒的视频片段中选取若干个，合成为一个长度在80～90秒之间的宣传视频。如果每个片段均需完整使用且最多使用一次，并且片段间没有空闲时段，问他按照要求可能做出多少个不同的视频？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：小张需要在5个长度分别为15秒、53秒、22秒、47秒和23秒的视频片段中选取若干个，合成为一个长度在80～90秒之间的宣传视频。如果每个片段均需完整使用且最多…\n\n解析：作答本题可以采用“多情况讨论法”。这5 段视频中，只选择其中1 段或者2 段，是不可能构成80—90 秒之间的视频的；而如果选其中4段及以上，则时长都会超过90 秒。故只可能选三段。组合可知，可以合成长度在80～90 秒之间的视频的共有3 种情况：第一种：53 秒+22 秒+15 秒=90 秒。第二种：47 秒+23 秒+15 秒=85 秒。第三种：47 秒+22 秒+15 秒=84 秒。每种情况均有A（3,3）=6 种不同的排列方法。即可以做出3×6=18 种不同的视频。所以，正确选项是B。",
+    "uid": "real:2017:副省级:68",
+    "year": 2017,
+    "inputHash": "366657341515616bb2917cf4c095ad748c4d27f7efc5941c4c2dd3f735f69800",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "3/4",
+      "2/3",
+      "7/12",
+      "1/2"
+    ],
+    "paper": "副省级",
+    "s": "一块种植花卉的矩形土地如图所示，AD边长是AB的2倍，E是CD的中点，甲、乙、丙、丁、戊区域分别种植白花、红花、黄花、紫花、白花。问种植白花的面积占矩形土地面积的：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2017_副省_数量关系_069.png",
+        "../../图片/2017_副省_数量关系_069_3.png",
+        "../../图片/2017_副省_数量关系_069_4.png",
+        "../../图片/2017_副省_数量关系_069_5.png",
+        "../../图片/2017_副省_数量关系_069_6.png"
+      ],
+      "locator": "2017·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一块种植花卉的矩形土地如图所示，AD边长是AB的2倍，E是CD的中点，甲、乙、丙、丁、戊区域分别种植白花、红花、黄花、紫花、白花。问种植白花的面积占矩形土地面积…\n\n解析：直接观察估算。种植白花的面积=甲+戊。戊=乙+丙=1/4 矩形。甲=2 乙=1/2 矩形。即：甲=3/8 矩形。则：种植白花的面积=1/4 矩形+3/8 矩形=7.5/12 矩形。与C 项的数据最为接近。所以，正确选项是C。",
+    "uid": "real:2017:副省级:69",
+    "year": 2017,
+    "inputHash": "416d77aaf9e06628de2ad5088b766a5165d83cab908bc9695e4dd06a6bb9c978",
+    "dataset": "train",
+    "images": [
+      {
+        "path": "真题库/图片/2017_副省_数量关系_069.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_069_3.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_069_4.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_069_5.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2017_副省_数量关系_069_6.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "低于",
+      "在之间",
+      "在之间",
+      "大于"
+    ],
+    "paper": "副省级",
+    "s": "某集团企业5个分公司分别派出1人去集团总部参加培训，培训后再将5人随机分配到这5个分公司，每个分公司只分配1人。问5个参加培训的人中，有且仅有1人在培训后返回原分公司的概率：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:70",
+    "year": 2017,
+    "inputHash": "e19b52d9355adb75fc36d44af069dbde2649ae7d865b814bb7482ef03c144e3e",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 71,
+    "o": [
+      "600",
+      "900",
+      "1350",
+      "1500"
+    ],
+    "paper": "副省级",
+    "s": "某商铺甲乙两组员工利用包装礼品的边角料制作一批花朵装饰门店。甲组单独制作需要10小时，乙组单独制作需要15小时，现两组一起做，期间乙组休息了1小时40分，完成时甲组比乙组多做300朵。问这批花有多少朵？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某商铺甲乙两组员工利用包装礼品的边角料制作一批花朵装饰门店。甲组单独制作需要10小时，乙组单独制作需要15小时，现两组一起做，期间乙组休息了1小时40分，完成时…\n\n解析：作答本题可以采用“特殊赋值法”。设这批花得总量为30 份。甲组单独制作需要10 小时，则甲的效率为3 份；乙组单独制作需要15小时，则乙的效率为2 份。两组一起做，期间乙组休息了1 小时40 分，则相当于甲先单独干了1 小时40 分，剩下的工作量甲乙两组合作完成。甲单独干1 小时40 分，可以完成5 份工作量。剩下的25 份工作量甲乙合作，需要时间为：25÷（2+3）=5 小时。其中甲完成15 份，乙完成10 份。加上甲单独完成的5 份，则甲共完成20 份工作量，比乙多完成20-10=10 份工作量。10 份花等于300 朵，则30 份花共有900 朵。所以，正确选项是B。",
+    "uid": "real:2017:副省级:71",
+    "year": 2017,
+    "inputHash": "22861e8b454a50c4cdcb914fe7e6ee549e0f286ba14d88333dfa93e0f8865cc4",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 72,
+    "o": [
+      "11",
+      "13",
+      "15",
+      "30"
+    ],
+    "paper": "副省级",
+    "s": "工厂有5条效率不同的生产线。某个生产项目如果任选3条生产线一起加工，最快需要6天整，最慢需要12天整；5条生产线一起加工，则需要5天整。问如果所有生产线的产能都扩大一倍，任选2条生产线一起加工最多需要多少天完成？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:72",
+    "year": 2017,
+    "inputHash": "881fab8c5ebd961ddd2a660798262ae0e1746cb62a12c56a8efd4d3e48787a93",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 73,
+    "o": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "paper": "副省级",
+    "s": "一正三角形小路如右图所示，甲乙两人从A点同时出发，朝不同方向沿小路散步，已知甲的速度是乙的2倍。问以下哪个坐标图能准确描述两人之间的直线距离与时间的关系（横轴为时间，纵轴为直线距离）？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认",
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:73",
+    "year": 2017,
+    "inputHash": "1d99f643beb3c2ed520ddec4a4173fe195c206898658e79ca185c9a0fe2efa4b",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 74,
+    "o": [
+      "15",
+      "10",
+      "8",
+      "6"
+    ],
+    "paper": "副省级",
+    "s": "将一个棱长为整数的正方体零件切掉一个角，截面是面积为的三角形，问其棱长最小为多少？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:74",
+    "year": 2017,
+    "inputHash": "94c6f86dbd4769bc890ee2ebd6ab3c17fe4bca2422ff4af60242a33e1f92f858",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 75,
+    "o": [
+      "500",
+      "600",
+      "300",
+      "400"
+    ],
+    "paper": "副省级",
+    "s": "某次军事演习中，一架无人机停在空中对三个地面目标点进行侦察。已知三个目标点在地面上的连线为直角三角形，两个点之间的最远距离为600米。问无人机与三个点同时保持500米距离时，其飞行高度为多少米？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用",
+          "模块解析缺失"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:副省级:75",
+    "year": 2017,
+    "inputHash": "6440b72574c7e9d78fbbc6b6924612f91646d9a96484680652dfb7d038d62af9",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "7 月I5 日",
+      "7 月22 日",
+      "7 月29 日",
+      "8 月5 日"
+    ],
+    "paper": "地市级",
+    "s": "为维护办公环境，某办公室四人在工作日每天轮流打扫卫生，每周一打扫卫生的人给植物浇水。7月5 日周五轮到小玲打扫卫生。问下一次小玲给植物浇水是哪天？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：为维护办公环境，某办公室四人在工作日每天轮流打扫卫生，每周一打扫卫生的人给植物浇水。7月5 日周五轮到小玲打扫卫生。问下一次小玲给植物浇水是哪天？\n\n解析：作答本题可以采用“多情况讨论法”。注意题干所给条件：（1）办公室只有4 人。（2）只有工作日才轮班打扫卫生。（3）只有每周一打扫卫生的人才给植物浇水。（4）7 月5 日周五轮到小玲打扫卫生。问：下一次小玲给植物浇水是哪天？也就是问：下一次小玲恰好轮到星期一打扫卫生是哪一天？星期一星期二星期三星期四星期五星期六星期日5（小玲）6× 7× 11（小玲）13× 14× 17（小玲）20× 21× 23（小玲）27× 28× 29（小玲）所以，正确选项是C。",
+    "uid": "real:2017:地市级:61",
+    "year": 2017,
+    "inputHash": "9fefcb4f52c9d0ab7133b3dbd97e122e3013949ca239b6bd93ee9785a13fc397",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "3",
+      "8",
+      "10",
+      "15"
+    ],
+    "paper": "地市级",
+    "s": "某超市购入每瓶200 毫升和500 毫升两种规格的沐浴露各若干箱，200 毫升沐浴露每箱20 瓶、500毫升沐浴露每箱12 瓶，定价分别为14 元/瓶和25 元/瓶，货品卖完后，发现两种规格沐浴露的销售收入相同，那么这批沐浴露中，200 毫升的沐浴露最少有几箱？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某超市购入每瓶200 毫升和500 毫升两种规格的沐浴露各若干箱，200 毫升沐浴露每箱20 瓶、500毫升沐浴露每箱12 瓶，定价分别为14 元/瓶和25 元…\n\n解析：作答本题可以采用“方程法”。若设200 毫升和500 毫升两种规格的沐浴露分别购买了x、y 箱。因为货品卖完后，两种规格沐浴露的销售收入相同，则有（20x）×14=（12y）×25。整理得x/y=300/280=15/14。也就是说，200 毫升的沐浴露最少有15 箱。所以，正确选项是D。",
+    "uid": "real:2017:地市级:62",
+    "year": 2017,
+    "inputHash": "cd081fe3789d79c18045d95fa94e388cfcb771b49c2dce1d965d98155ec8612c",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "7",
+      "8",
+      "9",
+      "1O"
+    ],
+    "paper": "地市级",
+    "s": "某人租下一店面准备卖服装，房租每月1 万元，重新装修花费10 万元。从租下店面到开始营业花费3 个月时间。开始营业后第一个月，扣除所有费用后的纯利润为3 万元。如每月纯利润都比上月增加2000 元而成本不变，问该店在租下店面后第几个月内收回投资？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某人租下一店面准备卖服装，房租每月1 万元，重新装修花费10 万元。从租下店面到开始营业花费3 个月时间。开始营业后第一个月，扣除所有费用后的纯利润为3 万元。…\n\n解析：作答本题可以采用“多情况讨论法”。根据题意可知：该人房租每月1 万元，装修时间3 个月；重新装修花费10 万元，则开业时他共投入了13 万元。要想收回投资，则纯利润必须超过13 万元。第四个月是营业的第一个月，纯利润为3 万元。第五个月纯利润为3.2 万元。第六个月纯利润为3.4 万元。第七个月纯利润为3.6 万元。3+3.2+3.4+3.6=13.2 万元，超过了13 万元。也就是说，他在第七个月就可以收回投资。所以，正确选项是A。",
+    "uid": "real:2017:地市级:63",
+    "year": 2017,
+    "inputHash": "b90cdaad6fdcaaa657e83a1b85242a2e2d1d9953f7b75952b8dabad6fa0bc8ac",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "1/3",
+      "1/5",
+      "1/7",
+      "1/8"
+    ],
+    "paper": "地市级",
+    "s": "某次知识竞赛试卷包括3 道每题10 分的甲类题，2 道每题20 分的乙类题以及l 道30 分的丙类题。参赛者赵某随机选择其中的部分试题作答并全部答对，其最终得分为70 分。问赵某未选择丙类题的概率为多少？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某次知识竞赛试卷包括3 道每题10 分的甲类题，2 道每题20 分的乙类题以及l 道30 分的丙类题。参赛者赵某随机选择其中的部分试题作答并全部答对，其最终得分…\n\n解析：作答本题可以采用“多情况讨论法”。找出赵某全部答对题目且得70 分的组合情况：3 甲+2 乙=70 分。      只有1 种情况。2 甲+1 乙+丙=70 分。   C（3,2）×C（2,1）=6 种情况。2 乙+丙=70 分。       只有1 种情况。共8 种情况，其中只有一种情况未选择丙。即赵某未选择丙类题的概率为1/8。所以，正确选项是D。",
+    "uid": "real:2017:地市级:64",
+    "year": 2017,
+    "inputHash": "d53ba84fdead8dad903ec4c686b21f5e4179e499e4eccfc1b290b7147f522653",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "11",
+      "10",
+      "9",
+      "8"
+    ],
+    "paper": "地市级",
+    "s": "某抗洪指挥部的所有人员中，有2/3 的人在前线指挥抢险。由于汛情紧急，又增派6 人前往，此时在前线指挥抢险的人数占总人数的75%。如该抗洪指挥部需要保留至少10%的人员在应急指挥中心，那么最多还能再增派多少人去前线？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某抗洪指挥部的所有人员中，有2/3 的人在前线指挥抢险。由于汛情紧急，又增派6 人前往，此时在前线指挥抢险的人数占总人数的75%。如该抗洪指挥部需要保留至少10…\n\n解析：作答本题可以采用“条件转化法”。由题意知，增派6 人去前线，则前线人数由总人数的2/3 变为3/4，可得总人数的1/12 为6 人，即指挥部的总人数为72 人。如果应急指挥部保留10%的人数，即需要保留8 人。则总共可派出的人数为64 人。减去已经在前线的54 人，还可再派去10 人。所以，正确选项是B。",
+    "uid": "real:2017:地市级:65",
+    "year": 2017,
+    "inputHash": "bbc1f30b0d200f1ec98bd8b86e28658691ad92bd670f9007e4e2546dadc322e9",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "24",
+      "18",
+      "12",
+      "6"
+    ],
+    "paper": "地市级",
+    "s": "小张需要在5 个长度分别为15 秒、53 秒、22 秒、47 秒和23 秒的视频片段中选取若干个，合成为一个长度在80～90 秒之间的宣传视频。如果每个片段均需完整使用且最多使用一次，并且片段间没有空闲时段，问他按照要求可能做出多少个不同的视频？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：小张需要在5 个长度分别为15 秒、53 秒、22 秒、47 秒和23 秒的视频片段中选取若干个，合成为一个长度在80～90 秒之间的宣传视频。如果每个片段均需…\n\n解析：作答本题可以采用“多情况讨论法”。这5 段视频中，只选择其中1 段或者2 段，是不可能构成80—90 秒之间的视频的；而如果选其中4段及以上，则时长都会超过90 秒。故只可能选三段。组合可知，可以合成长度在80～90 秒之间的视频的共有3 种情况：第一种：53 秒+22 秒+15 秒=90 秒。第二种：47 秒+23 秒+15 秒=85 秒。第三种：47 秒+22 秒+15 秒=84 秒。每种情况均有A（3,3）=6 种不同的排列方法。即可以做出3×6=18 种不同的视频。所以，正确选项是B。",
+    "uid": "real:2017:地市级:66",
+    "year": 2017,
+    "inputHash": "ab7dbe3b0265466bb638ca8577a46926d0c0ce58d53f9d825441802dfdc21cce",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "3/4",
+      "2/3",
+      "7/12",
+      "1/2"
+    ],
+    "paper": "地市级",
+    "s": "一块种植花卉的矩形土地如图所示，AD 边长是AB 的2 倍，E 是CD 的中点，甲、乙、丙、丁、戊区域分别种植白花、红花、黄花、紫花、白花。问种植白花的面积占矩形土地面积的：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一块种植花卉的矩形土地如图所示，AD 边长是AB 的2 倍，E 是CD 的中点，甲、乙、丙、丁、戊区域分别种植白花、红花、黄花、紫花、白花。问种植白花的面积占矩…\n\n解析：直接观察估算。种植白花的面积=甲+戊。戊=乙+丙=1/4 矩形。甲=2 乙=1/2 矩形。即：甲=3/8 矩形。则：种植白花的面积=1/4 矩形+3/8 矩形=7.5/12 矩形。与C 项的数据最为接近。所以，正确选项是C。",
+    "uid": "real:2017:地市级:67",
+    "year": 2017,
+    "inputHash": "3e12e5a7bcb5bd91fae328a9ad3a518048707fc92af8f32b3435c325f71ca835",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "600",
+      "900",
+      "1350",
+      "1500"
+    ],
+    "paper": "地市级",
+    "s": "某商铺甲乙两组员工利用包装礼品的边角料制作一批花朵装饰门店。甲组单独制作需要10 小时，乙组单独制作需要15 小时，现两组一起做，期间乙组休息了1 小时40 分，完成时甲组比乙组多做300朵。问这批花有多少朵？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某商铺甲乙两组员工利用包装礼品的边角料制作一批花朵装饰门店。甲组单独制作需要10 小时，乙组单独制作需要15 小时，现两组一起做，期间乙组休息了1 小时40 分…\n\n解析：作答本题可以采用“特殊赋值法”。设这批花得总量为30 份。甲组单独制作需要10 小时，则甲的效率为3 份；乙组单独制作需要15小时，则乙的效率为2 份。两组一起做，期间乙组休息了1 小时40 分，则相当于甲先单独干了1 小时40 分，剩下的工作量甲乙两组合作完成。甲单独干1 小时40 分，可以完成5 份工作量。剩下的25 份工作量甲乙合作，需要时间为：25÷（2+3）=5 小时。其中甲完成15 份，乙完成10 份。加上甲单独完成的5 份，则甲共完成20 份工作量，比乙多完成20-10=10 份工作量。10 份花等于300 朵，则30 份花共有900 朵。所以，正确选项是B。",
+    "uid": "real:2017:地市级:68",
+    "year": 2017,
+    "inputHash": "344cabe1945edfc070df5473440d7be2636a62eeaddc75c2660b855a6383e45e",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [],
+    "paper": "地市级",
+    "s": "一正三角形小路如下图所示，甲乙两人从A 点同时出发，朝不同方向沿小路散步，已知甲的速度是乙的2 倍。问以下哪个坐标图能准确描述两人之间的直线距离与时间的关系（横轴为时间，纵轴为直线距离）？ 【答案】。解析：正确选项是D。",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "",
+    "uid": "real:2017:地市级:69",
+    "year": 2017,
+    "inputHash": "53cc1fd9c572d50afbf476989f9344932d99ace1014676d9e6fe4ecc97988e24",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "45",
+      "48",
+      "36",
+      "42"
+    ],
+    "paper": "地市级",
+    "s": "面包房购买一包售价为15 元/千克的白糖，取其中的一部分加水溶解形成浓度为20%的糖水12 千克，然后将剩余的白糖全部加入后溶解，糖水浓度变为25%，问购买白糖花了多少元钱？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2017·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "答案不可静默采用"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "答案/题面存在待核或争议，禁止直接纳入计分天梯"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：面包房购买一包售价为15 元/千克的白糖，取其中的一部分加水溶解形成浓度为20%的糖水12 千克，然后将剩余的白糖全部加入后溶解，糖水浓度变为25%，问购买白糖…\n\n解析：作答本题可以采用“方程法”。设剩余的白糖为X 先科。根据浓度公式可得算式为：（（20%×12）+x）/(12+x)=25%。解得：x=0.8 千克。则原来融化白糖为12×20%=2.4 千克。则共买了白糖3.2 千克。共花费15×3.2=48 元。所以，正确选项是B。",
+    "uid": "real:2017:地市级:70",
+    "year": 2017,
+    "inputHash": "67022e04e4cd66503b4743ef7423d48d606f5773941a8e88ed8ac2e6414458f9",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "125",
+      "144",
+      "100",
+      "120"
+    ],
+    "paper": "副省级",
+    "s": "甲商店购入400 件同款夏装。7 月以进价的1.6 倍出售，共售出200 件；8 月以进价的1.3 倍出售，共售出100 件；9 月以进价的0.7 倍将剩余的100 件全部售出，总共获利15000 元。则这批夏装的单件进价为多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲商店购入400 件同款夏装。7 月以进价的1.6 倍出售，共售出200 件；8 月以进价的1.3 倍出售，共售出100 件；9 月以进价的0.7 倍将剩余的1…\n\n解析：解法1：条件转化法8 月和9 月赔、赚恰好相抵，相当于不赔不赚。7 月售出200 件赚了15000 元，则每件赚75 元，利润率为60%。可得每件的进价=75/60%=125 元。所以，正确选项是A解法2：方程法设这批夏装的单件进价为x 元。则（1.6x-x）×200+（1.3x-x）×100+（0.7x-x)×100=15000。解得x=125。所以，正确选项是A。",
+    "uid": "real:2018:副省级:61",
+    "year": 2018,
+    "inputHash": "92e2e1fbf8920940ed633385858eb81c17f245e735b6417df027b8fbf2203ec6",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "不高于15%",
+      "高于15%但低于20%",
+      "正好为20%",
+      "高于20%"
+    ],
+    "paper": "副省级",
+    "s": "某单位的会议室有5 排共40 个座位，每排座位数相同。小张和小李随机入座，则他们坐在同一排的概率：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某单位的会议室有5 排共40 个座位，每排座位数相同。小张和小李随机入座，则他们坐在同一排的概率：\n\n解析：作答本题可采用：分情况讨论法。由题干可知，会议室座位一共有5 排共40 个座位，则每一排8 个座位。小张和小李随机入座总的情况数为：A =40×39。满足条件（二人坐同一排）的情况数为：先从5 排中选择一排，然后在这一排中选择两个座位。即：C ×A =5×8×7。则所求概率为：。% C        A A所以，正确选项是B。",
+    "uid": "real:2018:副省级:62",
+    "year": 2018,
+    "inputHash": "795af7a37967039aa782476730a3ea444f83bda4b2ba5f216235583157308c34",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "14",
+      "32",
+      "57",
+      "65"
+    ],
+    "paper": "副省级",
+    "s": "企业某次培训的员工中有369 名来自A 部门，412 名来自B 部门。现分批对所有人进行培训，要求每批人数相同且批次尽可能少。如果有且仅有一批培训对象同时包含来自A 和B 部门的员工，那么该批中有多少人来自B 部门？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：企业某次培训的员工中有369 名来自A 部门，412 名来自B 部门。现分批对所有人进行培训，要求每批人数相同且批次尽可能少。如果有且仅有一批培训对象同时包含来…\n\n解析：作答本题可采用：极端情况讨论法。培训的员工总数为369+412=781。因为要求每批培训人数相同，所以将781 因数分解为：781=71×11。要求批次尽可能少，因此以11 为批次数。已知有且仅有一批培训对象同时包含来自A 和B 部门的员工，则只有一批71 人由两个部门组合而成，其余每批71 人均来自同一部门。B 部门的员工可分为：412÷71=5（批）……57（人）。则同时包含来自A 和B 部门的那批员工中有57人来自B 部门。所有，正确选项是C。",
+    "uid": "real:2018:副省级:63",
+    "year": 2018,
+    "inputHash": "cc5a43f57de145c52583b34e17771ec9f39eb993dc621d33e48a82066b521806",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "3",
+      "2",
+      "8",
+      "4"
+    ],
+    "paper": "副省级",
+    "s": "将一块长24 厘米、宽16 厘米的木板分割成一个正方形和两个相同的圆形，其余部分弃去不用。在弃去不用的部分面积最小的情况下，圆的半径为多少厘米？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：将一块长24 厘米、宽16 厘米的木板分割成一个正方形和两个相同的圆形，其余部分弃去不用。在弃去不用的部分面积最小的情况下，圆的半径为多少厘米？\n\n解析：作答本题可采用：极端情况讨论法+图示法。要使弃去不用的部分面积最小，则分割出的面积应尽可能大。弃去不用的部分都是因分割圆形而产生，因此正方形应尽可能大。如图所示，正方形边长最大为16 厘米。剩余部分为16×8 厘米的长方形，可分成两个8×8 厘米的小正方形，每个小正方形可分割出的一个直径为8 厘米的内切圆。此时弃去不用的部分面积最小，圆半径为4 厘米。所以，正确选项是D。",
+    "uid": "real:2018:副省级:64",
+    "year": 2018,
+    "inputHash": "e1c335b9fae9b47f9bdbc022295cb875d886195080bdabb54e5e4c5d9495a7cb",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "1.2",
+      "1.5",
+      "1.8",
+      "2.4"
+    ],
+    "paper": "副省级",
+    "s": "企业花费600 万元升级生产线，升级后能耗费用降低了10%，人工成本降低了30%。如每天的产量不变，预计在400 个工作日后收回成本。若升级前人工成本为能耗费用的3 倍，则升级后每天的人工成本比能耗费用高多少万元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：企业花费600 万元升级生产线，升级后能耗费用降低了10%，人工成本降低了30%。如每天的产量不变，预计在400 个工作日后收回成本。若升级前人工成本为能耗费用…\n\n解析：解法1：特殊赋值法。设原来能耗费用为1 份、人工成本为3 份；升级后能耗费用降低了10%，即降低了0.1 份；人工成本降低了30%，即降低了0.9 份。则意味着每天共节省1 份。600 万元升级费，400 天收回成本，则每天共节省1 份对应：600/400=1.5 万元。升级后能耗费用为：1×90%=0.9 份，人工成本为：3×70%=2.1 份，二者差1.2 份，对应1.8 万元。所以，正确选项是C。解法2：方程法。依题意，设升级前每天的能耗费用为x 元，则人工成本为3x 元。则（10%x+30%×3x）×400=6000000。解得x=15000。升级后每天的能耗费用为（1-10%）15000=13500（元）；人工成本为（1-30%）×3×15000=31500（元）。则升级后每天的人工成本比能耗费用高31500-13500=18000（元）=1.8（万元）。所以，正确选项是C。",
+    "uid": "real:2018:副省级:65",
+    "year": 2018,
+    "inputHash": "a42015068286eb5e8f1a5e5169e895644786eeb5eb97124c9032a6f580d61829",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "paper": "副省级",
+    "s": "工程队接到一项工程，投入80 台挖掘机。如连续施工30 天，每天工作10 小时，正好按期完成。但施工过程中遭遇大暴雨，有10 天时间无法施工。工期还剩8 天时，工程队增派70 台挖掘机并加班施工。若工程队想按期完成，则平均每天需多工作多少个小时？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：工程队接到一项工程，投入80 台挖掘机。如连续施工30 天，每天工作10 小时，正好按期完成。但施工过程中遭遇大暴雨，有10 天时间无法施工。工期还剩8 天时，…\n\n解析：作答本题可采用：分情况讨论法。工作量一共有80×30×10=24000。由题意可知：增派挖掘机之前一共工作了30-10-8=12（天），完成工作量80×12×10=9600，还剩工作量24000-9600=14400。剩下的工程量需要8 天完成，则每天需要工作：14400÷8÷（80+70）=12（小时）。则每天需要比原来多工作12-10=2（小时）。所以，正确选项是B。",
+    "uid": "real:2018:副省级:66",
+    "year": 2018,
+    "inputHash": "572bad4a5b6221511dc8420d8328bb5000ec8188173ec942b2df01ee7e4034fc",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "46176",
+      "46200",
+      "46260",
+      "46380"
+    ],
+    "paper": "副省级",
+    "s": "枣园每年产枣2500 公斤，每公斤固定盈利18 元。为了提高土地利用率，现决定明年在枣树下种植紫薯（产量最大为10000 公斤），每公斤固定盈利3 元。当紫薯产量大于400 公斤时，其产量每增加n 公斤将导致枣的产量下降0.2n 公斤。则该枣园明年最多可能盈利多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：枣园每年产枣2500 公斤，每公斤固定盈利18 元。为了提高土地利用率，现决定明年在枣树下种植紫薯（产量最大为10000 公斤），每公斤固定盈利3 元。当紫薯产…\n\n解析：解法1：极端情况讨论法。根据题意，1 公斤紫薯盈利3 元，0.2 公斤枣盈利3.6 元（1 公斤枣盈利18 元）。二者盈利相差极其巨大。为了让枣园明年最多盈利，则应取枣的产量最大值。已知：当紫薯产量大于400 公斤时，其产量每增加n 公斤将导致枣的产量下降0.2n 公斤。则意味着：紫薯产量最多为400 公斤时，枣的产量为最大值。即最大盈利：（2500×18）+（400×3）=45000+1200=46200 元。所以，正确选项是B。解法2：方程法。由条件知，当紫薯产量为400 公斤时，共盈利2500×18+400×3=46200（元）。当紫薯产量大于400 公斤时，共盈利（2500-0.2n）×18+（400+n）×3=46200-0.6n。因为n＞0，可知函数为减函数。因此当紫薯产量为400 公斤时，枣园盈利最大，为46200 元。所以，正确选项是B。",
+    "uid": "real:2018:副省级:67",
+    "year": 2018,
+    "inputHash": "db2998195847e2e952ad1da5edd826c872019dbb61e7d76a1a06519a365fa18c",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "15",
+      "24",
+      "30",
+      "36"
+    ],
+    "paper": "副省级",
+    "s": "某企业国庆放假期间，甲、乙和丙三人被安排在10 月1 号到6 号值班。要求每天安排且仅安排1 人值班，每人值班2 天，且同一人不连续值班2 天。问有多少种不同的安排方式？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某企业国庆放假期间，甲、乙和丙三人被安排在10 月1 号到6 号值班。要求每天安排且仅安排1 人值班，每人值班2 天，且同一人不连续值班2 天。问有多少种不同的…\n\n解析：解法一：多情况讨论法。根据题意，第一天有3 种选择，第二天有2 种选择。接下来分类：若第三天跟第一天是同一人，则后三天只能有1 种选择（例如：甲乙甲丙乙丙）；若第三天跟前两天不是同一人，则后三天有2×2=4 种选择。例如：甲乙丙甲乙丙甲乙丙乙甲丙甲乙丙甲丙乙甲乙丙乙丙甲则共有情况：3×2×（4+1）=30（种）。所以，正确选项是C。解法二：图示法。先安排前两个人，然后用第三个人进行插空。前两天有A（3，2）=6 种情况。假设前两天为甲乙，对应情况：甲乙△甲△乙△，丙插空有C（3，2）=3 种；对应情况：甲乙▲乙△甲△（黑三角处必插），丙插空有C（2，1）=2 种。则共有情况：6×（3+2）=30（种）。所以，正确选项是C。",
+    "uid": "real:2018:副省级:68",
+    "year": 2018,
+    "inputHash": "205de57011ec6b3f75430b90197a5c7a97ecf9330d3328014e85a391a600be5a",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "20",
+      "18",
+      "22",
+      "21"
+    ],
+    "paper": "副省级",
+    "s": "某新能源汽车企业计划在A、B、C、D 四个城市建设72 个充电站，其中在B 市建设的充电站数量占总数的1/3，在C 市建设的充电站数量比A 市多6，在D 市建设的充电站数量少于其他任一城市。那么至少要在C 市建设多少个充电站？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某新能源汽车企业计划在A、B、C、D 四个城市建设72 个充电站，其中在B 市建设的充电站数量占总数的1/3，在C 市建设的充电站数量比A 市多6，在D 市建设…\n\n解析：作答本题可采用：条件转化法。由题意可知B 市建设充电站为72× =24（个），则A、C、D 共建设的充电站为72-24=48（个）。已知：C 比A 多6 个（即A=C-6），D 最少，设D 比C 少7 个（即D=C-7）。则（C-6）+C+（C-7）=48 个，解得：C＞20。所以，正确选项是D。",
+    "uid": "real:2018:副省级:69",
+    "year": 2018,
+    "inputHash": "3c5d59a7c8eba6cfda30c32cd39a8c3324c9e4e511452fb1a4714a5cadd5465e",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "450",
+      "425",
+      "500",
+      "475"
+    ],
+    "paper": "副省级",
+    "s": "某公司按1︰3︰4 的比例订购了一批红色、蓝色、黑色的签字笔，实际使用时发现三种颜色的笔消耗比例为1︰4︰5。当某种颜色的签字笔用完时，发现另两种颜色的签字笔共剩下100 盒。此时又购进三种颜色签字笔总共900 盒，从而使三种颜色的签字笔可以同时用完。则新购进黑色签字笔多少盒？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某公司按1︰3︰4 的比例订购了一批红色、蓝色、黑色的签字笔，实际使用时发现三种颜色的笔消耗比例为1︰4︰5。当某种颜色的签字笔用完时，发现另两种颜色的签字笔共…\n\n解析：解法一：条件转化法。已知，按1︰3︰4 的比例订购红色、蓝色、黑色的签字笔，实际使用三种颜色的笔消耗比例为1︰4 ︰5 。可知：蓝色笔消耗得最快。因此，对蓝色笔的份数进行统一。则订购比例同一为：1:3:4=4:12:16，消耗比例同一为：1:4:5=3:12:15。当某种颜色的签字笔（蓝色笔）用完时，红色和黑色还各剩下1 份=50 盒。又购进900 盒后，共有1000 盒。按照1:4:5 的比例分配，黑色共消耗500 盒。则其中新购进的黑色笔有：500-50=450（盒）。所以，正确选项是A。解法二：条件转化法。由题意可知，两次订购的所有签字笔，最终按红︰蓝︰黑=1︰4︰5 的比例同时用完，则黑色签字笔占总数的比例为；其中第一批按红︰蓝︰黑=1︰3︰4 的比例订购，黑色签字笔占比为  ，则第二批黑色签字笔的占比也为。  第二批共订购900 盒，则新购进黑色签字笔900× =450（盒）。所以，正确选项是A。",
+    "uid": "real:2018:副省级:70",
+    "year": 2018,
+    "inputHash": "5d9be324e1cbd88ad6f08e3975304896427afdd0a0ff12a0c13d7d388203612f",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 71,
+    "o": [
+      "20",
+      "30",
+      "10",
+      "15"
+    ],
+    "paper": "副省级",
+    "s": "一非法渔船作业时发现其正右方有海上执法船，于是沿下图所示方向左转30°后，立即以15节（1 节=1 海里/小时）的速度逃跑，同时执法船沿某一直线方向匀速追赶，并正好在某一点追上。已知渔船在被追上前逃跑的距离刚好与其发现执法船时与执法船的距离相同，则执法船的速度为多少节？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：一非法渔船作业时发现其正右方有海上执法船，于是沿下图所示方向左转30°后，立即以15节（1 节=1 海里/小时）的速度逃跑，同时执法船沿某一直线方向匀速追赶，并…\n\n解析：作答本题可采用：图示法。如图所示，假设AB=15，则BD=7.5，AD=DC=7.5，则AC=15。所以，正确选项是D。",
+    "uid": "real:2018:副省级:71",
+    "year": 2018,
+    "inputHash": "e7b841b3732906555a81d63f760a46f84b40bcdaf0770132dd6014d07421282e",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 72,
+    "o": [
+      "24%",
+      "25%",
+      "30%",
+      "36%"
+    ],
+    "paper": "副省级",
+    "s": "某公司A 商品利润为定价的30%，前年销量为10 万个；B 商品利润为定价的40%，前年销量为4万个。去年公司将A、B 商品捆绑销售，售价为前年两种商品定价之和的90%，共卖出8 万套，总利润比前年增加了20%。若两种商品去年的成本与前年相同，则前年A 商品的定价为B 商品定价的：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某公司A 商品利润为定价的30%，前年销量为10 万个；B 商品利润为定价的40%，前年销量为4万个。去年公司将A、B 商品捆绑销售，售价为前年两种商品定价之和…\n\n解析：作答本题可采用：方程法。设A 商品定价为a，则成本为0.7a；B 商品定价为b，则成本为0.6b。则前年利润总和为：0.3a×10+0.4b×4=3a+1.6b。去年利润为：（0.9×（a+b）×8）-（0.7a×8+0.6b×8）=1.6a+2.4b。去年利润比前年增长20%，则可得算式为：1.2×（3a+1.6b）=1.6a+2.4b。解得：2a=0.48b，a=0.24b。所以，正确选项是A。",
+    "uid": "real:2018:副省级:72",
+    "year": 2018,
+    "inputHash": "de804961d26662ab1f769c6cc436e20c43d89d76a03e8747952cc2f8c9c89c0a",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 73,
+    "o": [
+      "65%",
+      "70%",
+      "75%",
+      "80%"
+    ],
+    "paper": "副省级",
+    "s": "书法大赛的观众对5 幅作品进行不记名投票。每张选票都可以选择5 幅作品中的任意一幅或多幅，但只有在选择不超过2 幅作品时才为有效票。5 幅作品的得票数（不考虑是否有效）分别为总票数的69%、63%、44%、58%和56%。则本次投票的有效率最高可能为多少？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：书法大赛的观众对5 幅作品进行不记名投票。每张选票都可以选择5 幅作品中的任意一幅或多幅，但只有在选择不超过2 幅作品时才为有效票。5 幅作品的得票数（不考虑是…\n\n解析：作答本题可采用：极端情况讨论法+特殊赋值法。设总票数为100 张，先求其中选的无效作品最少有多少幅。选择作品的总幅数=69+63+44+58+56=290 幅，给每张选票分两幅有效票（有效票最多的情况），则有效票200 张。200÷290≈69%，与B 项数据最为接近。因此，本次投票的有效率最高可能为70%。所以，正确选项是B。",
+    "uid": "real:2018:副省级:73",
+    "year": 2018,
+    "inputHash": "24971cbc73b3b71ea4eb191404885ae52932b293dbf1c4ed5b582e6ef12e2fb3",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 74,
+    "o": [],
+    "paper": "副省级",
+    "s": "某饲料厂原有旧粮库存Y 袋，现购进X 袋新粮后，将粮食总库存的1/3 精加工为饲料。被精加工为饲料的新粮最多为A1 袋，最少为A2 袋。若所有旧粮、新粮每袋重量相同，则以下哪个坐标图最能准确描述A1、A2 分别与X 的关系？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某饲料厂原有旧粮库存Y 袋，现购进X 袋新粮后，将粮食总库存的1/3 精加工为饲料。被精加工为饲料的新粮最多为A1 袋，最少为A2 袋。若所有旧粮、新粮每袋重量…\n\n解析：作答本题可采用：多情况讨论法。情况一：最少使用A2，可以先全部使用旧粮食即一段时间内加工可不用新粮，A2 为0，排除C（C意味着必须只要加工就要新粮）。情况二：平均使用新粮和旧粮，则A1、A2 的使用情况为：X/3、Y/3，最极限可能是：X=0，或Y=0（粮食用完），即拐点最多1 次，排除D情况三：A、B 拐点意思是旧粮使用完，全部用新粮的时候，新粮耗费情况必定小于1/3，即斜率为30 °。排除B。所有，正确选项是A。",
+    "uid": "real:2018:副省级:74",
+    "year": 2018,
+    "inputHash": "2ee86a120c24adf78d3feacf6a929161c930eb8eae99f24d6670bd8b9bf002ab",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 75,
+    "o": [
+      "800",
+      "900",
+      "1000",
+      "1100"
+    ],
+    "paper": "副省级",
+    "s": "一辆汽车第一天行驶了5 个小时，第二天行驶了600 公里，第三天比第一天少行驶200 公里，三天共行驶了18 个小时。已知第一天的平均速度与三天全程的平均速度相同，则三天共行驶了多少公里？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：一辆汽车第一天行驶了5 个小时，第二天行驶了600 公里，第三天比第一天少行驶200 公里，三天共行驶了18 个小时。已知第一天的平均速度与三天全程的平均速度相…\n\n解析：作答本题可采用：条件转化法。总路程=平均速度×18，可知总路程必定为18 的倍数。验算可知，只有B 项符合要求。所以，正确选项是B。",
+    "uid": "real:2018:副省级:75",
+    "year": 2018,
+    "inputHash": "70082c4cc67862a592e49927ef7c55a6a590b15d20cb4da078c6ff78da8c6ebe",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "125",
+      "144",
+      "100",
+      "120"
+    ],
+    "paper": "地市级",
+    "s": "甲商店购入400 件同款夏装。7 月以进价的1.6 倍出售，共售出200 件；8 月以进价的1.3 倍出售，共售出100 件；9 月以进价的0.7 倍将剩余的100 件全部售出，总共获利15000 元。则这批夏装的单件进价为多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲商店购入400 件同款夏装。7 月以进价的1.6 倍出售，共售出200 件；8 月以进价的1.3 倍出售，共售出100 件；9 月以进价的0.7 倍将剩余的1…\n\n解析：解法1：条件转化法8 月和9 月赔、赚恰好相抵，相当于不赔不赚。7 月售出200 件赚了15000 元，则每件赚75 元，利润率为60%。可得每件的进价=75/60%=125 元。所以，正确选项是A解法2：方程法设这批夏装的单件进价为x 元。则（1.6x-x）×200+（1.3x-x）×100+（0.7x-x)×100=15000。解得x=125。所以，正确选项是A。",
+    "uid": "real:2018:地市级:61",
+    "year": 2018,
+    "inputHash": "762284cc4a657b617b0799ca0b289b3bcfcaa02d782795a05aebd1a8fe701b6b",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "不高于15%",
+      "高于15%但低于20%",
+      "正好为20%",
+      "高于20%"
+    ],
+    "paper": "地市级",
+    "s": "某单位的会议室有5 排共40 个座位，每排座位数相同。小张和小李随机入座，则他们坐在同一排的概率：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某单位的会议室有5 排共40 个座位，每排座位数相同。小张和小李随机入座，则他们坐在同一排的概率：\n\n解析：作答本题可采用：分情况讨论法。由题干可知，会议室座位一共有5 排共40 个座位，则每一排8 个座位。小张和小李随机入座总的情况数为：A =40×39。满足条件（二人坐同一排）的情况数为：先从5 排中选择一排，然后在这一排中选择两个座位。即：C ×A =5×8×7。则所求概率为：。% A A C       所以，正确选项是B。",
+    "uid": "real:2018:地市级:62",
+    "year": 2018,
+    "inputHash": "c3198090ae3446dc4310deab48b7ff345381235a20ff7c571c24f3e73a70db92",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "14",
+      "32",
+      "57",
+      "65"
+    ],
+    "paper": "地市级",
+    "s": "企业某次培训的员工中有369 名来自A 部门，412 名来自B 部门。现分批对所有人进行培训，要求每批人数相同且批次尽可能少。如果有且仅有一批培训对象同时包含来自A 和B 部门的员工，那么该批中有多少人来自B 部门？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：企业某次培训的员工中有369 名来自A 部门，412 名来自B 部门。现分批对所有人进行培训，要求每批人数相同且批次尽可能少。如果有且仅有一批培训对象同时包含来…\n\n解析：作答本题可采用：极端情况讨论法。培训的员工总数为369+412=781。因为要求每批培训人数相同，所以将781 因数分解为：781=71×11。要求批次尽可能少，因此以11 为批次数。已知有且仅有一批培训对象同时包含来自A 和B 部门的员工，则只有一批71 人由两个部门组合而成，其余每批71 人均来自同一部门。B 部门的员工可分为：412÷71=5（批）……57（人）。则同时包含来自A 和B 部门的那批员工中有57人来自B 部门。所有，正确选项是C。",
+    "uid": "real:2018:地市级:63",
+    "year": 2018,
+    "inputHash": "0883c3ed7747f1f4805dfb614235561952d9914ba8104914cdf8e0d1d1dd6c93",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "3",
+      "2",
+      "8",
+      "4"
+    ],
+    "paper": "地市级",
+    "s": "将一块长24 厘米、宽16 厘米的木板分割成一个正方形和两个相同的圆形，其余部分弃去不用。在弃去不用的部分面积最小的情况下，圆的半径为多少厘米？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：将一块长24 厘米、宽16 厘米的木板分割成一个正方形和两个相同的圆形，其余部分弃去不用。在弃去不用的部分面积最小的情况下，圆的半径为多少厘米？\n\n解析：作答本题可采用：极端情况讨论法+图示法。要使弃去不用的部分面积最小，则分割出的面积应尽可能大。弃去不用的部分都是因分割圆形而产生，因此正方形应尽可能大。如下图所示，正方形边长最大为16 厘米。剩余部分为16×8 厘米的长方形，可分成两个8×8 厘米的小正方形，每个小正方形可分割出的一个直径为8 厘米的内切圆。此时弃去不用的部分面积最小，圆半径为4 厘米。所以，正确选项是D。",
+    "uid": "real:2018:地市级:64",
+    "year": 2018,
+    "inputHash": "e905c98b0c55112ed25d835da917f0f0652a60e2793754d86802394bb1b4e676",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "1.2",
+      "1.5",
+      "1.8",
+      "2.4"
+    ],
+    "paper": "地市级",
+    "s": "企业花费600 万元升级生产线，升级后能耗费用降低了10%，人工成本降低了30%。如每天的产量不变，预计在400 个工作日后收回成本。若升级前人工成本为能耗费用的3 倍，则升级后每天的人工成本比能耗费用高多少万元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：企业花费600 万元升级生产线，升级后能耗费用降低了10%，人工成本降低了30%。如每天的产量不变，预计在400 个工作日后收回成本。若升级前人工成本为能耗费用…\n\n解析：解法1：特殊赋值法。设原来能耗费用为1 份、人工成本为3 份；升级后能耗费用降低了10%，即降低了0.1 份；人工成本降低了30%，即降低了0.9 份。则意味着每天共节省1 份。600 万元升级费，400 天收回成本，则每天共节省1 份对应：600/400=1.5 万元。升级后能耗费用为：1×90%=0.9 份，人工成本为：3×70%=2.1 份，二者差1.2 份，对应1.8 万元。所以，正确选项是C。解法2：方程法。依题意，设升级前每天的能耗费用为x 元，则人工成本为3x 元。则（10%x+30%×3x）×400=6000000。解得x=15000。升级后每天的能耗费用为（1-10%）15000=13500（元）；人工成本为（1-30%）×3×15000=31500（元）。则升级后每天的人工成本比能耗费用高31500-13500=18000（元）=1.8（万元）。所以，正确选项是C。",
+    "uid": "real:2018:地市级:65",
+    "year": 2018,
+    "inputHash": "91ee9c52ea8e9e0720355e95f647126e4a72049b4c02656d378c809d06919d77",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "paper": "地市级",
+    "s": "工程队接到一项工程，投入80 台挖掘机。如连续施工30 天，每天工作10 小时，正好按期完成。但施工过程中遭遇大暴雨，有10 天时间无法施工。工期还剩8 天时，工程队增派70 台挖掘机并加班施工。若工程队想按期完成，则平均每天需多工作多少个小时？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：工程队接到一项工程，投入80 台挖掘机。如连续施工30 天，每天工作10 小时，正好按期完成。但施工过程中遭遇大暴雨，有10 天时间无法施工。工期还剩8 天时，…\n\n解析：作答本题可采用：分情况讨论法。工作量一共有80×30×10=24000。由题意可知：增派挖掘机之前一共工作了30-10-8=12（天），完成工作量80×12×10=9600，还剩工作量24000-9600=14400。剩下的工程量需要8 天完成，则每天需要工作：14400÷8÷（80+70）=12（小时）。则每天需要比原来多工作12-10=2（小时）。所以，正确选项是B。",
+    "uid": "real:2018:地市级:66",
+    "year": 2018,
+    "inputHash": "fb3f1abe5827684e636da0840fb4c7bc934b8cf0767b2ff43674f8f312fc9ebd",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "46176",
+      "46200",
+      "46260",
+      "46380"
+    ],
+    "paper": "地市级",
+    "s": "枣园每年产枣2500 公斤，每公斤固定盈利18 元。为了提高土地利用率，现决定明年在枣树下种植紫薯（产量最大为10000 公斤），每公斤固定盈利3 元。当紫薯产量大于400 公斤时，其产量每增加n 公斤将导致枣的产量下降0.2n 公斤。则该枣园明年最多可能盈利多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：枣园每年产枣2500 公斤，每公斤固定盈利18 元。为了提高土地利用率，现决定明年在枣树下种植紫薯（产量最大为10000 公斤），每公斤固定盈利3 元。当紫薯产…\n\n解析：解法1：极端情况讨论法。根据题意，1 公斤紫薯盈利3 元，0.2 公斤枣盈利3.6 元（1 公斤枣盈利18 元）。二者盈利相差极其巨大。为了让枣园明年最多盈利，则应取枣的产量最大值。已知：当紫薯产量大于400 公斤时，其产量每增加n 公斤将导致枣的产量下降0.2n 公斤。则意味着：紫薯产量最多为400 公斤时，枣的产量为最大值。即最大盈利：（2500×18）+（400×3）=45000+1200=46200 元。所以，正确选项是B。解法2：方程法。由条件知，当紫薯产量为400 公斤时，共盈利2500×18+400×3=46200（元）。当紫薯产量大于400 公斤时，共盈利（2500-0.2n）×18+（400+n）×3=46200-0.6n。因为n＞0，可知函数为减函数。因此当紫薯产量为400 公斤时，枣园盈利最大，为46200 元。所以，正确选项是B。",
+    "uid": "real:2018:地市级:67",
+    "year": 2018,
+    "inputHash": "c1e67a3f93b1ff213039d142ed3694da04c248ded71f259601ae7b285c78ad52",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "15",
+      "24",
+      "30",
+      "36"
+    ],
+    "paper": "地市级",
+    "s": "某企业国庆放假期间，甲、乙和丙三人被安排在10 月1 号到6 号值班。要求每天安排且仅安排1 人值班，每人值班2 天，且同一人不连续值班2 天。问有多少种不同的安排方式？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某企业国庆放假期间，甲、乙和丙三人被安排在10 月1 号到6 号值班。要求每天安排且仅安排1 人值班，每人值班2 天，且同一人不连续值班2 天。问有多少种不同的…\n\n解析：解法一：多情况讨论法。根据题意，第一天有3 种选择，第二天有2 种选择。接下来分类：若第三天跟第一天是同一人，则后三天只能有1 种选择（例如：甲乙甲丙乙丙）；若第三天跟前两天不是同一人，则后三天有2×2=4 种选择。例如：甲乙丙甲乙丙甲乙丙乙甲丙甲乙丙甲丙乙甲乙丙乙丙甲则共有情况：3×2×（4+1）=30（种）。所以，正确选项是C。解法二：图示法。先安排前两个人，然后用第三个人进行插空。前两天有A（3，2）=6 种情况。假设前两天为甲乙，对应情况：甲乙△甲△乙△，丙插空有C（3，2）=3 种；对应情况：甲乙▲乙△甲△（黑三角处必插），丙插空有C（2，1）=2 种。则共有情况：6×（3+2）=30（种）。所以，正确选项是C。",
+    "uid": "real:2018:地市级:68",
+    "year": 2018,
+    "inputHash": "41dcb819b93282630eed4c01a735eb289f49ecb6ebd08cd9e22ff86dea0f9806",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "20",
+      "18",
+      "22",
+      "21"
+    ],
+    "paper": "地市级",
+    "s": "某新能源汽车企业计划在A、B、C、D 四个城市建设72 个充电站，其中在B 市建设的充电站数量占总数的，在C 市建设的充电站数量比A 市多6，在D 市建设的充电站数量少于其他任一城市。那么至少要在C 市建设多少个充电站？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某新能源汽车企业计划在A、B、C、D 四个城市建设72 个充电站，其中在B 市建设的充电站数量占总数的，在C 市建设的充电站数量比A 市多6，在D 市建设的充电…\n\n解析：作答本题可采用：条件转化法。由题意可知B 市建设充电站为72× =24（个），则A、C、D 共建设的充电站为72-24=48（个）。已知：C 比A 多6 个（即A=C-6），D 最少，设D 比C 少7 个（即D=C-7）。则（C-6）+C+（C-7）=48 个，解得：C＞20。所以，正确选项是D。",
+    "uid": "real:2018:地市级:69",
+    "year": 2018,
+    "inputHash": "db4f5bf80d7520ff1db4a18b2d05f717ec49763421c25ba0d2a315b90a4587b2",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "450",
+      "425",
+      "500",
+      "475"
+    ],
+    "paper": "地市级",
+    "s": "某公司按1︰3︰4 的比例订购了一批红色、蓝色、黑色的签字笔，实际使用时发现三种颜色的笔消耗比例为1︰4︰5。当某种颜色的签字笔用完时，发现另两种颜色的签字笔共剩下100 盒。此时又购进三种颜色签字笔总共900 盒，从而使三种颜色的签字笔可以同时用完。则新购进黑色签字笔多少盒？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2018·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某公司按1︰3︰4 的比例订购了一批红色、蓝色、黑色的签字笔，实际使用时发现三种颜色的笔消耗比例为1︰4︰5。当某种颜色的签字笔用完时，发现另两种颜色的签字笔共…\n\n解析：解法一：条件转化法。已知，按1︰3︰4 的比例订购红色、蓝色、黑色的签字笔，实际使用三种颜色的笔消耗比例为1︰4 ︰5 。可知：蓝色笔消耗得最快。因此，对蓝色笔的份数进行统一。则订购比例同一为：1:3:4=4:12:16，消耗比例同一为：1:4:5=3:12:15。当某种颜色的签字笔（蓝色笔）用完时，红色和黑色还各剩下1 份=50 盒。又购进900 盒后，共有1000 盒。按照1:4:5 的比例分配，黑色共消耗500 盒。则其中新购进的黑色笔有：500-50=450（盒）。所以，正确选项是A。解法二：条件转化法。由题意可知，两次订购的所有签字笔，最终按红︰蓝︰黑=1︰4︰5 的比例同时用完，则黑色签字笔占总数的比例为；其中第一批按红︰蓝︰黑=1︰3︰4 的比例订购，黑色签字笔占比为  ，则第二批黑色签字笔的占比也为。  第二批共订购900 盒，则新购进黑色签字笔900× =450（盒）。所以，正确选项是A。",
+    "uid": "real:2018:地市级:70",
+    "year": 2018,
+    "inputHash": "5fb7a992b3681c53cc5630a1d8d7cb5c60016222854e0a5026d6d5f61a57c407",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "55",
+      "65",
+      "75",
+      "85"
+    ],
+    "paper": "副省级",
+    "s": "有100 名员工去年和今年均参加考核，考核结果分为优、良、中、差四个等次。今年考核结果为优的人数是去年的1.2 倍。今年考核结果为良及以下的人员占比比去年低15 个百分点。问两年考核结果均为优的人数至少为多少人？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：有100 名员工去年和今年均参加考核，考核结果分为优、良、中、差四个等次。今年考核结果为优的人数是去年的1.2 倍。今年考核结果为良及以下的人员占比比去年低15…\n\n解析：极端情况讨论。整理题干数据关系：①100 人参加考核。②今年优=去年1.2 优，良及以下比去年低15%。③求两年均为优的最少人数。设去年“优”人数为x，则去年“良及以下”人数为（100-x）。根据②的关系：“今年优=去年1.2 优”， 良及以下比去年低15%，可得方程：（（100-x）/100）-15%=(100-1.2x)/100。算式两侧都乘以100，可得：100-x-15=100-1.2x。解得：x=75。则1.2x=75×1.2=90。即去年75 人为优，今年90 人为优。“求两年均为优的最少人数”的意思是：一年有尽量多的不是优的人在另一年是优。因此，可用75-（100-90）=65。或用90-（100-75）=65。所以，正确选项是B。",
+    "uid": "real:2019:副省级:61",
+    "year": 2019,
+    "inputHash": "784ca4dd2447fd1b26ba93b7f64b32803bf81fc838c3b9c65da2fc4be88c9e83",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "1200",
+      "1250",
+      "1500",
+      "1600"
+    ],
+    "paper": "副省级",
+    "s": "从A 市到B 市的机票如果打6 折，包含接送机出租车交通费90 元、机票税费60 元在内的总乘机成本是机票打4 折时总乘机成本的1.4 倍，问从A 市到B 市的全价机票价格（不含税费）为多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：从A 市到B 市的机票如果打6 折，包含接送机出租车交通费90 元、机票税费60 元在内的总乘机成本是机票打4 折时总乘机成本的1.4 倍，问从A 市到B 市的…\n\n解析：条件转化法。整理题干数据关系：①机票6 折+出租车90+税费60=（机票4 折+出租车90+税费60）×1.4。②求全价机票（不含税）价格设全价机票（不含税）价格为x，则可列算式为：0.6x+90+60=（0.4x+90+60）×1.4解：0.6x+150=0.56x+150×1.4 0.04x=150×0.4=60 x=1500所以，正确选项是C。",
+    "uid": "real:2019:副省级:62",
+    "year": 2019,
+    "inputHash": "4aa8e7e0c0cd58a39ec281acbae07754186ecd84dd98448d91ef243e3806e635",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "3%以下",
+      "3%～4%之间",
+      "4%～5%之间",
+      "5%以上"
+    ],
+    "paper": "副省级",
+    "s": "小张和小王在同一个学校读研究生，每天早上从宿舍到学校有6:40、7:00、7:20 和7:40 发车的4 班校车。某星期周一到周三，小张和小王都坐班车去学校，且每个人在3 天中乘坐的班车发车时间都不同。问这3 天小张和小王每天都乘坐同一趟班车的概率在：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：小张和小王在同一个学校读研究生，每天早上从宿舍到学校有6:40、7:00、7:20 和7:40 发车的4 班校车。某星期周一到周三，小张和小王都坐班车去学校，且…\n\n解析：多种情况讨论。整理题干数据关系：①6:40、7:00、7:20、7:40 共4 班车。②张、王周一到周三坐班车且3 天时间不同。③求每天都乘坐同一班车的概率。三天可以分开算，最后相乘得概率即可。周一：设张乘班车1（没有限制，乘1～4 哪个班车都一样），则李乘班车1 的概率为1/4。周二：设张乘班车2（张不能乘班车1，乘2～4 哪个班车都一样），则李乘班车2（李周一乘班车1，则周二不能乘班车1）的概率为1/3。周三：设张乘班车3（张不能乘班车1、2，乘3、4 班车都一样），则李乘班车3（李周一乘班车1，周二乘班车2，因此只能选择班车3、4）的概率为1/2。则小张和小王每天都乘坐同一趟班车的概率为：1/2×1/3×1/4=1/24。比1/25（即4%）略大且不到1/20（即5%）。即概率在4%～5%之间。所以，正确选项是C。",
+    "uid": "real:2019:副省级:63",
+    "year": 2019,
+    "inputHash": "e2ba4da29e3664841989a0dc2203000cf102982037de8715b979391849bc506f",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "30",
+      "36",
+      "45",
+      "60"
+    ],
+    "paper": "副省级",
+    "s": "甲车上午8 点从A 地出发匀速开往B 地，出发30 分钟后乙车从A 地出发以甲车2 倍的速度前往B 地，并在距离B 地10 千米时追上甲车。如乙车9 点10 分到达B 地，问甲车的速度为多少千米/小时？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲车上午8 点从A 地出发匀速开往B 地，出发30 分钟后乙车从A 地出发以甲车2 倍的速度前往B 地，并在距离B 地10 千米时追上甲车。如乙车9 点10 分…\n\n解析：方法1：①甲车8 点A→B，乙车8:30（晚0.5 小时）A→B，且V 乙=2V 甲。②在距离B 地10km 处相遇。③乙9:10 分（花了40 分钟，即2/3 小时）到达B。④求甲车速度。设辆车相遇时距A 地x 千米，甲车速度为y 千米/小时，则乙车速度为2y 千米/小时。根据上述关系可得方程组：x÷y=（x÷2y）+0.5…………………… ①（x+10）÷2y=2/3 ………………………②解得x=30，y=30。所以，正确选项是A。方法2：方法1 虽然可行，但耗时太长，不容易完成。本题的突破口在于：V 乙=2V 甲，乙车出发时，甲车已经行进的距离为：V 甲×0.5 小时。可列出两车追及时的公式为：V 甲×0.5 小时+V 甲×追及时间=2V 甲×追及时间。约去V 甲，可得：追及时间=0.5 小时。也就是说，乙车追上甲车的时间为：8:30+30 分钟=9:00，然后乙车再用10 分钟走了10 千米到达B地。即：V 乙=2V 甲=10 千米/10 分钟=60 千米/小时。解得：V 甲=30 千米/小时。所以，正确选项是A。",
+    "uid": "real:2019:副省级:64",
+    "year": 2019,
+    "inputHash": "c9a22c457c8db378e313ffd6ed17537b9feed9001ae9e7be43178435e860d544",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "比赛在3 局内结束",
+      "乙连胜3 局获胜",
+      "甲获胜且两人均无连胜",
+      "乙用4 局获胜"
+    ],
+    "paper": "副省级",
+    "s": "甲和乙进行5 局3 胜的乒乓球比赛，甲每局获胜的概率是乙每局获胜概率的1.5 倍。问以下哪种情况发生的概率最大？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙进行5 局3 胜的乒乓球比赛，甲每局获胜的概率是乙每局获胜概率的1.5 倍。问以下哪种情况发生的概率最大？\n\n解析：多种情况讨论。整理题干数据关系：①甲、乙5 局3 胜。②乙胜率×1.5=甲胜率。③求哪个选项发生的概率最高。关系非常明确，计算完概率后逐一算出4 个选项的结果即可。根据两个人的胜率之和为100%，计算可知：乙胜率+（乙胜率）×1.5=100%。解得：乙胜率=40%，甲胜率=60%。计算A：比赛在3 局内结束，即甲三连胜或乙三连胜，则概率为：60%×60%×60%+（40%×40%×40%）=0.216+0.064=0.28计算B：乙连胜3 局获胜=（乙乙乙）+（甲乙乙乙）+（甲甲乙乙乙）=（40%×40%×40%×）+（60%×40%×40%×40%）+（60%×60%×40%×40%×40%）=0.064×（1+0.6+0.36）显然比A 值要小，无需详细计算，直接排除即可。计算C：甲获胜且两人均无连胜=（甲乙甲乙甲）=（60%×40%×60%×40%×60%）概率极小，无需计算，直接排除即可。计算D：乙用4 局获胜=（甲乙乙乙）+（乙甲乙乙）+（乙乙甲乙）=（60%×40%×40%×40%）×3 =0.064×0.6×3 =0.064×1.8 ＜0.28所以，正确选项是A。",
+    "uid": "real:2019:副省级:65",
+    "year": 2019,
+    "inputHash": "b9097d3876a0116537716fbc63d8ef5a21cd7ea0950b2d6e570c8fa433c9edf1",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "不到6 天",
+      "6 天多",
+      "7 天多",
+      "超过8 天"
+    ],
+    "paper": "副省级",
+    "s": "有甲、乙、丙三个工作组，已知乙组2 天的工作量与甲、丙共同工作1 天的工作量相同。A 工程如由甲、乙组共同工作3 天，再由乙、丙组共同工作7 天，正好完成，如果三组共同完成，需要整7 天。B 工程如丙组单独完成正好需要10 天，问如由甲、乙组共同完成，需要多少天？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：有甲、乙、丙三个工作组，已知乙组2 天的工作量与甲、丙共同工作1 天的工作量相同。A 工程如由甲、乙组共同工作3 天，再由乙、丙组共同工作7 天，正好完成，如果…\n\n解析：特殊赋值。整理题干数据关系：①乙×2=甲+丙②A 工程=（甲+乙）×3+（乙+丙）×7③A 工程=（甲+乙+丙）×7④B=丙×10⑤求B 由甲+乙完成的工作天数根据②③可知：（甲+乙）×3+（乙+丙）×7=（甲+乙+丙）×7解：3 甲+3 乙+7 乙+7 丙=7 甲+7 乙+7 丙解：3 乙=4 甲特殊赋值乙=4，甲=3，则根据①乙×2=甲+丙，可得丙=8-3=5。则：B=5×10=50。已知：甲+乙=7，则B 工程由甲、乙组共同完成，需要50÷7=7+。即7 天多。所以，正确选项是C。",
+    "uid": "real:2019:副省级:66",
+    "year": 2019,
+    "inputHash": "e87911c70fedcc2f195cf11f3b2bf3b222fa44e569f9aa82a498a588a78c77bb",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "8",
+      "12",
+      "14",
+      "15"
+    ],
+    "paper": "副省级",
+    "s": "某单位有2 个处室，甲处室有12 人，乙处室有20 人。现在将甲处室最年轻的4 人调入乙处室，则乙处室的平均年龄增加了1 岁，甲处室的平均年龄增加了3 岁。问在调动之前，两个处室的平均年龄相差多少岁？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某单位有2 个处室，甲处室有12 人，乙处室有20 人。现在将甲处室最年轻的4 人调入乙处室，则乙处室的平均年龄增加了1 岁，甲处室的平均年龄增加了3 岁。问在…\n\n解析：特殊赋值。整理题干数据关系：①甲处室有12 人，乙处室有20 人。②甲处室最年轻的4 人调入乙处室，乙处室的平均年龄+1，甲处室的平均年龄+3。③求在调动之前，两个处室的平均年龄相差多少岁。根据“甲处室有12 人，乙处室有20 人，甲处室最年轻的4 人调入乙处室”，可知3 个数字都可以被4 整除，因此可简化为：甲处室有3 人，乙处室有5 人，甲处室最年轻的1 人调入乙处室。为了方便计算，可特殊赋值乙处室5 人都是5 岁，调入后乙处室的平均年龄+1，即6 人都是6 岁，合计36 岁，则调入者为6×6-5×5=11 岁。甲处室3 人，调出11 岁1 人，平均年龄+3，设原来的平均年龄为x，则可列算式为：（3x-11）÷2=x+3解得：x=17。即调出前甲处室平均年龄为17 岁，乙处室平均年龄为5 岁，两个处室的平均年龄相差12 岁。所以，正确选项是B。",
+    "uid": "real:2019:副省级:67",
+    "year": 2019,
+    "inputHash": "96bd5803997977fe552bc2e3387b27d58ba5374d5f79c7e7d74668e6c264ea6b",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [],
+    "paper": "副省级",
+    "s": "甲和乙两条自动化生产线同时生产相同的产品，甲生产线单位时间的产量是乙生产线的5 倍，甲生产线每工作1 小时就需要花3 小时时间停机冷却而乙生产线可以不间断生产。问以下哪个坐标图能准确表示甲、乙生产线产量之差（纵轴L）与总生产时间（横轴T）之间的关系？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙两条自动化生产线同时生产相同的产品，甲生产线单位时间的产量是乙生产线的5 倍，甲生产线每工作1 小时就需要花3 小时时间停机冷却而乙生产线可以不间断生产。…\n\n解析：特殊赋值。整理题干数据关系：①甲=5 乙②甲工作1 冷却3，乙不冷却直接赋值即可。时间0，甲=0，乙=0，差0时间1，甲=5，乙=1，差4时间2，甲=5，乙=2，差3时间3，甲=5，乙=3，差2时间4，甲=5，乙=4，差1时间5，甲=10，乙=5，差5时间6，甲=10，乙=6，差4时间7，甲=10，乙=7，差3时间8，甲=10，乙=8，差2时间9，甲=15，乙=9，差6 …… ……差值变化为：0→4、3、2、1→5、4、3、2→6……。只有A 项图形符合题意。虽然ABD 有些相似，但B 项增的斜率和降的斜率类似，大致情况为：0123→432→345→654……，排除。D 项降的斜率很平缓，大致情况为：0543→987→131211……，排除。所以，正确选项是A。",
+    "uid": "real:2019:副省级:68",
+    "year": 2019,
+    "inputHash": "88d8dffa249fafa89f81dc85b6033715bb6d266f020919d47baf36d7d0a6817d",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "5656",
+      "5600",
+      "1848",
+      "616"
+    ],
+    "paper": "副省级",
+    "s": "某单位要求职工参加20 课时线上教育课程，其中政治理论10 课时，专业技能10 课时。可供选择的政治理论课共8 门，每门2 课时；可供选择的专业技能课共10 门，其中2 课时的有5 门，1 课时的有5 门。问可选择的课程组合共有多少种？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某单位要求职工参加20 课时线上教育课程，其中政治理论10 课时，专业技能10 课时。可供选择的政治理论课共8 门，每门2 课时；可供选择的专业技能课共10 门…\n\n解析：多情况讨论。整理题干数据关系：①要求参加20 课时，政治10 课时，专业10 课时。②政治共8 门，每门2 课时；专业共10 门，其中2 课时5 门，1 课时5 门③求可选课程组合逐一列举情况为：政治理论课8 选5，可能性为C（8，5）=（8×7×6×5×4）÷（5×4×3×2×1）=56。专业技能课有三种选择情况：2 课时5 门，只有1 种2 课时4 门+1 课时2 门，C（5,4）×C（5，2）=5×10=50 种。2 课时3 门+1 课时4 门，C（5，3）×C（5,4）=10×5=50 种。共有50+50+1=101 种可能性则共有课程组合为：56×101=5656 种。所以，正确选项是A。",
+    "uid": "real:2019:副省级:69",
+    "year": 2019,
+    "inputHash": "e253333b7b4990720dab8d3f13a3894fc70110b54617c54626525c41b87e3067",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "18",
+      "20",
+      "12",
+      "15"
+    ],
+    "paper": "副省级",
+    "s": "花圃自动浇水装置的规则设置如下：①每次浇水在中午12:00～12:30 之间进行；②在上次浇水结束后，如连续3 日中午12:00 气温超过30 摄氏度，则在连续第3 个气温超过30 摄氏度的日子中午12:00开始浇水；③如在上次浇水开始120 小时后仍不满足条件②，则立刻浇水。已知6 月30 日12:00～12:30该花圃第一次自动浇水，7 月份该花圃共自动浇水8 次，问7 月至少有几天中午12:00 的气温超过30 摄氏度？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：花圃自动浇水装置的规则设置如下：①每次浇水在中午12:00～12:30 之间进行；②在上次浇水结束后，如连续3 日中午12:00 气温超过30 摄氏度，则在连续…\n\n解析：极端情况讨论。整理题干数据关系：①12:00～12:30 浇水。②连续3 日超过30 度，在第3 个中午12:00 开始浇水。③如在上次浇水开始120 小时后仍不满足条件②，则立刻浇水。④已知6 月30 日12:00～12:30 该花圃第一次自动浇水，7 月份共自动浇水8 次。⑤求7 月至少有几天超过30 度本题描述极为复杂，但“至少”一词的出现表明这道题为极值讨论。题目求的是“至少”，即要让7 月中午超过30°气温的日子尽可能少。则需要让“120 小时”尽可能多，120/24=5 天，即让连续5 天的时间尽可能多，而超过30°的日子均以连续3 天的方式出现。7 月一共有31 天，设超过30°的连续3 天有x 个，连续5 天的有y 个。根据题意可得：3x+5y≤31 x+y=8联合两式可得：9-2x≤0。x 取1、2、3、4 都不符合，最小要取5，此时y 取3，代入验证，符合3x+5y≤31。因此x 取5，即超过30°气温的天数=5×3=15 天。所以，正确选项是D。（本题条件复杂，难度较大，考生在考试中遇到类似的题目应该果断放弃，如果花好几分钟才能解出来，还不如随便蒙一个答案，把宝贵的时间放在其他题目上。这样的难题通常一套卷子会有一、两道，作为考试陷阱出现，考生不会做很正常，不必担心。就像俗话说的，不理它你就赢了，和它较真你就输了！）",
+    "uid": "real:2019:副省级:70",
+    "year": 2019,
+    "inputHash": "665a4d191d68f3606c8d34c7140760a68b1357273906bee8adbd9a1396988fb1",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 71,
+    "o": [
+      "50 分钟",
+      "1 小时",
+      "1 小时20 分",
+      "1 小时30 分"
+    ],
+    "paper": "副省级",
+    "s": "一个圆形的人工湖，直径为50 公里，某游船从码头甲出发，匀速直线行驶30 公里到码头乙停留36 分钟，然后到与码头甲直线距离为50 公里的码头丙，共用时2 小时。问该游船从码头甲直线行驶到码头丙需用多少时间？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：一个圆形的人工湖，直径为50 公里，某游船从码头甲出发，匀速直线行驶30 公里到码头乙停留36 分钟，然后到与码头甲直线距离为50 公里的码头丙，共用时2 小时…\n\n解析：如下图所示，甲丙为直径，直径所对的圆周角为90 度。根据勾股定理可得：乙丙的路程=√（502-302）=40 公里，即游船从甲→乙→丙共走了70 公里。已知游船在码头乙停留36 分钟，则游船从甲→乙→丙共用了：120 分钟-36 分钟=84 分钟=1.4 小时。可知有穿的速度为70÷1.4。已知码头甲与码头丙直线距离为50 公里，则从甲到丙需要50÷（70÷1.4）=1 小时。所以，正确选项是B。",
+    "uid": "real:2019:副省级:71",
+    "year": 2019,
+    "inputHash": "0ceb50e10abbd96dd852bead810e6a146ec04d78471e9b81fe42bb70719469fc",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 72,
+    "o": [
+      "乙少40 件",
+      "丙少80 件",
+      "乙少80 件",
+      "丙少40 件"
+    ],
+    "paper": "副省级",
+    "s": "某工厂有4 条生产效率不同的生产线，甲、乙生产线效率之和等于丙、丁生产线效率之和。甲生产线月产量比乙生产线多240 件，丙生产线月产量比丁生产线少160 件，问乙生产线月产量与丙生产线月产量相比：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某工厂有4 条生产效率不同的生产线，甲、乙生产线效率之和等于丙、丁生产线效率之和。甲生产线月产量比乙生产线多240 件，丙生产线月产量比丁生产线少160 件，问…\n\n解析：已知甲生产线月产量比乙生产线多240 件，即：乙比甲乙的平均值少240/2=120 件。已知丙生产线月产量比丁生产线少160 件，即：丙比丙丁的平均值少160/2=80 件。已知甲、乙生产线效率之和等于丙、丁生产线效率之和，即：甲乙的平均值=丙丁的平均值。可得，乙比丙少：120-80=40 件。所以，正确选项是A。",
+    "uid": "real:2019:副省级:72",
+    "year": 2019,
+    "inputHash": "69956ea19d3d08a3b77775fd5d51b833ed3f937174d29de480b793245f119be3",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 73,
+    "o": [
+      "250",
+      "255",
+      "237",
+      "242"
+    ],
+    "paper": "副省级",
+    "s": "A 和B 两家企业2018 年共申请专利300 多项，其中A 企业申请的专利中27%是发明专利，B 企业申请的专利中，发明专利和非发明专利之比为8︰13。已知B 企业申请的专利数量少于A 企业，但申请的发明专利数量多于A 企业。问两家企业总计最少申请非发明专利多少项？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：A 和B 两家企业2018 年共申请专利300 多项，其中A 企业申请的专利中27%是发明专利，B 企业申请的专利中，发明专利和非发明专利之比为8︰13。已知B…\n\n解析：如图所示，A 企业的专利数至少有200 项，其中发明专利数至少有200×27%=54 项、非发明专利数至少有（54/27）×73=146 项；B 企业的发明专利数至少有56 项，非发明专利数至少有（56/8）×13=91 项。则两家企业共申请非发明专利数最少有：146+91=237 项。所以，正确选项是A。",
+    "uid": "real:2019:副省级:73",
+    "year": 2019,
+    "inputHash": "76d431b219b29c18bb52973ab90d1ac123a13c668407095037c63e89ee008a79",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 74,
+    "o": [
+      "10",
+      "30",
+      "33",
+      "36"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙两辆卡车运输一批货物，其中甲车每次能运输35 箱货物。甲车先满载运输2 次后，乙车加入并与甲车共同满载运输10 次完成任务，此时乙车比甲车多运输10 箱货物。问如果乙车单独执行整个运输任务且每次都尽量装满，最后一次运多少箱货物？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙两辆卡车运输一批货物，其中甲车每次能运输35 箱货物。甲车先满载运输2 次后，乙车加入并与甲车共同满载运输10 次完成任务，此时乙车比甲车多运输10 箱货…\n\n解析：设乙车每次能运输 x 箱货物。由题意可知，甲车前两次共运输2×35=70（箱）货物，后乙车加入，共同满载 10 次完成任务，结束时乙车比甲车多运输10 箱货物，因此可得：10x－（10×35+70）=10。解得x=43，即乙车每次能运43 箱货物。则可得该批货物总量为70+（35+43）×10=850（箱）。若乙车单独运输货物，850÷43=19……………………余33。即乙车最后一次需要运33 箱货物。所以，正确选项是C。",
+    "uid": "real:2019:副省级:74",
+    "year": 2019,
+    "inputHash": "ae11fe7a61e3505af4cca9463abaf5e35782f1b42d4a45a0da0ad1fa279f45e5",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 75,
+    "o": [
+      "28",
+      "26",
+      "24",
+      "22"
+    ],
+    "paper": "副省级",
+    "s": "园丁将若干同样大小的花盆在平地上摆放为不同的几何图形，发现如果增加5 盆，就能摆成实心正三角形。如果减少4 盆，就能摆成每边多于1 个花盆的实心正方形。问将现有的花盆摆成实心矩形，最外层最少有多少盆花？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：园丁将若干同样大小的花盆在平地上摆放为不同的几何图形，发现如果增加5 盆，就能摆成实心正三角形。如果减少4 盆，就能摆成每边多于1 个花盆的实心正方形。问将现有…\n\n解析：如下图：摆实心正三角形需要花盆的数量变化：2 行需3 盆；3 行需6 盆；4 行需10 盆；5 行需15 盆；6 行需21 盆；7 行需28 盆；8 行需36 盆；9 行需45……摆实心正方形需要花盆的数量变化：2 行需4 盆；4 行需16 盆；6 行需36 盆；8 行需64 盆……已知如果增加5 盆，就能摆成实心正三角形；如果减少4 盆，就能摆成每边多于1 个花盆的实心正方形。则可知目前现有花盆40 个。40+5=45 个，如果增加5 盆，就能摆成实心正三角形；40-4=36 个，如果减少4 盆，就能摆成实心正方形。把现有的40 花盆摆成实心矩形，如下图：则实心矩形最外层最少有22 盆花。所以，正确选项是D。",
+    "uid": "real:2019:副省级:75",
+    "year": 2019,
+    "inputHash": "676cacc3c533cbd253b7afb5d7f3971e2461d52bcfe8da3820aa3e96392547c7",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "55",
+      "65",
+      "75",
+      "85"
+    ],
+    "paper": "地市级",
+    "s": "有100 名员工去年和今年均参加考核，考核结果分为优、良、中、差四个等次。今年考核结果为优的人数是去年的1.2 倍。今年考核结果为良及以下的人员占比比去年低15 个百分点。问两年考核结果均为优的人数至少为多少人？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：有100 名员工去年和今年均参加考核，考核结果分为优、良、中、差四个等次。今年考核结果为优的人数是去年的1.2 倍。今年考核结果为良及以下的人员占比比去年低15…\n\n解析：极端情况讨论。整理题干数据关系：①100 人参加考核。②今年优=去年1.2 优，良及以下比去年低15%。③求两年均为优的最少人数。设去年“优”人数为x，则去年“良及以下”人数为（100-x）。根据②的关系：“今年优=去年1.2 优”， 良及以下比去年低15%，可得方程：（（100-x）/100）-15%=(100-1.2x)/100。算式两侧都乘以100，可得：100-x-15=100-1.2x。解得：x=75。则1.2x=75×1.2=90。即去年75 人为优，今年90 人为优。“求两年均为优的最少人数”的意思是：一年有尽量多的不是优的人在另一年是优。因此，可用75-（100-90）=65。或用90-（100-75）=65。所以，正确选项是B。",
+    "uid": "real:2019:地市级:61",
+    "year": 2019,
+    "inputHash": "741f097c0c81b10da5d76b56ee6f2ce8f0f0efcd2ea6b2cb2776c0e60d45ffb9",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "1200",
+      "1250",
+      "1500",
+      "1600"
+    ],
+    "paper": "地市级",
+    "s": "从A 市到B 市的机票如果打6 折，包含接送机出租车交通费90 元、机票税费60 元在内的总乘机成本是机票打4 折时总乘机成本的1.4 倍，问从A 市到B 市的全价机票价格（不含税费）为多少元？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：从A 市到B 市的机票如果打6 折，包含接送机出租车交通费90 元、机票税费60 元在内的总乘机成本是机票打4 折时总乘机成本的1.4 倍，问从A 市到B 市的…\n\n解析：条件转化法。整理题干数据关系：①机票6 折+出租车90+税费60=（机票4 折+出租车90+税费60）×1.4。②求全价机票（不含税）价格设全价机票（不含税）价格为x，则可列算式为：0.6x+90+60=（0.4x+90+60）×1.4解：0.6x+150=0.56x+150×1.4 0.04x=150×0.4=60 x=1500所以，正确选项是C。",
+    "uid": "real:2019:地市级:62",
+    "year": 2019,
+    "inputHash": "490af0cc1bc48bb4ec9aacd6683cc064cdd4bf0731139f3b43a1d4c7a2d87597",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "3%以下",
+      "3%～4%之间",
+      "4%～5%之间",
+      "5%以上"
+    ],
+    "paper": "地市级",
+    "s": "小张和小王在同一个学校读研究生，每天早上从宿舍到学校有6:40、7:00、7:20 和7:40 发车的4 班校车。某星期周一到周三，小张和小王都坐班车去学校，且每个人在3 天中乘坐的班车发车时间都不同。问这3 天小张和小王每天都乘坐同一趟班车的概率在：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：小张和小王在同一个学校读研究生，每天早上从宿舍到学校有6:40、7:00、7:20 和7:40 发车的4 班校车。某星期周一到周三，小张和小王都坐班车去学校，且…\n\n解析：多种情况讨论。整理题干数据关系：①6:40、7:00、7:20、7:40 共4 班车。②张、王周一到周三坐班车且3 天时间不同。③求每天都乘坐同一班车的概率。三天可以分开算，最后相乘得概率即可。周一：设张乘班车1（没有限制，乘1～4 哪个班车都一样），则李乘班车1 的概率为1/4。周二：设张乘班车2（张不能乘班车1，乘2～4 哪个班车都一样），则李乘班车2（李周一乘班车1，则周二不能乘班车1）的概率为1/3。周三：设张乘班车3（张不能乘班车1、2，乘3、4 班车都一样），则李乘班车3（李周一乘班车1，周二乘班车2，因此只能选择班车3、4）的概率为1/2。则小张和小王每天都乘坐同一趟班车的概率为：1/2×1/3×1/4=1/24。比1/25（即4%）略大且不到1/20（即5%）。即概率在4%～5%之间。所以，正确选项是C。",
+    "uid": "real:2019:地市级:63",
+    "year": 2019,
+    "inputHash": "2f932d1f7a0348cd92f8c6e2e5b7fd990e5d7c92bbb9cf3777158646a59f7a99",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "30",
+      "36",
+      "45",
+      "60"
+    ],
+    "paper": "地市级",
+    "s": "甲车上午8 点从A 地出发匀速开往B 地，出发30 分钟后乙车从A 地出发以甲车2 倍的速度前往B 地，并在距离B 地10 千米时追上甲车。如乙车9 点10 分到达B 地，问甲车的速度为多少千米/小时？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲车上午8 点从A 地出发匀速开往B 地，出发30 分钟后乙车从A 地出发以甲车2 倍的速度前往B 地，并在距离B 地10 千米时追上甲车。如乙车9 点10 分…\n\n解析：方法1：①甲车8 点A→B，乙车8:30（晚0.5 小时）A→B，且V 乙=2V 甲。②在距离B 地10km 处相遇。③乙9:10 分（花了40 分钟，即2/3 小时）到达B。④求甲车速度。设辆车相遇时距A 地x 千米，甲车速度为y 千米/小时，则乙车速度为2y 千米/小时。根据上述关系可得方程组：x÷y=（x÷2y）+0.5…………………… ①（x+10）÷2y=2/3 ………………………②解得x=30，y=30。所以，正确选项是A。方法2：方法1 虽然可行，但耗时太长，不容易完成。本题的突破口在于：V 乙=2V 甲，乙车出发时，甲车已经行进的距离为：V 甲×0.5 小时。可列出两车追及时的公式为：V 甲×0.5 小时+V 甲×追及时间=2V 甲×追及时间。约去V 甲，可得：追及时间=0.5 小时。也就是说，乙车追上甲车的时间为：8:30+30 分钟=9:00，然后乙车再用10 分钟走了10 千米到达B地。即：V 乙=2V 甲=10 千米/10 分钟=60 千米/小时。解得：V 甲=30 千米/小时。所以，正确选项是A。",
+    "uid": "real:2019:地市级:64",
+    "year": 2019,
+    "inputHash": "5022538d90094fe064961e69a7b7044dd403ab49e8e88a2b5583703296112919",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "比赛在3 局内结束",
+      "乙连胜3 局获胜",
+      "甲获胜且两人均无连胜",
+      "乙用4 局获胜"
+    ],
+    "paper": "地市级",
+    "s": "甲和乙进行5 局3 胜的乒乓球比赛，甲每局获胜的概率是乙每局获胜概率的1.5 倍。问以下哪种情况发生的概率最大？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙进行5 局3 胜的乒乓球比赛，甲每局获胜的概率是乙每局获胜概率的1.5 倍。问以下哪种情况发生的概率最大？\n\n解析：多种情况讨论。整理题干数据关系：①甲、乙5 局3 胜。②乙胜率×1.5=甲胜率。③求哪个选项发生的概率最高。关系非常明确，计算完概率后逐一算出4 个选项的结果即可。根据两个人的胜率之和为100%，计算可知：乙胜率+（乙胜率）×1.5=100%。解得：乙胜率=40%，甲胜率=60%。计算A：比赛在3 局内结束，即甲三连胜或乙三连胜，则概率为：60%×60%×60%+（40%×40%×40%）=0.216+0.064=0.28计算B：乙连胜3 局获胜=（乙乙乙）+（甲乙乙乙）+（甲甲乙乙乙）=（40%×40%×40%×）+（60%×40%×40%×40%）+（60%×60%×40%×40%×40%）=0.064×（1+0.6+0.36）显然比A 值要小，无需详细计算，直接排除即可。计算C：甲获胜且两人均无连胜=（甲乙甲乙甲）=（60%×40%×60%×40%×60%）概率极小，无需计算，直接排除即可。计算D：乙用4 局获胜=（甲乙乙乙）+（乙甲乙乙）+（乙乙甲乙）=（60%×40%×40%×40%）×3 =0.064×0.6×3 =0.064×1.8 ＜0.28所以，正确选项是A。",
+    "uid": "real:2019:地市级:65",
+    "year": 2019,
+    "inputHash": "502de15ff4f6ade0b57d7aaf684f5e3d9defcb36dc5405333203592ba67ac23b",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "不到6 天",
+      "6 天多",
+      "7 天多",
+      "超过8 天"
+    ],
+    "paper": "地市级",
+    "s": "有甲、乙、丙三个工作组，已知乙组2 天的工作量与甲、丙共同工作1 天的工作量相同。A 工程如由甲、乙组共同工作3 天，再由乙、丙组共同工作7 天，正好完成，如果三组共同完成，需要整7 天。B 工程如丙组单独完成正好需要10 天，问如由甲、乙组共同完成，需要多少天？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：有甲、乙、丙三个工作组，已知乙组2 天的工作量与甲、丙共同工作1 天的工作量相同。A 工程如由甲、乙组共同工作3 天，再由乙、丙组共同工作7 天，正好完成，如果…\n\n解析：特殊赋值。整理题干数据关系：①乙×2=甲+丙②A 工程=（甲+乙）×3+（乙+丙）×7③A 工程=（甲+乙+丙）×7④B=丙×10⑤求B 由甲+乙完成的工作天数根据②③可知：（甲+乙）×3+（乙+丙）×7=（甲+乙+丙）×7解：3 甲+3 乙+7 乙+7 丙=7 甲+7 乙+7 丙解：3 乙=4 甲特殊赋值乙=4，甲=3，则根据①乙×2=甲+丙，可得丙=8-3=5。则：B=5×10=50。已知：甲+乙=7，则B 工程由甲、乙组共同完成，需要50÷7=7+。即7 天多。所以，正确选项是C。",
+    "uid": "real:2019:地市级:66",
+    "year": 2019,
+    "inputHash": "7372e22542e406965b3b9070b9b763cad735159902d4127df8f6495ea5ea9eca",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "8",
+      "12",
+      "14",
+      "15"
+    ],
+    "paper": "地市级",
+    "s": "某单位有2 个处室，甲处室有12 人，乙处室有20 人。现在将甲处室最年轻的4 人调入乙处室，则乙处室的平均年龄增加了1 岁，甲处室的平均年龄增加了3 岁。问在调动之前，两个处室的平均年龄相差多少岁？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某单位有2 个处室，甲处室有12 人，乙处室有20 人。现在将甲处室最年轻的4 人调入乙处室，则乙处室的平均年龄增加了1 岁，甲处室的平均年龄增加了3 岁。问在…\n\n解析：特殊赋值。整理题干数据关系：①甲处室有12 人，乙处室有20 人。②甲处室最年轻的4 人调入乙处室，乙处室的平均年龄+1，甲处室的平均年龄+3。③求在调动之前，两个处室的平均年龄相差多少岁。根据“甲处室有12 人，乙处室有20 人，甲处室最年轻的4 人调入乙处室”，可知3 个数字都可以被4 整除，因此可简化为：甲处室有3 人，乙处室有5 人，甲处室最年轻的1 人调入乙处室。为了方便计算，可特殊赋值乙处室5 人都是5 岁，调入后乙处室的平均年龄+1，即6 人都是6 岁，合计36 岁，则调入者为6×6-5×5=11 岁。甲处室3 人，调出11 岁1 人，平均年龄+3，设原来的平均年龄为x，则可列算式为：（3x-11）÷2=x+3解得：x=17。即调出前甲处室平均年龄为17 岁，乙处室平均年龄为5 岁，两个处室的平均年龄相差12 岁。所以，正确选项是B。",
+    "uid": "real:2019:地市级:67",
+    "year": 2019,
+    "inputHash": "63e0e4c32a4cb4690d522799f9e67d97f720aa13a424be2283f82d128708191c",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [],
+    "paper": "地市级",
+    "s": "甲和乙两条自动化生产线同时生产相同的产品，甲生产线单位时间的产量是乙生产线的5 倍，甲生产线每工作1 小时就需要花3 小时时间停机冷却而乙生产线可以不间断生产。问以下哪个坐标图能准确表示甲、乙生产线产量之差（纵轴L）与总生产时间（横轴T）之间的关系？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙两条自动化生产线同时生产相同的产品，甲生产线单位时间的产量是乙生产线的5 倍，甲生产线每工作1 小时就需要花3 小时时间停机冷却而乙生产线可以不间断生产。…\n\n解析：特殊赋值。整理题干数据关系：①甲=5 乙②甲工作1 冷却3，乙不冷却直接赋值即可。时间0，甲=0，乙=0，差0时间1，甲=5，乙=1，差4时间2，甲=5，乙=2，差3时间3，甲=5，乙=3，差2时间4，甲=5，乙=4，差1时间5，甲=10，乙=5，差5时间6，甲=10，乙=6，差4时间7，甲=10，乙=7，差3时间8，甲=10，乙=8，差2时间9，甲=15，乙=9，差6 …… ……差值变化为：0→4、3、2、1→5、4、3、2→6……。只有A 项图形符合题意。虽然ABD 有些相似，但B 项增的斜率和降的斜率类似，大致情况为：0123→432→345→654……，排除。D 项降的斜率很平缓，大致情况为：0543→987→131211……，排除。所以，正确选项是A。",
+    "uid": "real:2019:地市级:68",
+    "year": 2019,
+    "inputHash": "0d5464414fbcf23b3b05f025deaf981ce2ea61debc00e8be56df5b0b98fdb2f1",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "5656",
+      "5600",
+      "1848",
+      "616"
+    ],
+    "paper": "地市级",
+    "s": "某单位要求职工参加20 课时线上教育课程，其中政治理论10 课时，专业技能10 课时。可供选择的政治理论课共8 门，每门2 课时；可供选择的专业技能课共10 门，其中2 课时的有5 门，1 课时的有5 门。问可选择的课程组合共有多少种？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某单位要求职工参加20 课时线上教育课程，其中政治理论10 课时，专业技能10 课时。可供选择的政治理论课共8 门，每门2 课时；可供选择的专业技能课共10 门…\n\n解析：多情况讨论。整理题干数据关系：①要求参加20 课时，政治10 课时，专业10 课时。②政治共8 门，每门2 课时；专业共10 门，其中2 课时5 门，1 课时5 门③求可选课程组合逐一列举情况为：政治理论课8 选5，可能性为C（8，5）=（8×7×6×5×4）÷（5×4×3×2×1）=56。专业技能课有三种选择情况：2 课时5 门，只有1 种2 课时4 门+1 课时2 门，C（5,4）×C（5，2）=5×10=50 种。2 课时3 门+1 课时4 门，C（5，3）×C（5,4）=10×5=50 种。共有50+50+1=101 种可能性则共有课程组合为：56×101=5656 种。所以，正确选项是A。",
+    "uid": "real:2019:地市级:69",
+    "year": 2019,
+    "inputHash": "d36578c8cd39582a1bef379b1df338d516995964e9e75a5aec10a91cb2c7cbe5",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "18",
+      "20",
+      "12",
+      "15"
+    ],
+    "paper": "地市级",
+    "s": "花圃自动浇水装置的规则设置如下：①每次浇水在中午12:00～12:30 之间进行；②在上次浇水结束后，如连续3 日中午12:00 气温超过30 摄氏度，则在连续第3 个气温超过30 摄氏度的日子中午12:00开始浇水；③如在上次浇水开始120 小时后仍不满足条件②，则立刻浇水。已知6 月30 日12:00～12:30该花圃第一次自动浇水，7 月份该花圃共自动浇水8 次，问7 月至少有几天中午12:00 的气温超过30 摄氏度？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2019·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：花圃自动浇水装置的规则设置如下：①每次浇水在中午12:00～12:30 之间进行；②在上次浇水结束后，如连续3 日中午12:00 气温超过30 摄氏度，则在连续…\n\n解析：极端情况讨论。整理题干数据关系：①12:00～12:30 浇水。②连续3 日超过30 度，在第3 个中午12:00 开始浇水。③如在上次浇水开始120 小时后仍不满足条件②，则立刻浇水。④已知6 月30 日12:00～12:30 该花圃第一次自动浇水，7 月份共自动浇水8 次。⑤求7 月至少有几天超过30 度本题描述极为复杂，但“至少”一词的出现表明这道题为极值讨论。题目求的是“至少”，即要让7 月中午超过30°气温的日子尽可能少。则需要让“120 小时”尽可能多，120/24=5 天，即让连续5 天的时间尽可能多，而超过30°的日子均以连续3 天的方式出现。7 月一共有31 天，设超过30°的连续3 天有x 个，连续5 天的有y 个。根据题意可得：3x+5y≤31 x+y=8联合两式可得：9-2x≤0。x 取1、2、3、4 都不符合，最小要取5，此时y 取3，代入验证，符合3x+5y≤31。因此x 取5，即超过30°气温的天数=5×3=15 天。所以，正确选项是D。（本题条件复杂，难度较大，考生在考试中遇到类似的题目应该果断放弃，如果花好几分钟才能解出来，还不如随便蒙一个答案，把宝贵的时间放在其他题目上。不过这样的难题一套卷子一般只会有一、两道，大家不必担心。）",
+    "uid": "real:2019:地市级:70",
+    "year": 2019,
+    "inputHash": "a2751d420af0f6e4a3d374ce27b88fd8262fc733c8de801868fa2ed919ce7059",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "24",
+      "16",
+      "48",
+      "32"
+    ],
+    "paper": "副省级",
+    "s": "扶贫干部某日需要走访村内6 个贫困户甲、乙、丙、丁、戊和己。已知甲和乙的走访次序要相邻，丙要在丁之前走访，戊要在丙之前走访，己只能在第一个或最后一个走访。问走访顺序有多少种不同的安排方式？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：扶贫干部某日需要走访村内6 个贫困户甲、乙、丙、丁、戊和己。已知甲和乙的走访次序要相邻，丙要在丁之前走访，戊要在丙之前走访，己只能在第一个或最后一个走访。问走访…\n\n解析：分情况讨论。已知“己只能在第一个或最后一个走访”，因此己有2 种安排方式。已知“丙要在丁之前走访，戊要在丙之前走访”，因此戊丙丁必须捆绑，只有1 种安排方式。已知“甲和乙的走访次序要相邻”，则有“甲乙”和“乙甲” 2 种安排方式，再考虑插空，则意味着有4 种安排方式。则共有安排方式为：2×1×2×4=16 种。所以，正确选项是B。",
+    "uid": "real:2020:副省级:61",
+    "year": 2020,
+    "inputHash": "217186212358e758ee3173c302a81c3136627251facc9e3155dd6bf258c9fb39",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "40%",
+      "50%",
+      "20%",
+      "30%"
+    ],
+    "paper": "副省级",
+    "s": "高架桥12：00～14：00 每分钟车流量比9：00～11：00 少20%，9：00～11：00、12：00～14：00、17：00～19：00 三个时间段的平均每分钟车流量比9：00～11：00 多10%。问17：00～19：00 每分钟的车流量比9：00～11：00 多：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：高架桥12：00～14：00 每分钟车流量比9：00～11：00 少20%，9：00～11：00、12：00～14：00、17：00～19：00 三个时间段的平…\n\n解析：特殊赋值。设9：00～11：00 平均每分钟车流量为10 辆。根据“12：00～14：00 每分钟车流量比9：00～11：00 少20%”，可得12：00～14：00 每分钟车流量为8 辆。根据“9：00～11：00、12：00～14：00、17：00～19：00 三个时间段的平均每分钟车流量比9：00～11：00 多10%”，可得三个时间段的平均每分钟车流量为10×（1=10%）=11 辆。则17：00～19：00 平均每分钟车流量为11×3-10-8=15 辆。则17：00～19：00 每分钟的车流量比9：00～11：00 多：（15-10）/10=50%。所以，正确选项是D。",
+    "uid": "real:2020:副省级:62",
+    "year": 2020,
+    "inputHash": "8ec3f06bcc0f3c7f0233f2fcdaf973d8ddc28591ed1ba6dfb46681c8f463e734",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "180",
+      "190",
+      "160",
+      "170"
+    ],
+    "paper": "副省级",
+    "s": "某种糖果的进价为12 元/千克，现购进这种糖果若干千克，每天销售10 千克，且从第二天起每天都比前一天降价2 元/千克。已知以6 元/千克的价格销售的那天正好卖完最后10 千克，且总销售额是总进货成本的2 倍。问总共进了多少千克这种糖果？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某种糖果的进价为12 元/千克，现购进这种糖果若干千克，每天销售10 千克，且从第二天起每天都比前一天降价2 元/千克。已知以6 元/千克的价格销售的那天正好卖…\n\n解析：根据已知某种糖果的进价为12 元/千克，且总销售额是总进货成本的2 倍。可知平均每千克糖果的售价=12×2=24 元/千克。已知从第二天起每天都比前一天降价2 元/千克，以6 元/千克的价格销售的那天正好卖完最后10千克，则可知：（第一天的售价+6）÷2 =24 元/千克。解得：第一天的售价=42 元/千克。则销售天数=[（42-6）÷2]+1=19 天。总销售量=19×10=190 千克。所以，正确选项是B。",
+    "uid": "real:2020:副省级:63",
+    "year": 2020,
+    "inputHash": "dbf717f7836987166142f499b7868604c05b43d96297ba472b6f1ed7cb77951a",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "6",
+      "10",
+      "16",
+      "20"
+    ],
+    "paper": "副省级",
+    "s": "环保局某科室需要对四种水样进行检测，四种水样依次有5、3、2、4 份。检测设备完成四种水样每一份的检测时间依次为8 分钟、4 分钟、6 分钟、7 分钟。已知该科室本日最多可使用检测设备38分钟，如今天之内要完成尽可能多数量样本的检测，问有多少种不同的检测组合方式？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：环保局某科室需要对四种水样进行检测，四种水样依次有5、3、2、4 份。检测设备完成四种水样每一份的检测时间依次为8 分钟、4 分钟、6 分钟、7 分钟。已知该科…\n\n解析：极端情况讨论。根据题干“今天之内要完成尽可能多数量样本的检测”，可知必须先从花费时间少的水样开始检测，只有这样才能保证在38 分钟内完成的检测样本数量最多。第一种样本第二种样本第三种样本第四种样本数量分钟/每份已知完成四种水样每一份的检测时间依次为8 分钟、4 分钟、6 分钟、7 分钟，因此，必须按第二种、第三种、第四种、第一种的顺序检测，凑够38 分钟即可。检测全部第二种水需3×4=12 分钟。检测全部第三种水需2×6=12 分钟。再从第四种水的四份中随机选2 份，所需检测时间为2×7=14 分钟。12+12+14=38，刚好凑够38 分钟，且保证了检测样本数量最多。因此题目所问“有多少种不同的检测组合方式”，意思就是考查组合情况数（不考虑顺序）。第二种、第三种水全选，均为1 种情况。第四种水4 份中随机选2 份，则有C（4，2）=6 种种组合方式。因此共有检测组合方式为：1×1×6=6 种。所以，正确选项是A。",
+    "uid": "real:2020:副省级:64",
+    "year": 2020,
+    "inputHash": "d3747bfb2473f1230b65a4ebbfb51e84010951a5ed311bb8f3d2dd9ac78bbdcb",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "180",
+      "150",
+      "120",
+      "100"
+    ],
+    "paper": "副省级",
+    "s": "一条圆形跑道长500 米，甲、乙两人从不同起点同时出发，均沿顺时针方向匀速跑步。已知甲跑了600 米后第一次追上乙，此后甲加速20%继续前进，又跑了1200 米后第二次追上乙。问甲出发后多少米第一次到达乙的出发点？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：一条圆形跑道长500 米，甲、乙两人从不同起点同时出发，均沿顺时针方向匀速跑步。已知甲跑了600 米后第一次追上乙，此后甲加速20%继续前进，又跑了1200 米…\n\n解析：特殊赋值。题干只给出了距离，未给出速度和时间的具体值，因此考虑赋值。设甲的速度为100 米/分钟，第一次追及，甲跑了600 米，用时为6 分；第二次追及，甲加速20%，速度为120 米/分钟，又跑了1200 米，用时为10 分。根据行程问题追及公式：S 差=v 差×t，从第一次追及开始，到第二次追及时，两人的路程差为1圈，即（120 米/分钟-v 乙）×10 分钟=500 米。解得：乙速度=70 米/分钟再分析第一次追及过程，甲比乙多走的距离即为甲出发点到乙出发点距离，S 差=v 差×t=（100-70）×6=180 米。所以，正确选项是A。",
+    "uid": "real:2020:副省级:65",
+    "year": 2020,
+    "inputHash": "89d1d732bb1dd0b670f2ce7377d930f2861526e19681649ac83128b537662ca7",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [],
+    "paper": "副省级",
+    "s": "将一个圆盘形零件匀速向下浸入水中。问以下哪个坐标图能准确反映浸入深度AO 及圆盘与水面的接触部位长度CD 之间的关系？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：将一个圆盘形零件匀速向下浸入水中。问以下哪个坐标图能准确反映浸入深度AO 及圆盘与水面的接触部位长度CD 之间的关系？\n\n解析：设圆盘的半径为5，如下图所示：当AO=1 时，EO=5-1=4，CD=2×√（52-42）=6。当AO=2 时，EO=5-2=3，CD=2×√（52-32）=8。当AO=3 时，EO=5-3=2、CD=2×√（52-22）≈9。结合选项，D 项坐标图符合。所以，正确选项是D。",
+    "uid": "real:2020:副省级:66",
+    "year": 2020,
+    "inputHash": "e2e1320e2959a32ab48f910c724def4805f6fb65decc4ed7d04e853c3d4284f2",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "B 两车分别从甲地和乙地同时出发匀速相向而行，第一次迎面相遇的位置距离丙地500 米。两车到达对方出发地后立刻原路返回，第二次两车相遇也为迎面相遇，问第二次相遇的位置一定：A.距离甲地1500 米",
+      "距离乙地1500 米",
+      "距离丙地1500 米",
+      "距离乙、丙中点1500 米"
+    ],
+    "paper": "副省级",
+    "s": "丙地为甲、乙两地之间高速公路上的一个测速点，其与甲地之间的距离是与乙地之间距离的一半。",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：丙地为甲、乙两地之间高速公路上的一个测速点，其与甲地之间的距离是与乙地之间距离的一半。\n\n解析：如下图所示：根据“第二次两车相遇也为迎面相遇”，可知第一次相遇点必然在丙的右侧，否则第二次相遇就不是迎面相遇，而是追击相遇。第一次相遇，AB 合走一个全程，A 走了x+500 米。第二次相遇，AB 合走三个全程，则A 走了3x+1500 米。所以，正确选项是B。",
+    "uid": "real:2020:副省级:67",
+    "year": 2020,
+    "inputHash": "61b9716ebf3b62d74febef3eec407aa32bb18832686ae4cd0a351227843f8271",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "少1 万元",
+      "多1 万元",
+      "少2 万元",
+      "多2 万元"
+    ],
+    "paper": "副省级",
+    "s": "某个项目由甲、乙两人共同投资，约定总利润10 万元以内的部分甲得80%，10 万元～20 万元的部分甲得60%，20 万元以上的部分乙得60%。最终乙分得的利润是甲的1.2 倍。问如果总利润减半，甲分得的利润比乙：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某个项目由甲、乙两人共同投资，约定总利润10 万元以内的部分甲得80%，10 万元～20 万元的部分甲得60%，20 万元以上的部分乙得60%。最终乙分得的利润…\n\n解析：设总利润为（20+x）万元。则：甲获得利润为（10×80%+10×60%＋x40%）万元。乙获得利润为（10×20%+10×40%＋x60%）万元。根据题意，（10×80%+10×60%＋x40%）×1.2=（10×20%+10×40%＋x60%）。解得：x=90。如果总利润减半，则总利润变为（20+90）÷2=55 万元。此时甲获得利润（10×80%+10×60%＋40%×（55-20））=28 万元，乙获得利润55-28=27 万元。则可知甲分得的利润比乙多1 万元。所以，正确选项是B。",
+    "uid": "real:2020:副省级:68",
+    "year": 2020,
+    "inputHash": "4294f1bd0fdb7a343c702e98e81cc36e658afa9c220dc1640d4571438c365aed",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "3/4",
+      "3/5",
+      "4/3",
+      "5/3"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙两条生产线生产A 和B 两种产品。其中甲生产线生产A、B 产品的效率分别是乙生产线的2 倍和3 倍。现有2 种产品各X 件的生产任务，企业安排甲和乙生产线合作尽快完成任务，最终甲总共生产了1.5X 件产品。问乙在单位时间内生产A 的件数是生产B 件数的多少倍？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙两条生产线生产A 和B 两种产品。其中甲生产线生产A、B 产品的效率分别是乙生产线的2 倍和3 倍。现有2 种产品各X 件的生产任务，企业安排甲和乙生产线…\n\n解析：如上图所示，根据相对效率，先让甲生产B 产品，让乙生产A 产品，等甲生产完全部X 件B 产品后，再生产1.5X-X=0.5X 件A 产品。则：甲生产X 件B 产品的时间，可以生产0.5X×2-0.5X=0.5X 件A 产品。已知“甲生产线生产A、B 产品的效率分别是乙生产线的2 倍和3 倍”，则可知：（0.5X/2）︰（X/3）=3/4。所以，正确选项是C。",
+    "uid": "real:2020:副省级:69",
+    "year": 2020,
+    "inputHash": "f124ed04d86410dbe195d870d10d0450ed391248caba56f096897ed760054d52",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "A＞B＞C",
+      "A＞C＞B",
+      "B＞C＞A",
+      "C＞B＞A"
+    ],
+    "paper": "副省级",
+    "s": "销售员小刘为客户准备了A、B、C 三个方案。已知客户接受方案A 的概率为40%。如果接受方案A，则接受方案B 的概率为60%，反之为30%。客户如果A 或B 方案都不接受，则接受C 方案的概率为90%，反之为10%。问将3 个方案按照客户接受概率从高到低排列，以下正确的是：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：销售员小刘为客户准备了A、B、C 三个方案。已知客户接受方案A 的概率为40%。如果接受方案A，则接受方案B 的概率为60%，反之为30%。客户如果A 或B 方…\n\n解析：已知客户接受方案A 的概率为40%。如果接受方案A，则接受方案B 的概率为60%，反之为30%。则接受方案B 的概率=40%×60%+（1-40%）×30%=24%+18%=42%。则A 或B 方案都不接受的概率=（1-40%）×（1-30%）=42%。则接受方案C 的概率=42%×90%+（1-42%）×10%=37.8%+5.8%=43.6%。可得C＞B＞A。所以，正确选项是D。",
+    "uid": "real:2020:副省级:70",
+    "year": 2020,
+    "inputHash": "51118ecd5d975db96f8f57ad85ca233808449545e90b60afdf29f0732e01ab31",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 71,
+    "o": [
+      "在41～60 之间",
+      "超过60",
+      "不到20",
+      "在20～40 之间"
+    ],
+    "paper": "副省级",
+    "s": "某种产品每箱48 个。小李制作这种产品，第1 天制作了1 个，以后每天都比前一天多制作1 个。X天后总共制作了整数箱产品。问X 的最小值在以下哪个范围内？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某种产品每箱48 个。小李制作这种产品，第1 天制作了1 个，以后每天都比前一天多制作1 个。X天后总共制作了整数箱产品。问X 的最小值在以下哪个范围内？\n\n解析：X 天后总共制作了1+2+…+X=X（X+1）/2 个。已知X（X+1）/2 是48 的倍数，则可知X（X+1）是96 的倍数。96=32×3，X 和X+1 奇偶性不同，其中一个必为32 的倍数，因此可得X 最小取32。所以，正确选项是D。",
+    "uid": "real:2020:副省级:71",
+    "year": 2020,
+    "inputHash": "a17ffbd458dd5d18f0582453af8f10e42ffd7beac6d62f648cf2a867663ab552",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 72,
+    "o": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "paper": "副省级",
+    "s": "某单位从理工大学、政法大学和财经大学总计招聘应届毕业生300 多人。其中从理工大学招聘人数是政法大学和财经大学之和的80%，从政法大学招聘的人数比财经大学多60%。问该单位至少再多招聘多少人，就能将从这三所大学招聘的应届生平均分配到7 个部门？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某单位从理工大学、政法大学和财经大学总计招聘应届毕业生300 多人。其中从理工大学招聘人数是政法大学和财经大学之和的80%，从政法大学招聘的人数比财经大学多60…\n\n解析：根据条件“理工大学招聘人数是政法大学和财经大学之和的80%”，则：理工︰（政法+财经）=4︰ 5。“政法大学招聘的人数比财经大学多60%”，则：政法︰财经=8︰5。联立可得：理工︰政法︰财经=52︰40︰25，共52+40+25=117 份。1 份=3 人，则现有总人数=117×3=351 人。351÷7=50…1。要将从这三所大学招聘的应届生平均分配到7 个部门，则至少再多招聘7-1=6 人。所以，正确选项是A。",
+    "uid": "real:2020:副省级:72",
+    "year": 2020,
+    "inputHash": "29b56d0adf59a9ba6ef62b79444b4f673bc073e3ca8a3c76f1856076d92ee5cd",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 73,
+    "o": [
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "paper": "副省级",
+    "s": "从一个装有水的水池中向外排水，规定每周二、四、六每天排出剩余水量的1/3，其余日期每天排出剩余水量的1/2。如此连续操作6 天后，水池中剩余相当于总容量1/72 的水。问最开始时水池中的水量最多相当于总容量的：",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：从一个装有水的水池中向外排水，规定每周二、四、六每天排出剩余水量的1/3，其余日期每天排出剩余水量的1/2。如此连续操作6 天后，水池中剩余相当于总容量1/72…\n\n解析：极端情况讨论。若想开始时的水量占总容量的比尽可能大，则最开始时的水量应尽可能多，由于最后剩余水量的占比一定（连续操作6 天后，水池中剩余相当于总容量1/72 的水），则每天排出的水要尽可能多。根据题意，每周二、四、六排水后剩余水量为前一天的1-（1/3）=2/3；其余日期（周日、周一、周三、周五）排水后剩余水量为前一天的1-(1/2)=1/2。因此，若要每天排出的水尽量多，则“其余日期”应尽量多。假设从周日开始计算，连续六天后，剩余水量为开始水量的：（1/2）×（1/2）×（2/3）×（1/2）×（2/3）×（1/2）=1/36。则最开始水池中的数量相当于总容量的：（1/72）÷（1/36）=1/2。所以，正确选项是C。",
+    "uid": "real:2020:副省级:73",
+    "year": 2020,
+    "inputHash": "741f940549f75218d218b5819608e3baea0450ce5fef359fbdb6c2255624d235",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 74,
+    "o": [],
+    "paper": "副省级",
+    "s": "部队前哨站的雷达监测范围为100 千米。某日前哨站侦测到正东偏北30°100 千米处，一架可疑无人机正匀速向正西方向飞行。前哨站通知正南方向150 千米处的部队立即向正北方向发射无人机拦截，匀速飞行一段时间后，正好在某点与可疑无人机相遇。问我方无人机速度是可疑无人机的多少倍？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：部队前哨站的雷达监测范围为100 千米。某日前哨站侦测到正东偏北30°100 千米处，一架可疑无人机正匀速向正西方向飞行。前哨站通知正南方向150 千米处的部队…\n\n解析：根据勾股定理，可得各边如下图所示。DB=50+150=200 千米；DC=50√3 千米。则我方无人机速度是可疑无人机的倍数=200/（50√3）=（4√3）/3。所以，正确选项是C。",
+    "uid": "real:2020:副省级:74",
+    "year": 2020,
+    "inputHash": "4c2fae613143c3f0a3e5899c3e98939c57b66be7d9cb30084a84267da8d02542",
+    "dataset": "train",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 75,
+    "o": [
+      "5",
+      "8",
+      "10",
+      "10"
+    ],
+    "paper": "副省级",
+    "s": "一个无盖长方体饮料盒如下图所示，其底面为正方形，高为23 厘米。若插入一根足够细的不可弯折的吸管与底部接触，已知插入饮料盒内的吸管长度最大为27 厘米，问饮料盒底面边长为多少厘米？",
+    "source": {
+      "aiAnswer": null,
+      "alignedAnswer": null,
+      "answerAuthority": "高教逐题解析",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2020·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": {
+        "auditNotes": [
+          "依赖原图，须核图后确认"
+        ],
+        "kind": "reused_structure_only_not_math",
+        "review": "题面可读；答案按资料来源标记，需独立复算"
+      }
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一个无盖长方体饮料盒如下图所示，其底面为正方形，高为23 厘米。若插入一根足够细的不可弯折的吸管与底部接触，已知插入饮料盒内的吸管长度最大为27 厘米，问饮料盒…\n\n解析：根据图可知，当从B 斜着插向H 时，饮料盒内的吸管长度最大，为27 厘米。根据勾股定理可得：HF=√（272-232）=10√2 厘米。则底面边长=（=10√2）2÷2=10 厘米。所以，正确选项是C。",
+    "uid": "real:2020:副省级:75",
+    "year": 2020,
+    "inputHash": "e29184fbe0b614bd3fcdb5d2e6e25662bc7fc9b9e92e56d51ece9573fef93b45",
+    "dataset": "train",
+    "images": []
+  }
+]

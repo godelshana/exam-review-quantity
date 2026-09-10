@@ -43,6 +43,13 @@ jobs:
           python 教学/速刷/build_authored_methods.py --check
           python 教学/速刷/test_authored_methods.py
           python 教学/速刷/audit_datasets_independent.py
+          python 教学/速刷/build_full_intake.py --check
+          python 教学/速刷/prepare_full_assets.py --check
+          python 教学/速刷/check_full_oracles.py --require-all-batches
+          python 教学/速刷/check_full_oracles.py --self-test
+          python 教学/速刷/build_full_bank.py --check
+          python 教学/速刷/test_full_bank.py
+          node 教学/速刷/test_full_bank.cjs
           python 教学/速刷/build_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

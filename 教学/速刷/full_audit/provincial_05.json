@@ -1,0 +1,4716 @@
+[
+  {
+    "uid": "prov:12881931",
+    "fenbiId": "12881931",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "某单位计划在一块直角三角形的绿地周边栽种树木，先在3个顶点各栽种1棵，再从顶点开始每隔4米栽种1棵，如果两条直角边（包含顶点）分别栽种4棵和5棵，则该绿地周边一共栽种了（ ）棵树。",
+    "o": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位计划在一块直角三角形的绿地周边栽种树木，先在3个顶点各栽种1棵，再从顶点开始每隔4米栽种1棵，如果两条直角边（包含顶点）分别栽种4棵和5棵，则该绿地周边一共栽种了（    ）棵树。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "da9310611b9d4cf8d43215ef1c29b65187615f3b9dc84192dd4dc673ded3620d"
+  },
+  {
+    "uid": "prov:12881937",
+    "fenbiId": "12881937",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "某商场在售的四款家电产品能效、标价及折扣等信息如下表所示。根据补贴规则，二级能效的家电产品可获得最终销售价格15%的补贴，一级能效的家电产品可获得最终销售价格20%的补贴，如果家电产品的最终销售价格=标价×折扣，则购买以下家电中的（ ）获得的补贴金额最多。",
+    "o": [
+      "甲冰箱",
+      "乙油烟机",
+      "丙电视",
+      "丁空调"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某商场在售的四款家电产品能效、标价及折扣等信息如下表所示。根据补贴规则，二级能效的家电产品可获得最终销售价格15%的补贴，一级能效的家电产品可获得最终销售价格20%的补贴，如果家电产品的最终销售价格=标价×折扣，则购买以下家电中的（    ）获得的补贴金额最多。</p><p><img width=\"700px\" height=\"213px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1959ab00cc85af2.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1959ab00cc85af2.png?width=700",
+        "path": "真题库/图片/省考/d5a2485c33f4.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "db95e889cec1c5f3ba8fb179fc730ff614fab8a36750933384f18becbaa78a46"
+  },
+  {
+    "uid": "prov:12881932",
+    "fenbiId": "12881932",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "某企业技术部门有7名员工，其中，有3人只能提供软件支持，有2人只能提供硬件支持，另外2人能同时提供软、硬件支持。现该部门向甲、乙两个客户派驻技术团队，要求每个团队中正好有2人能提供软件支持、2人能提供硬件支持。则不同的派驻方式共有（ ）种。",
+    "o": [
+      "30",
+      "42",
+      "70",
+      "144"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业技术部门有7名员工，其中，有3人只能提供软件支持，有2人只能提供硬件支持，另外2人能同时提供软、硬件支持。现该部门向甲、乙两个客户派驻技术团队，要求每个团队中正好有2人能提供软件支持、2人能提供硬件支持。则不同的派驻方式共有（    ）种。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "d328d29fee981da195d63510ed6269b054eab9e25d52e206e7361d373c941abe"
+  },
+  {
+    "uid": "prov:12881930",
+    "fenbiId": "12881930",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "某助农电商企业销售柠檬、蜜柚两种水果，由于季节变化，这个月蜜柚的销量比上月增加了40%，而柠檬的销量降低了20%，最终当月这两种水果的总销量比上个月增加4%，则蜜柚上月销量占这两种水果上月销量的（ ）。",
+    "o": [
+      "60%",
+      "50%",
+      "40%",
+      "30%"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某助农电商企业销售柠檬、蜜柚两种水果，由于季节变化，这个月蜜柚的销量比上月增加了40%，而柠檬的销量降低了20%，最终当月这两种水果的总销量比上个月增加4%，则蜜柚上月销量占这两种水果上月销量的（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "612e5858acada13590772eabfd1ba977eff501898eb0e288490c652090042ba8"
+  },
+  {
+    "uid": "prov:12881936",
+    "fenbiId": "12881936",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "小王参加工作时的年龄，和他弟弟现在的年龄相同，小王工作两年后，弟弟也正式参加工作，现在兄弟俩的年龄之和，正好是他们工龄之和的8倍。如果弟弟20岁正式参加工作，则小王比弟弟大（ ）岁。",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小王参加工作时的年龄，和他弟弟现在的年龄相同，小王工作两年后，弟弟也正式参加工作，现在兄弟俩的年龄之和，正好是他们工龄之和的8倍。如果弟弟20岁正式参加工作，则小王比弟弟大（    ）岁。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "320085b811fb3ea23decb6cad80f2bd2c0e647b3ed18c1fd8ffb93e405410417"
+  },
+  {
+    "uid": "prov:12881939",
+    "fenbiId": "12881939",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "3名求职者参加某企业的面试，每人在6道面试题中随机抽取2道题作答，则有且仅有1道题没有被任何人抽到的概率（ ）。",
+    "o": [
+      "不到20%",
+      "在20%到25%之间",
+      "在25%到30%之间",
+      "超过30%"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3名求职者参加某企业的面试，每人在6道面试题中随机抽取2道题作答，则有且仅有1道题没有被任何人抽到的概率（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "1930a53fdf0097fe855590e9293eb0d7505ef8013bdcdd1cc74398a7108c3fc4"
+  },
+  {
+    "uid": "prov:18643970",
+    "fenbiId": "18643970",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "1231，2311，3112，1123，（ ）",
+    "o": [
+      "1132",
+      "1231",
+      "2113",
+      "3212"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1231，2311，3112，1123，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "e740192869bc3b83ea4ebe6f5115f5ed05d57dbc7e58dfa94315fd1da8a816c9"
+  },
+  {
+    "uid": "prov:18643967",
+    "fenbiId": "18643967",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "38，6，22，14，（ ），16",
+    "o": [
+      "10",
+      "12",
+      "18",
+      "20"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>38，6，22，14，（    ），16</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "9aad72397e1d5b60f645def5c0cc12a99f09b932fe207d1b3318103207729129"
+  },
+  {
+    "uid": "prov:18643968",
+    "fenbiId": "18643968",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "82，68，142，208，342，548，（ ）",
+    "o": [
+      "882",
+      "888",
+      "902",
+      "908"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>82，68，142，208，342，548，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "6d33da0a2825ce9e2193efe1c61bc1e5b66cdc2141f7c499e5785d76881aa86d"
+  },
+  {
+    "uid": "prov:18643969",
+    "fenbiId": "18643969",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "3，5，20，4，6，30，7，9，72，12，14，（ ）",
+    "o": [
+      "143",
+      "168",
+      "177",
+      "182"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，5，20，4，6，30，7，9，72，12，14，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "91e0e901f9428e7c5369d7af502ce4f3aa90c259567b6bca37428724c1da93c3"
+  },
+  {
+    "uid": "prov:18643976",
+    "fenbiId": "18643976",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "，，，，，，（ ）",
+    "o": [
+      "1",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=gVXFrgpwWKSV4Xis-viVj5AFhlxW-yXd0FAvfD7i_fM\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=-TpcGgGhUwLipHHHHf6BnuY6wkpWrJxv5BgPIgA7zBQ\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=w-Oa0jITc89Wl8ivlAukE489lpHpj__r-z0j6SAWHcA\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=CcrCNzCElXgXEdAqT5Q7cdaeYQXYsKSOBsX14z73BD0\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=rXa1K5X9EAfVyNvZbPriueE9Si0MSqdckciR-GT4HXY\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=NXrHR5AdpWvqO_gWw8Ha2MGu0JTuIwRuYhMauQ6etzM\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=gVXFrgpwWKSV4Xis-viVj5AFhlxW-yXd0FAvfD7i_fM",
+        "path": "真题库/图片/省考/d6f4918e408a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=-TpcGgGhUwLipHHHHf6BnuY6wkpWrJxv5BgPIgA7zBQ",
+        "path": "真题库/图片/省考/826532f78c62.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=w-Oa0jITc89Wl8ivlAukE489lpHpj__r-z0j6SAWHcA",
+        "path": "真题库/图片/省考/645b97c36dd0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=CcrCNzCElXgXEdAqT5Q7cdaeYQXYsKSOBsX14z73BD0",
+        "path": "真题库/图片/省考/64c145e75be3.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=rXa1K5X9EAfVyNvZbPriueE9Si0MSqdckciR-GT4HXY",
+        "path": "真题库/图片/省考/12a058597708.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=NXrHR5AdpWvqO_gWw8Ha2MGu0JTuIwRuYhMauQ6etzM",
+        "path": "真题库/图片/省考/ba45e47d00fe.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=LdRzD9lPOYo63yjXdLohWn1ezaQyjKJvE4oyD2J2Ct8",
+        "path": "真题库/图片/省考/66408260ddaf.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=VkkFxiSDE-HB1ssHcdYmrSZt5lOEFJ2vquhQtD1RXpw",
+        "path": "真题库/图片/省考/3c4a1fa20bef.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=bNgtZac_8coOls1deDT0nj6apTxDJk6gP3qsKuOfJ7I",
+        "path": "真题库/图片/省考/e0a8c16ccf04.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "7167f7dd3935237c3efc14f001d5f317e874ce0d66a24ff13ae55078a3da3127"
+  },
+  {
+    "uid": "prov:18643978",
+    "fenbiId": "18643978",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "未来五年，某市计划新增风电装机容量占新能源总装机容量的40%，光伏装机容量占新能源总装机容量的35%，其余为生物质能，已知光伏装机容量比生物质能多120兆瓦，则未来五年，该市新能源总装机容量为（ ）兆瓦。",
+    "o": [
+      "600",
+      "800",
+      "1000",
+      "1200"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>未来五年，某市计划新增风电装机容量占新能源总装机容量的40%，光伏装机容量占新能源总装机容量的35%，其余为生物质能，已知光伏装机容量比生物质能多120兆瓦，则未来五年，该市新能源总装机容量为（    ）兆瓦。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "d7a62f1320fe9e2c0f375cf972ce85891c234c6a3160545b82ad48fa0c92995f"
+  },
+  {
+    "uid": "prov:18643980",
+    "fenbiId": "18643980",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "某厂家在广交会期间获得了大量的订单，其中，周六签约的客户数量是周日的1.5倍，签约总金额是周日的80%，如果周六、周日共与40家客户定成了签约，订单总金额为720万元（没有重复签约的客户），则周日平均每家客户的签约金额为（ ）万元。",
+    "o": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某厂家在广交会期间获得了大量的订单，其中，周六签约的客户数量是周日的1.5倍，签约总金额是周日的80%，如果周六、周日共与40家客户定成了签约，订单总金额为720万元（没有重复签约的客户），则周日平均每家客户的签约金额为（    ）万元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "5a09188fe4d9a25c07257cd5c938feb87ed92ddc28147eb88bbf1bb889f7fb4b"
+  },
+  {
+    "uid": "prov:18643979",
+    "fenbiId": "18643979",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "某蓄电池可以同时供20台设备运行5天，在供20台设备运行12小时后，又新增了5台设备。如果所有设备每天的耗电量相等，则该蓄电池还可以供这些设备运行（ ）天。",
+    "o": [
+      "3.5",
+      "3.6",
+      "3.8",
+      "4.0"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某蓄电池可以同时供20台设备运行5天，在供20台设备运行12小时后，又新增了5台设备。如果所有设备每天的耗电量相等，则该蓄电池还可以供这些设备运行（    ）天。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "6c6a4de791aac41739e74b2841e66cb7d5e67ec9f4a380c8c96a3237a6eaadb6"
+  },
+  {
+    "uid": "prov:18643972",
+    "fenbiId": "18643972",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "某企业每生产一台能耗高的服务器，能获得5万元的利润，但要扣除4单位碳配额；每生产一台能耗低的终端，能获得2万元的利润，并增加1单位碳配额。若该企业每月最多生产服务器和终端共2000台，且每月的碳配额总量不低于零，则该企业每月最大利润为（ ）万元。",
+    "o": [
+      "4800",
+      "5000",
+      "5200",
+      "6000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业每生产一台能耗高的服务器，能获得5万元的利润，但要扣除4单位碳配额；每生产一台能耗低的终端，能获得2万元的利润，并增加1单位碳配额。若该企业每月最多生产服务器和终端共2000台，且每月的碳配额总量不低于零，则该企业每月最大利润为（    ）万元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "f2bc2c77dc097e808d60984d7561ab3dd60f7c179e06a1ff161905aa0bbd2408"
+  },
+  {
+    "uid": "prov:18643971",
+    "fenbiId": "18643971",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "雨季期间，某市单日的暴雨发生率为30%，暴雨出现时当地市区主干道拥堵的概率为70%，其余时间拥堵的概率为20%，则雨季期间当地市区主干道拥堵的平均概率为（ ）。",
+    "o": [
+      "25%",
+      "35%",
+      "45%",
+      "55%"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>雨季期间，某市单日的暴雨发生率为30%，暴雨出现时当地市区主干道拥堵的概率为70%，其余时间拥堵的概率为20%，则雨季期间当地市区主干道拥堵的平均概率为（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "fa4f59d568cc52a29382e3cfbb57961c4eb0ea83638a72ddf60cc970662b2f55"
+  },
+  {
+    "uid": "prov:18643981",
+    "fenbiId": "18643981",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "某块不规则的四边形菜地被沿着对角线分为四个区域，分别种上青菜、毛豆、番茄和茄子。已知青菜的种植面积比毛豆多40%，番茄的种植面积比茄子多40平方米，比青菜少了140平方米。则毛豆的种植面积比茄子多了（ ）平方米。",
+    "o": [
+      "60",
+      "70",
+      "90",
+      "100"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某块不规则的四边形菜地被沿着对角线分为四个区域，分别种上青菜、毛豆、番茄和茄子。已知青菜的种植面积比毛豆多40%，番茄的种植面积比茄子多40平方米，比青菜少了140平方米。则毛豆的种植面积比茄子多了（    ）平方米。</p><p><img width=\"300px\" height=\"262px\" src=\"//fb.fenbike.cn/api/tarzan/images/19af8c68aad3a43.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19af8c68aad3a43.png?width=700",
+        "path": "真题库/图片/省考/a4f312dda8fd.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "454b57f9aeb7f9c2e6823d05054865811a6457990e03fc8b8c1746c529a39e5b"
+  },
+  {
+    "uid": "prov:18643973",
+    "fenbiId": "18643973",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "某街道计划在本周的周一至周日中选取3天开展社区活动。如果要求每次活动之间至少间隔1天，则可行的活动时间安排有（ ）种。",
+    "o": [
+      "3",
+      "5",
+      "10",
+      "15"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某街道计划在本周的周一至周日中选取3天开展社区活动。如果要求每次活动之间至少间隔1天，则可行的活动时间安排有（    ）种。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "e24b6db0de6b8ea8356e5f48311edff23c84117ca433fbc696b474792dde07b2"
+  },
+  {
+    "uid": "prov:18643974",
+    "fenbiId": "18643974",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "甲、乙、丙、丁四人参加知识竞赛，得分均为正整数，得分从高到低依次是甲、乙、丙、丁。如果甲和乙的总得分为100分，乙和丙的总得分为96分，丙和丁的总得分为80分，则丁的得分为：",
+    "o": [
+      "33",
+      "36",
+      "39",
+      "不能确定"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙、丁四人参加知识竞赛，得分均为正整数，得分从高到低依次是甲、乙、丙、丁。如果甲和乙的总得分为100分，乙和丙的总得分为96分，丙和丁的总得分为80分，则丁的得分为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "cea1887eba47a3766096c346433ffe548cbdea5ca1fe512675c3daf5569912db"
+  },
+  {
+    "uid": "prov:18643975",
+    "fenbiId": "18643975",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "有4批原材料存放在同一个仓库，工厂每次会从仓库中运出一整批原材料进行加工，加工完成后才能从仓库提取下一批原材料。已知一批原材料在仓库内每存放满1小时需要支付100元的费用，且工厂加工这4批原材料需要的时间分别为4、6、7、8小时，则工厂为这些原材料支付的仓库存放费用至少为（ ）元。",
+    "o": [
+      "2800",
+      "3100",
+      "3300",
+      "3500"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有4批原材料存放在同一个仓库，工厂每次会从仓库中运出一整批原材料进行加工，加工完成后才能从仓库提取下一批原材料。已知一批原材料在仓库内每存放满1小时需要支付100元的费用，且工厂加工这4批原材料需要的时间分别为4、6、7、8小时，则工厂为这些原材料支付的仓库存放费用至少为（    ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "c90cc206ca72b5448b272923e9f72df8033f5c2774d985108208af30e186d880"
+  },
+  {
+    "uid": "prov:18643977",
+    "fenbiId": "18643977",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2026,
+    "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2026.json",
+    "s": "甲、乙两人在小区内晨跑，速度分别是140米/分钟和100米/分钟。他们同时从小区跑道的起点向终点匀速跑步，各自不停地在起点和终点往返。如果该跑道的长度为200米，则当甲第二次追上乙时，距离起点（ ）米。",
+    "o": [
+      "0",
+      "50",
+      "100",
+      "200"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两人在小区内晨跑，速度分别是140米/分钟和100米/分钟。他们同时从小区跑道的起点向终点匀速跑步，各自不停地在起点和终点往返。如果该跑道的长度为200米，则当甲第二次追上乙时，距离起点（    ）米。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2026,
+        "paper": "2026年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2026.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "ace09738ff10643fd071123d2e306ef189e6b74c5a520bff421804a86185b3b7"
+  },
+  {
+    "uid": "prov:2616164",
+    "fenbiId": "2616164",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2020,
+    "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2020",
+    "number": 65,
+    "sourceFile": "_downloads/fb/paper_HB_2020.json",
+    "s": "小王在荡秋千，当秋千摆角为30°时，它摆到最高位置与最低位置的高度差为0.45米。小王为寻求更大的刺激感，将秋千摆角增加15°，则秋千能摆到的最高位置约上升了多少米？（，）",
+    "o": [
+      "0.15米",
+      "0.24米",
+      "0.37米",
+      "0.41米"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小王在荡秋千，当秋千摆角为30°时，它摆到最高位置与最低位置的高度差为0.45米。小王为寻求更大的刺激感，将秋千摆角增加15°，则秋千能摆到的最高位置约上升了多少米？（<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=auW1DLziWdJMHbeneN0Z2g\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=xfEDVJo4wys1s6-i32Cocw\">）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=auW1DLziWdJMHbeneN0Z2g",
+        "path": "真题库/图片/省考/e5476e24a0f0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=xfEDVJo4wys1s6-i32Cocw",
+        "path": "真题库/图片/省考/114155b45444.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2020.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 65
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2020,
+        "paper": "2020年湖北省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2020",
+        "number": 65,
+        "sourceFile": "_downloads/fb/paper_HB_2020.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7658a3b7d1bf946d04ba1866ded335cdb7ac7c6f66d23ad272ca94efd87dbc4e"
+  },
+  {
+    "uid": "prov:3523374",
+    "fenbiId": "3523374",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2021,
+    "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 56,
+    "sourceFile": "_downloads/fb/paper_HB_2021.json",
+    "s": "",
+    "o": [
+      "720种",
+      "480种",
+      "360种",
+      "120种"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 56
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "9531ae8f5a73942f81a55e45d14d83f519cb862ad2364fb4ac68f7de41c92411"
+  },
+  {
+    "uid": "prov:3522770",
+    "fenbiId": "3522770",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2021,
+    "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 58,
+    "sourceFile": "_downloads/fb/paper_HB_2021.json",
+    "s": "某公园鸟语林共饲养180只鸟类动物，为养护方便，园方将鸟语林分为A、B、C三个区。某日，A区的一部分鸟飞至B、C两区，清点时，B、C两区鸟的数量都增加一倍。次日，一些鸟又从B区飞至A、C两区，清点时，A、C两区鸟的数量也都增加一倍。第三日，一部分鸟又从C区飞至A、B两区，清点时，A、B两区鸟的数量同样增加一倍，而此时C区剩余鸟的数量恰好是A区的，那么，最初A区有多少只鸟？",
+    "o": [
+      "103",
+      "104",
+      "105",
+      "106"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公园鸟语林共饲养180只鸟类动物，为养护方便，园方将鸟语林分为A、B、C三个区。某日，A区的一部分鸟飞至B、C两区，清点时，B、C两区鸟的数量都增加一倍。次日，一些鸟又从B区飞至A、C两区，清点时，A、C两区鸟的数量也都增加一倍。第三日，一部分鸟又从C区飞至A、B两区，清点时，A、B两区鸟的数量同样增加一倍，而此时C区剩余鸟的数量恰好是A区的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=4IMDZCnNMsGO-_3W82dPNsBspAwUteBMp6Nb8xU9FrM\">，那么，最初A区有多少只鸟？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=4IMDZCnNMsGO-_3W82dPNsBspAwUteBMp6Nb8xU9FrM",
+        "path": "真题库/图片/省考/0e63cd2e3966.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 58
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 53,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "abb5c342f3546594693293662cb9b4a43e69d74c85b917747b0ee41012b6bd3d"
+  },
+  {
+    "uid": "prov:3522765",
+    "fenbiId": "3522765",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2021,
+    "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 64,
+    "sourceFile": "_downloads/fb/paper_HB_2021.json",
+    "s": "某草莓经销商有201箱的草莓要分配给若干个水果店，要求无论选用怎样的分配方式，都要有水果店至少分到8箱，则水果店至多有：",
+    "o": [
+      "20个",
+      "21个",
+      "28个",
+      "29个"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某草莓经销商有201箱的草莓要分配给若干个水果店，要求无论选用怎样的分配方式，都要有水果店至少分到8箱，则水果店至多有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 64
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 64,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8d96d58b45a5534439ef1447d7b21bf071da8d5743d444687a0757856e42e967"
+  },
+  {
+    "uid": "prov:3523384",
+    "fenbiId": "3523384",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2021,
+    "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2021",
+    "number": 68,
+    "sourceFile": "_downloads/fb/paper_HB_2021.json",
+    "s": "两个大人带四个孩子去坐只有六个位置的圆型旋转木马，那么两个大人不相邻的概率为：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>两个大人带四个孩子去坐只有六个位置的圆型旋转木马，那么两个大人不相邻的概率为：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=R72hHgRG8tCk2HodzN8hQjMVMutyFCnCyScXsZFJS3M",
+        "path": "真题库/图片/省考/f9a8a12c6a2c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=87zfg5Y6D9ejjsANH40afVCQspEeI0zjwjjMLwskhMo",
+        "path": "真题库/图片/省考/f5a725499038.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/492a97cbaa93.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=4zbOnagufiP9A9SEx1irp2aj2tHhDhbc3DOVA6StjIU",
+        "path": "真题库/图片/省考/cc001a59bd40.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2021.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 68
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2021,
+        "paper": "2021年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2021.json"
+      },
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2021,
+        "paper": "2021年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2021",
+        "number": 56,
+        "sourceFile": "_downloads/fb/paper_HEN_2021.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7a2f5630dff219d45459f66c5c33e0afa43c836ea9fa253dc021f35fcc0aad8f"
+  },
+  {
+    "uid": "prov:5102124",
+    "fenbiId": "5102124",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2022,
+    "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 57,
+    "sourceFile": "_downloads/fb/paper_HB_2022.json",
+    "s": "为了支持乡村教育，某市派出6名优秀教师前往该市农村的三所学校支教，一所1名，一所2名，一所3名，不同的选派方法共有：",
+    "o": [
+      "60种",
+      "120种",
+      "360种",
+      "720种"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为了支持乡村教育，某市派出6名优秀教师前往该市农村的三所学校支教，一所1名，一所2名，一所3名，不同的选派方法共有：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 57
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 57,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4840af2cc50b6715d407f55b2e3c4c75ca11aea9ad44afa8e37152f846ba61b2"
+  },
+  {
+    "uid": "prov:5102130",
+    "fenbiId": "5102130",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2022,
+    "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 58,
+    "sourceFile": "_downloads/fb/paper_HB_2022.json",
+    "s": "清朝乾隆皇帝曾出上联“客上天然居，居然天上客”，纪昀以“人过大佛寺，寺佛大过人”对出下联，这副对联既可以顺读也可以逆读，被称作回文联。数学中也有类似回文数，如212、37473等，则三位数中回文数是奇数的概率为：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>清朝乾隆皇帝曾出上联“客上天然居，居然天上客”，纪昀以“人过大佛寺，寺佛大过人”对出下联，这副对联既可以顺读也可以逆读，被称作回文联。数学中也有类似回文数，如212、37473等，则三位数中回文数是奇数的概率为：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=kpfnsbxPwb6gg57g6OSA5mJ99svDM6dvRRBGon7z_Fo",
+        "path": "真题库/图片/省考/59d6a6a1dca0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/de9542e87cd8.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=1E-pvnErbya_IWnEiDkCU0JOsH3Yd31nIoRJBfyMfkk",
+        "path": "真题库/图片/省考/02d80a10720e.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=kLLts1I6tVcQO9aunDcFsxQiynd-aQ8YUceh8jCQP7M",
+        "path": "真题库/图片/省考/0b46f4b71eb5.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 58
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "26042b21a600c0510564d6eeebab079f79371f3f5e96293f8a243775e0a9369a"
+  },
+  {
+    "uid": "prov:5102134",
+    "fenbiId": "5102134",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2022,
+    "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 60,
+    "sourceFile": "_downloads/fb/paper_HB_2022.json",
+    "s": "某智能停车场泊车的泊车位置由电脑随机派位生成。现有两排车位，每排4个，有4辆不同的车需要泊车。泊车要求至少有一车与其它车不同排，且甲乙两车在同一排。则电脑可生成几种派位方式？",
+    "o": [
+      "672",
+      "480",
+      "384",
+      "288"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某智能停车场泊车的泊车位置由电脑随机派位生成。现有两排车位，每排4个，有4辆不同的车需要泊车。泊车要求至少有一车与其它车不同排，且甲乙两车在同一排。则电脑可生成几种派位方式？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 60
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 60,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5213c71cd17b5a916d8ebd9c88aae6676be2c7cf5ad6b72cf903ff3e9ac8ed85"
+  },
+  {
+    "uid": "prov:5102160",
+    "fenbiId": "5102160",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2022,
+    "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2022",
+    "number": 69,
+    "sourceFile": "_downloads/fb/paper_HB_2022.json",
+    "s": "",
+    "o": [
+      "17km",
+      "15km",
+      "19km",
+      "20km"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/182a5fd583ffe43.png?width=700",
+        "path": "真题库/图片/省考/5f897c884044.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2022.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 69
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2022,
+        "paper": "2022年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2022",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2022.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c5c4eb73b8115810d120ade350f260224829d6cafeea1b1977e144a2250ea5cd"
+  },
+  {
+    "uid": "prov:5510178",
+    "fenbiId": "5510178",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2023,
+    "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 62,
+    "sourceFile": "_downloads/fb/paper_HB_2023.json",
+    "s": "",
+    "o": [
+      "18分钟",
+      "21分钟",
+      "24分钟",
+      "27分钟"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18689f331bc92ca.png?width=700",
+        "path": "真题库/图片/省考/1d4f9c4e6d04.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 62
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 62,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1e5abcbce68667037ed741046887acd75f44d260852d2f6d17560f340c075ae7"
+  },
+  {
+    "uid": "prov:5510073",
+    "fenbiId": "5510073",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2023,
+    "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 69,
+    "sourceFile": "_downloads/fb/paper_HB_2023.json",
+    "s": "某村拟建造一个容积为144立方米，深度为4米的长方体无盖蓄水池。经测算，蓄水池底部造价为260元/平方米，侧面造价为180元/平方米。那么该水池的最低总造价为：",
+    "o": [
+      "11440元",
+      "25920元",
+      "26640元",
+      "31680元"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某村拟建造一个容积为144立方米，深度为4米的长方体无盖蓄水池。经测算，蓄水池底部造价为260元/平方米，侧面造价为180元/平方米。那么该水池的最低总造价为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 69
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7bee20c5c86d610125a837bf7f41cf7f02c933f7d4ff5120c44dca223a3d01b4"
+  },
+  {
+    "uid": "prov:5510179",
+    "fenbiId": "5510179",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2023,
+    "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2023",
+    "number": 70,
+    "sourceFile": "_downloads/fb/paper_HB_2023.json",
+    "s": "下图所示是一种帐篷屋顶的示意图，底面是一个长4米宽3米的长方形，屋顶高1米，上棱长2米且平行于底面，那么该帐篷屋顶的体积是：",
+    "o": [
+      "5立方米",
+      "11立方米",
+      "12立方米",
+      "24立方米"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>下图所示是一种帐篷屋顶的示意图，底面是一个长4米宽3米的长方形，屋顶高1米，上棱长2米且平行于底面，那么该帐篷屋顶的体积是：</p><p><img width=\"415px\" height=\"201px\" src=\"//fb.fenbike.cn/api/tarzan/images/18689ff234409d0.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18689ff234409d0.png?width=700",
+        "path": "真题库/图片/省考/909d7dc2a797.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2023.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 70
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2023,
+        "paper": "2023年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2023",
+        "number": 70,
+        "sourceFile": "_downloads/fb/paper_HB_2023.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3787152b6bde01143ca46bad1c784649bb40d2a9602e286a09d0fe7eed041f0d"
+  },
+  {
+    "uid": "prov:16592964",
+    "fenbiId": "16592964",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2024,
+    "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 63,
+    "sourceFile": "_downloads/fb/paper_HB_2024.json",
+    "s": "中秋节前夕，小赵买了6个外观相同的月饼，其中有3个是蛋黄馅的。回到家后，小赵从中任取3个月饼，里面恰好有1个是蛋黄馅的概率是：",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>中秋节前夕，小赵买了6个外观相同的月饼，其中有3个是蛋黄馅的。回到家后，小赵从中任取3个月饼，里面恰好有1个是蛋黄馅的概率是：</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=SBzK2C5fCM0IR5Utd0vOfQ",
+        "path": "真题库/图片/省考/41fab05917f0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=H5zhqVIusPx8Wdh2t7_pYQ",
+        "path": "真题库/图片/省考/eb52c8e80813.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=fq8lt9kd6uJHy40pODnXgQ",
+        "path": "真题库/图片/省考/3c1be94de2b3.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=Hfe0nr2BiMfeYXVukJhPuNxwmRz9AqLXxArjxlCcn6I",
+        "path": "真题库/图片/省考/a5fe52f71254.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 63
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 63,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "973fc1d48b4e9b9ed4851b25d12444ac86a4bac05951274f159c8031824646b2"
+  },
+  {
+    "uid": "prov:16593223",
+    "fenbiId": "16593223",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2024,
+    "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 68,
+    "sourceFile": "_downloads/fb/paper_HB_2024.json",
+    "s": "某单面圆形交通禁停标志牌如图所示，标志牌直径为60cm，牌中各处红色区域宽度均为5cm，某工厂承接30个该种标志牌的喷绘业务，已知每个标志牌的蓝色区域喷绘价格是112.5元，红蓝区域喷绘单价相同（价格仅按面积计算），那么30个标志牌喷绘共需：",
+    "o": [
+      "3375元",
+      "6000元",
+      "6750元",
+      "8437.5元"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单面圆形交通禁停标志牌如图所示，标志牌直径为60cm，牌中各处红色区域宽度均为5cm，某工厂承接30个该种标志牌的喷绘业务，已知每个标志牌的蓝色区域喷绘价格是112.5元，红蓝区域喷绘单价相同（价格仅按面积计算），那么30个标志牌喷绘共需：</p><p><img width=\"514px\" height=\"349px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18e59b74633862d.jpg?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18e59b74633862d.jpg?width=700",
+        "path": "真题库/图片/省考/344bb112908a.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 68
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 68,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ef294736231769fe581c11883e04375fbdb037cd2d3fb6497ea2b0b3abeae6ae"
+  },
+  {
+    "uid": "prov:16593204",
+    "fenbiId": "16593204",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2024,
+    "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 71,
+    "sourceFile": "_downloads/fb/paper_HB_2024.json",
+    "s": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：",
+    "o": [
+      "①④⑥，②③⑤",
+      "①②③，④⑤⑥",
+      "①⑤⑥，②③④",
+      "①②⑥，③④⑤"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：</p><p><img width=\"500px\" height=\"396px\" src=\"//fb.fenbike.cn/api/tarzan/images/18e4783bc8b5836.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18e4783bc8b5836.png?width=700",
+        "path": "真题库/图片/省考/e85c303c7380.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 71
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 71,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "54101fab6dd09501594f23e82a3e6d04eba41f08926866bc55f13edbb2708b20"
+  },
+  {
+    "uid": "prov:16593026",
+    "fenbiId": "16593026",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2024,
+    "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 72,
+    "sourceFile": "_downloads/fb/paper_HB_2024.json",
+    "s": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：",
+    "o": [
+      "①④⑥，②③⑤",
+      "①②③，④⑤⑥",
+      "①⑤⑥，②③④",
+      "①③⑤，②④⑥"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：</p><p><img width=\"500px\" height=\"393px\" src=\"//fb.fenbike.cn/api/tarzan/images/18e468e126e62c6.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18e468e126e62c6.png?width=700",
+        "path": "真题库/图片/省考/bb60e6e38dec.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 72
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2024,
+        "paper": "2024年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 72,
+        "sourceFile": "_downloads/fb/paper_HB_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ace08eba72786e8c441a023602db6ef3658a1ef29742e00b381f87f343bbaa35"
+  },
+  {
+    "uid": "prov:13504438",
+    "fenbiId": "13504438",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2025,
+    "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 58,
+    "sourceFile": "_downloads/fb/paper_HB_2025.json",
+    "s": "某企业到A大学招聘，小张、小李和小王3位毕业生前去应聘。若小张、小李2人中至少有1人签约的概率是，小王签约的概率是，那么3人中至少有1人签约该企业的概率是多少？",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业到A大学招聘，小张、小李和小王3位毕业生前去应聘。若小张、小李2人中至少有1人签约的概率是<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=5h3PGZBcXMECgvjQzPqyhw\">，小王签约的概率是<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=HWUiiW14_FCicOnaJCTMGw\">，那么3人中至少有1人签约该企业的概率是多少？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=5h3PGZBcXMECgvjQzPqyhw",
+        "path": "真题库/图片/省考/3639131a72a9.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/14f0df17eeb4.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=9FH_UkQdvmu2YOEIH8q1-g",
+        "path": "真题库/图片/省考/261f44d77727.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ooQwY__8ryHhTUFSi8bMHg",
+        "path": "真题库/图片/省考/1a131d784167.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=QCqjuVG4Gea1Ch1joX-LYw",
+        "path": "真题库/图片/省考/2271a9d51592.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6DLTviGTz3HQ8lDSq0E95A",
+        "path": "真题库/图片/省考/f06c05dac409.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 58
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 58,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3ee14c627a76dc8a3c7fe511dbf157074e77fd4e24c694046e0211dabb79759e"
+  },
+  {
+    "uid": "prov:13504460",
+    "fenbiId": "13504460",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2025,
+    "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 71,
+    "sourceFile": "_downloads/fb/paper_HB_2025.json",
+    "s": "把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：",
+    "o": [
+      "①④⑤，②③⑥",
+      "①②⑥，③④⑤",
+      "①④⑥，②③⑤",
+      "①②⑤，③④⑥"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>把下面的六个图形分为两类，使每一类图形都有各自的共同特征或规律，分类正确的一项是：</p><p><img width=\"500px\" height=\"399px\" src=\"//fb.fenbike.cn/api/tarzan/images/195997d2365a3d5.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/195997d2365a3d5.png?width=700",
+        "path": "真题库/图片/省考/39e9b7a8ce73.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 71
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2025,
+        "paper": "2025年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 71,
+        "sourceFile": "_downloads/fb/paper_HB_2025.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "dc15af286c6cabb1568adc2fc712ad39ec79c173a240eed39aecf1d0e33af540"
+  },
+  {
+    "uid": "prov:16070167",
+    "fenbiId": "16070167",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2026,
+    "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 61,
+    "sourceFile": "_downloads/fb/paper_HB_2026.json",
+    "s": "某冷链物流公司每天至少要运送160吨海鲜从甲港口到乙市场，公司有8辆A型冷链运输车和4辆B型冷链运输车，且只有10名驾驶员。A型车每天每辆可运输24吨，运费350元；B型车每天每辆可运输20吨，运费450元。那么公司每天的运费最少为：",
+    "o": [
+      "2450元",
+      "2550元",
+      "2650元",
+      "2900元"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某冷链物流公司每天至少要运送160吨海鲜从甲港口到乙市场，公司有8辆A型冷链运输车和4辆B型冷链运输车，且只有10名驾驶员。A型车每天每辆可运输24吨，运费350元；B型车每天每辆可运输20吨，运费450元。那么公司每天的运费最少为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 61
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 61,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a978c981a9492b1fdb587f81930e53318c83ef3c8cb259e2f91a58b46e28740c"
+  },
+  {
+    "uid": "prov:16070181",
+    "fenbiId": "16070181",
+    "exam": "湖北省考",
+    "province": "湖北",
+    "code": "HB",
+    "year": 2026,
+    "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2026",
+    "number": 69,
+    "sourceFile": "_downloads/fb/paper_HB_2026.json",
+    "s": "某款蛋堡锅的锅盘为直径24厘米的圆，其中排布着7个全等的深度均为2厘米的圆柱状凹槽，锅盘的金属用料与表面积成正比（厚度忽略不计，锅盘可近似看作如右下图所示的图形）。厂家现推出凹槽加深30%的升级款，则升级后的锅盘用料约增加多少倍？",
+    "o": [
+      "0.13",
+      "0.21",
+      "0.3",
+      "0.69"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某款蛋堡锅的锅盘为直径24厘米的圆，其中排布着7个全等的深度均为2厘米的圆柱状凹槽，锅盘的金属用料与表面积成正比（厚度忽略不计，锅盘可近似看作如右下图所示的图形）。厂家现推出凹槽加深30%的升级款，则升级后的锅盘用料约增加多少倍？</p><p><img width=\"250px\" height=\"205px\" src=\"//fb.fenbike.cn/api/tarzan/images/19cec680ad09dfe.png?width=700\"><img width=\"209px\" height=\"205px\" src=\"//fb.fenbike.cn/api/tarzan/images/19cec6c61a3e155.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19cec680ad09dfe.png?width=700",
+        "path": "真题库/图片/省考/84521c9adc92.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/19cec6c61a3e155.png?width=700",
+        "path": "真题库/图片/省考/0b85dbfd3c03.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HB_2026.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 69
+    },
+    "occurrences": [
+      {
+        "exam": "湖北省考",
+        "province": "湖北",
+        "code": "HB",
+        "year": 2026,
+        "paper": "2026年湖北省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2026",
+        "number": 69,
+        "sourceFile": "_downloads/fb/paper_HB_2026.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e84af394866c1a60f84ad9c2202f2d6515b0e58874d2190dd68c3b187fc56a3b"
+  },
+  {
+    "uid": "prov:826109",
+    "fenbiId": "826109",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "正整数a乘以1080得到一个完全平方数，a的最小值是：",
+    "o": [
+      "15",
+      "10",
+      "30",
+      "60"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>正整数a乘以1080得到一个完全平方数，a的最小值是：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cc7c357485a1372ba89e154a2c9192af255cb0c1e90a18837210d70a49f7b2c7"
+  },
+  {
+    "uid": "prov:826119",
+    "fenbiId": "826119",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "某火车站有一、二、三号三个售票窗口，某天一号以外的窗口卖出了746张票，二号以外的窗口卖出了726张票，三号以外的窗口卖出了700张票。问当天该站共售车票多少张：",
+    "o": [
+      "1086",
+      "988",
+      "986",
+      "980"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某火车站有一、二、三号三个售票窗口，某天一号以外的窗口卖出了746张票，二号以外的窗口卖出了726张票，三号以外的窗口卖出了700张票。问当天该站共售车票多少张：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b523a05f942c7eea02b9ec2de7cc756d0b564db6882157d09bdf547239066ff8"
+  },
+  {
+    "uid": "prov:826123",
+    "fenbiId": "826123",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "用篱笆围成一个面积为625平方米的正方形菜园，现用总长度为100米的篱笆将菜园分隔成面积相同的小菜园，问最多能分成多少个小菜园：",
+    "o": [
+      "9",
+      "12",
+      "5",
+      "8"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>用篱笆围成一个面积为625平方米的正方形菜园，现用总长度为100米的篱笆将菜园分隔成面积相同的小菜园，问最多能分成多少个小菜园：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 48,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1e365a507d42699cae084d2afe109fc8d046921eb0a5cf9e9780682a9b294299"
+  },
+  {
+    "uid": "prov:827855",
+    "fenbiId": "827855",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "商店促销某种商品，一次购买不超过10件，每件5元；超过10件，超过部分每件3元。甲、乙两人分别购买此种商品，甲比乙多付19元，则甲、乙共买了多少件：",
+    "o": [
+      "22",
+      "21",
+      "20",
+      "19"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>商店促销某种商品，一次购买不超过10件，每件5元；超过10件，超过部分每件3元。甲、乙两人分别购买此种商品，甲比乙多付19元，则甲、乙共买了多少件：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 46,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "25b412914831b4ca831dadb6c7a3b066ce40b8e0ca62129b8732087dba49da50"
+  },
+  {
+    "uid": "prov:826129",
+    "fenbiId": "826129",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "某办公室5人中有2人精通德语。如从中任意选出3人，其中恰有1人精通德语的概率是多少：",
+    "o": [
+      "0.5",
+      "0.6",
+      "0.7",
+      "0.75"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某办公室5人中有2人精通德语。如从中任意选出3人，其中恰有1人精通德语的概率是多少：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 49,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1a13d4d383526c7d95f6818b0dff5ec789a54ef8b8091fcbf0667e34ff4b74eb"
+  },
+  {
+    "uid": "prov:826133",
+    "fenbiId": "826133",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "将7个大小相同的桔子分给4个小朋友，要求每个小朋友至少得到1个桔子，一共有几种分配方法：",
+    "o": [
+      "14",
+      "18",
+      "20",
+      "22"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>将7个大小相同的桔子分给4个小朋友，要求每个小朋友至少得到1个桔子，一共有几种分配方法：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 47,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5975995209b228da6c8635690f87d8038ce5620e407b390a137e0164fbbb2bfd"
+  },
+  {
+    "uid": "prov:826141",
+    "fenbiId": "826141",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "三个学生各购买一批课外书，小明和小强的购买课外书数量总和比小军的3倍多4本，小明和小军购买的课外书数量总和比小强的2倍少2本，若小明给小军3本课外书，则两人购买的课外书一样多，问小明买了多少本课外书：",
+    "o": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>三个学生各购买一批课外书，小明和小强的购买课外书数量总和比小军的3倍多4本，小明和小军购买的课外书数量总和比小强的2倍少2本，若小明给小军3本课外书，则两人购买的课外书一样多，问小明买了多少本课外书：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d32a750c62dff940c252c0079b04ef11f01cfc3359a619ab9095bb8cc4c1dc07"
+  },
+  {
+    "uid": "prov:826151",
+    "fenbiId": "826151",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "有一堆围棋子。白子数是黑子的3倍。每次拿出5颗白子、3颗黑子，经过若干次后，剩下的白子数是黑子数的9倍。问原来白子最少有几颗：",
+    "o": [
+      "33",
+      "66",
+      "22",
+      "27"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有一堆围棋子。白子数是黑子的3倍。每次拿出5颗白子、3颗黑子，经过若干次后，剩下的白子数是黑子数的9倍。问原来白子最少有几颗：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8ce8cbe99c4076e489a828890c9616ccf542c272cba9aa2f0a57171a36d142be"
+  },
+  {
+    "uid": "prov:826157",
+    "fenbiId": "826157",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "两个半径不同的圆柱形玻璃杯内盛有一定量的水，甲杯的水位比乙杯高5厘米。甲杯底部沉没着一个石块，当石块被取出并放进乙杯沉没后，乙杯的水位上升了5厘米，并且比这时甲的水位还高10厘米，则可得知甲杯与乙杯底面积之比为：",
+    "o": [
+      "3∶2",
+      "1∶2",
+      "2∶3",
+      "3∶5"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>两个半径不同的圆柱形玻璃杯内盛有一定量的水，甲杯的水位比乙杯高5厘米。甲杯底部沉没着一个石块，当石块被取出并放进乙杯沉没后，乙杯的水位上升了5厘米，并且比这时甲的水位还高10厘米，则可得知甲杯与乙杯底面积之比为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 51,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3564e8182bae0a15c6cdc15b034788a9efc22637d1e1517e512f8bbe4fe3a5fb"
+  },
+  {
+    "uid": "prov:826201",
+    "fenbiId": "826201",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "如图ABCD是一个梯形，E是AD的中点，直线CE把梯形分成甲、乙两部分，其面积之比是15∶7。问上底AB与下底CD的长度之比是：",
+    "o": [
+      "5∶7",
+      "6∶7",
+      "4∶7",
+      "3∶7"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图ABCD是一个梯形，E是AD的中点，直线CE把梯形分成甲、乙两部分，其面积之比是15∶7。问上底AB与下底CD的长度之比是：</p><p><img width=\"216px\" height=\"155px\" src=\"//fb.fbstatic.cn/api/tarzan/images/14dd652ac7ec3bc.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/14dd652ac7ec3bc.png?width=700",
+        "path": "真题库/图片/省考/f8dfcdae55c8.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 50,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "9938b1a302ca85c79fbd9a3fc8eb049ce48f9a874d729ecb52c335a153c4e96c"
+  },
+  {
+    "uid": "prov:825977",
+    "fenbiId": "825977",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "",
+    "o": [
+      "",
+      "",
+      "",
+      "2"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=2QjbqsQCYKnFaxe8BeAHKs1DkIGMNAPIYGw2Qama3HI",
+        "path": "真题库/图片/省考/3e7481b48b91.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=WNKPokdFxYzM_tcFgjdCHiXmI8B3qOTbDpg_59WDvvE",
+        "path": "真题库/图片/省考/6d1903c45d6d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=k_t01KobiSuqX-PHYXyBbQ",
+        "path": "真题库/图片/省考/a83d57de04a6.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 52,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3b999d50d4739e19b22c8992fa1b9284dc5cfe47ba367fdffd7660cd84bee5de"
+  },
+  {
+    "uid": "prov:825995",
+    "fenbiId": "825995",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "一组工人要完成相邻2列火车的卸货任务，其中卸完A列火车的货物所需的时间是B列火车的2倍。他们从上午10点开始工作，全组人先一起卸载A列火车的货物，到12∶30时，分出一半人去卸载B列火车的货物，下午14点时，A列火车的货已卸载完，B列火车剩下的货物需要14人共同工作1小时才能卸载完。如该组工人每人的工作效率相同，则该组工人一共有多少人：",
+    "o": [
+      "28",
+      "24",
+      "20",
+      "16"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一组工人要完成相邻2列火车的卸货任务，其中卸完A列火车的货物所需的时间是B列火车的2倍。他们从上午10点开始工作，全组人先一起卸载A列火车的货物，到12∶30时，分出一半人去卸载B列火车的货物，下午14点时，A列火车的货已卸载完，B列火车剩下的货物需要14人共同工作1小时才能卸载完。如该组工人每人的工作效率相同，则该组工人一共有多少人：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d5b94fe87eadd8f026dfe5e5892306be4f2632448b459d1cd3b874430686e39e"
+  },
+  {
+    "uid": "prov:826017",
+    "fenbiId": "826017",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "张先生在某个闰年中的生日是某个月的第四个也是最后一个星期五，他生日的前一个和后一个月正好也只有4个星期五。问当年的六一儿童节是星期几：",
+    "o": [
+      "星期一",
+      "星期三",
+      "星期五",
+      "星期日"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>张先生在某个闰年中的生日是某个月的第四个也是最后一个星期五，他生日的前一个和后一个月正好也只有4个星期五。问当年的六一儿童节是星期几：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 54,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d346913ecdaf34d20ce33e6f5310f69e6edde401a25f651879305f669a15fadc"
+  },
+  {
+    "uid": "prov:826047",
+    "fenbiId": "826047",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "一辆车从甲地开往乙地，如果提速20%，可以比原定时间提前1小时到达，如果以原速行驶120千米后，再将速度提高25%，则可提前40分钟到达。问甲乙两地相距多少千米：",
+    "o": [
+      "300",
+      "270",
+      "250",
+      "240"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一辆车从甲地开往乙地，如果提速20%，可以比原定时间提前1小时到达，如果以原速行驶120千米后，再将速度提高25%，则可提前40分钟到达。问甲乙两地相距多少千米：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 53,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e7595f3cf480ce3b129686dfb3a537faaa2fbc38ba81bd6c980f1110e27e1195"
+  },
+  {
+    "uid": "prov:826081",
+    "fenbiId": "826081",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2014,
+    "paper": "2014年河南省公务员录用考试《行测》题",
+    "variant": "2014",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_HEN_2014.json",
+    "s": "公司举办的内部业务知识竞赛有若干人参加，所有参赛者获得的名次之和为300，且所有人没有并列名次。其中，销售部门、售后服务部门和技术部门参赛者获得的名次平均数分别为11.3、10.4和9.2，问其他部门获得的名次最高为多少：",
+    "o": [
+      "16",
+      "18",
+      "20",
+      "21"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>公司举办的内部业务知识竞赛有若干人参加，所有参赛者获得的名次之和为300，且所有人没有并列名次。其中，销售部门、售后服务部门和技术部门参赛者获得的名次平均数分别为11.3、10.4和9.2，问其他部门获得的名次最高为多少：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2014.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2014,
+        "paper": "2014年河南省公务员录用考试《行测》题",
+        "variant": "2014",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_HEN_2014.json"
+      },
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2014,
+        "paper": "2014年四川省公务员录用考试《行测》题（下半年）",
+        "variant": "2014s2",
+        "number": 55,
+        "sourceFile": "_downloads/fb/paper_SC_2014s2.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e7c534be32365ecd1c149e6bd6f318e5747267773fcec1546a7b5b4ac585e0f3"
+  },
+  {
+    "uid": "prov:1723436",
+    "fenbiId": "1723436",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "甲、乙两人从环形跑道的A点同时出发背向而行，6分钟后两人第一次相遇，相遇后两人的速度各增加10米每分钟，5分钟后两人第二次相遇。问环形跑道的长度为多少米？",
+    "o": [
+      "600",
+      "500",
+      "400",
+      "300"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两人从环形跑道的A点同时出发背向而行，6分钟后两人第一次相遇，相遇后两人的速度各增加10米每分钟，5分钟后两人第二次相遇。问环形跑道的长度为多少米？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b8b606df4ddf34fc1d7928528cdf6edb90326a3728c366f5f665658c1291c5c0"
+  },
+  {
+    "uid": "prov:1723438",
+    "fenbiId": "1723438",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "四个烧杯甲、乙、丙、丁的容量比为3：4：8：10，用甲烧杯装满与水比重相同的A溶液倒入丙烧杯后，用水兑满，然后将混合的溶液倒入乙烧杯至满后，将剩下的部分倒入丁烧杯并用水将丁烧杯注满。问此时乙烧杯中A溶液的浓度是丁烧杯中的多少倍？",
+    "o": [
+      "2",
+      "2.5",
+      "4",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>四个烧杯甲、乙、丙、丁的容量比为3：4：8：10，用甲烧杯装满与水比重相同的A溶液倒入丙烧杯后，用水兑满，然后将混合的溶液倒入乙烧杯至满后，将剩下的部分倒入丁烧杯并用水将丁烧杯注满。问此时乙烧杯中A溶液的浓度是丁烧杯中的多少倍？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b9a587dc552e76bf6c76c09253a3ed5a973aea82ef2e494e659d397a6534e90f"
+  },
+  {
+    "uid": "prov:1723444",
+    "fenbiId": "1723444",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "车间共有50名工人，年底进行考核，有12人业务能力为优，10人政治表现为优，没有一项考核成绩为优的有34人，车间要向上级单位推荐2名两项考核均为优的工人作为先进个人的候选人。问有多少种推荐方案？",
+    "o": [
+      "12",
+      "15",
+      "18",
+      "21"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>车间共有50名工人，年底进行考核，有12人业务能力为优，10人政治表现为优，没有一项考核成绩为优的有34人，车间要向上级单位推荐2名两项考核均为优的工人作为先进个人的候选人。问有多少种推荐方案？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "633034225a6009e1ce1cb4298efdaf4ebbafb2ccd05db7a8fd84847e15a1cde0"
+  },
+  {
+    "uid": "prov:1723450",
+    "fenbiId": "1723450",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "甲、乙两个小分队的人数之和在90到110之间，如果从甲队调―定人数给乙队，则乙队的人数就是甲队的2倍；如果乙队调同样的人数给甲队，则甲队的人数就是乙队的3倍。问甲队调多少人给乙队之后，乙队的人数是甲队5倍？",
+    "o": [
+      "18",
+      "24",
+      "30",
+      "36"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两个小分队的人数之和在90到110之间，如果从甲队调―定人数给乙队，则乙队的人数就是甲队的2倍；如果乙队调同样的人数给甲队，则甲队的人数就是乙队的3倍。问甲队调多少人给乙队之后，乙队的人数是甲队5倍？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "9b0440432ff57d6730f144d66260987e5692280057e0f8f372d0638c30b9bdd2"
+  },
+  {
+    "uid": "prov:1723456",
+    "fenbiId": "1723456",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "箱子里有标号1至10共10个球，小张随机取了三个球并记下号码后将球放回，小李也随机取了三个并记下号码。这时发现两人取的球的号数之积都恰好是144。已知小张的号数之和比小李的大，那么小张取的球的号数之和是多少？",
+    "o": [
+      "19",
+      "17",
+      "16",
+      "14"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>箱子里有标号1至10共10个球，小张随机取了三个球并记下号码后将球放回，小李也随机取了三个并记下号码。这时发现两人取的球的号数之积都恰好是144。已知小张的号数之和比小李的大，那么小张取的球的号数之和是多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2a4bd9b6d45324168ff2b5b017aaea19dc5014504a70d9adf7651266d7dcfa1d"
+  },
+  {
+    "uid": "prov:1723466",
+    "fenbiId": "1723466",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "车间里要加工的手套副数是口罩个数的2倍，如果每位工人加工3个口罩，则还需额外生产2个口罩；如果每位工人加工7副手套，则会超额完成6副手套。如每位工人每5分钟可生产1副手套或1个口罩，且车间内的工人数减少一半。问至少需要多少分钟才能完成全部生产任务？",
+    "o": [
+      "85",
+      "90",
+      "95",
+      "100"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>车间里要加工的手套副数是口罩个数的2倍，如果每位工人加工3个口罩，则还需额外生产2个口罩；如果每位工人加工7副手套，则会超额完成6副手套。如每位工人每5分钟可生产1副手套或1个口罩，且车间内的工人数减少一半。问至少需要多少分钟才能完成全部生产任务？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "2078f3e57fd3ff3adf151e414df3cb9b4dfa0736bf0bd1880416564a154df83f"
+  },
+  {
+    "uid": "prov:1723474",
+    "fenbiId": "1723474",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "工地仓库里有水泥若干，第一天用掉了前一天剩余库存的1/3后又补充了500袋，第二天用掉了第一天剩余库存的1/9后又补充了400袋，此时仓库的水泥库存是原有水泥的2倍，则仓库原有水泥多少袋？",
+    "o": [
+      "480",
+      "540",
+      "600",
+      "660"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>工地仓库里有水泥若干，第一天用掉了前一天剩余库存的1/3后又补充了500袋，第二天用掉了第一天剩余库存的1/9后又补充了400袋，此时仓库的水泥库存是原有水泥的2倍，则仓库原有水泥多少袋？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "82694f29ae7cf4c132dd5a95be9d9fde1440441fd2f3d21f0c92fed49fff24fa"
+  },
+  {
+    "uid": "prov:1723476",
+    "fenbiId": "1723476",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "甲、乙两名实力相当（即每一局两人中任意一人获胜的概率相同）的棋手进行7局4胜制的比赛，前3局赛完后，甲以2:1领先于乙，那么甲获得最后胜利的概率是多少？",
+    "o": [
+      "2/3",
+      "3/4",
+      "5/8",
+      "11/16"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两名实力相当（即每一局两人中任意一人获胜的概率相同）的棋手进行7局4胜制的比赛，前3局赛完后，甲以2:1领先于乙，那么甲获得最后胜利的概率是多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e0a37060a6d5db13455813770f820490e7023d65debc718e9518f8450ae5fe13"
+  },
+  {
+    "uid": "prov:1723480",
+    "fenbiId": "1723480",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "有一批规格为1吨的钢锭，计划安排用8辆载重9吨的汽车运送，要求不得对钢锭进行切割，预计每辆车运送25次正好运完，每辆车运送了13次之后，甲方要求增派若干辆载重24吨的汽车，以能够一次将剩下的钢锭全部运完。问需要增派多少辆汽车？",
+    "o": [
+      "33",
+      "34",
+      "35",
+      "36"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有一批规格为1吨的钢锭，计划安排用8辆载重9吨的汽车运送，要求不得对钢锭进行切割，预计每辆车运送25次正好运完，每辆车运送了13次之后，甲方要求增派若干辆载重24吨的汽车，以能够一次将剩下的钢锭全部运完。问需要增派多少辆汽车？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8cf3e585f8d1d490303f6617c484b42de13b1e1e3e24c3c914ec6b20b75565f0"
+  },
+  {
+    "uid": "prov:1723484",
+    "fenbiId": "1723484",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "论文集中收录了一篇十多页的论文，其所在各页的所有页码之和为1023，问这篇论文之后的一篇论文是从第几页开始的？",
+    "o": [
+      "94",
+      "99",
+      "102",
+      "109"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>论文集中收录了一篇十多页的论文，其所在各页的所有页码之和为1023，问这篇论文之后的一篇论文是从第几页开始的？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "42c4804ee3e45ee507672de179a958e560f653a50e68fcfe3e245c837e10fd34"
+  },
+  {
+    "uid": "prov:1723362",
+    "fenbiId": "1723362",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "小明买了7本书共花去100元，后发现有―本书质量有问题，故补了若干元换了另外一本书。回来后发现，退换后7本书的价格成等差数列且均为整数元，而最贵的书价格为26元。问最便宜的书多少钱？",
+    "o": [
+      "2元",
+      "6元",
+      "8元",
+      "14元"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小明买了7本书共花去100元，后发现有―本书质量有问题，故补了若干元换了另外一本书。回来后发现，退换后7本书的价格成等差数列且均为整数元，而最贵的书价格为26元。问最便宜的书多少钱？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6877206afe547664ef3314544e95041a8b05d701dd0007cac0cce42bf8dfc595"
+  },
+  {
+    "uid": "prov:1723366",
+    "fenbiId": "1723366",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "甲、乙两人共同投资一件收藏品，约定好费用支出均分，利润也均分。某次甲给了乙500元用于支付专家鉴定费，结果专家只向乙收取了300元鉴定费，但乙忘记将余下的钱给甲。后收藏品以20000元的价格转手，问此时甲乙应该各拿走多少钱？",
+    "o": [
+      "甲10050元，乙9950元",
+      "甲10200元，乙9800元",
+      "甲10150元，乙9850元",
+      "甲10350元，乙9650元"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两人共同投资一件收藏品，约定好费用支出均分，利润也均分。某次甲给了乙500元用于支付专家鉴定费，结果专家只向乙收取了300元鉴定费，但乙忘记将余下的钱给甲。后收藏品以20000元的价格转手，问此时甲乙应该各拿走多少钱？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "84cc7730909477fd6e86f8508fa3fc10fdc611a82eacb7937fc9ccf8626cdd63"
+  },
+  {
+    "uid": "prov:1723372",
+    "fenbiId": "1723372",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "某旅游公司有能载4名乘客的轿车和能载7名乘客的面包车若干辆，某日该公司将所有车辆分成车辆数相等的两个车队运送两支旅行团。已知两支旅行团共有79人，且每支车队都满载，问该公司轿车数量比面包车多多少辆？",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某旅游公司有能载4名乘客的轿车和能载7名乘客的面包车若干辆，某日该公司将所有车辆分成车辆数相等的两个车队运送两支旅行团。已知两支旅行团共有79人，且每支车队都满载，问该公司轿车数量比面包车多多少辆？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6a07df847fe194709d1fbb9d8bcbb7165c7555358d85e24011998286476f104a"
+  },
+  {
+    "uid": "prov:1723380",
+    "fenbiId": "1723380",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "编号为1—50的选手参加一个爬楼比赛，楼高为60层。所有选手在第1层均获得一个特别的号牌，此后每经过一个楼层，如果选手的编号正好是楼层数的整数倍，就将得到一个特别的号牌。所有选手都到达终点后，正好持有3个特别号牌的选手有多少人？",
+    "o": [
+      "1",
+      "4",
+      "7",
+      "10"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>编号为1—50的选手参加一个爬楼比赛，楼高为60层。所有选手在第1层均获得一个特别的号牌，此后每经过一个楼层，如果选手的编号正好是楼层数的整数倍，就将得到一个特别的号牌。所有选手都到达终点后，正好持有3个特别号牌的选手有多少人？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a3f39c17fad68687d6d0c963cbccd0bc085ad9211425f3e23abfedd3c67bd012"
+  },
+  {
+    "uid": "prov:1723384",
+    "fenbiId": "1723384",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2015,
+    "paper": "2015年河南省公务员录用考试《行测》题",
+    "variant": "2015",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_HEN_2015.json",
+    "s": "晚上21点整，甲、乙两车同时从A地出发匀速开往B地，同一时间丙、丁两车从B地出发匀速开往A地。甲车时速是乙车的3倍，乙车行驶3小时后首先与丙相遇，再行驶1小时之后与丁相遇，若4辆车到达目的地的时间正好都是第二天内的整点时间，问甲车和丙车是在几点相遇的？",
+    "o": [
+      "0点整",
+      "23点30分",
+      "23点整",
+      "22点30分"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>晚上21点整，甲、乙两车同时从A地出发匀速开往B地，同一时间丙、丁两车从B地出发匀速开往A地。甲车时速是乙车的3倍，乙车行驶3小时后首先与丙相遇，再行驶1小时之后与丁相遇，若4辆车到达目的地的时间正好都是第二天内的整点时间，问甲车和丙车是在几点相遇的？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2015.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2015,
+        "paper": "2015年河南省公务员录用考试《行测》题",
+        "variant": "2015",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_HEN_2015.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "78b6c015ea04df5bae3d9edc4b0e6699bf96e82e3049e4883d499b74eca9c1f3"
+  },
+  {
+    "uid": "prov:2033292",
+    "fenbiId": "2033292",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "泳池进出水用的机器，往泳池里注水时，每工作30分钟，停3分钟，把泳池里的水抽空时，每工作30分钟，停5分钟，抽水的速度是注水速度的2倍。如果把泳池水抽完用了2小时50分钟，那么把泳池里注满水用的时间是多少？",
+    "o": [
+      "4小时17分钟",
+      "5小时27分钟",
+      "5小时36分钟",
+      "5小时41分钟"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>泳池进出水用的机器，往泳池里注水时，每工作30分钟，停3分钟，把泳池里的水抽空时，每工作30分钟，停5分钟，抽水的速度是注水速度的2倍。如果把泳池水抽完用了2小时50分钟，那么把泳池里注满水用的时间是多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6176cd5a76179167536e17a3eb9c2692885c1077053a2f572824e8bac26d8340"
+  },
+  {
+    "uid": "prov:2033296",
+    "fenbiId": "2033296",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "给贫困学校送一批图书，如果每个学校送80本书，则多出了340本，如果每个学校送90本书，则少60本。问这批书一共有多少本？",
+    "o": [
+      "3680",
+      "3760",
+      "3460",
+      "3540"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>给贫困学校送一批图书，如果每个学校送80本书，则多出了340本，如果每个学校送90本书，则少60本。问这批书一共有多少本？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1f46e1728fa80326a6f5addf1e4681d25f06c8a18619856ebcdae16c4e178963"
+  },
+  {
+    "uid": "prov:2033298",
+    "fenbiId": "2033298",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某家企业行政部和市场部共有80人，后来进行人员调整，将行政部增加了6人，市场部减少了18人，这时两个部门的人数刚好相等。问行政部原来有多少人？",
+    "o": [
+      "16",
+      "18",
+      "24",
+      "28"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某家企业行政部和市场部共有80人，后来进行人员调整，将行政部增加了6人，市场部减少了18人，这时两个部门的人数刚好相等。问行政部原来有多少人？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "98f779a8c2cff68b8bdcb13568fb27348b72a208a0f430b59761fb3c36617ecf"
+  },
+  {
+    "uid": "prov:2033300",
+    "fenbiId": "2033300",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "甲鱼塘养了3000条鱼，将其中的30%投入乙鱼塘中，同时，将乙鱼塘中25%的鱼放到甲鱼塘中，这时两个鱼塘中鱼的数量相同，那么乙鱼塘中原来有多少条鱼？",
+    "o": [
+      "1800",
+      "2400",
+      "3200",
+      "3800"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲鱼塘养了3000条鱼，将其中的30%投入乙鱼塘中，同时，将乙鱼塘中25%的鱼放到甲鱼塘中，这时两个鱼塘中鱼的数量相同，那么乙鱼塘中原来有多少条鱼？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "aa7c91fca78edf70513784b1ac104c473a4db681a105bd34974bf6243cace364"
+  },
+  {
+    "uid": "prov:2033302",
+    "fenbiId": "2033302",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某商品的单位利润和进货量的大小相关，进货总额低于5万元时利润率为5%，低于或等于10万元时，高于5万元的部分利润率在10%，高于10万元时，高于10万元的部分利润率在15%，问当进货量在20万元时，一共有多少万元的利润？",
+    "o": [
+      "1.75",
+      "2.25",
+      "3.15",
+      "4.05"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某商品的单位利润和进货量的大小相关，进货总额低于5万元时利润率为5%，低于或等于10万元时，高于5万元的部分利润率在10%，高于10万元时，高于10万元的部分利润率在15%，问当进货量在20万元时，一共有多少万元的利润？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "790a92cd187d84bca6d4b02fe3c6af7e9e8b7bc37874e912a5a4fbd844260f7a"
+  },
+  {
+    "uid": "prov:2033290",
+    "fenbiId": "2033290",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某公司组织歌舞比赛，共68人参赛。其中，参加舞蹈比赛的有12人，参加歌唱比赛的有18人，45个人什么比赛都没有参加。问其中参加歌唱比赛但不参加舞蹈比赛的有多少人？",
+    "o": [
+      "9",
+      "11",
+      "15",
+      "17"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司组织歌舞比赛，共68人参赛。其中，参加舞蹈比赛的有12人，参加歌唱比赛的有18人，45个人什么比赛都没有参加。问其中参加歌唱比赛但不参加舞蹈比赛的有多少人？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6cb7827cd1bb527f572b108ea2f11058741a90ebb1acf9a30bb0eac07304b060"
+  },
+  {
+    "uid": "prov:2033294",
+    "fenbiId": "2033294",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "出租车以固定速度从乙地出发到甲地再回到乙地，往返需要1小时40分。这一天，小明早上8点从甲地出发步行去乙地，出租车在上午9点从乙地出发，小明中途遇到这辆出租车便坐车去乙地，并于早上10点20到达。问出租车的速度是小明步行速度的多少倍？",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>出租车以固定速度从乙地出发到甲地再回到乙地，往返需要1小时40分。这一天，小明早上8点从甲地出发步行去乙地，出租车在上午9点从乙地出发，小明中途遇到这辆出租车便坐车去乙地，并于早上10点20到达。问出租车的速度是小明步行速度的多少倍？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7555b9cc982b670d9bcbad78ddbeec5faccb7786c2894e936eee1193d96b8d37"
+  },
+  {
+    "uid": "prov:2033306",
+    "fenbiId": "2033306",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "在7×7的队列中，先随机给一个队员戴上红绶带，再给另一个队员戴上蓝绶带，要求戴两种颜色绶带的这两位队员不在同一行也不在同一列。问有多少种戴法？",
+    "o": [
+      "1048",
+      "1374",
+      "1764",
+      "1858"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在7×7的队列中，先随机给一个队员戴上红绶带，再给另一个队员戴上蓝绶带，要求戴两种颜色绶带的这两位队员不在同一行也不在同一列。问有多少种戴法？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "fcfed599773bf9b8314c34aca6544baa6c25d04a93207774a53ce73799025102"
+  },
+  {
+    "uid": "prov:2033314",
+    "fenbiId": "2033314",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某农场原有300人，存储的粮食够吃80天。现调入若干人员，储存的粮食实际上只吃了60天，问实际上调入了多少人？",
+    "o": [
+      "100",
+      "200",
+      "300",
+      "400"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某农场原有300人，存储的粮食够吃80天。现调入若干人员，储存的粮食实际上只吃了60天，问实际上调入了多少人？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8af261fcd7ba719b14e39bdbb3d2391b22297ebe5ca7371b7ee96a693cc77789"
+  },
+  {
+    "uid": "prov:2033318",
+    "fenbiId": "2033318",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "甲、乙、丙三个植树队同时各种400棵树，当甲队把400棵树全部种完时，乙队还有150棵树没种，丙队才种了220棵树。当乙队全部种完时，丙队还有多少棵树没种？",
+    "o": [
+      "48",
+      "52",
+      "66",
+      "74"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙三个植树队同时各种400棵树，当甲队把400棵树全部种完时，乙队还有150棵树没种，丙队才种了220棵树。当乙队全部种完时，丙队还有多少棵树没种？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "947039b51d6ab3ec10b67c35c74f81fc43f7ea16f162e113e42f97215371626c"
+  },
+  {
+    "uid": "prov:2033326",
+    "fenbiId": "2033326",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某单位举行大型比赛，其中，舞台布置占总费用的，舞台布置所花费用比原来计划的少用20%，节约了3000元，问总预算是多少元？",
+    "o": [
+      "25000",
+      "30000",
+      "40000",
+      "45000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位举行大型比赛，其中，舞台布置占总费用的<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=4SRBDPHMnzorCUmDGHcdgEvFG43Lhf09hhflxd0zTZk\">，舞台布置所花费用比原来计划的少用20%，节约了3000元，问总预算是多少元？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=4SRBDPHMnzorCUmDGHcdgEvFG43Lhf09hhflxd0zTZk",
+        "path": "真题库/图片/省考/30ae34426f95.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1731cffbe33537d48fa648312bfeda64f6dc3f72e5ad5fff87f197799cc33444"
+  },
+  {
+    "uid": "prov:2033346",
+    "fenbiId": "2033346",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "贾某在停车场停车，每个月前几个小时内收费的基础价格为5元/小时，之后按照基础价格的90%收费，某月贾某的停车时间为120小时，共交了545元，则按照基础价格停车的时间为多少小时？",
+    "o": [
+      "8",
+      "10",
+      "15",
+      "20"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>贾某在停车场停车，每个月前几个小时内收费的基础价格为5元/小时，之后按照基础价格的90%收费，某月贾某的停车时间为120小时，共交了545元，则按照基础价格停车的时间为多少小时？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e3e187f823890c5b34879982811d011223d4f11715fe0cbd1f28db9552653077"
+  },
+  {
+    "uid": "prov:2033304",
+    "fenbiId": "2033304",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "甲租用乙的地种粮食，今年共收获3000斤粮食，包括大米，玉米和红薯。其中玉米800斤，红薯600斤，如果除租金之外，甲每年须将收获的大米的N%给乙作为回报，同时将红薯超过粮食总重的15%的部分也按照N%给乙作为回报，甲今年一共给乙210斤粮食，那么N%为多少？",
+    "o": [
+      "8%",
+      "12%",
+      "14%",
+      "16%"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲租用乙的地种粮食，今年共收获3000斤粮食，包括大米，玉米和红薯。其中玉米800斤，红薯600斤，如果除租金之外，甲每年须将收获的大米的N%给乙作为回报，同时将红薯超过粮食总重的15%的部分也按照N%给乙作为回报，甲今年一共给乙210斤粮食，那么N%为多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "17a19fc0632132552c5567371f239dd9b8fcd63d005ce10b863b545a53b2634b"
+  },
+  {
+    "uid": "prov:2033310",
+    "fenbiId": "2033310",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "三个学校的志愿队分别去敬老院照顾老人，A学校志愿队每隔7天去一次，B学校志愿队每隔9天去一次，C学校志愿队每隔14天去一次，三个队伍周三第一次同时去敬老院，问下次同时去敬老院是周几？",
+    "o": [
+      "周三",
+      "周四",
+      "周五",
+      "周六"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>三个学校的志愿队分别去敬老院照顾老人，A学校志愿队每隔7天去一次，B学校志愿队每隔9天去一次，C学校志愿队每隔14天去一次，三个队伍周三第一次同时去敬老院，问下次同时去敬老院是周几？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4d96a394f77d4e62b17158741c7ca55dcc90e5501d83517dab7b0e4bc2f041ba"
+  },
+  {
+    "uid": "prov:2033312",
+    "fenbiId": "2033312",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2016,
+    "paper": "2016年河南省公务员录用考试《行测》题",
+    "variant": "2016",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_HEN_2016.json",
+    "s": "某人走失了一只小狗，于是开车沿路寻找，突然发现小狗沿路边往反方向走，车继续行驶30秒后，他下车去追小狗，如果他的速度比小狗快3倍比车慢，问追上小狗需要多长时间？",
+    "o": [
+      "165秒",
+      "170秒",
+      "180秒",
+      "195秒"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某人走失了一只小狗，于是开车沿路寻找，突然发现小狗沿路边往反方向走，车继续行驶30秒后，他下车去追小狗，如果他的速度比小狗快3倍比车慢<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=VHh4K_v3geyqhHxktVBovr9BIxyYdgWYbi8kAwRifqk\">，问追上小狗需要多长时间？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=VHh4K_v3geyqhHxktVBovr9BIxyYdgWYbi8kAwRifqk",
+        "path": "真题库/图片/省考/08732001eff3.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2016.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2016,
+        "paper": "2016年河南省公务员录用考试《行测》题",
+        "variant": "2016",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_HEN_2016.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "53272c3026a122d9e7c7cf6a9cd2426040e776683475d10566bcf91c665cac35"
+  },
+  {
+    "uid": "prov:2136454",
+    "fenbiId": "2136454",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "某篮球比赛有12支球队报名参加，比赛的第一阶段中，12支球队平均分成2个组进行单循环比赛，每组前4名进入第二阶段；第二阶段采用单场淘汰赛，直至决出冠军。问亚军参加的场次占整个赛事总场次的比重为：",
+    "o": [
+      "10%以下",
+      "10%～15%",
+      "15%～20%",
+      "20%以上"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某篮球比赛有12支球队报名参加，比赛的第一阶段中，12支球队平均分成2个组进行单循环比赛，每组前4名进入第二阶段；第二阶段采用单场淘汰赛，直至决出冠军。问亚军参加的场次占整个赛事总场次的比重为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "91fb2b7d29fee7884b26a2a38a9301615a716ba946b06922feb12fd2e7220b75"
+  },
+  {
+    "uid": "prov:2136456",
+    "fenbiId": "2136456",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "140支社区足球队参加全市社区足球淘汰赛，每一轮都要在未失败过的球队中抽签决定比赛对手，如上一轮未失败过的球队是奇数，则有一队不用比赛直接进入下一轮。问夺冠的球队至少要参加几场比赛？",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>140支社区足球队参加全市社区足球淘汰赛，每一轮都要在未失败过的球队中抽签决定比赛对手，如上一轮未失败过的球队是奇数，则有一队不用比赛直接进入下一轮。问夺冠的球队至少要参加几场比赛？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "38a6634ac87f3da75237a8c96955e51430c17fccb7d40beeb5bc67b403b9609b"
+  },
+  {
+    "uid": "prov:2136458",
+    "fenbiId": "2136458",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "老王和老李沿着小公园的环形小路散步，两人同时出发，当老王走到一半路程时，老李走了100米；当老王回到起点时，老李走了的路程。问环形小路总长多少米？",
+    "o": [
+      "200",
+      "240",
+      "250",
+      "300"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>老王和老李沿着小公园的环形小路散步，两人同时出发，当老王走到一半路程时，老李走了100米；当老王回到起点时，老李走了<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=R9QYBLwQQOO66s8Ntng_em9de2khC-yOwwaSNPcyfxg\">的路程。问环形小路总长多少米？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=R9QYBLwQQOO66s8Ntng_em9de2khC-yOwwaSNPcyfxg",
+        "path": "真题库/图片/省考/2f0f9d491ab7.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "312400dba92d31081a8d28bfeaab6e3089c38d554c1f88a6b5679b25c8de765c"
+  },
+  {
+    "uid": "prov:2136460",
+    "fenbiId": "2136460",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "甲与乙一起骑自行车从A地去B地，自行车的速度为每小时15千米。走了的路程后，乙因故骑自行车返回A地而甲下车继续步行前行。乙在到达A地后立刻原路折返，在距离B地还有的路程处追上甲。问甲步行的速度为每小时多少千米？",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲与乙一起骑自行车从A地去B地，自行车的速度为每小时15千米。走了<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY\">的路程后，乙因故骑自行车返回A地而甲下车继续步行前行。乙在到达A地后立刻原路折返，在距离B地还有<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY\">的路程处追上甲。问甲步行的速度为每小时多少千米？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/492a97cbaa93.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/492a97cbaa93.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "870194fb5a44e8ba4084d418da5e6e3c9901baad0f076a6bed3fe925f4f91b64"
+  },
+  {
+    "uid": "prov:2136464",
+    "fenbiId": "2136464",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "某公司将销售部门拆分为线上和线下两个团队，拆分后线上团队的人数为线下团队的2倍，线下团队男女员工人数相同，线上团队的男员工人数占两个团队男员工总数的60%。则拆分前，销售部门男女员工人数之比为：",
+    "o": [
+      "1:2",
+      "2:3",
+      "3:5",
+      "5:7"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司将销售部门拆分为线上和线下两个团队，拆分后线上团队的人数为线下团队的2倍，线下团队男女员工人数相同，线上团队的男员工人数占两个团队男员工总数的60%。则拆分前，销售部门男女员工人数之比为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d1d749148c599f63c1012c1f2511c220071529935484ebd154678164fc18c319"
+  },
+  {
+    "uid": "prov:2136450",
+    "fenbiId": "2136450",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "某早餐店试营业主打套餐每份成本8元，售价26元。当天卖不完的主打套餐不再出售，在过去两天时间里，餐厅每天都会准备200份主打套餐，第一天剩余20份主打套餐，第二天全部卖光。问这两天该早餐店主打套餐共盈余多少元？",
+    "o": [
+      "6680",
+      "6840",
+      "7000",
+      "7160"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某早餐店试营业主打套餐每份成本8元，售价26元。当天卖不完的主打套餐不再出售，在过去两天时间里，餐厅每天都会准备200份主打套餐，第一天剩余20份主打套餐，第二天全部卖光。问这两天该早餐店主打套餐共盈余多少元？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "804a7d53035de83e524a7a8bee82084654b2a902dd9cc9f0164355b40dcb4210"
+  },
+  {
+    "uid": "prov:2136452",
+    "fenbiId": "2136452",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "公司销售部门共有甲、乙、丙、丁四个销售小组，本年度甲组销售金额是该部门销售金额总数的，乙组销售金额是另外三个小组总额的，丙组销售金额比丁组销售金额多200万元，比甲组少200万元。问销售部门销售总金额是多少万元？",
+    "o": [
+      "1800",
+      "2400",
+      "3000",
+      "3600"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>公司销售部门共有甲、乙、丙、丁四个销售小组，本年度甲组销售金额是该部门销售金额总数的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY\">，乙组销售金额是另外三个小组总额的<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=8LOZvfaA060x3KUZsCwudJ0rlt7eVdAqpKOvBVsRV4U\">，丙组销售金额比丁组销售金额多200万元，比甲组少200万元。问销售部门销售总金额是多少万元？</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/de9542e87cd8.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=8LOZvfaA060x3KUZsCwudJ0rlt7eVdAqpKOvBVsRV4U",
+        "path": "真题库/图片/省考/9ab6b77c7f55.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "94dd5f05650e23d6c1c573e81879c73ae9c7f10df40e5a7abf815fcb4d4c1405"
+  },
+  {
+    "uid": "prov:2136462",
+    "fenbiId": "2136462",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "某单位男女员工的人数之比是15:13。按人数之比5:7:8，分为甲、乙、丙三个科室，其中甲科室男女员工的人数之比为4:3，乙科室为5:2。则丙科室男女员工人数之比为：",
+    "o": [
+      "1:2",
+      "2:3",
+      "5:9",
+      "5:8"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位男女员工的人数之比是15:13。按人数之比5:7:8，分为甲、乙、丙三个科室，其中甲科室男女员工的人数之比为4:3，乙科室为5:2。则丙科室男女员工人数之比为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6cc66510357757ae36673947ae9b043a889022c7ca52e763753cedc7cd7cf503"
+  },
+  {
+    "uid": "prov:2136466",
+    "fenbiId": "2136466",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "租车公司的商务车数量比小客车少16辆，某日租出商务车、小客车各16辆后，剩下的小客车数量正好是商务车的3倍。问该公司商务车和小客车数量之比为多少？",
+    "o": [
+      "2:5",
+      "3:5",
+      "4:7",
+      "5:7"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>租车公司的商务车数量比小客车少16辆，某日租出商务车、小客车各16辆后，剩下的小客车数量正好是商务车的3倍。问该公司商务车和小客车数量之比为多少？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a54bb0aa428fc042477cfd2c7ebbffe28da8ea4d64c160d8a02a51b6ca305d08"
+  },
+  {
+    "uid": "prov:2136468",
+    "fenbiId": "2136468",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "小张每周一到周五都要去健身房锻炼。某年小张每个季度去健身房锻炼的天数相同，问当年的国庆节是星期几？",
+    "o": [
+      "星期一",
+      "星期五",
+      "星期六",
+      "星期日"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小张每周一到周五都要去健身房锻炼。某年小张每个季度去健身房锻炼的天数相同，问当年的国庆节是星期几？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "499c8a2a3cf0e384d812ff8f5f98540638d65baf6da01954d82f73938225bd7c"
+  },
+  {
+    "uid": "prov:2136470",
+    "fenbiId": "2136470",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "甲、乙、丙和丁四辆载重不同的卡车运输一批货物。其中甲的载重是乙的2倍、是丙的3倍、是丁的1.5倍。如果甲和丁一起运货，各跑10次正好能运完所有货物。如果乙和丙一起运货，且乙每小时运一趟、丙每半小时运一趟，问需要多少小时才能运完所有货物？",
+    "o": [
+      "14",
+      "14.5",
+      "15",
+      "15.5"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙和丁四辆载重不同的卡车运输一批货物。其中甲的载重是乙的2倍、是丙的3倍、是丁的1.5倍。如果甲和丁一起运货，各跑10次正好能运完所有货物。如果乙和丙一起运货，且乙每小时运一趟、丙每半小时运一趟，问需要多少小时才能运完所有货物？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "68092ce75b9255072de966d08967178c05d46eb5b447934044c0bac74fbac439"
+  },
+  {
+    "uid": "prov:2136472",
+    "fenbiId": "2136472",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "一本书的正文页码数字中总计出现了87次2，问出现3的次数比6多多少次？",
+    "o": [
+      "3",
+      "4",
+      "6",
+      "10"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一本书的正文页码数字中总计出现了87次2，问出现3的次数比6多多少次？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1899a71e63bb57d229a16f2cf63b6af86cf80869b0fa7533fdaba73cd36f56f9"
+  },
+  {
+    "uid": "prov:2136474",
+    "fenbiId": "2136474",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "张老师家四代同堂，且从父亲、张老师、儿子到孙子，每两代人的年龄差相同。5年前张老师父亲的年龄是儿子的3倍，8年后张老师的年龄是孙子的5倍。问今年四个人的年龄之和为：",
+    "o": [
+      "168岁",
+      "172岁",
+      "176岁",
+      "180岁"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>张老师家四代同堂，且从父亲、张老师、儿子到孙子，每两代人的年龄差相同。5年前张老师父亲的年龄是儿子的3倍，8年后张老师的年龄是孙子的5倍。问今年四个人的年龄之和为：</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "261b69445084bb58dbcdedc1f1dc10173ab05c10f4323313835de827c13c22a9"
+  },
+  {
+    "uid": "prov:2136476",
+    "fenbiId": "2136476",
+    "exam": "河南省考",
+    "province": "河南",
+    "code": "HEN",
+    "year": 2017,
+    "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2017",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_HEN_2017.json",
+    "s": "某单位有80名职工参加了义务劳动、希望工程捐款和探望敬老院三项公益活动中的至少一项。只参加一项的人数与参加超过一项的人数相同，参加所有三项公益活动的与只捐款的人数均为12人，且只探望敬老院的人比只参加义务劳动的人多16人。问探望敬老院的人最多比参加义务劳动的人多多少人？",
+    "o": [
+      "28",
+      "32",
+      "36",
+      "44"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位有80名职工参加了义务劳动、希望工程捐款和探望敬老院三项公益活动中的至少一项。只参加一项的人数与参加超过一项的人数相同，参加所有三项公益活动的与只捐款的人数均为12人，且只探望敬老院的人比只参加义务劳动的人多16人。问探望敬老院的人最多比参加义务劳动的人多多少人？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_HEN_2017.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "河南省考",
+        "province": "河南",
+        "code": "HEN",
+        "year": 2017,
+        "paper": "2017年河南省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2017",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_HEN_2017.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "41e928a63dc9f4de67d8f5a3838270c9c38009a65dc4c3836b488b7e256a35a9"
+  }
+]

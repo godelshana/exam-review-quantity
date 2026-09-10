@@ -1,0 +1,1968 @@
+{
+  "task": "provincial_06 verified高风险数学独立复审",
+  "phase": "completed",
+  "inputCount": 100,
+  "selectedCount": 50,
+  "selection": "先扫描全部intake题面与verified状态，选排列概率、几何、极值和堆积数列；未读取原代理verification/fastPath/normalPath后解题。",
+  "intakeSha256": "966828a62247ca3a95251419413d2515e999c51a4afa8cc84b861a3c985ee008",
+  "reviewFileSha256AtStart": "642580b44fec4fbbbcdb7dc2118b5acffaa011c728edb20a63618b7e01d44c04",
+  "imagePolicy": "只读取既有白底联系页和图片；未写任何图片、发布映射或原review。",
+  "records": [
+    {
+      "index": 1,
+      "uid": "prov:2136490",
+      "intakeStem": "一块三角形农田ABC（如下图所示）被DE、EF两条道路分成三块。已知BD=2AD，CE=2AE，CF=2BF，则三角形ADE、三角形CEF和四边形BDEF的面积之比为：",
+      "independentAnswerIndex": 2,
+      "independentResult": "1:4:4",
+      "independentDerivation": "AD/AB=AE/AC=1/3，ADE占全三角形1/9；CE/CA=CF/CB=2/3，CEF占4/9；其余4/9。",
+      "boundary": "按图D∈AB、E∈AC、F∈BC，不能只凭示意平行线猜比例。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/9564b0e13f4e.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_1_20.png"
+      ],
+      "independentProofSha256": "24abd3f4d8202d812f9a67d5cd2b6baf0f61cb2766d00f1a2262e375de34a013",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "1:4:4，C",
+        "originalBoundary": "共角两边必须对应整三角形同两边，不必把EF误认平行某边。",
+        "originalVerification": "图中D、E、F分别在AB、AC、BC；两小三角形面积比1/3×1/3=1/9、2/3×2/3=4/9，余4/9，故1:4:4。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": []
+    },
+    {
+      "index": 8,
+      "uid": "prov:5102386",
+      "intakeStem": "甲、乙两家大型医疗公司的负责人各带一名助手参加展会订购医疗器械。最终订单显示：每人各自订购了不同种类医疗器械，且其订购的每种医疗器械台数恰巧等于他所订医疗器械的种类数。每人订购的医疗器械种类数都未超过15类，并且两位负责人所订购的医疗器械台数不同，但都比自己的助手多购45台。问甲、乙两公司一共订购了多少台医疗器械？",
+      "independentAnswerIndex": 1,
+      "independentResult": "170台",
+      "independentDerivation": "每人购k²台。负责人r和助手s满足(r-s)(r+s)=45。r≤15，合法对仅(9,6)、(7,2)；两负责人数不同故总81+36+49+4=170。",
+      "boundary": "各人种数正整数，负责人最多15类；(23,22)超范围。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "0e35f63d6879bf39be3c70a235feabe7cfb7e52283777491656b9af3ca5ec329",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "170台，B",
+        "originalBoundary": "种类数为整数且同人每类台数等于种类数；两公司负责人不能都取同组。",
+        "originalVerification": "45正奇因子对(1,45)给x23超限；(3,15)给9、6；(5,9)给7、2，仅两组，合170。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 8,
+          "uid": "prov:5102386",
+          "method": "独立枚举四十五平方差及种类上限",
+          "actual": "[(7, 2), (9, 6)]",
+          "expected": "[(7, 2), (9, 6)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "uid": "prov:5102028",
+      "intakeStem": "某单位有甲、乙、丙三个存放着电脑的库房，已知甲库房比乙库房多4台电脑，乙库房比丙库房多2台，丙库房和甲库房共22台。现在要将三个库房的所有电脑发放给单位不同部门，要求每个部门获得的电脑数量均不相同，那么最多可以发放给几个部门？",
+      "independentAnswerIndex": 1,
+      "independentResult": "最多7个部门",
+      "independentDerivation": "丙8、乙10、甲14共32。不同正整数分配7部门最少28、8部门最少36，7部门可取1,2,3,4,5,6,11。",
+      "boundary": "实际获得电脑的部门至少1台，不把0台也算获配部门。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "0ea846cc21b3ceff6aa0fcca2c6a66d5e9f723c785fbb850fa8d1adec1d8cf01",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "7个，B",
+        "originalBoundary": "每获配部门至少1台，电脑不拆分。",
+        "originalVerification": "1、2、3、4、5、6、11共32且互异，七部门可达；八部门至少36，不可达。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": []
+    },
+    {
+      "index": 12,
+      "uid": "prov:5102117",
+      "intakeStem": "小张、小王、小刘、小李和小陈5人随机分配给A、B、C、D四个任务组，要求每组至少分配1人，小张不分配在A组，小李必须分配在C组，且D组只分配1人。那么小张和小王分配在一组的概率为：",
+      "independentAnswerIndex": 1,
+      "independentResult": "2/33≈6.0606%",
+      "independentDerivation": "把张王刘李陈依次赋A/B/C/D。枚举4^5=1024映射，筛每组非空、张≠A、李=C、D人数1，剩33。张王同组仅两例：张王B、李C，刘陈分别A/D。故2/33。",
+      "boundary": "所有符合限制的人员分配等可能，不是先平均选双人组再随机分配；分母33。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "ecaecce11eec03e6b4aaf3ae3800863ddf5547edf045706890e392784f3d9f36",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "2/33，B",
+        "originalBoundary": "需以所有合法有标号分配为等可能样本；不能套普通5人4组的任意同组对对称性。",
+        "originalVerification": "有2人的组分别是A、B、C时合法安排6、9、18种，D不允许2人，总33。张王同组只能在B：若在A违张限制，在C会与小李凑3人导致另一组空，在D违单人；余小刘小陈分A、D有2种，所以2/33≈0.060606，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 12,
+          "uid": "prov:5102117",
+          "method": "枚举全部1024个人员去向并过滤，非读取原代理计数",
+          "actual": "(33, 2)",
+          "expected": "(33, 2)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "uid": "prov:5102095",
+      "intakeStem": "一个高为10厘米，底面半径为5厘米的圆锥体塑料零件置于水中，底面朝上且与水面平行，其浮出水面部分的高为2厘米。那么当该零件底面朝下且与水面平行置于水中时，浮出水面部分的高在以下哪个范围内？（零件始终不接触水底）",
+      "independentAnswerIndex": 2,
+      "independentResult": "浮出高∛488≈7.87299厘米，7~8",
+      "independentDerivation": "倒锥底朝上时水下小锥高8，其体积占(8/10)^3=.512；浮出体积.488不随翻转改变。底朝下浮出为小锥，其高h满足h³/1000=.488，343<488<512得7<h<8。",
+      "boundary": "按自由漂浮同水密度、无额外支撑，重量与浮力平衡；仅比较两姿态体积。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "bd1050d5a13471a6a5ff67ddd7dec43e5175a030ce77d18f6d8ab2503e869220",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "7～8厘米，C",
+        "originalBoundary": "同水体且自由漂浮、无外力接触底部；只比较体积无需密度数值。",
+        "originalVerification": "浮出新高度h满足(h/10)³=1-(8/10)³=61/125；7³/10³=.343<.488<.512=8³/10³，故7<h<8。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": []
+    },
+    {
+      "index": 15,
+      "uid": "prov:5102059",
+      "intakeStem": "某学习软件要求用户使用字母和数字组合的8位密码。赵某使用D、E、F、W4个大写字母（不重复使用）和4个不同非零数字的组合作为自己的密码，要求数字放在后四位，且4个数字的乘积须是320的倍数。那么这样的密码有多少种不同的可能？",
+      "independentAnswerIndex": 1,
+      "independentResult": "1152种，1000~3000",
+      "independentDerivation": "320=2^6×5。四个1~9互异数必须含5，要凑6个因子2，另三数必须8、4以及2或6。两种无序数字集合；字母排列24、数字排列24，总2×24×24=1152。",
+      "boundary": "末4位只用不同非零数字，前4位D/E/F/W全用。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "f2129920552836a2c9ffe252e29e68b319b0fcb634af7a134f858e754037bdb2",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "1152种，B",
+        "originalBoundary": "后四位均为不同非零数字，字母固定集合不重复；仅四位区内排列。",
+        "originalVerification": "合格数集(2,4,5,8)乘320、(4,5,6,8)乘960。若无8最多2因子数不足6；有8无4也不足；有8与4还需2或6，穷尽2集，2×24²=1152。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 15,
+          "uid": "prov:5102059",
+          "method": "枚举126个互异非零数字集",
+          "actual": "[(2, 4, 5, 8), (4, 5, 6, 8)]",
+          "expected": "[(2, 4, 5, 8), (4, 5, 6, 8)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "uid": "prov:5509823",
+      "intakeStem": "10名志愿者准备将村民们刚采摘的一堆西瓜平均装上甲、乙两辆运输车，西瓜总数正巧满足每个村民采摘的西瓜个数都等于该村村民数。志愿者们先每人抱一个西瓜放到甲车上，然后每人抱一个西瓜放到乙车上，依次轮流进行，直到所剩西瓜少到容易清点时再平分。当最后1次把10个西瓜放到甲车后，发现所剩西瓜不足10个，于是，不得不从甲车抱出几个与所剩西瓜一起放到乙车上，此时刚好两车所装西瓜一样多。问最后从甲车拿出几个西瓜？",
+      "independentAnswerIndex": 1,
+      "independentResult": "最后从甲拿出2个",
+      "independentDerivation": "总西瓜N=t²，又能平均分车故N偶。最后甲多搬一批后N≡10+r(mod20)，0≤r<10；偶平方模20只有0,4,16，所以r6。甲原比乙多10，搬出x且将余6给乙，10-x=6+x，x2。",
+      "boundary": "平方总数、每批10和最终平分三条件均使用，不假定平均批次相同。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "2d67fa72e73609fb76598411f5c665943ea200b257f9ff4baf743aa1baff9191",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "2个，B",
+        "originalBoundary": "村民数为整数，最后余瓜全部去乙；别把余6直接平均。",
+        "originalVerification": "总能平均给两车说明n²偶、n偶。偶平方模20∈{0,4,16}；10+r∈[10,19]交集16，r6。甲转x后相等：10-x=6+x，x2。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 19,
+          "uid": "prov:5509823",
+          "method": "平方数模20余数",
+          "actual": "{0, 16, 4}",
+          "expected": "{0, 16, 4}",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "uid": "prov:5509486",
+      "intakeStem": "某学院有新生两百多人，将学生从1开始依次编号，选取编号为3的倍数的学生，正好构成新生运动会开幕式方队，选取编号为m（3＜m＜10，且m为整数）的倍数的学生，恰好构成闭幕式方队，问该学院新生人数有多少人？",
+      "independentAnswerIndex": 2,
+      "independentResult": "245人",
+      "independentDerivation": "200<N<300，floor(N/3)为平方数只能81，所以N243,244,245；依次检验m4~9，只有N245,m5时floor(245/5)=49平方。",
+      "boundary": "方队按实心正方阵；无需总人数能被3整除，选倍数人数是向下取整。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "a9c9b700e6f10550dcca9483dbb3cdf2e10f96707d4400a7c2750f5998deeac9",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "245人，C",
+        "originalBoundary": "“选编号为倍数的学生”不是要求总人数能被除数整除。",
+        "originalVerification": "N243、244时各m的倍数人数均不能同时成平方；N245时3的倍数81=9²，5的倍数49=7²，符合C。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 21,
+          "uid": "prov:5509486",
+          "method": "枚举人数与方阵尺寸",
+          "actual": "[(245, 5)]",
+          "expected": "[(245, 5)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "uid": "prov:5509500",
+      "intakeStem": "某高校学生会选拔乡村支教志愿者，初试合格者中，语文类5名，数学类6名，文体类4名，从中选取9名志愿者，但每类至少要选2名。问就9名志愿者的科目类别构成而言，共有几种选拔方式？",
+      "independentAnswerIndex": 3,
+      "independentResult": "9种类别构成",
+      "independentDerivation": "语x2~5、数y2~6、文体z2~4，x+y+z9。各减2后和3，非负解10，唯(0,0,3)超过文体上限，剩9。",
+      "boundary": "只数类别构成，不数具体9名人选。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "12414428ff3a6af4b60071384aba84ed8e71b219d25346a9d491f6c444fd5ce0",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "9种，D",
+        "originalBoundary": "题目限定“科目类别构成”，同一类学生不区分个体。",
+        "originalVerification": "可行(a,b,c)为(2,5,2),(3,4,2),(4,3,2),(5,2,2),(2,4,3),(3,3,3),(4,2,3),(2,3,4),(3,2,4)，共9。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 22,
+          "uid": "prov:5509500",
+          "method": "人数类别容量枚举",
+          "actual": "9",
+          "expected": "9",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "uid": "prov:5509541",
+      "intakeStem": "一家三口年龄各不相同，今年爸爸与妈妈年龄之和是孩子年龄的8倍，而10年后，爸爸与妈妈年龄之和为孩子年龄的5倍。今年爸爸、妈妈的年龄在各种可能组合中乘积最大，问今年妈妈的年龄可能是多少岁？",
+      "independentAnswerIndex": 0,
+      "independentResult": "妈妈可能39岁",
+      "independentDerivation": "孩子c满足8c+20=5(c+10)，c10、父母和80；不同整数父母年龄的乘积最大为39×41，因此妈妈可39。",
+      "boundary": "整数岁且父母彼此不同；不另加父亲必须年长。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "8955dc3a107fabc0b731297c2281fa12dc60d88ee312c02c68aa73b17c54d878",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 0,
+        "originalComputedAnswer": "39岁，A",
+        "originalBoundary": "年龄按整数岁，题目只问妈妈可能值，不擅定父亲一定年长。",
+        "originalVerification": "父母39、41乘1599，任何更远组合乘积更小；孩子10与二者也不同。选项39、40、50、51中仅39属于最优组。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 23,
+          "uid": "prov:5509541",
+          "method": "不同整数年龄的乘积最值",
+          "actual": "(1599, 41)",
+          "expected": "(1599, 41)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "uid": "prov:5509543",
+      "intakeStem": "一辆出租车的计价器出现故障，显示屏上保留了一个两位数，无法清除，但还能按行驶路程准确地将应付的车费累加上去。小王乘坐该车匀速行驶了2小时，当行驶1小时的时候，计价器上的两个数字刚好交换了位置，在2小时的时候，计价器上的两个数字又交换了位置，但他们中间多了一个0。如车费按里程计，问小王应付多少元车费？",
+      "independentAnswerIndex": 2,
+      "independentResult": "实际车费90元",
+      "independentDerivation": "初始10a+b，一小时10b+a，两小时100a+b；等速等计费，两次增量相同：9(b-a)=99a-9b，得b6a，数字域唯一a1b6。读数16→61→106，车费106-16=90。",
+      "boundary": "初始十位a非0，交换后的两位数要求b非0；车费按里程线性，无题外起步跳价。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "75cae50559fabd49c23b5fe66a7c4e1c4a04e99e45c33d26eacae704bf199f0c",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "90元，C",
+        "originalBoundary": "第二次又交换是把61变为106，不能理解为601；题中按里程且匀速，忽略另计起步费。",
+        "originalVerification": "108a=18b得b=6a，非零首位且b≤9仅a1、b6，d45，2小时实际费用90；残留16不是车费。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 24,
+          "uid": "prov:5509543",
+          "method": "遍历两位数字并检查等差读数",
+          "actual": "[(1, 6, 90)]",
+          "expected": "[(1, 6, 90)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "uid": "prov:5509829",
+      "intakeStem": "某围棋队的两位选手小李与小张决定进行1次围棋比赛，两人轮流先手开局，第一局小李先手开局。甲、乙两人分别记录了全程比赛，均显示共比赛18局，结果为10∶8。甲的记录显示为：小李胜10局，小张胜8局，且先手者共胜8局，但乙的记录显示为：先手者共胜6局。问甲、乙两人的记录结果是：",
+      "independentAnswerIndex": 1,
+      "independentResult": "甲错乙错",
+      "independentDerivation": "李先手9局。设李先手获胜x、张先手获胜y，李总胜x+9-y=10⇒x-y=1，所以先手总胜x+y必为奇数。8和6均偶数，两份记录均不可能。",
+      "boundary": "无和局，18局轮流先手。乙即便未指定10胜者是谁，先手胜总数仍应奇数。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "e8e714ee6c73f9f5e8bd4d6d2254728eb99fbbf807cc81bd35bd578e82046555",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "甲错乙错，B",
+        "originalBoundary": "比赛无平局且两人先手轮换，18局各9局；乙即使未指定10胜者也不改变奇偶。",
+        "originalVerification": "无论10胜者是谁，先手胜数都与9-10同为奇数。甲报8、乙报6均为偶，故二人都错，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 25,
+          "uid": "prov:5509829",
+          "method": "先手胜局二变量非负整数可行性",
+          "actual": "[]",
+          "expected": "[]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "uid": "prov:5509836",
+      "intakeStem": "某地计划在连接甲镇和乙镇的长度为60公里的公路上安装限速标志和测速仪器。具体方案是：从距离甲镇3公里处开始安装限速标志，然后每隔4公里再设置一个限速标志；从8公里处开始安装测速仪器，然后每隔9公里再设置一个测速仪器。假设单独安装一个限速标志费用为500元，单独安装一个测速仪器费用为800元，如果限速标志和测速仪刚好在同一个地点安装，则可以节约安装费用，此时安装两种设备总共只需要1000元。问最终安装总费用是多少元？",
+      "independentAnswerIndex": 2,
+      "independentResult": "安装费12000元",
+      "independentDerivation": "标志位置3,7,…,59共15；测速8,17,26,35,44,53共6；仅35重合，联合安装省500+800-1000=300。总15×500+6×800-300=12000。",
+      "boundary": "区间限60千米，不额外在端点增设；同点两设备按联合总费1000。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "0e5856bb2857aeb8c2bc98b795d07c6c620ed88b3a033b3e2c9c1c77477d17b8",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "12000元，C",
+        "originalBoundary": "两项都从各自起点开始，不在甲镇0处额外装；同点节省1300-1000=300。",
+        "originalVerification": "重合要求9b≡3 mod4，即b≡3 mod4，范围b0..5仅b3，对应35km。独装12300元减一次300=12000。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 26,
+          "uid": "prov:5509836",
+          "method": "两等差安装点集合取交",
+          "actual": "(15, 6, [35], 12000)",
+          "expected": "(15, 6, [35], 12000)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "uid": "prov:16593094",
+      "intakeStem": "高校管理学院某期培训班有不到100名学员参加，期中、期末两次考试平均分分别为68分和75分，期中考试不及格学员平均分为53分，及格学员平均分为74分；期末考试不及格学员平均分为47分、及格学员平均分为83分。问这期培训班有多少名学员参加？",
+      "independentAnswerIndex": 2,
+      "independentResult": "培训63人",
+      "independentDerivation": "期中不及格比例(74-68)/(74-53)=2/7；期末不及格比例(83-75)/(83-47)=2/9。人数正整数，N为7与9公倍数且不足100，所以N63。",
+      "boundary": "两次均为同一批学员且均参与统计，给定平均分精确，不把它们当近似四舍五入值。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "3956f889e78dd26588445faf8b9413838955d62e624e8e87991f6c773f74e7cc",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "63人，C",
+        "originalBoundary": "两次参加学员相同且分数平均精确；不能假设两次不及格人数相同。",
+        "originalVerification": "x=2N/7、y=2N/9均整数，7、9互质得N为63正倍数；N63时x18、y14，均符合平均。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 28,
+          "uid": "prov:16593094",
+          "method": "两次均值比例的人数整除",
+          "actual": "[63]",
+          "expected": "[63]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "uid": "prov:16593105",
+      "intakeStem": "某单位从所有职工中选出若干人参加培训，如果选择4人，可能的选择方式正好是选择3人时的10倍，问该单位有多少名职工？",
+      "independentAnswerIndex": 3,
+      "independentResult": "43人",
+      "independentDerivation": "C(n,4)/C(n,3)=(n-3)/4=10，解n43。",
+      "boundary": "选人无顺序，不能换成排列数。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "b49205335f9af6834e98f30e3f2cc761cc3b11fea215be1becee9d4941052356",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "43人，D",
+        "originalBoundary": "是选择人数不计顺序，不能用排列数比n-3=10。",
+        "originalVerification": "n-3=40，n43；回代两组合数比例10，且n≥4唯一。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 29,
+          "uid": "prov:16593105",
+          "method": "直接组合数回代比例",
+          "actual": "10",
+          "expected": "10",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "uid": "prov:10204498",
+      "intakeStem": "一块直角三角形绿地的三边均铺有长度为整数米的水管，其中一条直角边外的水管长7米。若在水管上随机任选1个点做标记，则该标记点在斜边上的概率在以下哪个范围内？（忽略水管直径）",
+      "independentAnswerIndex": 2,
+      "independentResult": "25/56≈0.44643",
+      "independentDerivation": "另直角边b、斜边c整数，(c-b)(c+b)=49。非退化只可能1×49，得b24,c25；沿管长均匀随机取点，斜边概率25/(7+24+25)=25/56。",
+      "boundary": "排除7×7导致b0；均匀按总长度取点，不是三边等概率。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "c02ffbab7809228fd45f15d3ce673739f41d7a3623e85560c27454eda99d7a7b",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "25/56≈0.4464，C",
+        "originalBoundary": "需按水管总长度均匀采点，不能按三条边等概率。",
+        "originalVerification": "三边7、24、25满足49+576=625；随机管点均匀按长度，斜边概率25/(7+24+25)=25/56在0.42～0.50，C。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 30,
+          "uid": "prov:10204498",
+          "method": "因数论证外的小范围勾股复核",
+          "actual": "[(24, 25)]",
+          "expected": "[(24, 25)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "uid": "prov:16593100",
+      "intakeStem": "部队射击比赛中，5名参赛的战士共击中了88次目标。已知任意2人击中的目标数量均互不相同，问射击成绩排前两名的战士至少击中了多少次目标？",
+      "independentAnswerIndex": 1,
+      "independentResult": "前两名至少39次",
+      "independentDerivation": "若前两名和≤38，第二名≤18，后三名最多17+16+15=48，所以总≤86<88。前二20,19、后三18,17,14合88，实现前二和39。",
+      "boundary": "五名计数为互异非负整数，构造没有负数或相同。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "0b0a891555ff7077edbc0e566a69f6f76fa534ff83cf772caf1c6e1529daf418",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "39次，B",
+        "originalBoundary": "成绩是整数，前两名指两人合计；必须同时给下界与可达构造。",
+        "originalVerification": "构造20、19、18、17、14总88且互异，前二39。若S38，a>b导致b≤18，总最多38+54-6=86，排除全部更小值。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 31,
+          "uid": "prov:16593100",
+          "method": "检验极值可达见证，严格下界另见逐题推导",
+          "actual": "(88, 5, 39)",
+          "expected": "(88, 5, 39)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "uid": "prov:16593106",
+      "intakeStem": "某羽毛球俱乐部推出充值会员优惠活动，具体为月卡会员费用打八折，年卡会员费用打七折，充值总时长1年的月卡比1年的年卡所需费用，打折前后分别多88元和100元，问打折后充值18个月的会员最少需要：",
+      "independentAnswerIndex": 1,
+      "independentResult": "18个月最低360.8元，340~400",
+      "independentDerivation": "设12月月卡原总M、年卡原价Y，M-Y88，.8M-.7Y100，得Y296,M384。折后年207.2、单月25.6；18月全月460.8，一年+6月360.8，两年414.4（即使可多充也更贵），最低360.8。",
+      "boundary": "只存在月卡和年卡两类，价格线性叠加；没有题外季度折扣或免费月份。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "439dcea6c02625d4e90925c4821bf2179e86c0b08c9ed1547ce271a1e561a71b",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "360.8元，B",
+        "originalBoundary": "允许月卡年卡组合；多买24个月可作为比较，但不必购买多余时长。",
+        "originalVerification": "代M=Y+88得到.1Y+70.4=100，Y296；月卡原32、折后25.6，年卡折207.2，三个覆盖18月方案取最小360.8，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 32,
+          "uid": "prov:16593106",
+          "method": "比较三种月卡年卡覆盖方案",
+          "actual": "1804/5",
+          "expected": "1804/5",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "uid": "prov:16593104",
+      "intakeStem": "一个白色圆柱体零件的底面半径是高的1.5倍，现将其表面涂上黑漆之后，沿下图所示虚线方向切割为4个完全相同的部分。问单个部分的黑色面积是白色面积的多少倍？（）",
+      "independentAnswerIndex": 1,
+      "independentResult": "约1.1699倍，1.1~1.2",
+      "independentDerivation": "已看图一水平中剖、一竖直轴剖，单块为半圆柱且高度h/2。黑面=原外表/4=(2πr²+2πrh)/4；新白面=πr²/2+rh。r=1.5h得黑/白=2.5π/(1.5π+2)，π3.14时7.85/6.71≈1.1699。",
+      "boundary": "不能误看成两条竖直切面；图示水平切面会增加半圆白面。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/d9e56a43e46f.png",
+        "真题库/图片/省考/d7549a0e61eb.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_21_40.png"
+      ],
+      "independentProofSha256": "b8843f97f1aa721af7732b4ce8dc55e7ad94f0fbf5fd86e07e1da1010d249c34",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "约1.17倍，B",
+        "originalBoundary": "切口为白，原外表面为黑；每块只有一个原底半圆，另一个半圆是新切口。",
+        "originalVerification": "取h2、r3，黑为(9π/2+3π)=15π/2，白9π/2+6，比15π/(9π+12)=5π/(3π+4)；取图π3.14得1.1698957，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 33,
+          "uid": "prov:16593104",
+          "method": "图示半高半圆柱黑白比精确有理计算",
+          "actual": "785/671",
+          "expected": "785/671",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "uid": "prov:10204499",
+      "intakeStem": "一个半径300米的圆形湖泊中有一个半径100米的圆形人工岛，该人工岛的中心在湖泊中心的正西方150米处。甲从湖正北的A点开船出发，绕行人工岛西侧到达正南的B点。如果保持最短路线行驶，那么行驶多少米后甲到达人工岛的岸边？",
+      "independentAnswerIndex": 2,
+      "independentResult": "50√41米",
+      "independentDerivation": "湖心O(0,0)、岛心I(-150,0)、A(0,300)，AI²=150²+300²=112500。绕岛西侧最短路线由切线-圆弧-切线组成，首次触岸切段长√(AI²-100²)=√102500=50√41。",
+      "boundary": "题指定绕西侧；自由A直达B不触岛不是该路径。图选项C为50√41。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/53944c0b2443.png",
+        "真题库/图片/省考/64f6226e026d.png",
+        "真题库/图片/省考/29981f53119b.png",
+        "真题库/图片/省考/1b217cd8e2b9.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_21_40.png"
+      ],
+      "independentProofSha256": "d35b1b91db4a563c6856ec204e1417a632fb38afb2edd12774cc4a6cbf092f02",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "50√41米，C",
+        "originalBoundary": "必须从岛西侧绕行；西侧与东侧切线长度相同，首次触岸距离均按切线而非朝圆心最近距离。",
+        "originalVerification": "AI²=112500，AT²=112500-10000=102500=2500×41，AT50√41≈320.16米，对应C。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 34,
+          "uid": "prov:10204499",
+          "method": "切线长平方，不借助来源选项值",
+          "actual": "102500",
+          "expected": "102500",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "uid": "prov:16593095",
+      "intakeStem": "企业将12个技术培训名额分配给甲、乙、丙三个研发团队。要求乙团队分配的培训名额比甲团队少，但比丙团队多，且每个团队至少分配1个名额。问有多少种不同的分配方式？",
+      "independentAnswerIndex": 1,
+      "independentResult": "7种",
+      "independentDerivation": "甲a>乙b>丙c≥1，和12。c1时b2..5有4；c2时b3..4有2；c3时b4有1，总7。",
+      "boundary": "三个团队有标签，但严格排序唯一决定标签分配；不能再乘6。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "1b62d5882f9b5784df08873de4a5994044944c445a790de523ab3675287ac05f",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "7种，B",
+        "originalBoundary": "分名额不区分人员，甲乙丙的大小关系已经固定标签。",
+        "originalVerification": "可行(甲,乙,丙)：(9,2,1),(8,3,1),(7,4,1),(6,5,1),(7,3,2),(6,4,2),(5,4,3)，共7。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 35,
+          "uid": "prov:16593095",
+          "method": "严格有序正整数三元组全枚举",
+          "actual": "[(5, 4, 3), (6, 4, 2), (6, 5, 1), (7, 3, 2), (7, 4, 1), (8, 3, 1), (9, 2, 1)]",
+          "expected": "[(5, 4, 3), (6, 4, 2), (6, 5, 1), (7, 3, 2), (7, 4, 1), (8, 3, 1), (9, 2, 1)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "uid": "prov:16593096",
+      "intakeStem": "运动会招募志愿者，第一次招募了不到100人，其中男女比例为11：7；补招若干女性志愿者后，男女比例变为4：3。问最多可能补招了多少名女性志愿者？",
+      "independentAnswerIndex": 1,
+      "independentResult": "最多补招5名",
+      "independentDerivation": "初招男11k女7k且18k<100，k1..5；补女x后11k/(7k+x)=4/3⇒4x5k，k必须4倍数，故k4、x5。",
+      "boundary": "人数为整数，不能把k5时x6.25四舍五入成6。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "d20408c496cc2260b3bdea5f9c6ffce19933c38d3456083d27353befc2307262",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "5人，B",
+        "originalBoundary": "补招仅女性，不能把前后总人数当固定量。",
+        "originalVerification": "k正整数1..5，4|11k故k4；初男44女28总72，补5后44:33=4:3，唯一可行也为最多。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 36,
+          "uid": "prov:16593096",
+          "method": "志愿者人数整数及总数上限",
+          "actual": "[(4, 5)]",
+          "expected": "[(4, 5)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "uid": "prov:16593097",
+      "intakeStem": "商店销售甲、乙、丙、丁四种商品，每件分别盈利15元、9元、4元和1元。某日销售这四种商品共40件，共盈利201元。四种商品每种至少销售1件，且甲、丁商品销量相同。问当天丙商品的销量为多少件？",
+      "independentAnswerIndex": 3,
+      "independentResult": "丙31件",
+      "independentDerivation": "甲=丁=a，乙b、丙c；2a+b+c40且16a+9b+4c201⇒8a+5b41。a≡2(mod5)，正数范围仅a2,b5,c31。",
+      "boundary": "每种至少1件，a7会让b负数，不能保留。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "b193e604e304814521531acaecd2d2284ec02a8e7914be689905b7794109ced3",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "31件，D",
+        "originalBoundary": "各商品至少1件，甲丁相等的是销量非利润。",
+        "originalVerification": "8x+5y41，模5得x≡2 mod5；y≥1使x≤4，只能x2、y5，z40-4-5=31；利润30+45+124+2=201。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 38,
+          "uid": "prov:16593097",
+          "method": "利润整数约束枚举",
+          "actual": "[(2, 5, 31)]",
+          "expected": "[(2, 5, 31)]",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "uid": "prov:16593103",
+      "intakeStem": "安排A、B、C、D共4个研发团队参与甲、乙、丙3个课题的研究，要求每个课题至少有1个团队参与，每个团队必须且只能参与1个课题，如甲课题参与的团队数超过1个，则A、B都不参与甲课题，问共有多少种不同的安排方式？",
+      "independentAnswerIndex": 1,
+      "independentResult": "26种",
+      "independentDerivation": "甲课题单团队：4种选人，余3人向乙丙满射6种，共24。甲双团队只可CD，AB分赴乙丙2种。4人3个非空课题不可能甲占3，故总26。",
+      "boundary": "限制只在甲课题团队数>1时触发；A/B可以独自参与甲。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "2919e2cd4a4f98d8cf5a2377f0be68f4e59bcf43fcdbfd923b27ba0b774ba8a0",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "26种，B",
+        "originalBoundary": "甲单人时A、B可以参与甲；不能把条件误扩展成A、B永远不参加甲。",
+        "originalVerification": "甲单人可4选，另3队到乙丙均非空有2³-2=6，共24；甲双人只CD允许，A、B互换2种，总26。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 39,
+          "uid": "prov:16593103",
+          "method": "81个团队归属映射过滤条件",
+          "actual": "26",
+          "expected": "26",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "uid": "prov:16593101",
+      "intakeStem": "王师傅加工零件，他可同时操作4台仪器对零件进行抛光，每个零件需2面抛光才能加工完成，抛光1面需2分钟，问6个零件最少用多少分钟才能加工完成（换零件时间不计）？",
+      "independentAnswerIndex": 1,
+      "independentResult": "6分钟",
+      "independentDerivation": "12个面各2分钟共24机分钟，4机至少6分；三轮每轮2分可排ABCD第一面；AB第二面+EF第一面；CDEF第二面，6分达到。",
+      "boundary": "每个面的2分钟完整且同一零件两面不并行，仍有可达调度。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "6efb286fc88fe35cab7ad6fed0bb5c7180304f036235a45f3c7e48a377d54b1f",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "6分钟，B",
+        "originalBoundary": "可随时换件且切换无耗时；不要求每件从头至尾固定同一机。",
+        "originalVerification": "总工时6×2×2=24机分钟，4机下界6分钟，上述三轮各2分钟实现且每件正反面不重叠，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 40,
+          "uid": "prov:16593101",
+          "method": "可行三轮加工调度，无重复面且不超过4机",
+          "actual": "(12, 4)",
+          "expected": "(12, 4)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "uid": "prov:10204639",
+      "intakeStem": "因自然灾害产生泄漏，某河流出现A物质污染。根据环保部门要求，自然水源中A物质的浓度不得高于x。经应急处置后，水中的A物质浓度每24小时下降一半。自应急处置时开始，环保部门每24小时对河流水质进行1次检测，在216小时后首次检测到河流中A物质浓度达标。问应急处置前A物质可能的最高浓度在以下哪个范围内？",
+      "independentAnswerIndex": 1,
+      "independentResult": "最高512x，300x~600x",
+      "independentDerivation": "216小时=9个24小时。首次达标意味着192小时C0/256>x、216小时C0/512≤x，所以256x<C0≤512x，最高512x。",
+      "boundary": "达标包含等号；“首次检测达标”不是连续过程恰好216小时才越线。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independenceOrder": "这些新增条目的原review未读取；本次先冻结独立推导，后续再比对。",
+      "independentProofSha256": "b800a60ed1b56db79d516779e20d5ad1073acb3ac2fa567ab1d119f79774aba9",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "最高512x，B",
+        "originalBoundary": "讨论理想每24小时减半模型；题目已给阈值，不作现实水质安全建议。",
+        "originalVerification": "216/24=9，M≤512x且M>256x，最高512x；8次时512x/256=2x仍超标，9次恰x，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 41,
+          "uid": "prov:10204639",
+          "method": "最大初始浓度512x的首次达标时刻",
+          "actual": "(2, Fraction(1, 1))",
+          "expected": "(2, Fraction(1, 1))",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "uid": "prov:13504289",
+      "intakeStem": "甲乙两部门组织户外团建，共设A、B、C三项活动。甲部门每人三项活动均参加1次，乙部门每人任选2项不同活动各参加1次。已知A、B、C三项活动分别有18人、16人、15人参加，问甲部门成员至多有多少人?",
+      "independentAnswerIndex": 2,
+      "independentResult": "甲最多13人",
+      "independentDerivation": "甲m、乙n，3m+2n49，m为奇数。乙参加A的人18-m不能多于n，得2(18-m)≤49-3m⇒m≤13。m13,n5时乙3人选AB、2人选AC，A18 B16 C15满足。",
+      "boundary": "用三项出席总人次、乙每人恰选2个不同项。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "e46e247b3deabc8b4532ac4afa37b7636647429d457ced931112d98672808c28",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "13人，C",
+        "originalBoundary": "每人乙只参加两项，甲每项各一次；参加人次49不是总人数。",
+        "originalVerification": "x13时乙AB3、AC2、BC0，A18、B16、C15都满足；一般A乙≤乙总给2(18-x)≤49-3x，x≤13，故取13为最大。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 43,
+          "uid": "prov:13504289",
+          "method": "乙AB/AC/BC分配全枚举",
+          "actual": "13",
+          "expected": "13",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "uid": "prov:13504535",
+      "intakeStem": "甲、乙、丙三个科室分别有3名、5名和2名党员。现有4个去党校学习的名额，要求至少分配给2个科室。问有多少种不同的名额分配方式？",
+      "independentAnswerIndex": 1,
+      "independentResult": "10种名额分配",
+      "independentDerivation": "分配(a,b,c)和4，a≤3,c≤2。非负总解15，扣a4的1解、c≥3的3解，得11；再扣全部给乙(0,4,0)只覆盖1科室，剩10。",
+      "boundary": "问科室名额分配，不是具体党员抽取。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "e0600763b1ac634141e8ceccc7c83891939eb571f76f9f8560eb22161b7d671a",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "10种，B",
+        "originalBoundary": "问题只计名额到科室，若选具体党员应另用组合数。",
+        "originalVerification": "三元总15；a4仅(4,0,0)；c≥3为(1,0,3),(0,1,3),(0,0,4)；仅乙受5容量允许但违两科室，扣(0,4,0)，共10。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 49,
+          "uid": "prov:13504535",
+          "method": "科室容量与至少两科室同时过滤",
+          "actual": "10",
+          "expected": "10",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "uid": "prov:13504267",
+      "intakeStem": "某公司甲部门男性员工比女性多2人，乙部门女性员工比男性多3人。已知甲、乙两部门女性员工共6人，问从甲、乙两部门中随机选出4人，恰好选到2名男员工和2名女员工的概率是：",
+      "independentAnswerIndex": 1,
+      "independentResult": "5/11",
+      "independentDerivation": "两部门女共6，男比女合计少1所以男5总11。随机选4，2男2女组合C(5,2)C(6,2)/C(11,4)=150/330=5/11。",
+      "boundary": "人员是全体11人均匀抽4，不按科室等额抽；看图选项B为5/11。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/02f36802d3c5.png",
+        "真题库/图片/省考/903ebaf7de7f.png",
+        "真题库/图片/省考/cd584d8f170c.png",
+        "真题库/图片/省考/e94cf406a05f.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_41_60.png"
+      ],
+      "independentProofSha256": "44c8d1d11a0553d0f9db41e99053084b78fa770f4cc235ca93d808598e6badbc",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "5/11，B",
+        "originalBoundary": "从两部门全体员工统一随机抽取4人，不是先等概率挑部门。",
+        "originalVerification": "男5女6总11，恰2男2女方案10×15=150，总C(11,4)=330，150/330=5/11，图片B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 50,
+          "uid": "prov:13504267",
+          "method": "不放回性别组合概率",
+          "actual": "5/11",
+          "expected": "5/11",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "uid": "prov:13504275",
+      "intakeStem": "小王、小李参加某项知识竞赛答题，小王每题答对的概率相等，且均为小李的1.5倍。已知小王连续答对2题的概率比小李高0.2，问小王前2题全对且小李前2题全错的概率在以下哪个范围内？",
+      "independentAnswerIndex": 3,
+      "independentResult": "0.1296，超过0.11",
+      "independentDerivation": "李正确率p、王1.5p，按两题独立得(2.25-1)p²=.2⇒p.4、王.6。王两对且李两错=.6²×.6²=.1296。",
+      "boundary": "需要同一人的两题独立及两人结果独立，原文只给各题边际正确率，不能从边际相等推出独立。",
+      "preComparisonConcern": "关注review是否明确独立假设，而不是不加条件将概率相乘。",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "e3080fa670af5b139418cb67db6d61e579252f19b02bf2ff95d2218d00e7fcd9",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "0.1296，D",
+        "originalBoundary": "按各人各题独立的标准答题模型；若题间或两人相关，单题概率不足确定联合事件。",
+        "originalVerification": "1.25p²=.2，p²=.16取非负p=.4。王两对.36，李两错(1-.4)²=.36，联合.1296>.11，D。"
+      },
+      "assessment": "confirmed_with_explicit_model",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "联合概率在独立模型下相符；原review已经明确独立是建模前提，不是由边际概率推出，因此不报为新算错。",
+      "supplementaryChecks": [
+        {
+          "index": 52,
+          "uid": "prov:13504275",
+          "method": "独立模型下联合概率0.1296",
+          "actual": "81/625",
+          "expected": "81/625",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "uid": "prov:13504538",
+      "intakeStem": "小张、小王、小李练习乒乓球，第一局小张对小王，往后每一局都由上一局轮空的人对上一局的胜者。已知一共打了6局比赛，其中小张打了3局，且第3局的参赛人组合与第一局不同。问各局比赛可能的不同组合一共有多少种（任一局参赛人不同或胜负关系不同，都算不同的组合）？",
+      "independentAnswerIndex": 1,
+      "independentResult": "4种（包括末局胜负）",
+      "independentDerivation": "用6局胜负的64种二进制记录独立枚举：初始张王，下一局轮空者对胜者；筛张参与3局且第3局不为张王，剩4种。末局胜负虽不影响后续仍必须区分。",
+      "boundary": "题明确任一局胜负不同也算不同，不能把末局胜者合并。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "fa0bc3479a155ed0d0f8a96bbf7ab55b32f76b5f872468d24db4a4d85a4ccbda",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "4种，B",
+        "originalBoundary": "末局胜负也算不同组合，即使不影响下一局；比赛无平局。",
+        "originalVerification": "用张Z、王W、李L。合法对阵仅两串：ZW,WL,ZL,WL,ZW,WL；ZW,WL,ZL,WL,ZL,WL。第一串胜者W,L,L,W,W,(W或L)；第二串W,L,L,L,L,(W或L)，共4。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 53,
+          "uid": "prov:13504538",
+          "method": "独立状态机遍历64条完整胜负路径，含末局胜负",
+          "actual": "4",
+          "expected": "4",
+          "passed": true
+        }
+      ],
+      "independentEnumeratedSchedules": [
+        [
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 1
+          }
+        ],
+        [
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          }
+        ],
+        [
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 1
+          }
+        ],
+        [
+          {
+            "players": [
+              0,
+              1
+            ],
+            "winner": 1
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              0,
+              2
+            ],
+            "winner": 2
+          },
+          {
+            "players": [
+              1,
+              2
+            ],
+            "winner": 2
+          }
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "uid": "prov:13504347",
+      "intakeStem": "某梯形区域ABCD的俯视图如下图所示，AB、BC、AD长度相等，且为CD长度的一半，E、F、G分别为所在边的中点。现打算在阴影区域建艺术广场，如果梯形ABCD的总面积为120亩，问艺术广场的面积为多少亩？",
+      "independentAnswerIndex": 3,
+      "independentResult": "100亩",
+      "independentDerivation": "设上底a、下底2a、高h，全梯形3ah/2。E/G为腰中点，F为上底中点，两白三角每个面积(a/2)(h/2)/2=ah/8，白合ah/4，占总1/6；阴影5/6×120=100。",
+      "boundary": "看图阴影是D-E-F-G-C五边形；无须使用60°或根式。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/8d0d6f31d986.png",
+        "真题库/图片/省考/7987448a58e4.png",
+        "真题库/图片/省考/d3e474db60c9.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_41_60.png"
+      ],
+      "independentProofSha256": "0397b4b350d96644e171de9fb4c440f7489e610e4bbecac3c3b15d764f94f8b0",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "100亩，D",
+        "originalBoundary": "中点确保半高，不必用等腰腿和勾股求h；只要两底1:2便可。",
+        "originalVerification": "图中F在AB中点、E在AD中点、G在BC中点，白区2×ah/8=ah/4；120对应3ah/2，白20、阴影100，D。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 54,
+          "uid": "prov:13504347",
+          "method": "阴影面积的有理比例",
+          "actual": "100",
+          "expected": "100",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "uid": "prov:13504333",
+      "intakeStem": "五边形公园ABCDE的面积为4万平方米，其中ABCD为长方形，AB=0.75BC，且ADE为等腰直角三角形（为直角）。小张从D点出发在公园中慢跑，沿箭头所示方向先后经过B点、AE中点和DE中点后到达C点。问小张全程跑了多少米?",
+      "independentAnswerIndex": 2,
+      "independentResult": "350+100√17米",
+      "independentDerivation": "令AD=BC=4u，AB=CD=3u；ADE在E直角等腰，面积4u²，矩形12u²；16u²40000得u50。坐标D(0,0),A(0,200),B(150,200),C(150,0),E(-100,100),F(-50,150),G(-50,50)。DB250、BF50√17、FG100、GC50√17，合350+100√17。",
+      "boundary": "已读图∠AED为直角且路径D→B→F→G→C，选项C。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/c3f184fef38a.png",
+        "真题库/图片/省考/371e54d8ab4d.png",
+        "真题库/图片/省考/b5b2f5882471.png",
+        "真题库/图片/省考/251bebb24173.png",
+        "真题库/图片/省考/06b4fcda6092.png",
+        "真题库/图片/省考/4c7b53a97a5e.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_41_60.png"
+      ],
+      "independentProofSha256": "c5af421d1fe175272fea4d06888ef5022aefeacbe47d4dc8b46f4af669950449",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "350+100√17米，C",
+        "originalBoundary": "ADE的AD是斜边而不是直角边；路线不沿公园边界。",
+        "originalVerification": "DB=√(150²+200²)=250；BF=GC=√(200²+50²)=50√17；FG100。总250+100+100√17，图片C。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 57,
+          "uid": "prov:13504333",
+          "method": "逐段勾股与总面积定尺度",
+          "actual": "(62500, 42500, 40000)",
+          "expected": "(62500, 42500, 40000)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "uid": "prov:16069941",
+      "intakeStem": "某市低空经济示范区要为8个无人机起降点设计航线网络。若任意两个起降点之间最多1条航线，且每个起降点至少连接3条航线，问最少需要设计多少条航线？",
+      "independentAnswerIndex": 0,
+      "independentResult": "12条",
+      "independentDerivation": "8个节点度至少3，握手定理2E≥24⇒E≥12。用立方体的8顶点12棱即简单3正则图，实现。",
+      "boundary": "按无向连接，每条连接两个不同节点，不能重复边或自环。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "52e274e2cfc8e484c01b9510f595c59360cead19361f3e9813bdaf1e36f23e8d",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 0,
+        "originalComputedAnswer": "12条，A",
+        "originalBoundary": "航线按无向连接计且每对最多1条；如区分往返单向航线需另定义。",
+        "originalVerification": "编号0..7连接(i,i+1 mod8)八条，再加(0,4),(1,5),(2,6),(3,7)四条，每点恰3条，无重边，共12。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 59,
+          "uid": "prov:16069941",
+          "method": "八点环加四对径边验证最小3正则图",
+          "actual": "(12, [3, 3, 3, 3, 3, 3, 3, 3])",
+          "expected": "(12, [3, 3, 3, 3, 3, 3, 3, 3])",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "uid": "prov:16070059",
+      "intakeStem": "某新能源汽车充电站有快充桩和慢充桩，比例为3：1，快充桩每车充电不超过30分钟，慢充桩每车充电不超过120分钟。若某日共服务车辆312辆，且每个充电桩均满负荷运行，则该充电站的充电桩个数最多有多少个？",
+      "independentAnswerIndex": null,
+      "independentResult": "若24小时满负荷则最多8；若8小时营业则可24，题未显式给营业时长",
+      "independentDerivation": "设快3k慢k。若整日24h各满负荷、各车时长取上限，则每快至少48辆、慢至少12辆，总至少156k；312⇒k≤2，桩最多8。若每日营业8h且各取上限，则每快16、慢4，总52k，k6可服务312、桩24。",
+      "boundary": "“某日”“满负荷”不必然等同24小时连续营业；应把营业时间写入题面或明确理想模型。",
+      "preComparisonConcern": "高风险：不同营业时长直接给出A8和D24两种有效结果，不能暗选时长。",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "54a0e661804461c82ad3046d699a6929bddb5a3f958a5d02df881f1a34acfb3d",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 0,
+        "originalComputedAnswer": "8个，A",
+        "originalBoundary": "题目默认“一日满负荷”是24小时连续运行；若营业时间不固定，桩数不能由这些数据唯一求出。",
+        "originalVerification": "312≥156k给k≤2，取6快2慢，每次分别恰30与120分钟，完成288+24=312，最大8，A。"
+      },
+      "assessment": "needs_stem_clarification_not_arithmetic_error",
+      "answerAgreement": "matches_under_the_existing_review_model_only",
+      "comparisonConclusion": "原review已主动指出该模型/量词边界，独立复算没有推翻其边界内数值；但correctedStem仍为空，可练题面本身未选择该口径。见本报告findings中的严格替代构造。",
+      "supplementaryChecks": [
+        {
+          "index": 60,
+          "uid": "prov:16070059",
+          "method": "24小时8桩与8小时24桩两个反例口径均完全满负荷",
+          "actual": "(312, 312)",
+          "expected": "(312, 312)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "uid": "prov:16070151",
+      "intakeStem": "一个长方体金属块的长、宽、高之比为5：4：3，现要用一个平面将这个金属块切为2个完全相同的部分，截面可能的最大面积是最小面积的：",
+      "independentAnswerIndex": 3,
+      "independentResult": "最大截面/最小截面至少25/12>2，因此选2倍以上",
+      "independentDerivation": "5:4:3盒，中心垂直长边切面面积12；过5方向与4×3端面对角线的中心切面为5×5=25，两半由中心对称完全相同。故最大≥25、最小≤12，比例至少25/12，已经严格锁定D。",
+      "boundary": "选范围无需无证明地断言所有倾斜多边形截面的精确最大值；合法上下界足以排除其余区间。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "392992a41e9b9bfe8a29a60f89d48dfaf8301cb6aa744a31fa32348eb5ed4362",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "2倍以上，D",
+        "originalBoundary": "问范围且D只要求>2；若问精确最大面积，单纯两个构造还不足证明全局最优。",
+        "originalVerification": "两构造平面均过中心、把长方体分成全等两块。设真实最大M最小m，则M≥25、0<m≤12，M/m≥25/12≈2.0833，必D，无需假称已穷尽全部六边形截面。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 63,
+          "uid": "prov:16070151",
+          "method": "只用可行截面上下界即可锁定大于2",
+          "actual": "True",
+          "expected": "True",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "uid": "prov:16070133",
+      "intakeStem": "某光伏电站使用正方形太阳能板构成一正方形阵列，总面积为576平方米。若将板间距再扩大1米，总阵列面积变为784平方米。则正方形太阳能板的边长可能是：",
+      "independentAnswerIndex": 0,
+      "independentResult": "4.6米可行",
+      "independentDerivation": "总边长由√576=24变√784=28，每相邻板净间隔增1导致边长增4，所以每行5板。若原净缝g≥0，则5s+4g24⇒s≤4.8，唯一选项s4.6，g.25。",
+      "boundary": "不能擅设原板无缝；否则s4.8不在选项，题给“间距再扩大”允许既有间距。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "68e029783ff29653cc9039520c06de37581799a1d6de1de015a5d2257a80e4b1",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 0,
+        "originalComputedAnswer": "4.6米，A",
+        "originalBoundary": "按规则方阵等间距且外边界贴最外板，不额外计外缘留白。",
+        "originalVerification": "四选项中只有4.6≤24/5，取原间隙(24-5×4.6)/4=.25，新间隙1.25，边长23+5=28，面积784。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 64,
+          "uid": "prov:16070133",
+          "method": "原净缝0.25与新净缝1.25直接回代",
+          "actual": "(Fraction(24, 1), Fraction(28, 1))",
+          "expected": "(24, 28)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "uid": "prov:16070122",
+      "intakeStem": "一架无人机配送货物到5千米外的站点，无人机载重时速30千米/小时、空载时速45千米/小时。每次装卸时间合计5分钟，且最多载货3件。则连续配送60件货物到站点的最短时间在以下哪个范围？（单位：分钟）",
+      "independentAnswerIndex": 1,
+      "independentResult": "不要求最终返场时426又2/3分钟，420~430；若要求返场则433又1/3分钟",
+      "independentDerivation": "60件每次最多3，至少20趟。载货20×10分，空返只需19×(20/3)分，装卸20×5分，共1280/3=426.667。若另加最终返场20/3，总1300/3=433.333。",
+      "boundary": "任务是运货到站点，未要求最终回到出发地；两种终止状态必须区分。",
+      "preComparisonConcern": "高风险：把最后一次空返也计入可能使选项从B变C。",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "dc01f9b1eaeff72f6191f2c50da9b2f60d12cc5e2ddac094ee1e0b5c3f848a9c",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "426又2/3分钟，B",
+        "originalBoundary": "以货物全部到站为完成，不要求末趟返航；装卸5分钟每趟均计。",
+        "originalVerification": "20趟恰装满60件；总300+380/3=426又2/3分钟，落420～430，B。若要求最终回出发点，再加6又2/3得到433又1/3，口径不同。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 65,
+          "uid": "prov:16070122",
+          "method": "分别计算终点卸毕与最终返场总时间",
+          "actual": "(Fraction(1280, 3), Fraction(1300, 3))",
+          "expected": "(Fraction(1280, 3), Fraction(1300, 3))",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "uid": "prov:163595",
+      "intakeStem": "某报刊以每本2元价格发行，可发行10万份，若该报刊单价每提高0.2元，发行量将减少5000份，则该报刊可能的最大销售收入为多少万元：",
+      "independentAnswerIndex": 3,
+      "independentResult": "22.5万元",
+      "independentDerivation": "提价k个0.2元时收入(2+.2k)(100000-5000k)=225000-1000(k-5)²，整数k5达到225000元。",
+      "boundary": "按题线性销量关系且涨价非负；顶点为整数无需再取相邻整数。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "23a858829d78891f00ec48ca28d663459ac793c17053796370296407513145af",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "22.5万元，D",
+        "originalBoundary": "问销售收入非利润，无成本信息；销量非负，k5在可行域。",
+        "originalVerification": "k5为允许整数，售价3、销量7.5万，收入22.5万元。任其他k利润表达式低于该值，D。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 70,
+          "uid": "prov:163595",
+          "method": "提价步数0..20全部枚举收入",
+          "actual": "225000",
+          "expected": "225000",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "uid": "prov:163597",
+      "intakeStem": "假期里，王老师有一个紧急通知要通知到50位同学，假如每通知一位同学需要1分钟，同学接电话后也可以互相通知，要使所有同学都要接到通知至少需要几分钟：",
+      "independentAnswerIndex": 1,
+      "independentResult": "至少6分钟",
+      "independentDerivation": "开始只有老师1人知情，每分钟知情人数最多翻倍。通知50学生需总51人知情，2^5=32不足，2^6=64够。前5分钟通知31学生，第6分钟再由19名知情者通知余19可行。",
+      "boundary": "每人同一分钟只能打一个电话、接完下分钟才转告；老师也可每分钟继续通知。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "13521cc482a8a3ee3eab6a1b254b7ae2c17dd10c873dcce6ab0c02b4afbcd247",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "6分钟，B",
+        "originalBoundary": "电话一对一、打完才可转告，并可自由安排避免重复；教师不占50学生数。",
+        "originalVerification": "每个已知者一分钟最多通知一新同学，N(t)≤2N(t-1)，初始教师1，5分钟最多31学生，6分钟可通知到50，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 71,
+          "uid": "prov:163597",
+          "method": "传播翻倍上下容量",
+          "actual": "(31, 63)",
+          "expected": "(31, 63)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "uid": "prov:163599",
+      "intakeStem": "某篮球队12个人的球衣号码是从4到15的自然数，如从中任意选出3个人参加三对三篮球赛，则选出的人中至少有两人的球衣号码是相邻自然数的概率为多少：",
+      "independentAnswerIndex": 2,
+      "independentResult": "5/11",
+      "independentDerivation": "从12个连续号取3总C(12,3)=220；全部不相邻的递增号经i,j-1,k-2压缩到10号任取3，有120；至少相邻100/220=5/11。",
+      "boundary": "不将4与15当环形相邻，三连号事件无需再另作容斥。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "b55586b05c3efa218aa1fd1fa6a8440e26ce39f97c6a7ea4c7c122b6e2e19f48",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "5/11，C",
+        "originalBoundary": "问至少两人相邻，三连号也只计一次。",
+        "originalVerification": "合法无相邻子集120，至少一对相邻100；100/220=5/11，C。4..15连续12个，起始数4不影响计数。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 72,
+          "uid": "prov:163599",
+          "method": "220个三人子集按是否有相邻号直接计数",
+          "actual": "5/11",
+          "expected": "5/11",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "uid": "prov:163609",
+      "intakeStem": "以一个矩形任意两条边为直径画圆，将该矩形分成的区域数有几种不同的可能性？",
+      "independentAnswerIndex": null,
+      "independentResult": "跨所有长宽与选边的区域数集合{3,4,5,7}有4种；固定非正方形时只有3种，固定正方形只有1种",
+      "independentDerivation": "独立解析并用600×300格点连通域校核：长宽比1.5时，相邻边画圆4区、短对边3区、长对边5区；比3时，相邻边5区、短对边3区、长对边7区；正方形均4区。特别3×1矩形选上下长边，两圆在矩形内有两片仅下圆区、两片仅上圆区、两片均外区、一片交区，共7区。",
+      "boundary": "“区域”按矩形内部连通开区域数，完整圆画在平面后裁入矩形；不能把同一布尔类别的两个不连通部分算1区。",
+      "preComparisonConcern": "高风险：遗漏极狭长矩形的7区；或未区分固定一个矩形与长宽可变两种量词。",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "17266d8dce68325b1a3d62329230176191e51aa5552d5463e32bdf1f0dba8391",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "4种可能，D",
+        "originalBoundary": "统计矩形内部连通二维区域，切点不算新区域；矩形可取不同长宽，若固定具体尺寸需另判断。",
+        "originalVerification": "相对边两圆不交时两个半圆区加外部1区=3；相切时外部断成左右2区共4；相交且不触对边时独占各1、交集1、外部2共5；直径≥两倍边距时两独占区分别裂成左右两块，共2+2+1+2=7。相邻边圆弧分区为4或5，全集{3,4,5,7}，D。"
+      },
+      "assessment": "needs_stem_clarification_not_arithmetic_error",
+      "answerAgreement": "matches_under_the_existing_review_model_only",
+      "comparisonConclusion": "原review已主动指出该模型/量词边界，独立复算没有推翻其边界内数值；但correctedStem仍为空，可练题面本身未选择该口径。见本报告findings中的严格替代构造。",
+      "supplementaryChecks": [],
+      "geometricCaseEvidence": {
+        "analyticPartitionCounts": [
+          {
+            "aspectRatio": "1",
+            "adjacent": 4,
+            "oppositeLong": 4,
+            "oppositeShort": 4,
+            "distinctCounts": [
+              4
+            ]
+          },
+          {
+            "aspectRatio": "3/2",
+            "adjacent": 4,
+            "oppositeLong": 5,
+            "oppositeShort": 3,
+            "distinctCounts": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "aspectRatio": "3",
+            "adjacent": 5,
+            "oppositeLong": 7,
+            "oppositeShort": 3,
+            "distinctCounts": [
+              3,
+              5,
+              7
+            ]
+          }
+        ],
+        "numericalCorroboration": "已独立在600×300矩形内部网格按两个圆内外标记做四邻接连通域统计，长宽比1,1.25,1.5,1.99,2,2.5,3,4均与上述分区分类吻合。此近似枚举只作交叉核对，主证据为两圆在边界和内部的交点及独占区域分裂分析。",
+        "globalConclusion": "允许矩形长宽变化时所有区域数{3,4,5,7}，共4种；固定非正方形三种；固定正方形一种。"
+      }
+    },
+    {
+      "index": 78,
+      "uid": "prov:163611",
+      "intakeStem": "甲乙两个服装厂生产同一种服装，甲厂每月生产成衣900套，生产上衣和裤子所用的时间比是2比1，乙厂每月生产成衣1200套，生产上衣和裤子所用的时间比是3比2，若两厂分工合作，按最佳生产方案计，两厂每月共可生产成衣多少套：",
+      "independentAnswerIndex": 3,
+      "independentResult": "2233整套，上界2233又1/3套",
+      "independentDerivation": "甲单做上衣月能力1350、裤2700；乙上衣2000、裤3000。给上衣权重2裤权重1，甲月权重≤2700、乙≤4000，完整套每套权重3，上界6700/3。取乙做2000上衣、甲做233上衣和2233裤，甲用时(466+2233)/2700=2699/2700≤1，2233整套可行。",
+      "boundary": "成衣整套数必须整数；连续模型2233又1/3只作为上界，不能无说明称之精确整套产量。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "d557b1a349371fd22be7ceb31b70bf256404fb8c13f98be3176d49c8d61b0b5b",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "2233套，D",
+        "originalBoundary": "每套需一件上衣一条裤，按月连续分配工时；实际整套数量下取整。",
+        "originalVerification": "平衡式4050x+5000y=5700；成套T=1350x+2000y=1900+(1000/3)y，在y≤1下最大y1。此时x700/4050=14/81，上衣=2000+700/3=6700/3≈2233.33，整套最多2233，D。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 78,
+          "uid": "prov:163611",
+          "method": "整套产量的整件可行排产见证",
+          "actual": "(True, 2233, 2233)",
+          "expected": "(True, 2233, 2233)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "uid": "prov:622541",
+      "intakeStem": "速算比赛，小李全对的概率为95%，小杨全对的概率为92%，问这次比赛两人中只有一个人全对的概率为（ ）。",
+      "independentAnswerIndex": 2,
+      "independentResult": "独立模型0.122；仅边际概率下范围[0.03,0.13]",
+      "independentDerivation": "设两人全对交集t，t∈[.95+.92-1,min(.95,.92)]=[.87,.92]。仅一人全对=.95+.92-2t，范围[.03,.13]。独立时t=.874，得到.122。",
+      "boundary": "需要两人比赛正确事件独立；边际95%、92%本身不保证。",
+      "preComparisonConcern": "关注review是否把相互独立写作假设，而非给定事实。",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "7face6183f9d45c647ac4908de61bdbe3e7810b328e1b63fe1225a174e68397a",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "0.122，C",
+        "originalBoundary": "需要两人比赛结果独立的常规模型；仅给95%、92%的边际概率不能数学上推出独立。",
+        "originalVerification": "李对杨不对概率.076；李不对杨对.046；两者互斥和.122，C。两人都对.874是D干扰项。"
+      },
+      "assessment": "confirmed_with_explicit_model",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "联合概率在独立模型下相符；原review已经明确独立是建模前提，不是由边际概率推出，因此不报为新算错。",
+      "supplementaryChecks": [
+        {
+          "index": 83,
+          "uid": "prov:622541",
+          "method": "独立模型与仅边际模型上下界对照",
+          "actual": "(Fraction(61, 500), Fraction(3, 100), Fraction(13, 100))",
+          "expected": "(Fraction(61, 500), Fraction(3, 100), Fraction(13, 100))",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "uid": "prov:622537",
+      "intakeStem": "数字3、5至少都出现一次的三位数有多少个：",
+      "independentAnswerIndex": 1,
+      "independentResult": "52个",
+      "independentDerivation": "第三位非3/5且非0有7种，各6排列42；第三位0有4合法排列；重复一种指定数335或355各3排列共6；总42+4+6=52。直接枚举100..999同时含3、5也是52。",
+      "boundary": "三位数首位不能0，数字3和5都至少出现一次，不要求恰好一次。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "0003b00e6927cf1bb1f6907a7a4fe7bf9443bbee0c5f8f46ac81663e32acf9b0",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "52个，B",
+        "originalBoundary": "三位自然数首位非0，重复时按相同数字除重。",
+        "originalVerification": "第三数集合{1,2,4,6,7,8,9}给42，0给305、350、503、530四个，335与355各3种给6；总52，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 84,
+          "uid": "prov:622537",
+          "method": "直接枚举全部900个三位数",
+          "actual": "52",
+          "expected": "52",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "uid": "prov:622521",
+      "intakeStem": "某宾馆有6个空房间，3间在一楼，3间在二楼。现有4名客人要入住，每人都住单间，都优先选择一楼房间。问宾馆共有多少种安排：",
+      "independentAnswerIndex": 3,
+      "independentResult": "72种",
+      "independentDerivation": "优先一楼意味着3间一楼都占用、1客住二楼。选择住二楼客4种、二楼房3种、一楼剩客分3房6种，总72。",
+      "boundary": "房间有区分，客人有区分；“优先”按尽可能满一楼的最终安排。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "2faa00753271e2157d23ab0e33227ff4554b72ba11588b14bb384dad8b339095",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "72种，D",
+        "originalBoundary": "房间彼此不同，客人不同，每房一人；优先一楼是整体安排需住满一楼。",
+        "originalVerification": "4×3×6=72。若一楼空着而有人在二楼不符合优先原则，不能用A(6,4)=360全部任意入住。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 87,
+          "uid": "prov:622521",
+          "method": "6房4客单间去向枚举后筛一楼住满",
+          "actual": "72",
+          "expected": "72",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "uid": "prov:622607",
+      "intakeStem": "沿一个平面将长、宽和高分别为8、5和3厘米的长方体切割为两部分，问两部分的表面积之和最大是多少平方厘米：",
+      "independentAnswerIndex": 2,
+      "independentResult": "158+16√34平方厘米",
+      "independentDerivation": "原表面积2(8×5+8×3+5×3)=158。平行8边并沿5×3端面对角线切可得截面8√34，切后总表面158+16√34≈251.295，大于其余206,238,158+10√73≈243.440；因此在给定候选中唯一C可为最大。",
+      "boundary": "需注意存在性证据已排除其他选项；若写“精确最大截面必为矩形”须另证，不能只穷举三种矩形截面当全体证明。",
+      "preComparisonConcern": "复审重点查看是否把三种对角矩形的比较冒充所有平面截面的完备极值证明。",
+      "imageRefs": [
+        "真题库/图片/省考/2e37dc1c94ff.png",
+        "真题库/图片/省考/ee63652e4357.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_81_100.png"
+      ],
+      "independentProofSha256": "6dd39ef4797357ba0f862de3aeedaa89f6b92bc492d7781a5dd7adc8a5092ba5",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 2,
+        "originalComputedAnswer": "158+16√34平方厘米，C",
+        "originalBoundary": "快法利用备选答案完备性与可达下界；若没有选项而要求全局极值严证，需要进一步优化任意平面截面。",
+        "originalVerification": "可构造过中心矩形截面，边8与√(5²+3²)=√34，和158+16√34≈251.295。A206、B238及D158+10√73≈243.440都小于此已实现值，故不能是最大值；四个候选中只有C可能为正确最大值。这一单选排除无需冒称仅考察几个平面便证明所有斜六边形都更小。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 89,
+          "uid": "prov:622607",
+          "method": "可实现截面对应面积严格大于其他三个选项",
+          "actual": "True",
+          "expected": "True",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "uid": "prov:622583",
+      "intakeStem": "8个人比赛国际象棋，约定每两人之间都要比赛一局，胜者得2分，平局得1分，负的不得分。在进行了若干局比赛之后，发现每个人的分数都不一样。问最多还有几局比赛没比：",
+      "independentAnswerIndex": 3,
+      "independentResult": "最多14局未赛",
+      "independentDerivation": "共28局，每局总分2。8个互异非负分最少和28，已赛至少14。可达到分0..7：两和局(1,3),(5,7)，胜负局2胜0；3胜0；4胜0/1；5胜0/1；6胜0/1/2；7胜0/1/2。共14局，各人分数恰为其编号，余14。",
+      "boundary": "题只要求若干比赛后分数互异，不要求每人打同样局数；上界须构造可达。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "b3381db1a9b9ecb6d998ac4cc397d75710b433b1f8b97b06b277beb4bafd2328",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "14局，D",
+        "originalBoundary": "成绩可含0分，未赛局不产生积分；必须给实现积分分布的合法无重复赛程，不能仅靠和下界。",
+        "originalVerification": "将选手编号0..7。7胜0、1、2；6胜0、1、2；5胜0、1；4胜0、1；3胜0；2胜0；另1与3平、5与7平，共14场。各分数恰0、1、2、3、4、5、6、7。总C(8,2)=28，最多未赛14，D。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 90,
+          "uid": "prov:622583",
+          "method": "核验14局积分构造无重复对手组合",
+          "actual": "([0, 1, 2, 3, 4, 5, 6, 7], 14)",
+          "expected": "([0, 1, 2, 3, 4, 5, 6, 7], 14)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "uid": "prov:1503589",
+      "intakeStem": "将10名运动员平均分成两组进行对抗赛，问有多少种不同的分法：",
+      "independentAnswerIndex": 1,
+      "independentResult": "126种",
+      "independentDerivation": "选5人一组C(10,5)=252，每个无标签二分被两组互换数两遍，除2得126。",
+      "boundary": "两组没有A/B标签；若有标签则252，题干未指定。",
+      "preComparisonConcern": "",
+      "imageRefs": [],
+      "viewedVia": [],
+      "independentProofSha256": "3d1f3df00fe5128e4a90f9efba58c22200bb4b57410307b6c5c23cc04bcce1c6",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 1,
+        "originalComputedAnswer": "126种，B",
+        "originalBoundary": "若题目明确分甲队乙队等有标签组则不能除2；本题只平均分两组对抗。",
+        "originalVerification": "每个五五分组在C(10,5)中被选左组与选右组重复两次；除2或固定锚点均得126，B。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 94,
+          "uid": "prov:1503589",
+          "method": "无标号五五分组除交换重复",
+          "actual": "126",
+          "expected": "126",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "uid": "prov:1503611",
+      "intakeStem": "把若干个大小相同的水立方摆成如图形状，从上向下数，摆1层有1个立方体，摆2层共有4个立方体，摆3层共有10个立方体，问摆7层共有多少个立方体：",
+      "independentAnswerIndex": 3,
+      "independentResult": "84个",
+      "independentDerivation": "看图每层为三角形堆积，第k层k(k+1)/2，7层总1+3+6+10+15+21+28=84=C(9,3)。",
+      "boundary": "按三维堆积计入不可见支撑块，不能只数可见面或平面外轮廓。",
+      "preComparisonConcern": "",
+      "imageRefs": [
+        "真题库/图片/省考/3399f9ce20a5.png"
+      ],
+      "viewedVia": [
+        "教学/速刷/full_audit/work/provincial_06_images_81_100.png"
+      ],
+      "independentProofSha256": "7bc9a438dccb8290f790a6c68343c95edfd3879a0b7cf875f3f6bb7d9570bbe7",
+      "reviewComparison": {
+        "originalVerdict": "verified",
+        "originalAnswerIndex": 3,
+        "originalComputedAnswer": "84个，D",
+        "originalBoundary": "按图的三角堆层继续，不把已给累计1、4、10当每层个数。",
+        "originalVerification": "图前三层分别1、3、6，累计1、4、10与题干对应；七层累计84，D。底层有28个，不是7²49个。"
+      },
+      "assessment": "confirmed",
+      "answerAgreement": "same_index",
+      "comparisonConclusion": "独立构造/推导与原review相符；已检查其verification、快解、常规解及适用边界，不仅核对字母。",
+      "supplementaryChecks": [
+        {
+          "index": 100,
+          "uid": "prov:1503611",
+          "method": "从三角形各层数量累加",
+          "actual": "84",
+          "expected": "84",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "uid": "prov:16070059",
+      "index": 60,
+      "severity": "medium",
+      "kind": "practice_stem_missing_model_parameter",
+      "title": "满负荷不自动指定营业时长，A与D可由不同日营业时长实现",
+      "originalAnswerIndex": 0,
+      "existingReviewAcknowledgedBoundary": true,
+      "hardArithmeticError": false,
+      "evidence": [
+        "24小时连续运行：6快每桩48辆、2慢每桩12辆，共312辆，8桩可达且是该模型上限。",
+        "8小时营业且营业期全负荷：18快每桩16辆、6慢每桩4辆，共312辆，24桩同样符合时间上限和3:1桩数比。",
+        "原题只说“某日”“每个桩均满负荷”，没有把营业时长写成24小时；原review只在fastBoundary/reviewNotes补了这一模型，correctedStem为空。"
+      ],
+      "recommendation": "建议保留A，但在对用户可见题干写明该日连续运行24小时且无停机/换车耗时。若保留原题面，应提示条件解释争议而非无条件唯一。",
+      "suggestedStemAddition": "该日所有充电桩均连续运行24小时，充电车辆即时衔接，换车耗时忽略。",
+      "doNotDo": "不要把24桩反例标作数学错误，也不要擅自按8小时工作制改选D。"
+    },
+    {
+      "uid": "prov:163609",
+      "index": 77,
+      "severity": "medium",
+      "kind": "practice_stem_quantifier_ambiguity",
+      "title": "“一个矩形”固定尺寸与遍历任意矩形长宽，问得的是不同集合",
+      "originalAnswerIndex": 3,
+      "existingReviewAcknowledgedBoundary": true,
+      "hardArithmeticError": false,
+      "evidence": [
+        "允许长宽变化：区域数3、4、5、7都能出现，共4种，D正确；独立复核确认原review没有遗漏7区。",
+        "固定3:2矩形：选短对边得3区、相邻边得4区、长对边得5区，所以此固定矩形只有3种，对应C。",
+        "固定正方形：相对边相切或相邻边相交都分4区，可能性种数只有1，对应A。",
+        "原review的fastBoundary明确“矩形可取不同长宽”，但原题“以一个矩形任意两条边为直径”及correctedStem=null并未向练习者明确这一全局量词。"
+      ],
+      "recommendation": "保留D作为全局分类题，但题面注明可任取矩形尺寸、统计所有尺寸及选边方式下的区域数。不要把“固定非正方形只有3种”当错解。",
+      "suggestedStemReplacement": "矩形的长宽可以任意选取（包括正方形），再任选其中两条不同的边作直径画两个完整圆。将所有矩形尺寸及选边方式都考虑在内，矩形内部被分成的连通二维区域数，共有多少种不同的可能值？",
+      "doNotDo": "不得仅按两圆外形的交/切/离三种关系把答案改成3，也不得漏掉长宽比≥2时的7区。"
+    }
+  ],
+  "supplementaryMathematicalCheckCount": 46,
+  "summary": {
+    "intakeScreened": 100,
+    "verifiedItemsIndependentlyRechecked": 50,
+    "hardArithmeticOrCombinatorialCounterexamplesAgainstStatedReviewModels": 0,
+    "practiceStemClarificationsRecommended": 2,
+    "answerIndexAgreementWithoutNewClarification": 48,
+    "conditionalMatchesRequiringStemClarification": 2,
+    "originalReviewAlreadyAcknowledgedBothClarificationBoundaries": true,
+    "jointProbabilityAssumptionsRecheckedAndAlreadyPresent": [
+      "prov:13504275",
+      "prov:622541"
+    ],
+    "originalReviewsModified": false,
+    "newImageOrMappingFilesWritten": false,
+    "outputFiles": [
+      "教学/速刷/full_audit/work/second_review_prov06.json",
+      "教学/速刷/full_audit/work/second_review_prov06.md"
+    ]
+  },
+  "workflowEvidence": {
+    "initialSelection": 43,
+    "additionalIndependentThenCompared": 7,
+    "readOrder": "先仅读intake的s/o/stemHtml/images和原review的uid/verdict；独立推导写入本文件冻结后，才逐题读取原review verification/fastPath/normalPath/fastBoundary；新增7题同样先冻结后比对。",
+    "existingWhiteBackgroundSheetsViewed": [
+      "教学/速刷/full_audit/work/provincial_06_images_1_20.png",
+      "教学/速刷/full_audit/work/provincial_06_images_21_40.png",
+      "教学/速刷/full_audit/work/provincial_06_images_41_60.png",
+      "教学/速刷/full_audit/work/provincial_06_images_81_100.png"
+    ],
+    "notUsed": "没有读取原代理的build.py或computation_checks/recompute推导作为独立解题依据；这些文件只做过目录列表。"
+  },
+  "reviewFileSha256AtFinish": "642580b44fec4fbbbcdb7dc2118b5acffaa011c728edb20a63618b7e01d44c04",
+  "originalReviewByteUnchanged": true
+}

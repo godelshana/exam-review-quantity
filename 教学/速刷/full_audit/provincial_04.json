@@ -1,0 +1,4825 @@
+[
+  {
+    "uid": "prov:2604356",
+    "fenbiId": "2604356",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2020,
+    "paper": "2020年广东省公务员录用考试《行测》试题（乡镇卷）（网友回忆版）",
+    "variant": "2020xz",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2020xz.json",
+    "s": "办公室按零售价花费360元购买了一批笔记本。如果按批发价购买，则每个笔记本能便宜3元，且恰好能多购买20个。则该笔记本零售价为（ ）元。",
+    "o": [
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>办公室按零售价花费360元购买了一批笔记本。如果按批发价购买，则每个笔记本能便宜3元，且恰好能多购买20个。则该笔记本零售价为（    ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2020xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2020,
+        "paper": "2020年广东省公务员录用考试《行测》试题（乡镇卷）（网友回忆版）",
+        "variant": "2020xz",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2020xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "dcef647dec8879ee715aa4c4590bef85e088f77d6287b3d81aa774f6835409ba"
+  },
+  {
+    "uid": "prov:3018890",
+    "fenbiId": "3018890",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "3，35，99，195，（ ）",
+    "o": [
+      "272",
+      "306",
+      "323",
+      "340"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，35，99，195，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4c92d4e13b3a443256e64b52ae95cca4cfa1c3ef68c051769b3d26770df50e90"
+  },
+  {
+    "uid": "prov:3018891",
+    "fenbiId": "3018891",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "23，24，22，25，21，26，（ ），（ ）",
+    "o": [
+      "19 28",
+      "20 27",
+      "26 21",
+      "32 39"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>23，24，22，25，21，26，（    ），（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e2e5708e52bff19ab8e707d93e96782e7f6a44fd15508494215bd12b22a2f1a8"
+  },
+  {
+    "uid": "prov:3018874",
+    "fenbiId": "3018874",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "1，2，9，64，625，（ ）",
+    "o": [
+      "981",
+      "1296",
+      "7776",
+      "15625"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，2，9，64，625，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "388dc0ecd4bad26aafd11023929074581480d7f7ae0406ff80b618df5b19af3d"
+  },
+  {
+    "uid": "prov:3018894",
+    "fenbiId": "3018894",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "23，14，37，55，78，（ ）",
+    "o": [
+      "53",
+      "69",
+      "81",
+      "93"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>23，14，37，55，78，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "85a20f7828de99584303a09bfd966abfd1c9ee3ab0f9dbac390debbc87dae22c"
+  },
+  {
+    "uid": "prov:3018896",
+    "fenbiId": "3018896",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=w42h1unGW8hVu0ZoYLT-5Q\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=G-QV3108Mc6NXg7jJuDLsQ\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=_wFLh2E31FszjybSW_zYdg\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=DC5tBiadhQtOHnkIzFo8NA\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=w42h1unGW8hVu0ZoYLT-5Q",
+        "path": "真题库/图片/省考/27050d70768d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=G-QV3108Mc6NXg7jJuDLsQ",
+        "path": "真题库/图片/省考/b6333319c241.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=_wFLh2E31FszjybSW_zYdg",
+        "path": "真题库/图片/省考/cf26fae45440.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=DC5tBiadhQtOHnkIzFo8NA",
+        "path": "真题库/图片/省考/2ef161e0cf41.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=vb_7zgVO6KgXJV01BWSGFg",
+        "path": "真题库/图片/省考/2d6af62ab775.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=rCSkSGqDKWn83zWhg6PKWw",
+        "path": "真题库/图片/省考/e15c827469fc.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=dPPt9vBPGAd171ric5zeNw",
+        "path": "真题库/图片/省考/33ffab6002c3.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=QFcj4eHLCducdCMOidn8sw",
+        "path": "真题库/图片/省考/a668b14bfcba.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "001aaa586de0535308989bbd92a7ca524e5cd47f4ddb7f190775af3ac32dc393"
+  },
+  {
+    "uid": "prov:3018898",
+    "fenbiId": "3018898",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "某帮扶项目以每公斤9元的价格从农民手中收购了一批苹果，并以每公斤12元（包邮）的价格在网上销售。售出总量的80%后，价格下调为每公斤10元（包邮）。运费成本为每公斤0.1元。全部售完后，扣除收购成本和运费的总收益为2.5万元，则这批苹果为（ ）吨。",
+    "o": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某帮扶项目以每公斤9元的价格从农民手中收购了一批苹果，并以每公斤12元（包邮）的价格在网上销售。售出总量的80%后，价格下调为每公斤10元（包邮）。运费成本为每公斤0.1元。全部售完后，扣除收购成本和运费的总收益为2.5万元，则这批苹果为（    ）吨。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "60c0b1c07ef255ace673ead1af8bee28d529943a4e536162a539820e0bda557f"
+  },
+  {
+    "uid": "prov:3018899",
+    "fenbiId": "3018899",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "为支持“一带一路”建设，某公司派出甲、乙两队工程人员出国参与一个高铁建设项目。如果由甲队单独施工，200天可完成该项目；如果由乙队单独施工，则需要300天。甲、乙两队共同施工60天后，甲队被临时调离，由乙队单独完成剩余任务，则完成该项目共需（ ）天。",
+    "o": [
+      "120",
+      "150",
+      "180",
+      "210"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为支持“一带一路”建设，某公司派出甲、乙两队工程人员出国参与一个高铁建设项目。如果由甲队单独施工，200天可完成该项目；如果由乙队单独施工，则需要300天。甲、乙两队共同施工60天后，甲队被临时调离，由乙队单独完成剩余任务，则完成该项目共需（    ）天。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e66c8bd1a281483e0cfabb57a066e6b04aa3c38086e02a7a104d9393f1adb42a"
+  },
+  {
+    "uid": "prov:3018901",
+    "fenbiId": "3018901",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "某街道服务中心的80名职工通过相互投票选出6名年度优秀职工，每人都只投一票，最终A、B、C、D、E、F这6人当选。已知A票数最多，共获得20张选票；B、C两人的票数相同，并列第2；D、E两人票数也相同，并列第3；F获得10张选票，排在第4。那么B、C获得的选票最多为（ ）张。",
+    "o": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某街道服务中心的80名职工通过相互投票选出6名年度优秀职工，每人都只投一票，最终A、B、C、D、E、F这6人当选。已知A票数最多，共获得20张选票；B、C两人的票数相同，并列第2；D、E两人票数也相同，并列第3；F获得10张选票，排在第4。那么B、C获得的选票最多为（    ）张。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "113cf0bc1c4a883891e05d84ee7a1d4c9e60a5accc0e230fccc98456d03785ac"
+  },
+  {
+    "uid": "prov:3018767",
+    "fenbiId": "3018767",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "小王和小李沿着绿道往返运动，绿道总长度为3公里。小王每小时走2公里；小李每小时跑4公里。如果两人同时从绿道的一端出发，则当两人第7次相遇时，距离出发点（ ）公里。",
+    "o": [
+      "0",
+      "1",
+      "1.5",
+      "2"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小王和小李沿着绿道往返运动，绿道总长度为3公里。小王每小时走2公里；小李每小时跑4公里。如果两人同时从绿道的一端出发，则当两人第7次相遇时，距离出发点（    ）公里。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6cd68baf98d965e55196781588bb63980c71c197f43b100474a3f1eac3e4e4dc"
+  },
+  {
+    "uid": "prov:3018772",
+    "fenbiId": "3018772",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "县公安局计划举办篮球比赛，6支报名参赛的队伍将平均分为上午组和下午组进行小组赛。其中甲队与乙队来自同部门，不能分在同一组，则分组情况共有（ ）种可能。",
+    "o": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>县公安局计划举办篮球比赛，6支报名参赛的队伍将平均分为上午组和下午组进行小组赛。其中甲队与乙队来自同部门，不能分在同一组，则分组情况共有（    ）种可能。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "fb2c65b15de2dc354bd31b67d6dc1c408e674ac183104aaf994cca1fc2ab1c85"
+  },
+  {
+    "uid": "prov:3018779",
+    "fenbiId": "3018779",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "某单位本科、研究生学历的职工人数之比为7：5。上半年公开招聘本科毕业生若干人后，本科与研究生之比为3：1；下半年通过引才计划引入研究生若干人后，本科与研究生之比为15：8。已知该年度引进的本科生比研究生多10人，则该单位原有本科与研究生学历的职工共（ ）人。",
+    "o": [
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位本科、研究生学历的职工人数之比为7：5。上半年公开招聘本科毕业生若干人后，本科与研究生之比为3：1；下半年通过引才计划引入研究生若干人后，本科与研究生之比为15：8。已知该年度引进的本科生比研究生多10人，则该单位原有本科与研究生学历的职工共（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "783eb7410377c890e83268d0ae90aa759ccb6a7ab28675e5048b307e6b6ff4b8"
+  },
+  {
+    "uid": "prov:3018791",
+    "fenbiId": "3018791",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "7月的某一天，小张制定了一个读书计划：从今天开始，在每周的周一至周五晚上读党史系列丛书。如果小张每晚读20页，到7月28日刚好能读完第一卷，如果每天读30页，则到7月20日刚好能读完第一卷。如果7月1日是星期三，则小张是在7月（ ）日制定的读书计划。",
+    "o": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>7月的某一天，小张制定了一个读书计划：从今天开始，在每周的周一至周五晚上读党史系列丛书。如果小张每晚读20页，到7月28日刚好能读完第一卷，如果每天读30页，则到7月20日刚好能读完第一卷。如果7月1日是星期三，则小张是在7月（    ）日制定的读书计划。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d5cfc2378d6ec2d5024f4a97c51df10c3f0351303486f76b365e8da6c46f5768"
+  },
+  {
+    "uid": "prov:3018799",
+    "fenbiId": "3018799",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "某货运公司承运一批工艺品，每件运费20元。如果运输途中出现破损，那么每件破损的工艺品不仅收不到运费，还要赔偿30元。运输完成后发现，工艺品的破损率为6.4%，最终货运公司收到了16800元运费，则运输途中破损的工艺品有（ ）件。",
+    "o": [
+      "64",
+      "96",
+      "128",
+      "156"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某货运公司承运一批工艺品，每件运费20元。如果运输途中出现破损，那么每件破损的工艺品不仅收不到运费，还要赔偿30元。运输完成后发现，工艺品的破损率为6.4%，最终货运公司收到了16800元运费，则运输途中破损的工艺品有（    ）件。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "4d985e6c1ad89fb18c8cc07cefa411e4cddb7fd6ad7e4957ed144708f4ca9bb0"
+  },
+  {
+    "uid": "prov:3018813",
+    "fenbiId": "3018813",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "如图所示，周长为24米的平行四边形绿化地被划分为三块区域，两边为三角形的花坛，中间为矩形的草地。已知a、b、c长度之比为4∶2∶，则矩形草地的面积为（ ）平方米。",
+    "o": [
+      "6",
+      "",
+      "12",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图所示，周长为24米的平行四边形绿化地被划分为三块区域，两边为三角形的花坛，中间为矩形的草地。已知a、b、c长度之比为4∶2∶<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=o_1btxLdZSckqyDcLwDh3A\">，则矩形草地的面积为（    ）平方米。</p><p><img width=\"491px\" height=\"217px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17d9d4342154d76.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=o_1btxLdZSckqyDcLwDh3A",
+        "path": "真题库/图片/省考/3693cc9f434d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17d9d4342154d76.png?width=700",
+        "path": "真题库/图片/省考/9aa26e04a14c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=QteYKowx_jMwgMMj4eQb-A",
+        "path": "真题库/图片/省考/c106e1057ada.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=mc_7kqr86pDQhxDd35WizQ",
+        "path": "真题库/图片/省考/fe7fc53e74ac.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cdaacd78e60be904c11cb640d3fe5d3ddf322009194bc76e9776495276bb3f7b"
+  },
+  {
+    "uid": "prov:3018819",
+    "fenbiId": "3018819",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2021xj",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2021xj.json",
+    "s": "某天，自行车运动员小吴训练了3个小时，他先匀速骑行了一段上坡路程，又以2倍的速度匀速骑行了一段下坡路程，最终共骑行60千米，则（ ）。",
+    "o": [
+      "如果上坡路程大于下坡路程，他上坡的时速必然小于15千米",
+      "如果上坡路程大于下坡路程，他上坡的时速必然大于20千米",
+      "如果下坡路程大于上坡路程，他下坡的时速必然小于30千米",
+      "如果下坡路程大于上坡路程，他下坡的时速必然大于25千米"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某天，自行车运动员小吴训练了3个小时，他先匀速骑行了一段上坡路程，又以2倍的速度匀速骑行了一段下坡路程，最终共骑行60千米，则（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2021xj",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2021xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c5dae45b94f14b1e321b1d0e580efa1837c4e05866bec59652a8dd9f829622ac"
+  },
+  {
+    "uid": "prov:3019116",
+    "fenbiId": "3019116",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "3，9，18，30，45，（ ）",
+    "o": [
+      "69",
+      "66",
+      "63",
+      "60"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，9，18，30，45，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "de32d8e832e52e7cc5773918353ae3708fae5c5e95d77882c3856c3a21c2879f"
+  },
+  {
+    "uid": "prov:3019126",
+    "fenbiId": "3019126",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "11，44，99，176，（ ）",
+    "o": [
+      "275",
+      "265",
+      "260",
+      "255"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>11，44，99，176，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "31b7843429e0c095fc10018099ee806eaf76316edf1471dea13e3b608a4283ee"
+  },
+  {
+    "uid": "prov:3019114",
+    "fenbiId": "3019114",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "389，569，479，587，299，（ ）",
+    "o": [
+      "845",
+      "787",
+      "673",
+      "668"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>389，569，479，587，299，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "06525b62f96b5462c03c81ec958946cbc612d078b16a6c8e8203053091bd1de1"
+  },
+  {
+    "uid": "prov:3019121",
+    "fenbiId": "3019121",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "在某大型医院的建设过程中，施工单位调配了吊机、挖掘机和推土机共120台工程设备进场施工。其中，推土机数量是吊机的3倍，挖掘机数量是吊机的4倍，则吊机有（ ）台。",
+    "o": [
+      "18",
+      "15",
+      "12",
+      "10"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>在某大型医院的建设过程中，施工单位调配了吊机、挖掘机和推土机共120台工程设备进场施工。其中，推土机数量是吊机的3倍，挖掘机数量是吊机的4倍，则吊机有（    ）台。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0337e9aae9c2c689c3fe47b06852fe23305ea0621061410fe17d36133a2193bc"
+  },
+  {
+    "uid": "prov:3019113",
+    "fenbiId": "3019113",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "某茶园需要在一定时间内完成采摘。前4天安排了20名采茶工，完成了五分之一的工作量。如果再用10天完成全部采摘，至少还需要增加（ ）名采茶工。",
+    "o": [
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某茶园需要在一定时间内完成采摘。前4天安排了20名采茶工，完成了五分之一的工作量。如果再用10天完成全部采摘，至少还需要增加（    ）名采茶工。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "82574b6a262cbefd04f803fb05d3e5586ad5fd20c6a5d91469fb9b91076d9101"
+  },
+  {
+    "uid": "prov:3019125",
+    "fenbiId": "3019125",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "上午7点，A、B市干部同时乘车前往省城参观学习，汽车时速均为每小时80公里。但由于突发状况，B市干部在路上停留了2个小时。最终，A市干部于当天上午9点到达省城；B市干部于当天下午3点到达。则如果从A市出发，途经省城到达B市，总路程为（ ）公里。",
+    "o": [
+      "720",
+      "640",
+      "320",
+      "280"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>上午7点，A、B市干部同时乘车前往省城参观学习，汽车时速均为每小时80公里。但由于突发状况，B市干部在路上停留了2个小时。最终，A市干部于当天上午9点到达省城；B市干部于当天下午3点到达。则如果从A市出发，途经省城到达B市，总路程为（    ）公里。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8bcc5471c7a93a5af8e3cd690f970044fb3698f553b4945f009f5491716b685d"
+  },
+  {
+    "uid": "prov:3019131",
+    "fenbiId": "3019131",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "一条长20厘米的纸带，先从左端开始涂上4厘米红色，之后每间隔4厘米再涂4厘米红色；再从右端开始涂上5厘米绿色，之后每间隔5厘米再涂5厘米绿色，则红绿色重叠的部分共有（ ）段。",
+    "o": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一条长20厘米的纸带，先从左端开始涂上4厘米红色，之后每间隔4厘米再涂4厘米红色；再从右端开始涂上5厘米绿色，之后每间隔5厘米再涂5厘米绿色，则红绿色重叠的部分共有（    ）段。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c29634f45a7ae95fca57f7ac00053ed16aaf9f6fbb14cb5411ccc0d40ac5dc3f"
+  },
+  {
+    "uid": "prov:3019118",
+    "fenbiId": "3019118",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "某学校组织学生外出学农。如果每间宿舍住6名学生，就会缺7张床位，如果每间宿舍住8名学生，就会空出3张床位，则这批学生一共有（ ）人。",
+    "o": [
+      "50",
+      "45",
+      "43",
+      "37"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某学校组织学生外出学农。如果每间宿舍住6名学生，就会缺7张床位，如果每间宿舍住8名学生，就会空出3张床位，则这批学生一共有（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c6f5c9a9f68fd22eb356fd03262fcd3d4e5bb7c1755ddf50d418100d2cbddd83"
+  },
+  {
+    "uid": "prov:3019123",
+    "fenbiId": "3019123",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2021,
+    "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2021xz",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2021xz.json",
+    "s": "某县政府组织干部职工开展党建知识竞赛，其中甲、乙两镇参赛人数之比为4：3，甲镇有8人、乙镇有24人没有参加竞赛。已知甲、乙两镇干部职工人数之比为5：6，则乙镇的干部职工比甲镇多（ ）人。",
+    "o": [
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某县政府组织干部职工开展党建知识竞赛，其中甲、乙两镇参赛人数之比为4：3，甲镇有8人、乙镇有24人没有参加竞赛。已知甲、乙两镇干部职工人数之比为5：6，则乙镇的干部职工比甲镇多（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2021xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2021,
+        "paper": "2021年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2021xz",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2021xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8a31904158f27468ba6e23067c718ae14019038946f9384391cf343e91fe68e2"
+  },
+  {
+    "uid": "prov:4673183",
+    "fenbiId": "4673183",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "11，14，26，44，65，（ ）",
+    "o": [
+      "80",
+      "83",
+      "86",
+      "89"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>11，14，26，44，65，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "03d5af0b9820065e8a225d34df9732a145171e90f1a5292d19b8a9dbecc798be"
+  },
+  {
+    "uid": "prov:4673193",
+    "fenbiId": "4673193",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "22，42，44，84，88，168，（ ），（ ）",
+    "o": [
+      "176，336",
+      "236，352",
+      "264，386",
+      "312，412"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>22，42，44，84，88，168，（    ），（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6d02a930e390fc144af30473c9fb5f1daacac66069ec017baf0b36d0e5211275"
+  },
+  {
+    "uid": "prov:4673194",
+    "fenbiId": "4673194",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "",
+    "o": [
+      "62",
+      "64",
+      "66",
+      "68"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"280px\" height=\"149px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17e1fca64a006cf.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17e1fca64a006cf.png?width=700",
+        "path": "真题库/图片/省考/a1183e77bf40.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e6b4e0009fce4dde33801c1886d9ebd27d1304a1d0b6709ef95385d16ffdae07"
+  },
+  {
+    "uid": "prov:4673192",
+    "fenbiId": "4673192",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "12，25，310，417，（ ）",
+    "o": [
+      "521",
+      "526",
+      "632",
+      "647"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>12，25，310，417，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d602d97f534392ff26c4017b18497cd153aea647b930660ba7bb0bd39e9f9015"
+  },
+  {
+    "uid": "prov:4673189",
+    "fenbiId": "4673189",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "1，0，1，5，4，5，9，（ ）",
+    "o": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p> 1，0，1，5，4，5，9，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "f9c7de426ddfb3564ed94b6d5b9951aa92f63fa691bd8903fb7b08bf733cfd9e"
+  },
+  {
+    "uid": "prov:4673156",
+    "fenbiId": "4673156",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "小李开车从甲市到乙市，需要走一段高速公路和一段国道。已知在高速公路上汽车油耗为0.05升/公里，在国道上油耗比在高速公路上多0.03升/公里。小李在高速公路上行驶了200公里，是在国道上行驶路程的4倍，则从甲市到乙市，小李汽车的油耗为（ ）升。",
+    "o": [
+      "15",
+      "14",
+      "12",
+      "10"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小李开车从甲市到乙市，需要走一段高速公路和一段国道。已知在高速公路上汽车油耗为0.05升/公里，在国道上油耗比在高速公路上多0.03升/公里。小李在高速公路上行驶了200公里，是在国道上行驶路程的4倍，则从甲市到乙市，小李汽车的油耗为（    ）升。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "951e79ebfdb0940322c41347106c484d3af52b8e604a97be573f011a28b1cba3"
+  },
+  {
+    "uid": "prov:4673157",
+    "fenbiId": "4673157",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "小陈计划在一定时间内完成法律常识题库中的所有练习题。如果每天做50道题，那么最后2天每天要做85道题才能完成，如果每天做55道题，恰好可以提前1天完成，则该题库共有（ ）道题。",
+    "o": [
+      "1215",
+      "1250",
+      "1320",
+      "1375"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小陈计划在一定时间内完成法律常识题库中的所有练习题。如果每天做50道题，那么最后2天每天要做85道题才能完成，如果每天做55道题，恰好可以提前1天完成，则该题库共有（    ）道题。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1e65d74e13f67222acb8d0c4d34b784778e67fc3fc7bad6026abc6a1ef002a2e"
+  },
+  {
+    "uid": "prov:4673165",
+    "fenbiId": "4673165",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "某单位计划从全部80名员工中挑选专项工作组成员，要求该组成员须同时有基层经历和计算机等级证书。已知，单位内有40人有基层经历，有46人有计算机等级证书，既没有基层经历又未获得计算机等级证书的有10人。那么能够进入工作组的员工有（ ）人。",
+    "o": [
+      "16",
+      "40",
+      "46",
+      "54"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位计划从全部80名员工中挑选专项工作组成员，要求该组成员须同时有基层经历和计算机等级证书。已知，单位内有40人有基层经历，有46人有计算机等级证书，既没有基层经历又未获得计算机等级证书的有10人。那么能够进入工作组的员工有（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "56892eb06c57ed51043593e4a2d7ada91aa5e9a156484f8ed4f6a66749c8ab7c"
+  },
+  {
+    "uid": "prov:4673160",
+    "fenbiId": "4673160",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "甲、乙、丙3个单位订阅同一款报刊，已知3个单位共订了12份，其中，每个单位订阅数量不少于3份，但不超过5份，则这3个单位的报刊订阅数量可能有（ ）种组合。",
+    "o": [
+      "2",
+      "6",
+      "7",
+      "9"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙3个单位订阅同一款报刊，已知3个单位共订了12份，其中，每个单位订阅数量不少于3份，但不超过5份，则这3个单位的报刊订阅数量可能有（    ）种组合。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "cbe4dbec38871e11be884a97c187f35df438becbbd141874e3092a883065d1b6"
+  },
+  {
+    "uid": "prov:4673151",
+    "fenbiId": "4673151",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "某街道对辖内6个社区的垃圾分类情况进行考核评估，结果显示，有2个社区的垃圾分类考核不通过。如果从6个社区中随机抽取3个进行现场检查，则抽取的社区中，既有考核通过的又有考核不通过的社区的概率为（ ）。",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某街道对辖内6个社区的垃圾分类情况进行考核评估，结果显示，有2个社区的垃圾分类考核不通过。如果从6个社区中随机抽取3个进行现场检查，则抽取的社区中，既有考核通过的又有考核不通过的社区的概率为（    ）。</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=qGMbJXQyvs09X13cJA8QYaOiHO2FnSEHKnyF5mow6js",
+        "path": "真题库/图片/省考/b67f93459729.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=4HxptsXXGVzE18Uu2hj3h6C5Sxg2DM0D87ElHtd7URI",
+        "path": "真题库/图片/省考/5e9ff0893283.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=4zbOnagufiP9A9SEx1irp2aj2tHhDhbc3DOVA6StjIU",
+        "path": "真题库/图片/省考/2cb69a039592.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=IbsF35xq5mE1kAhqEBcl2MGWCK0jrDXXVks41Z4i5gY",
+        "path": "真题库/图片/省考/a77ad3db4c80.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "743b8958ee3883a774b289d995c9e91be71c55b2a5d1e90005af5205c0cac651"
+  },
+  {
+    "uid": "prov:4673118",
+    "fenbiId": "4673118",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "有一个长方形花坛，长为10米，宽为8米。现要在花坛四周安装栅栏，要求4个顶点处各插一根木桩，除顶点处的木桩外，每边还要插若干木桩，且每两根木桩间的距离至少为3米，则最多可以插（ ）根木桩。",
+    "o": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>有一个长方形花坛，长为10米，宽为8米。现要在花坛四周安装栅栏，要求4个顶点处各插一根木桩，除顶点处的木桩外，每边还要插若干木桩，且每两根木桩间的距离至少为3米，则最多可以插（    ）根木桩。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "febb45d09d590e08724802f51a786ff4730639e1468371015abfff97df1033bf"
+  },
+  {
+    "uid": "prov:4673120",
+    "fenbiId": "4673120",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "甲、乙两人计划分装会议材料，9点多先后开始工作，且两人每分钟完成分装的份数相同。9点38分时，甲完成的份数是乙的4倍，9点53分时，甲完成的份数是乙的1.5倍。那么，甲比乙早（ ）分钟开始工作。",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "9"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两人计划分装会议材料，9点多先后开始工作，且两人每分钟完成分装的份数相同。9点38分时，甲完成的份数是乙的4倍，9点53分时，甲完成的份数是乙的1.5倍。那么，甲比乙早（    ）分钟开始工作。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "fc5c8c864080c3debf48d49b824a77612152079f7de27472c8383ec86150792d"
+  },
+  {
+    "uid": "prov:4673122",
+    "fenbiId": "4673122",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "为鼓励员工阅读，某单位与购书中心合作，员工购书时，享受原价的7折优惠，且打折后每本书还可叠加使用单位提供的5元补贴券。员工小陈买了5本书，且每本书折后价均超过5元，扣除补贴后自己只花了48.5元，则这些书的原价一共为（ ）元。",
+    "o": [
+      "75",
+      "85",
+      "95",
+      "105"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>为鼓励员工阅读，某单位与购书中心合作，员工购书时，享受原价的7折优惠，且打折后每本书还可叠加使用单位提供的5元补贴券。员工小陈买了5本书，且每本书折后价均超过5元，扣除补贴后自己只花了48.5元，则这些书的原价一共为（    ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b8038f18d2c765b02ed1c99c51bb20b8241d0d6e2176987d908075161c190d40"
+  },
+  {
+    "uid": "prov:4673125",
+    "fenbiId": "4673125",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "楼道上方有一盏灯，小刘径直走向这盏灯。一开始, 他发现自己影子的长度为3.2米，前进1米后，发现影子缩短为1.6米。已知小刘身高为1.6米，则这盏灯的高度约为（ ）米。",
+    "o": [
+      "2.6",
+      "2.8",
+      "3.2",
+      "3.4"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>楼道上方有一盏灯，小刘径直走向这盏灯。一开始, 他发现自己影子的长度为3.2米，前进1米后，发现影子缩短为1.6米。已知小刘身高为1.6米，则这盏灯的高度约为（    ）米。</p><p><img width=\"495px\" height=\"252px\" src=\"//fb.fenbike.cn/api/tarzan/images/17e200873647e3d.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/17e200873647e3d.png?width=700",
+        "path": "真题库/图片/省考/c9c272b30dde.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "9e108ffcd64ee25c40dd7c2d70074fac2a51434f3ed3ab708435b4534219aa23"
+  },
+  {
+    "uid": "prov:4673136",
+    "fenbiId": "4673136",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2022xj",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2022xj.json",
+    "s": "如图，仓库有一堆管材，每一层的数量都比上一层多1根。搬运工人将管材逐根搬离，搬了99根后发现，管材堆少了3层，且剩余每层的管材数量都减少了3根。如果这堆管材刚好还剩10层，则剩下的管材共有（ ）根。",
+    "o": [
+      "245",
+      "265",
+      "305",
+      "325"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图，仓库有一堆管材，每一层的数量都比上一层多1根。搬运工人将管材逐根搬离，搬了99根后发现，管材堆少了3层，且剩余每层的管材数量都减少了3根。如果这堆管材刚好还剩10层，则剩下的管材共有（    ）根。</p><p><img width=\"374px\" height=\"208px\" src=\"//fb.fenbike.cn/api/tarzan/images/17e202939097968.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/17e202939097968.png?width=700",
+        "path": "真题库/图片/省考/9561c3214e3c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2022xj",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2022xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0ad8075c78d7c500b956c813b52b7a3c98eec96b00c5dcadfae15742883b2fb3"
+  },
+  {
+    "uid": "prov:4673215",
+    "fenbiId": "4673215",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "17，27，39，（ ）",
+    "o": [
+      "51",
+      "53",
+      "56",
+      "59"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>17，27，39，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "c0a11fdd3613090987d6072e067e0457e871de46dbab1a046eb1776837aa964f"
+  },
+  {
+    "uid": "prov:2188879",
+    "fenbiId": "2188879",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=8oX8VJMvV0WppJIc2wifleVrlgtfhiI9iXYh1rswxyc\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=GAcI3fE8pyvGdZEQJiceGYGbOLIbzBDdMqkyIn7QavQ\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=gGd4hQXm4rCGVPjyFz21LHUM__V5gN-zXNKmmiKMvOs\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=qGMbJXQyvs09X13cJA8QYaOiHO2FnSEHKnyF5mow6js\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=8oX8VJMvV0WppJIc2wifleVrlgtfhiI9iXYh1rswxyc",
+        "path": "真题库/图片/省考/9521a1b92004.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=GAcI3fE8pyvGdZEQJiceGYGbOLIbzBDdMqkyIn7QavQ",
+        "path": "真题库/图片/省考/b31409fc531a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=gGd4hQXm4rCGVPjyFz21LHUM__V5gN-zXNKmmiKMvOs",
+        "path": "真题库/图片/省考/d40b8b94bedb.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=qGMbJXQyvs09X13cJA8QYaOiHO2FnSEHKnyF5mow6js",
+        "path": "真题库/图片/省考/b67f93459729.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=BQ7Y89Ue-4zhZqRGXqiH6Qg3j168kuR7xZeu_fPVLEY",
+        "path": "真题库/图片/省考/492a97cbaa93.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=kpfnsbxPwb6gg57g6OSA5mJ99svDM6dvRRBGon7z_Fo",
+        "path": "真题库/图片/省考/59d6a6a1dca0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=UjVFRD9DP5D-6S8pAcfymuOwUCMwomsLx0c9c1xmWHo",
+        "path": "真题库/图片/省考/c8eb2d449db2.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ZFWId4-IIFDXaCM6O5A-04Ke_CrSL2pgL7JLI9yXs-0",
+        "path": "真题库/图片/省考/99c548f44f4c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e13e1fed0914f4698d3f0697434f056f3bfab46ad4756e8fb3f18bee57c49821"
+  },
+  {
+    "uid": "prov:4673216",
+    "fenbiId": "4673216",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "6，12，19，32，52，（ ）",
+    "o": [
+      "84",
+      "85",
+      "86",
+      "87"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>6，12，19，32，52，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ebe7e3a41c532774d0b3106f2868aa9281bcd1960cde071876b331da12c50787"
+  },
+  {
+    "uid": "prov:4673218",
+    "fenbiId": "4673218",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "123，465，987，（ ），456，897，231，645，789",
+    "o": [
+      "312",
+      "578",
+      "684",
+      "738"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>123，465，987，（    ），456，897，231，645，789</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3a55fc3c69510cb84da904415c8e9c827219b2742d4f21cec07fdd6717690f43"
+  },
+  {
+    "uid": "prov:4673231",
+    "fenbiId": "4673231",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "某单位计划从行政部的2名员工和人事部的3名员工中，随机选择2人去参加在职培训，则选出的2人都来自人事部的概率是（ ）。",
+    "o": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位计划从行政部的2名员工和人事部的3名员工中，随机选择2人去参加在职培训，则选出的2人都来自人事部的概率是（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8084dfc699d0ea74f824d087fce2256e6b55252f5480859b53cac0f2bb730b27"
+  },
+  {
+    "uid": "prov:4673232",
+    "fenbiId": "4673232",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "老吴从家里出发乘车到银行办理业务，回城时步行，往返共用了45分钟。如果老吴往返都乘车，则只需花30分钟。那么，如果老吴往返时都选择步行，需要花（ ）分钟。",
+    "o": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>老吴从家里出发乘车到银行办理业务，回城时步行，往返共用了45分钟。如果老吴往返都乘车，则只需花30分钟。那么，如果老吴往返时都选择步行，需要花（    ）分钟。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "fa8dd5a9b6f3fa1d7d8048d2c758aae1f7eeb0934649524e319a8f98a654594c"
+  },
+  {
+    "uid": "prov:4673233",
+    "fenbiId": "4673233",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "小王将新买的时钟调准使用，60天后，时钟走慢了5分钟。那么，该时钟平均每天走慢（ ）秒。",
+    "o": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小王将新买的时钟调准使用，60天后，时钟走慢了5分钟。那么，该时钟平均每天走慢（    ）秒。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "30f8d8f6492b522ebe2b6c6a8c557b2bcc07b6dddc13914fd75eb548b584a2d3"
+  },
+  {
+    "uid": "prov:4673228",
+    "fenbiId": "4673228",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "如图阴影部分是一块由8块相同的正方形草皮围成的草坪。已知草坪的外圈均铺有一圈小石子带，小石子带的总长度是48米，则该草坪的面积为（ ）平方米。",
+    "o": [
+      "48",
+      "72",
+      "81",
+      "96"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图阴影部分是一块由8块相同的正方形草皮围成的草坪。已知草坪的外圈均铺有一圈小石子带，小石子带的总长度是48米，则该草坪的面积为（    ）平方米。</p><p><img width=\"268px\" height=\"258px\" src=\"//fb.fbstatic.cn/api/tarzan/images/17e2046c736518c.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/17e2046c736518c.png?width=700",
+        "path": "真题库/图片/省考/050776a3fa9b.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a701d24087dc7bfb0dc5e16c40d83bbd779f8304ba246b9eb10cd071f26e9dbb"
+  },
+  {
+    "uid": "prov:4673196",
+    "fenbiId": "4673196",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "某防疫工作机构有检验人员和其他工作人员共55人，将检验人员平均分成若干个小组开展工作。近期，该机构补充了20位工作人员，其中，检验人员增加了2组，每组人数不变，其他工作人员增加了30%，则该机构原有检验人员共（ ）组。",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某防疫工作机构有检验人员和其他工作人员共55人，将检验人员平均分成若干个小组开展工作。近期，该机构补充了20位工作人员，其中，检验人员增加了2组，每组人数不变，其他工作人员增加了30%，则该机构原有检验人员共（    ）组。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1cf374b448b7ff938c5b08c466b8fe45aa234e5761291a073b6b46eeea70d85a"
+  },
+  {
+    "uid": "prov:4673197",
+    "fenbiId": "4673197",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "桶中装有一定量的液体，液体体积为桶容量的40%，现向桶中继续加入16升同一液体后，液体体积为原来的1.5倍，则该桶的容量为（ ）升。",
+    "o": [
+      "20",
+      "40",
+      "60",
+      "80"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>桶中装有一定量的液体，液体体积为桶容量的40%，现向桶中继续加入16升同一液体后，液体体积为原来的1.5倍，则该桶的容量为（    ）升。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5af7408bcc634a5c137ab10947e882a4bea368b7a0a0cf9c4c8b6742cf8ee492"
+  },
+  {
+    "uid": "prov:4673198",
+    "fenbiId": "4673198",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2022,
+    "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2022xz",
+    "number": 46,
+    "sourceFile": "_downloads/fb/paper_GD_2022xz.json",
+    "s": "如图是一物体某两个角度的视图，则该物体最可能是（ ）。",
+    "o": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>如图是一物体某两个角度的视图，则该物体最可能是（    ）。</p><p><img width=\"650px\" height=\"160px\" src=\"//fb.fenbike.cn/api/tarzan/images/17e204aa6ed1f29.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/17e204aa6ed1f29.png?width=700",
+        "path": "真题库/图片/省考/aa1ff4cbf846.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2022xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 46
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2022,
+        "paper": "2022年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2022xz",
+        "number": 46,
+        "sourceFile": "_downloads/fb/paper_GD_2022xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "92233112e1788eb48349e6fd6994802c27c1fd69e9612cae7b23f74d72173174"
+  },
+  {
+    "uid": "prov:5510247",
+    "fenbiId": "5510247",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 26,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "10，3，13，1，14，2，16，9，（ ）",
+    "o": [
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>10，3，13，1，14，2，16，9，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 26
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 26,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "b9e4c1e5223a1f8e9a7d0bc271cc8bffdebb80cde2a5066cd792d52e692e5c20"
+  },
+  {
+    "uid": "prov:5510254",
+    "fenbiId": "5510254",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 27,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "92.46，84.42，76.38，68.34，（ ）",
+    "o": [
+      "50.25",
+      "53.26",
+      "55.17",
+      "56.30"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>92.46，84.42，76.38，68.34，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 27
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 27,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d8f9ba5e984e9117187351a25c1be89feff0229962b5a8d229a9cf1b79537b77"
+  },
+  {
+    "uid": "prov:5510263",
+    "fenbiId": "5510263",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 28,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "，，，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=HWUiiW14_FCicOnaJCTMGw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=ooQwY__8ryHhTUFSi8bMHg\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=QCqjuVG4Gea1Ch1joX-LYw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=5h3PGZBcXMECgvjQzPqyhw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=GGtO5wJgW5wEYkEsfQZDFw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=OWQvSG2EoxDwghbx8d3_8rLXAh5n1eNVDvsOGXKVZmE\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=HWUiiW14_FCicOnaJCTMGw",
+        "path": "真题库/图片/省考/22f430d0cade.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=ooQwY__8ryHhTUFSi8bMHg",
+        "path": "真题库/图片/省考/1a131d784167.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=QCqjuVG4Gea1Ch1joX-LYw",
+        "path": "真题库/图片/省考/2271a9d51592.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=5h3PGZBcXMECgvjQzPqyhw",
+        "path": "真题库/图片/省考/65b8adf91e15.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=GGtO5wJgW5wEYkEsfQZDFw",
+        "path": "真题库/图片/省考/1d46a67ea9d1.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=OWQvSG2EoxDwghbx8d3_8rLXAh5n1eNVDvsOGXKVZmE",
+        "path": "真题库/图片/省考/419e6e17456c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=TJD5iGPDs6gLD-slvL7gkvrS-kcfw_Vc_UIx_9S8-tM",
+        "path": "真题库/图片/省考/33d9611f1044.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=vMSDrTuVJo54utMqDbIUKYZyXa-5gSiS_gpu_0NlVvY",
+        "path": "真题库/图片/省考/ada07831d0da.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=kax_1WPtvYCZXXPr6NaTOItR-7RJIkUMtIkWdtMyfL0",
+        "path": "真题库/图片/省考/85e04586b37a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=Da69QoiMNFcycwJ5kjMvAYrIyTfKaoM50kI9GoLArVo",
+        "path": "真题库/图片/省考/dc3dc18a0506.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 28
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 28,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "05958536bfb25feca00f9327315ee2cc3c1e745edcd0ba4b50e49950f39b4cf5"
+  },
+  {
+    "uid": "prov:5510210",
+    "fenbiId": "5510210",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 29,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "0，（ ），2，6，12，20",
+    "o": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>0，（    ），2，6，12，20</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 29
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 29,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "d3af8d00662d54a860dbaba089fb753467a85b7add5709ca73e6b3cab45cd301"
+  },
+  {
+    "uid": "prov:5510211",
+    "fenbiId": "5510211",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 30,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "",
+    "o": [
+      "14",
+      "17",
+      "19",
+      "21"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"336px\" height=\"159px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1868c0df0bb9f4a.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1868c0df0bb9f4a.png?width=700",
+        "path": "真题库/图片/省考/cacaea47b309.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 30
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 30,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "98bcfc7dbcf321073f6359bd5ebec930d84f83f686e9d951028d7fc1cf63f429"
+  },
+  {
+    "uid": "prov:5510213",
+    "fenbiId": "5510213",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某辆货车载有20吨货物，上午卸了货物总重的20%，下午卸了剩余货物的30%,则下午卸货后,货车上的货物还剩（ ）吨。",
+    "o": [
+      "10",
+      "10.4",
+      "11.2",
+      "12.6"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某辆货车载有20吨货物，上午卸了货物总重的20%，下午卸了剩余货物的30%,则下午卸货后,货车上的货物还剩（    ）吨。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "0a8e8087aec3070fa7b7180988bafeb943fcc45d4acd4f871df5308fa388a6c5"
+  },
+  {
+    "uid": "prov:5510215",
+    "fenbiId": "5510215",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某社区计划组建多支社工团队，为此招募了一批社工。如果每支团队由3名社工组成，则剩余2名社工；如果每支团队由4名社工组成，同样剩余2名社工，则该社区可能招募了（ ）名社工。",
+    "o": [
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某社区计划组建多支社工团队，为此招募了一批社工。如果每支团队由3名社工组成，则剩余2名社工；如果每支团队由4名社工组成，同样剩余2名社工，则该社区可能招募了（    ）名社工。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3d83456c48c8cc701302294600e9f422cc5befdfb9e6775aa244504bfd9f8cec"
+  },
+  {
+    "uid": "prov:5510217",
+    "fenbiId": "5510217",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某单位去年报名参加志愿活动的党员与非党员之比为1∶3。今年的报名总人数提高了20%，党员与非党员之比为1∶2，党员人数比去年多了6人。则今年该单位报名参加志愿活动的党员共有（ ）人。",
+    "o": [
+      "16",
+      "24",
+      "32",
+      "48"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位去年报名参加志愿活动的党员与非党员之比为1∶3。今年的报名总人数提高了20%，党员与非党员之比为1∶2，党员人数比去年多了6人。则今年该单位报名参加志愿活动的党员共有（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "458e77319d8566169ff5abb188eb74fdcdf20ff48af86b5da4069be3e2889875"
+  },
+  {
+    "uid": "prov:5510218",
+    "fenbiId": "5510218",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某工厂加工出一批正方体奶酪,抽检时质检员从奶酪中切下了一个厚度为2厘米的长方体（如图所示）。如果剩余奶酪的体积为144立方厘米，则奶酪原本的边长为（ ）厘米。",
+    "o": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某工厂加工出一批正方体奶酪,抽检时质检员从奶酪中切下了一个厚度为2厘米的长方体（如图所示）。如果剩余奶酪的体积为144立方厘米，则奶酪原本的边长为（    ）厘米。</p><p><img width=\"214px\" height=\"208px\" src=\"//fb.fenbike.cn/api/tarzan/images/186962e13f2b322.jpg?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/186962e13f2b322.jpg?width=700",
+        "path": "真题库/图片/省考/055fe4e78bf8.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "05c5541268008c1bb516be3da128bd1aec02d359a71df09cf843a3d7b2f05360"
+  },
+  {
+    "uid": "prov:5510219",
+    "fenbiId": "5510219",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某单位共有员工200人，其中订阅杂志的人数比只订阅报纸的人数多88%。则报纸和杂志均未订阅的员工有（ ）人。",
+    "o": [
+      "36",
+      "56",
+      "76",
+      "96"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位共有员工200人，其中订阅杂志的人数比只订阅报纸的人数多88%。则报纸和杂志均未订阅的员工有（    ）人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5453f343974ee08c5877698f326f8ef357bd9f3f09ee285f8ff02689de8b090d"
+  },
+  {
+    "uid": "prov:5510224",
+    "fenbiId": "5510224",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某牧场的草，匀速生长。如果20头牛来吃，20天可将草吃光；如果10头牛和10只羊来吃，30天可以恰好吃光。已知一头牛每天的吃草量是一只羊的2倍，则30只羊吃该牧场的草，多少天可以吃光？",
+    "o": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某牧场的草，匀速生长。如果20头牛来吃，20天可将草吃光；如果10头牛和10只羊来吃，30天可以恰好吃光。已知一头牛每天的吃草量是一只羊的2倍，则30只羊吃该牧场的草，多少天可以吃光？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      },
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "988b8d703fc2640589419769de9f775a4de777728469bd28859bcb049047bbe6"
+  },
+  {
+    "uid": "prov:5510214",
+    "fenbiId": "5510214",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某印刷厂原计划用全自动装订机花费4小时装订一批文件，但在还剩300份文件时装订机出现故障，无法装订。印刷厂立即安排了部分员工进行人工装订，由于人工装订的总效率仅为机器的20%，最终比原计划推迟1小时完成装订。则这批文件共有（ ）份。",
+    "o": [
+      "2400",
+      "3600",
+      "4800",
+      "6000"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某印刷厂原计划用全自动装订机花费4小时装订一批文件，但在还剩300份文件时装订机出现故障，无法装订。印刷厂立即安排了部分员工进行人工装订，由于人工装订的总效率仅为机器的20%，最终比原计划推迟1小时完成装订。则这批文件共有（    ）份。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "54179d844f239c2419ec787d5c9d8e877b7adfbf1f0aef7a304b89756519c0f3"
+  },
+  {
+    "uid": "prov:5510216",
+    "fenbiId": "5510216",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某地举办了“铁人三项”体育活动，先进行蛙跳，后游泳，最后竞走到达终点。一位选手在上午7点出发，9点到达了终点，全程未休息，其蛙跳、游泳和竞走的速度分别为每小时2千米、3千米和6千米。如果蛙跳和竞走的路程相同，则所有项目的总路程是（ ）。",
+    "o": [
+      "无法计算",
+      "6千米",
+      "8千米",
+      "12千米"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地举办了“铁人三项”体育活动，先进行蛙跳，后游泳，最后竞走到达终点。一位选手在上午7点出发，9点到达了终点，全程未休息，其蛙跳、游泳和竞走的速度分别为每小时2千米、3千米和6千米。如果蛙跳和竞走的路程相同，则所有项目的总路程是（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1afdecb0d4a8c01ae490384382bd9e3c8ec3ed1d1978d94f9f2884c98362d96e"
+  },
+  {
+    "uid": "prov:5510220",
+    "fenbiId": "5510220",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某公司向餐馆订购盒饭，要求每份盒饭包含2种荤菜、2种素菜。如果餐馆共准备了6种荤菜和4种素菜,则最多有（ ）种盒饭。",
+    "o": [
+      "42",
+      "60",
+      "72",
+      "90"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司向餐馆订购盒饭，要求每份盒饭包含2种荤菜、2种素菜。如果餐馆共准备了6种荤菜和4种素菜,则最多有（    ）种盒饭。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "5ee8e5bf9a47d64fad6f6f7f6c2e036cbc2d7b01bb0a09132cf44ced0de28941"
+  },
+  {
+    "uid": "prov:5510222",
+    "fenbiId": "5510222",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+    "variant": "2023xj",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2023xj.json",
+    "s": "某单位每天都会安排2人在大楼入口负责安检，安排3人负责楼层巡查。为此，单位组织了一支12人的队伍，并根据序号安排工作:第一天由队员1,2负责安检，队员3、4、5负责巡查;第二天由队员6、7负责安检，8、9、10负责巡查；第三天由队员11、12负责安检，队员1、2、3负责巡查······以此类推,如果队员1今天负责了安检，则最晚在（ ）天后他将再次负责安检。",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位每天都会安排2人在大楼入口负责安检，安排3人负责楼层巡查。为此，单位组织了一支12人的队伍，并根据序号安排工作:第一天由队员1,2负责安检，队员3、4、5负责巡查;第二天由队员6、7负责安检，8、9、10负责巡查；第三天由队员11、12负责安检，队员1、2、3负责巡查······以此类推,如果队员1今天负责了安检，则最晚在（    ）天后他将再次负责安检。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xj.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（县级卷）（网友回忆版）",
+        "variant": "2023xj",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2023xj.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6d389f7e51306d8a31157acac29dc40a9c2356af83ce57f0f02b986692c24d6b"
+  },
+  {
+    "uid": "prov:5514806",
+    "fenbiId": "5514806",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "11，-13，15，-17，19，（ ）",
+    "o": [
+      "-21",
+      "-22",
+      "21",
+      "22"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>11，-13，15，-17，19，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "8b1550f1df5573a326a85381c6f8ae834d91e25bc3f9a3b328028ad39f21bf7f"
+  },
+  {
+    "uid": "prov:5514810",
+    "fenbiId": "5514810",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "35，71，53，17，62，（ ）",
+    "o": [
+      "24",
+      "26",
+      "36",
+      "38"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>35，71，53，17，62，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "94cf17572c23c2a48f706640ef1d4a44ce1d22c70a58f0c1ce5c8bb7814f47c9"
+  },
+  {
+    "uid": "prov:5514778",
+    "fenbiId": "5514778",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "1.24，2.48，3.612，4.816，（ ）",
+    "o": [
+      "5.102",
+      "6.224",
+      "5.1020",
+      "6.1224"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1.24，2.48，3.612，4.816，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "6f369997ce3981d291f68543054fabf9f1cc30bde94e83fd9362af48cb31ba4d"
+  },
+  {
+    "uid": "prov:5514800",
+    "fenbiId": "5514800",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "10，3，13，1，14，2，16，5，（ ）",
+    "o": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>10，3，13，1，14，2，16，5，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "40b322aa66a100bbc20297f4b4ec4ca518b72645642dc40e0c158a4fbce128ed"
+  },
+  {
+    "uid": "prov:5514865",
+    "fenbiId": "5514865",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=9FH_UkQdvmu2YOEIH8q1-g\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=M0h6-KaH01giete7edrCVQ\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=1K1C3omrYedmC4R1Dhe63A\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=v8tEU26vY72HZmGAnEvgj_sdIQmbWwEHnbTCydrwscQ\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=9FH_UkQdvmu2YOEIH8q1-g",
+        "path": "真题库/图片/省考/98542463c093.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=M0h6-KaH01giete7edrCVQ",
+        "path": "真题库/图片/省考/361d0513a80f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=1K1C3omrYedmC4R1Dhe63A",
+        "path": "真题库/图片/省考/39fc674d3194.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=v8tEU26vY72HZmGAnEvgj_sdIQmbWwEHnbTCydrwscQ",
+        "path": "真题库/图片/省考/18a07be9614c.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=AfirXXiSizkavsmX4G4E-A",
+        "path": "真题库/图片/省考/5796290f1ad5.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=M1E0-VE0GQiw7giMAGu-nw",
+        "path": "真题库/图片/省考/5e460f04ea7d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=4SbmSH59oMIwNnjXRZH65Ps_Pl6oDgKVB3BcgUuF7aM",
+        "path": "真题库/图片/省考/0cebfab9bc4a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=RrGBJ63nbAQ6FPuct-U71DTFrX8A4vKtyO-1y6wE_4s",
+        "path": "真题库/图片/省考/b59735498431.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "1c4e2cb24371f8bf1f17dfbb44725b0e8bbee3ad10eebd8f010e4923dec48b79"
+  },
+  {
+    "uid": "prov:5514819",
+    "fenbiId": "5514819",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "甲、乙两个仓库共存有340吨粮食。如果甲仓库存放的粮食是乙仓库的2倍多10吨，则甲仓库存有粮食（ ）吨。",
+    "o": [
+      "110",
+      "120",
+      "230",
+      "240"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两个仓库共存有340吨粮食。如果甲仓库存放的粮食是乙仓库的2倍多10吨，则甲仓库存有粮食（    ）吨。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "e742d8fe27545156eedf16c5b4d081b25be31186dec8cab34ea637b7b2c5cea5"
+  },
+  {
+    "uid": "prov:5514823",
+    "fenbiId": "5514823",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "某单位共有8名安保队员，并根据序号每天安排2名队员轮流值班：第一天由队员1、2负责值班；第二天由队员3、4负责值班······以此类推。如果队员3今天负责了值班，则他将在（ ）天后再次负责值班。",
+    "o": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某单位共有8名安保队员，并根据序号每天安排2名队员轮流值班：第一天由队员1、2负责值班；第二天由队员3、4负责值班······以此类推。如果队员3今天负责了值班，则他将在（    ）天后再次负责值班。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "db226066ee194f0eccd1729a4b394d00fe584cf5a8543a1f7ee74923730e0d31"
+  },
+  {
+    "uid": "prov:5514817",
+    "fenbiId": "5514817",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "某地有4片果园需要施肥。使用1台无人机为4片果园施肥分别需要1.2、1.3、2、2.5小时。如果使用2台无人机，则完成所有施肥任务至少需要（ ）小时。",
+    "o": [
+      "2.5",
+      "3.5",
+      "3.8",
+      "4.8"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某地有4片果园需要施肥。使用1台无人机为4片果园施肥分别需要1.2、1.3、2、2.5小时。如果使用2台无人机，则完成所有施肥任务至少需要（    ）小时。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ff535eac9ba2906f3f7575f7d9762ff5398e3429e43307a5e3f25db449a8af70"
+  },
+  {
+    "uid": "prov:5514820",
+    "fenbiId": "5514820",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "某公司向餐馆订购盒饭，要求每份盒饭包含2种荤菜、2种素菜。如果餐馆共准备了4种荤菜和3种素菜，则最多有（ ）种盒饭。",
+    "o": [
+      "6",
+      "12",
+      "18",
+      "24"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某公司向餐馆订购盒饭，要求每份盒饭包含2种荤菜、2种素菜。如果餐馆共准备了4种荤菜和3种素菜，则最多有（    ）种盒饭。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "ecbdb690f290ac8f6b16733e8358a640387c3eb61d68d735e90bae24e7721235"
+  },
+  {
+    "uid": "prov:5514821",
+    "fenbiId": "5514821",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2023,
+    "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+    "variant": "2023xz",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2023xz.json",
+    "s": "小明骑车从甲镇前往乙镇。如果骑车的速度为每小时20千米，那么将准时到达。如果骑车的速度为每小时24千米，那么将提早5分钟到达。则甲镇到乙镇的距离为（ ）千米。",
+    "o": [
+      "8",
+      "10",
+      "12",
+      "16"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小明骑车从甲镇前往乙镇。如果骑车的速度为每小时20千米，那么将准时到达。如果骑车的速度为每小时24千米，那么将提早5分钟到达。则甲镇到乙镇的距离为（    ）千米。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2023xz.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2023,
+        "paper": "2023年广东省公务员录用考试《行测》题（乡镇卷）（网友回忆版）",
+        "variant": "2023xz",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2023xz.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "a0c09177a41b4bc05259b5e709925875ec1eebd2b416b06f931ba0576aba8bed"
+  },
+  {
+    "uid": "prov:16593265",
+    "fenbiId": "16593265",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "",
+    "o": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img width=\"227px\" height=\"225px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18e47d3987ffc24.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18e47d3987ffc24.png?width=700",
+        "path": "真题库/图片/省考/94a508097f28.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "f33e82d7c0ff0db65e349ce5350f19519dda8ee2df3fdfca658d9c885a4b2387"
+  },
+  {
+    "uid": "prov:16593276",
+    "fenbiId": "16593276",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "1，11，23，33，45，55，67，（ ）",
+    "o": [
+      "66",
+      "70",
+      "73",
+      "77"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，11，23，33，45，55，67，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "fef3dc0c2f4d56c2f7088a24466a298d669604ed79c760c4272ec4caa6d63c5b"
+  },
+  {
+    "uid": "prov:16593248",
+    "fenbiId": "16593248",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "，，，，（ ），",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=jZ62d7LnKcZQQMaDgUGNrWlCyhPiJKt0pTt0-vS_hck\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=9zyxzZKZo5xcPkl1lZtMbQ\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=LLqsC0K4EW87MRSIA18PzWznNeBZuK3uBExpDn5nmpo\">，<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=8e5DKYUcsQL3IceGjMaa2MpKlgGOdy7qhn3MlE1aNfY\">，（    ），<img flag=\"tex\" src=\"//fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=TXCA86iWpBW_y7oSp8DBRy1Cyb4UVeESVVbHsI-4VAQ\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=jZ62d7LnKcZQQMaDgUGNrWlCyhPiJKt0pTt0-vS_hck",
+        "path": "真题库/图片/省考/bba8b2693cf5.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=9zyxzZKZo5xcPkl1lZtMbQ",
+        "path": "真题库/图片/省考/fda1deaf9094.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=LLqsC0K4EW87MRSIA18PzWznNeBZuK3uBExpDn5nmpo",
+        "path": "真题库/图片/省考/de0e45f7548d.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=8e5DKYUcsQL3IceGjMaa2MpKlgGOdy7qhn3MlE1aNfY",
+        "path": "真题库/图片/省考/c28dd24f172f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=TXCA86iWpBW_y7oSp8DBRy1Cyb4UVeESVVbHsI-4VAQ",
+        "path": "真题库/图片/省考/df348689e0a4.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=B16ALgMilQcnChuWZXKy5zY39ifZ806yTUupH64Vra8",
+        "path": "真题库/图片/省考/5f3e6cf356cf.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=x1AOkk3beoOYoPfwUj7op3IHyVXQkHwfMlHVzZCybIg",
+        "path": "真题库/图片/省考/ff57e3703f5a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=6C4N-jnH_gu4qmu9jDWy2jfSlUvdwHWU2gN99WrbxVE",
+        "path": "真题库/图片/省考/85ae8c9abc6a.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=gZaGCM9p_eQ0Uwl_VCeuiU5YdbuiyJccpjckTrfHWYk",
+        "path": "真题库/图片/省考/a101766edc9c.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "0cc83c188525a8cfa3a2bfce7484e944defb6200618bf88b6f48ccee4da924cd"
+  },
+  {
+    "uid": "prov:16593279",
+    "fenbiId": "16593279",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "21.98，18.77，17.49，14.55，（ ）",
+    "o": [
+      "12.26",
+      "13.66",
+      "14.26",
+      "15.66"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>21.98，18.77，17.49，14.55，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "4e2e92bc82d3975b87f1aa0ff32611886f7e2db8307f781144692bb6f1f1936e"
+  },
+  {
+    "uid": "prov:16593275",
+    "fenbiId": "16593275",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "5，-7，16，-50，202，（ ）",
+    "o": [
+      "1012",
+      "-1012",
+      "1122",
+      "-1122"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>5，-7，16，-50，202，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "097711cec4b061f0170b2ed7244150738809dd5d946935f37cf4c695245638d5"
+  },
+  {
+    "uid": "prov:16593261",
+    "fenbiId": "16593261",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "档案室需要整理300份档案，要求每天整理的档案数量相同，且规定了完成的期限。如果要提前一天完成，那么每天需要多整理10份档案。则规定的期限为（ ）天。",
+    "o": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>档案室需要整理300份档案，要求每天整理的档案数量相同，且规定了完成的期限。如果要提前一天完成，那么每天需要多整理10份档案。则规定的期限为（    ）天。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "313f2517594fa8cc5c3b51291b1eea6f9990676c81db9d116f7e011c17b6c3d3"
+  },
+  {
+    "uid": "prov:16593268",
+    "fenbiId": "16593268",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "某家政公司承诺以低于市场价20％的价格为小区业主提供服务。如果有业主向该公司支付了服务费4000元，则与市场价相比优惠了（ ）元。",
+    "o": [
+      "400",
+      "600",
+      "800",
+      "1000"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某家政公司承诺以低于市场价20％的价格为小区业主提供服务。如果有业主向该公司支付了服务费4000元，则与市场价相比优惠了（    ）元。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "3b7d172313af2ab1b81e5db7bfd5ab0855ed0d93f5a8f81616d3741315e61c45"
+  },
+  {
+    "uid": "prov:16593258",
+    "fenbiId": "16593258",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "甲、乙、丙三艘船在海上航行。某一时刻，甲观测到乙位于它的北偏西方向，甲、乙相距6千米；甲观测到丙位于它的正西方向，甲、丙相距6千米，则乙与丙之间的距离为（ ）千米。",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙三艘船在海上航行。某一时刻，甲观测到乙位于它的北偏西<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=7e9GRJexJ-JtqKm3XXAk7g\">方向，甲、乙相距6千米；甲观测到丙位于它的正西方向，甲、丙相距6千米，则乙与丙之间的距离为（    ）千米。</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=7e9GRJexJ-JtqKm3XXAk7g",
+        "path": "真题库/图片/省考/7be4f064b8cc.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "b8f036a25880acac4c58c055ed7237d3ba08a090b10f25a798c78dabefeedb25"
+  },
+  {
+    "uid": "prov:16593271",
+    "fenbiId": "16593271",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "某企业在展销会上销售甲、乙两种产品。已知甲产品的库存比乙产品多100件，展销会结束后，甲产品全部售完，乙产品售出库存的60%，两种产品共售出1260件，则甲、乙两种产品原有总库存（ ）件。",
+    "o": [
+      "1450",
+      "1500",
+      "1550",
+      "1600"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某企业在展销会上销售甲、乙两种产品。已知甲产品的库存比乙产品多100件，展销会结束后，甲产品全部售完，乙产品售出库存的60%，两种产品共售出1260件，则甲、乙两种产品原有总库存（    ）件。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "ef1d1c96f282d162b907861a6ab6913cc5645945c53b2762c93de37bc2eec0a3"
+  },
+  {
+    "uid": "prov:16593240",
+    "fenbiId": "16593240",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 40,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "只有在星期六，小王才会去图书馆。如果某年3月小王一共有5天去过图书馆，则当年4月1日可能是（ ）。",
+    "o": [
+      "星期二",
+      "星期三",
+      "星期五",
+      "星期六"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>只有在星期六，小王才会去图书馆。如果某年3月小王一共有5天去过图书馆，则当年4月1日可能是（    ）。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 40
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 40,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "01cf0ab50c6bb9db5fa07cfcec97a817f3f0efb5d010df4ead6ff3a409440c93"
+  },
+  {
+    "uid": "prov:16593242",
+    "fenbiId": "16593242",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 41,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "某高校中文系计划从3名男生和3名女生中选派4名学生参加暑期支教活动。如果选派的女生不少于2名，则选派方案共有（ ）种。",
+    "o": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某高校中文系计划从3名男生和3名女生中选派4名学生参加暑期支教活动。如果选派的女生不少于2名，则选派方案共有（    ）种。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 41
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 41,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "64bffcded2284c3bbc1ad97375f053567e7b9f30eaf391b935139528e7b43c64"
+  },
+  {
+    "uid": "prov:16593247",
+    "fenbiId": "16593247",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 42,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "甲、乙、丙3人参加专业测试，考试包含10道题，答对每题得10分，不答或答错不得分。已知每道题3人中至少有2人答对，没有人得100分且任意2人总分都不相同。则最多有（ ）道题3人都答对。",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙、丙3人参加专业测试，考试包含10道题，答对每题得10分，不答或答错不得分。已知每道题3人中至少有2人答对，没有人得100分且任意2人总分都不相同。则最多有（    ）道题3人都答对。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 42
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 42,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "162453384915699ffac5fe19e993dfc43b148a6a1ee85fdc54eb880d886c6bf2"
+  },
+  {
+    "uid": "prov:16593285",
+    "fenbiId": "16593285",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 43,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "某个障碍跑项目需要在100米长的跑道上布置障碍（起点和终点均不布置）。如果从起点开始，每隔4米布置一个甲障碍，每隔6米布置一个乙障碍，甲、乙障碍的重合点则不布置甲障碍。则跑道上总共布置（ ）个甲障碍。",
+    "o": [
+      "16",
+      "17",
+      "24",
+      "25"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某个障碍跑项目需要在100米长的跑道上布置障碍（起点和终点均不布置）。如果从起点开始，每隔4米布置一个甲障碍，每隔6米布置一个乙障碍，甲、乙障碍的重合点则不布置甲障碍。则跑道上总共布置（    ）个甲障碍。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 43
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 43,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "3c576a7f3705b8f5d711c426a43985e408009ec5144190ea064da356e76a1bcc"
+  },
+  {
+    "uid": "prov:16593262",
+    "fenbiId": "16593262",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 44,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "小李从山脚开始登顶，匀速走了1小时后到达一个凉亭，并在凉亭休息了半小时。继续走500米后，恰好完成登顶路程的一半。从山顶沿原路匀速返回时，他走了1小时又到了这个凉亭，继续走半小时回到了山脚。则登顶路程为（ ）米。",
+    "o": [
+      "2000",
+      "3000",
+      "3600",
+      "4000"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小李从山脚开始登顶，匀速走了1小时后到达一个凉亭，并在凉亭休息了半小时。继续走500米后，恰好完成登顶路程的一半。从山顶沿原路匀速返回时，他走了1小时又到了这个凉亭，继续走半小时回到了山脚。则登顶路程为（    ）米。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 44
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 44,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "5603bc5045a39b444f624b6d1100cceaa2837593f2e2a5d5784d81249c2b2fed"
+  },
+  {
+    "uid": "prov:16593264",
+    "fenbiId": "16593264",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2024,
+    "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2024",
+    "number": 45,
+    "sourceFile": "_downloads/fb/paper_GD_2024.json",
+    "s": "某社区计划组织志愿者为社区内的独居老人提供服务。按已有志愿者的数量，如果每位志愿者服务10位老人，则有5位老人无人提供服务；如果增加2位志愿者，则每位志愿者最多服务8位老人就能为所有老人提供服务。那么该社区最多有（ ）位独居老人。",
+    "o": [
+      "50",
+      "55",
+      "60",
+      "65"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某社区计划组织志愿者为社区内的独居老人提供服务。按已有志愿者的数量，如果每位志愿者服务10位老人，则有5位老人无人提供服务；如果增加2位志愿者，则每位志愿者最多服务8位老人就能为所有老人提供服务。那么该社区最多有（    ）位独居老人。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 45
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2024,
+        "paper": "2024年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2024",
+        "number": 45,
+        "sourceFile": "_downloads/fb/paper_GD_2024.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "00ff5e5ce7968e5d6b996bd1c0896c5cb8ddf6ba19add0ad62e7ed59bc620ee0"
+  },
+  {
+    "uid": "prov:12881920",
+    "fenbiId": "12881920",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 31,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "3，7，17，43，113，（ ）",
+    "o": [
+      "307",
+      "373",
+      "417",
+      "437"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>3，7，17，43，113，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 31
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 31,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "ca30365ae5437e309f78010f24a5ad24ca38bcc052172b95ac4efa4c3828b4df"
+  },
+  {
+    "uid": "prov:12881921",
+    "fenbiId": "12881921",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 32,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "12，13，25，37，49，（ ）",
+    "o": [
+      "46",
+      "57",
+      "61",
+      "78"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>12，13，25，37，49，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 32
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 32,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "b56e59363bb6a1781b3e30afd88007721a63c1d0f3ee86fd3b1e06d9b4dfc7c1"
+  },
+  {
+    "uid": "prov:12881922",
+    "fenbiId": "12881922",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 33,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "1，4，27，16，125，36，（ ）",
+    "o": [
+      "271",
+      "512",
+      "400",
+      "343"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>1，4，27，16，125，36，（    ）</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 33
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 33,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "6a75337931c065717c29a31a8e53addb85ff0b10911dc18c7a0b8fc6028a59cc"
+  },
+  {
+    "uid": "prov:12881926",
+    "fenbiId": "12881926",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 34,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "，，，，（ ）",
+    "o": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p><img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=AfirXXiSizkavsmX4G4E-A\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=M1E0-VE0GQiw7giMAGu-nw\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=RR7tsiLNCzFplar3WL68YIulh7R7l07X1-Tdy_qQw58\">，<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=Zy3sM4x4RI52Nz4_2SZD5x_ilydlMFXzyVdoYIM7BK8\">，（    ）</p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=AfirXXiSizkavsmX4G4E-A",
+        "path": "真题库/图片/省考/4a6808a9a972.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=M1E0-VE0GQiw7giMAGu-nw",
+        "path": "真题库/图片/省考/be0c2d559aa7.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=RR7tsiLNCzFplar3WL68YIulh7R7l07X1-Tdy_qQw58",
+        "path": "真题库/图片/省考/f70c6c02c2e5.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=Zy3sM4x4RI52Nz4_2SZD5x_ilydlMFXzyVdoYIM7BK8",
+        "path": "真题库/图片/省考/595ecd8e44a0.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=eraSQEUoMTpS1-ya1mY8fYcA1SaP6ogSvucdxiS4l3k",
+        "path": "真题库/图片/省考/9ca8c3ef74fd.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=OSMi_UKIuHFcyDl9IslQ5yDa7_ihUhEcby2apuhKqhc",
+        "path": "真题库/图片/省考/d0910ce1c67e.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=zuvtLVjqAyip-zs6nYHknbOuZtkmi69of43TbKV-Ct8",
+        "path": "真题库/图片/省考/15d6f702f1e8.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/planet/accessories/formulas?fontSize=18&latex=zt4hHbFtmKhA7614pBycr3zQLSHyhMLNOtp-dvqybWc",
+        "path": "真题库/图片/省考/c39204476ef4.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 34
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 34,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "17ec21ba8538d922c228d11a37ab881d53c7f061eed2b5049eefa1a4277d6037"
+  },
+  {
+    "uid": "prov:12881927",
+    "fenbiId": "12881927",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 35,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "（ ）",
+    "o": [
+      "55，11，5.5",
+      "40，10，2.5",
+      "75，15，10",
+      "60，15，12"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>（    ）</p><p><img width=\"500px\" height=\"148px\" src=\"//fb.fbstatic.cn/api/tarzan/images/1959aac71d27ce0.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/1959aac71d27ce0.png?width=700",
+        "path": "真题库/图片/省考/30284293514b.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 35
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 35,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "3f767ecdb6762c0c6f2453a80c3da5352010e1b6734c66875e23b13e8d25f155"
+  },
+  {
+    "uid": "prov:12881928",
+    "fenbiId": "12881928",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 36,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "箱子里装有红、蓝、绿、白、黑五种颜色的小球各20个。如果从箱子里取出若干个小球，且确保其中有10个小球颜色相同，则至少要取出（ ）个小球。",
+    "o": [
+      "56",
+      "51",
+      "50",
+      "46"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>箱子里装有红、蓝、绿、白、黑五种颜色的小球各20个。如果从箱子里取出若干个小球，且确保其中有10个小球颜色相同，则至少要取出（    ）个小球。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 36
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 36,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "d9f82e21a5df03715d9fa5ae3eec52bb33aa8b5aec76046b59c0a87a6c885f8a"
+  },
+  {
+    "uid": "prov:12881923",
+    "fenbiId": "12881923",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 37,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "某服务大厅设有若干个服务窗口，其中1个是快捷服务窗口，某日服务窗口的平均业务量为29单，其中快捷服务窗口的业务量为41单，其余窗口的平均业务量为28单，则服务大厅共有（ ）个窗口。",
+    "o": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "sourceAnswer": "A",
+    "sourceAnswerIndex": 0,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>某服务大厅设有若干个服务窗口，其中1个是快捷服务窗口，某日服务窗口的平均业务量为29单，其中快捷服务窗口的业务量为41单，其余窗口的平均业务量为28单，则服务大厅共有（    ）个窗口。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 37
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 37,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "8468deb33354280a11767da0603677b6ccf5b3c03dd9a7565db0b830e3b940b7"
+  },
+  {
+    "uid": "prov:12881924",
+    "fenbiId": "12881924",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 38,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "父子两人在百米赛道上匀速跑步，两人从赛道起点同时出发，父亲跑到终点时，儿子距离终点还有40米，若父亲立即折返跑向赛道起点，则两人相遇时，儿子距离终点还有（ ）米。",
+    "o": [
+      "35",
+      "30",
+      "25",
+      "15"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>父子两人在百米赛道上匀速跑步，两人从赛道起点同时出发，父亲跑到终点时，儿子距离终点还有40米，若父亲立即折返跑向赛道起点，则两人相遇时，儿子距离终点还有（    ）米。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 38
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 38,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "6c0e3ea4a8564b90a9e6ab4e28b932c608995abe3fa00d1463686e0e7b22dbde"
+  },
+  {
+    "uid": "prov:12881935",
+    "fenbiId": "12881935",
+    "exam": "广东省考",
+    "province": "广东",
+    "code": "GD",
+    "year": 2025,
+    "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+    "variant": "2025",
+    "number": 39,
+    "sourceFile": "_downloads/fb/paper_GD_2025.json",
+    "s": "甲、乙两个工程队合作实施某项工程，原计划30天完成，但工作5天后甲被抽调到其他工程，又过了15天该工程正好完成一半，此时丙工程队加入，3天后甲工程队返回，最终该工程比原计划提前2天完成，则丙工程队的效率是甲工程队的（ ）倍。",
+    "o": [
+      "1.5",
+      "2",
+      "2.5",
+      "3"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲、乙两个工程队合作实施某项工程，原计划30天完成，但工作5天后甲被抽调到其他工程，又过了15天该工程正好完成一半，此时丙工程队加入，3天后甲工程队返回，最终该工程比原计划提前2天完成，则丙工程队的效率是甲工程队的（    ）倍。</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_GD_2025.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 39
+    },
+    "occurrences": [
+      {
+        "exam": "广东省考",
+        "province": "广东",
+        "code": "GD",
+        "year": 2025,
+        "paper": "2025年广东省公务员录用考试《行测》题（网友回忆版）",
+        "variant": "2025",
+        "number": 39,
+        "sourceFile": "_downloads/fb/paper_GD_2025.json"
+      }
+    ],
+    "dataset": "validation",
+    "inputHash": "c2c8b7cbc1524cea863a7eb0947df4d7a0855dad7d38d23fef42c5e20d1c796a"
+  }
+]

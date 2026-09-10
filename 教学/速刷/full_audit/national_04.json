@@ -1,0 +1,3745 @@
+[
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "24",
+      "28",
+      "16",
+      "20"
+    ],
+    "paper": "副省级",
+    "s": "某工程队接到一项任务，甲、乙合作6天后完成总任务量的25%，乙、丙合作15天后又完成剩余任务量的，剩下全部任务由乙单独工作11天完成。已知乙与他人合作时效率比其单独工作时高10%，问甲、乙、丙合作完成这项任务需要多少天：2024年国家公务员考试《行测》真题（副省卷-考生回忆版）",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893783,
+        "fenbi_letter": "B",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某工程队接到一项任务，甲、乙合作6天后完成总任务量的25%，乙、丙合作15天后又完成剩余任务量的，剩下全部任务由乙单独工作11天完成。已知乙与他人合作时效率比其…\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:66",
+    "year": 2024,
+    "inputHash": "9ca1549270fd068839417d790b4e054207e40a15620700585223d36452fc1868",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "20",
+      "12",
+      "15",
+      "18"
+    ],
+    "paper": "副省级",
+    "s": "某部门有A、B、C三个科室，共50名职员，一次全员考核中，三个科室的平均分分别为73.3、70、80分，该部门的总分为3746分，则该部门B科室有（  ）名职员。",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：某部门有A、B、C三个科室，共50名职员，一次全员考核中，三个科室的平均分分别为73.3、70、80分，该部门的总分为3746分，则该部门B科室有（  ）名职员…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2024:副省级:67",
+    "year": 2024,
+    "inputHash": "dbf49c238e9bff5b85c3ce9b74216022fb7338ff992378f6169c9382761180c7",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "8:9",
+      "16:9",
+      "2:3",
+      "4:3"
+    ],
+    "paper": "副省级",
+    "s": "设计师将一个正方形的大厅分成如下图所示的几个区域，已知所有的三角形都是等腰直角三角形，梯形都是等腰梯形，且所有三角形和梯形面积均相等。在三角形的区域铺设地砖，在中间的正方形区域铺 设木地板，问地砖和木地板的面积比是多少：",
+    "source": {
+      "aiAnswer": "?图",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893780,
+        "fenbi_letter": "C",
+        "fenbi_num": 71,
+        "mapped": false,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：设计师将一个正方形的大厅分成如下图所示的几个区域，已知所有的三角形都是等腰直角三角形，梯形都是等腰梯形，且所有三角形和梯形面积均相等。在三角形的区域铺设地砖，在…\n\n解析：粉笔答案（粉笔卷选项顺序，字母未映射）",
+    "uid": "real:2024:副省级:68",
+    "year": 2024,
+    "inputHash": "b55df7aef14e9879c14fdbf30ffbd24d5efc0812290028fa9382ca4a7375d501",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙等36人分为6个小组参加某项活动，要求任意2组人数不同，每个组都不少于3人，且任何一组人数不得超过另一组的3倍。问甲和乙至少有1人分到人数第二多的小组的概率为：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893759,
+        "fenbi_letter": "B",
+        "fenbi_num": 74,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：甲、乙等36人分为6个小组参加某项活动，要求任意2组人数不同，每个组都不少于3人，且任何一组人数不得超过另一组的3倍。问甲和乙至少有1人分到人数第二多的小组的概…\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:69",
+    "year": 2024,
+    "inputHash": "b744b7f47c33ca6f0d545e8e68e0fa90bfe047fcd4f9992cea3640252df0e716",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "少12辆",
+      "少22辆",
+      "多12辆",
+      "多22辆"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙、丙和丁四个汽车租赁公司可用汽车数量比为5:4:3:2，现甲公司调度4辆汽车到丙公司，丁公司调度1辆汽车到乙公司后，丁公司可用汽车数量正好是丙公司的60%。问此时甲公司的可用汽车数量比乙公司：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893760,
+        "fenbi_letter": "D",
+        "fenbi_num": 62,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙和丁四个汽车租赁公司可用汽车数量比为5:4:3:2，现甲公司调度4辆汽车到丙公司，丁公司调度1辆汽车到乙公司后，丁公司可用汽车数量正好是丙公司的60%…\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:70",
+    "year": 2024,
+    "inputHash": "926b14c1cbf90c2df5b194767313546cc768fd2fdfc37e0e89468e89ea48c29d",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 71,
+    "o": [
+      "多108万元",
+      "少108万元",
+      "多160万元",
+      "少160万元"
+    ],
+    "paper": "副省级",
+    "s": "某企业去年全年收入1200万元，支出960万元。今年上半年和下半年，企业支出比去年同期分别减少20%和15%，且全年收入与去年相同，总体盈余（收入-支出）比去年增加172万元。问今年上半年支出比下半年：",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893758,
+        "fenbi_letter": "D",
+        "fenbi_num": 64,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某企业去年全年收入1200万元，支出960万元。今年上半年和下半年，企业支出比去年同期分别减少20%和15%，且全年收入与去年相同，总体盈余（收入-支出）比去年…\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:71",
+    "year": 2024,
+    "inputHash": "cf5870abf04247700b9b678a641c41097d827abe605efcf169014c128578fc4c",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 72,
+    "o": [
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙、丙三种农产品价格分别为30元/包、24元/包和20元/包。某日销售三种农产品共240包，总销售额为6000元。已知甲的销量是乙的2倍，问丙销售了多少包：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893786,
+        "fenbi_letter": "A",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：甲、乙、丙三种农产品价格分别为30元/包、24元/包和20元/包。某日销售三种农产品共240包，总销售额为6000元。已知甲的销量是乙的2倍，问丙销售了多少包：\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:72",
+    "year": 2024,
+    "inputHash": "ccb53ada79cee5cd62383a3e5aaa00d29638d84098cec75cb0a168ef2d20adb7",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 73,
+    "o": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "paper": "副省级",
+    "s": "某次考试有20道选择题和20道判断题，每题答对得3分，答错得0分，不答得1分。考生小王成绩为82分，且他选择题的答错数比答对数多。问他判断题至少答对了多少道：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893789,
+        "fenbi_letter": "A",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某次考试有20道选择题和20道判断题，每题答对得3分，答错得0分，不答得1分。考生小王成绩为82分，且他选择题的答错数比答对数多。问他判断题至少答对了多少道：\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:73",
+    "year": 2024,
+    "inputHash": "5f439377bf8b555c6f613e24e9409195a5766b6d3aa9149e1af23e6ef514ad28",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 74,
+    "o": [
+      "100",
+      "200",
+      "50",
+      "150"
+    ],
+    "paper": "副省级",
+    "s": "某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种语言的有150人。问会法语的学生有多少人?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 5893542,
+        "fenbi_letter": "B",
+        "fenbi_num": 73,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种…\n\n解析：粉笔答案",
+    "uid": "real:2024:副省级:74",
+    "year": 2024,
+    "inputHash": "127c8f36933a99e23ceefaf572e0c8c0a909049fe8a96dcd8e9789d95354fe24",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 75,
+    "o": [
+      "13",
+      "11",
+      "9",
+      "7"
+    ],
+    "paper": "副省级",
+    "s": "某小区实行封控，为了落实疫情防控政策及满足居民的日常生活需求，向某保安公司招聘保安，保安公司原计划派出N名保安，若每栋楼安排5名保安则余65名，若每栋楼安排8名保安则少43名，则保安公司至少再派出多少名保安，可使保安平均分配：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：某小区实行封控，为了落实疫情防控政策及满足居民的日常生活需求，向某保安公司招聘保安，保安公司原计划派出N名保安，若每栋楼安排5名保安则余65名，若每栋楼安排8名…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2024:副省级:75",
+    "year": 2024,
+    "inputHash": "eabfe25092d4f549f22df2cd19a6e8f7e0c4df3f6cb1c3d62b8eaf21324c354f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "4",
+      "3.6",
+      "3",
+      "2.5"
+    ],
+    "paper": "地市级",
+    "s": "某地为工业企业提供相当于营业额2%的税收优惠，当地的A工厂原本预计当年会产生相当于营业额0.8%的亏损，在享受优惠政策后预计可以盈利300万元。问A工厂当年的预计营业额为多少亿元？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893530,
+        "fenbi_letter": "D",
+        "fenbi_num": 61,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某地为工业企业提供相当于营业额2%的税收优惠，当地的A工厂原本预计当年会产生相当于营业额0.8%的亏损，在享受优惠政策后预计可以盈利300万元。问A工厂当年的预…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:61",
+    "year": 2024,
+    "inputHash": "15eadfc5701056694fa2cfe2f14503956292251fbce0dcceff82608c564afab1",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "2：1：1",
+      "2：3：2",
+      "3：1：2",
+      "3：2：1"
+    ],
+    "paper": "地市级",
+    "s": "某企业招聘笔试参考人员均来自甲、乙、丙三所高校。笔试结束后，在进入面试的100人中，来自甲高校人员占比从笔试时的50%下降至当前的40%,乙高校人员占比下降了15个百分点，丙高校的有50人。问笔试时来自甲、乙、丙三所高校的人员比例是多少？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893532,
+        "fenbi_letter": "A",
+        "fenbi_num": 62,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某企业招聘笔试参考人员均来自甲、乙、丙三所高校。笔试结束后，在进入面试的100人中，来自甲高校人员占比从笔试时的50%下降至当前的40%,乙高校人员占比下降了1…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:62",
+    "year": 2024,
+    "inputHash": "f89422362e2059e87a1153c5f60d32437d1219ac220ee74b7ae8e5889c08bf65",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "50秒",
+      "40秒",
+      "30秒",
+      "20秒"
+    ],
+    "paper": "地市级",
+    "s": "甲和乙分别从一条环形跑道的A、B两点同时出发分别沿顺时针、逆时针方向匀速跑步，甲跑了15秒后与乙相遇，又跑了20秒后到达B点，又跑了45秒后回到A点。问此时乙还要跑多久才能再次回到B点：",
+    "source": {
+      "aiAnswer": "?矛盾",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 5893827,
+        "fenbi_letter": "A",
+        "fenbi_num": 63,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：甲和乙分别从一条环形跑道的A、B两点同时出发分别沿顺时针、逆时针方向匀速跑步，甲跑了15秒后与乙相遇，又跑了20秒后到达B点，又跑了45秒后回到A点。问此时乙还…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:63",
+    "year": 2024,
+    "inputHash": "b05bc6e7b7da23364e2afd26d7cacf068ab781ba69e2933cd3741b8de15d2ee8",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "340",
+      "300",
+      "170",
+      "150"
+    ],
+    "paper": "地市级",
+    "s": "公司有6个编号依次为1-6的研发团队。现安排这6个团队参与甲、 乙2个科研课题，要求每个团队参与1个课题，每个课题最少安排2个团队。每个课题安排1个团队负责，且负责团队不能是该课题所有参与团队中编号最小的团队。问有多少种不同的安排方式：2024年国家公务员录用考试《行测》真题（市地卷-考生回忆版）",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893787,
+        "fenbi_letter": "D",
+        "fenbi_num": 64,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：公司有6个编号依次为1-6的研发团队。现安排这6个团队参与甲、 乙2个科研课题，要求每个团队参与1个课题，每个课题最少安排2个团队。每个课题安排1个团队负责，且…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:64",
+    "year": 2024,
+    "inputHash": "f3dd9bb253cd1af132e8fd15e621faf9fe35665ad03ef87e244e821f4145a8cf",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "49",
+      "35",
+      "50",
+      "40"
+    ],
+    "paper": "地市级",
+    "s": "甲、乙、丙三个研发团队共有研发人员300多人，其中甲的人数比乙多26%。现丙调3人去乙后，两个团队人数相同。问此时甲至少调多少人去丙后，才能保证丙的人数是甲的2倍以上？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893536,
+        "fenbi_letter": "C",
+        "fenbi_num": 65,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙三个研发团队共有研发人员300多人，其中甲的人数比乙多26%。现丙调3人去乙后，两个团队人数相同。问此时甲至少调多少人去丙后，才能保证丙的人数是甲的2…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:65",
+    "year": 2024,
+    "inputHash": "1f5176e19152e1f251430efcc9182f343494a27a7cd3cb1393fc92c7a3e97b37",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "2034年",
+      "2035年",
+      "2036年",
+      "2037年"
+    ],
+    "paper": "地市级",
+    "s": "2023年王的年龄比张年龄的2倍小2岁，2025年张的年龄是李年龄的1.5倍，2030年张和李的年龄之和与王年龄相同。同3人的年龄之和在哪一年第一次超过120岁：",
+    "source": {
+      "aiAnswer": "?矛盾",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893829,
+        "fenbi_letter": "D",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：2023年王的年龄比张年龄的2倍小2岁，2025年张的年龄是李年龄的1.5倍，2030年张和李的年龄之和与王年龄相同。同3人的年龄之和在哪一年第一次超过120岁…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:66",
+    "year": 2024,
+    "inputHash": "94495a2d861e6c6895bf199f863def2b909321278aaa29faf2c90198c1e352e1",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "1/6",
+      "1/3",
+      "1/18",
+      "1/9"
+    ],
+    "paper": "地市级",
+    "s": "甲、乙、丙三人未来3周均要去A、B、C三个地方调研，每人每个地方调研时长为1周，如每个人随机安排顺序，则每周三个人去的地方都不同的概率为：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893559,
+        "fenbi_letter": "C",
+        "fenbi_num": 67,
+        "mapped": false,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2024_地市_数量关系_067.png"
+      ],
+      "locator": "2024·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：甲、乙、丙三人未来3周均要去A、B、C三个地方调研，每人每个地方调研时长为1周，如每个人随机安排顺序，则每周三个人去的地方都不同的概率为：\n\n解析：粉笔答案（粉笔卷选项顺序，字母未映射）",
+    "uid": "real:2024:地市级:67",
+    "year": 2024,
+    "inputHash": "290aa79ca85e77781246ff410da455e810204ac465d73a854845964b4912c28c",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2024_地市_数量关系_067.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "100",
+      "200",
+      "50",
+      "150"
+    ],
+    "paper": "地市级",
+    "s": "某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种语言的有150人。问会法语的学生有多少人?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 5893542,
+        "fenbi_letter": "B",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种…\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:68",
+    "year": 2024,
+    "inputHash": "248d9edcc39a5b072d09c6940a4eff9356689806fd5da3148c9debdbaaf74061",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "12月31日",
+      "12月30日",
+      "12月29日",
+      "12月28日"
+    ],
+    "paper": "地市级",
+    "s": "小张每周二、周五和周日固定参加骑行社团活动。某年9月和10月，小张分别参加了13次和14次活动。问当年他最后一次参加活动是在哪一天?",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893551,
+        "fenbi_letter": "A",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：小张每周二、周五和周日固定参加骑行社团活动。某年9月和10月，小张分别参加了13次和14次活动。问当年他最后一次参加活动是在哪一天?\n\n解析：粉笔答案",
+    "uid": "real:2024:地市级:69",
+    "year": 2024,
+    "inputHash": "b9f48d8c68962f2cee431b0f06a02c2297e4ed7f33e2ec75d594e012bfe66ff1",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "在200~210米之间",
+      "在210~220米之间",
+      "不到200米",
+      "超过220米"
+    ],
+    "paper": "地市级",
+    "s": "某小区内部的道路如下图所示，道路转弯处的∠A、∠C、∠E均为直角，∠B=135°。已知AB、CD、EA的长度分别为40米、50米、60米，问整圈道路的总长度在以下哪个范围内?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：某小区内部的道路如下图所示，道路转弯处的∠A、∠C、∠E均为直角，∠B=135°。已知AB、CD、EA的长度分别为40米、50米、60米，问整圈道路的总长度在以…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2024:地市级:70",
+    "year": 2024,
+    "inputHash": "5ecfe7a4086265115f2c98ce3ca1257980b05b4ade4e90aaebba9dbadc64076f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 61,
+    "o": [
+      "4",
+      "3.6",
+      "3",
+      "2.5"
+    ],
+    "paper": "行政执法类",
+    "s": "某地为工业企业提供相当于营业额2%的税收优惠，当地的A工厂原本预计当年会产生相当于营业额0.8%的亏损，在享受优惠政策后预计可以盈利300万元。问A工厂当年的预计营业额为多少亿元？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893530,
+        "fenbi_letter": "D",
+        "fenbi_num": 61,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·61",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某地为工业企业提供相当于营业额2%的税收优惠，当地的A工厂原本预计当年会产生相当于营业额0.8%的亏损，在享受优惠政策后预计可以盈利300万元。问A工厂当年的预…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:61",
+    "year": 2024,
+    "inputHash": "8e0f8e9f8ce6179a94be07e89d98df877351cadc69adf6f3da64069e3ebb68a4",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 62,
+    "o": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙、丙三人的年龄之比为3：4：5。8年之后，甲、乙的年龄之和是丙的1.5倍，且这一年甲、乙、丙、丁四人的平均年龄为43岁。问再过15年，甲、乙、丙、丁中有几人将超过60岁？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893586,
+        "fenbi_letter": "C",
+        "fenbi_num": 62,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·62",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙三人的年龄之比为3：4：5。8年之后，甲、乙的年龄之和是丙的1.5倍，且这一年甲、乙、丙、丁四人的平均年龄为43岁。问再过15年，甲、乙、丙、丁中有几…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:62",
+    "year": 2024,
+    "inputHash": "9f7d615f0e600a3f2090e314d51d712d2154e9d84fca02c61216e4cc2d87695c",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 63,
+    "o": [
+      "2：1：1",
+      "2：3：2",
+      "3：1：2",
+      "3：2：1"
+    ],
+    "paper": "行政执法类",
+    "s": "某企业招聘笔试参考人员均来自甲、乙、丙三所高校。笔试结束后，在进入面试的100人中，来自甲高校人员占比从笔试时的50%下降至当前的40%,乙高校人员占比下降了15个百分点，丙高校的有50人。问笔试时来自甲、乙、丙三所高校的人员比例是多少？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893532,
+        "fenbi_letter": "A",
+        "fenbi_num": 63,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·63",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某企业招聘笔试参考人员均来自甲、乙、丙三所高校。笔试结束后，在进入面试的100人中，来自甲高校人员占比从笔试时的50%下降至当前的40%,乙高校人员占比下降了1…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:63",
+    "year": 2024,
+    "inputHash": "8d20a68d46735d45606fa3391a21022f1160c756e261365cdb0224f998133c9a",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 64,
+    "o": [
+      "1/6",
+      "1/3",
+      "1/18",
+      "1/9"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙、丙三人未来3周均要去A、B、C三个地方调研，每人每个地方调研时长为1周，如每个人随机安排顺序，则每周三个人去的地方都不同的概率为：2024年国家公务员考试《行测》真题（行政执法卷-考生回忆版）",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893559,
+        "fenbi_letter": "C",
+        "fenbi_num": 64,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2024_执法_数量关系_064.png"
+      ],
+      "locator": "2024·执法·64",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙三人未来3周均要去A、B、C三个地方调研，每人每个地方调研时长为1周，如每个人随机安排顺序，则每周三个人去的地方都不同的概率为：2024年国家公务员考…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:64",
+    "year": 2024,
+    "inputHash": "b286d9866170b0be79d2edf04a462fe387ed465dcc39f8625c74f7ac3bf14acd",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2024_执法_数量关系_064.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 65,
+    "o": [
+      "49",
+      "35",
+      "50",
+      "40"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙、丙三个研发团队共有研发人员300多人，其中甲的人数比乙多26%。现丙调3人去乙后，两个团队人数相同。问此时甲至少调多少人去丙后，才能保证丙的人数是甲的2倍以上？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 5893536,
+        "fenbi_letter": "C",
+        "fenbi_num": 65,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·65",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙三个研发团队共有研发人员300多人，其中甲的人数比乙多26%。现丙调3人去乙后，两个团队人数相同。问此时甲至少调多少人去丙后，才能保证丙的人数是甲的2…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:65",
+    "year": 2024,
+    "inputHash": "4b7324e007cd79ddfbb3b1ebd30aa556cb6de327f004f3616aa3d45010bd0c11",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 66,
+    "o": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙两个联络站相距10千米。一条道路与甲、乙联络站连线相平行，且与两联络站连线的垂直距离为12千米。现需紧邻该道路建一个工作站，问工作站距离甲、乙联络站距离之和最小为多少千米?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 5893539,
+        "fenbi_letter": "D",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：甲、乙两个联络站相距10千米。一条道路与甲、乙联络站连线相平行，且与两联络站连线的垂直距离为12千米。现需紧邻该道路建一个工作站，问工作站距离甲、乙联络站距离之…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:66",
+    "year": 2024,
+    "inputHash": "89309eca9fb20ccb86cca499166ccfb8418959b848d6be885111b5adeed104a2",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 67,
+    "o": [
+      "100",
+      "200",
+      "50",
+      "150"
+    ],
+    "paper": "行政执法类",
+    "s": "某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种语言的有150人。问会法语的学生有多少人?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 5893542,
+        "fenbi_letter": "B",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某高校外国语学院中，会俄语的学生都会英语，其中一半还会法语；会英语的学生中有一半会法语；这三种语言都会的学生有50人，只会其中两种语言的有100人，只会其中一种…\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:67",
+    "year": 2024,
+    "inputHash": "5d2da7f17b0822dbea53eb41d86dcc173f9eef8bb5585d989561ada3dfc85e59",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 68,
+    "o": [
+      "12月31日",
+      "12月30日",
+      "12月29日",
+      "12月28日"
+    ],
+    "paper": "行政执法类",
+    "s": "小张每周二、周五和周日固定参加骑行社团活动。某年9月和10月，小张分别参加了13次和14次活动。问当年他最后一次参加活动是在哪一天?",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 5893551,
+        "fenbi_letter": "A",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：小张每周二、周五和周日固定参加骑行社团活动。某年9月和10月，小张分别参加了13次和14次活动。问当年他最后一次参加活动是在哪一天?\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:68",
+    "year": 2024,
+    "inputHash": "8e9094c53e4fa2b4034be64b97cf1b82e4bb1a16fb665e21e4998357b60ef10f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 69,
+    "o": [
+      "在200~210米之间",
+      "在210~220米之间",
+      "不到200米",
+      "超过220米"
+    ],
+    "paper": "行政执法类",
+    "s": "某小区内部的道路如下图所示，道路转弯处的∠A、∠C、∠E均为直角，∠B=135°。已知AB、CD、EA的长度分别为40米、50米、60米，问整圈道路的总长度在以下哪个范围内?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：某小区内部的道路如下图所示，道路转弯处的∠A、∠C、∠E均为直角，∠B=135°。已知AB、CD、EA的长度分别为40米、50米、60米，问整圈道路的总长度在以…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2024:行政执法类:69",
+    "year": 2024,
+    "inputHash": "ee0aa1713c2f9df1419931f256388e3598027b7da0d1eea045eb8be7a6acd28d",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 70,
+    "o": [
+      "52",
+      "62",
+      "72",
+      "82"
+    ],
+    "paper": "行政执法类",
+    "s": "某单位组织干部职工分5批进行业务培训，培训地点有甲、乙、丙三个地方，每个地方至少安排一批。受接待能力影响，第一、二批不去甲地，问有多少种安排方式?",
+    "source": {
+      "aiAnswer": "?矛盾",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 5893566,
+        "fenbi_letter": "B",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2024·执法·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某单位组织干部职工分5批进行业务培训，培训地点有甲、乙、丙三个地方，每个地方至少安排一批。受接待能力影响，第一、二批不去甲地，问有多少种安排方式?\n\n解析：粉笔答案",
+    "uid": "real:2024:行政执法类:70",
+    "year": 2024,
+    "inputHash": "4b548f0b29853e6ab7874acb423081acd97ffb19bce9df47dc5d9754b6f6b940",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "3",
+      "2.5",
+      "2",
+      "1.5"
+    ],
+    "paper": "副省级",
+    "s": "运送一批货物，第一趟派出10辆大车，第二趟又增派15辆小车，运输量比第一趟高50%。问每辆大车的载货量是小车的多少倍？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283955,
+        "fenbi_letter": "A",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：运送一批货物，第一趟派出10辆大车，第二趟又增派15辆小车，运输量比第一趟高50%。问每辆大车的载货量是小车的多少倍？\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:66",
+    "year": 2025,
+    "inputHash": "d3336060340bdf1fb6f78b2d50d7128ad12d3dd58ad8aaee8bc1cbbc1448b3d3",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "48",
+      "52",
+      "56",
+      "60 2025年国家公务员录用考试《行测》真题（副省卷-考生回忆版）---估分"
+    ],
+    "paper": "副省级",
+    "s": "某企业今年3月节电量是1月的1.2倍、2月的1.5倍，已知2月节电量比1月少4万度，问今年一季度企业节电量为多少万度？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283954,
+        "fenbi_letter": "D",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某企业今年3月节电量是1月的1.2倍、2月的1.5倍，已知2月节电量比1月少4万度，问今年一季度企业节电量为多少万度？\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:67",
+    "year": 2025,
+    "inputHash": "deb6661811da3b54e03e9175a14725cc0e50c57eacaf0929a516ddb07430426e",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "2分10秒",
+      "2分15秒",
+      "2分20秒",
+      "2分30秒"
+    ],
+    "paper": "副省级",
+    "s": "甲和乙从环形跑道的同一点出发，向相反方向匀速慢跑，乙的速度是甲的一半。两人3分钟后第一次相遇，此后乙加速又跑了正好半圈后和甲第二次相遇。问两人第一次到第二次相遇间隔了多长时间？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283964,
+        "fenbi_letter": "B",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：甲和乙从环形跑道的同一点出发，向相反方向匀速慢跑，乙的速度是甲的一半。两人3分钟后第一次相遇，此后乙加速又跑了正好半圈后和甲第二次相遇。问两人第一次到第二次相遇…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:68",
+    "year": 2025,
+    "inputHash": "68517a0b97e7d8e2d45bb7cec329bc4aa2f0c62018d799b54a75efa156327d15",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "100",
+      "50",
+      "40",
+      "20"
+    ],
+    "paper": "副省级",
+    "s": "某研发小组员工中，60%的人参与了A项目，45%的人参与了B项目，两个项目都参与的人比两个项目都不参与的多2人。问该研发小组有多少人？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283958,
+        "fenbi_letter": "C",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某研发小组员工中，60%的人参与了A项目，45%的人参与了B项目，两个项目都参与的人比两个项目都不参与的多2人。问该研发小组有多少人？\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:69",
+    "year": 2025,
+    "inputHash": "c1b3de50c1d97bc90c3d901edcb33ee282a96a8f2e47d78f17a19a753ad2341b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "13",
+      "11",
+      "10",
+      "9"
+    ],
+    "paper": "副省级",
+    "s": "2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。已知乙的年龄小于甲但大于丙，问2024年甲的年龄最小可能为多少岁？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283966,
+        "fenbi_letter": "D",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：2024年甲、乙、丙三人的年龄之和与2034年甲的年龄相同，且甲、乙的年龄之差大于乙、丙的年龄之差。已知乙的年龄小于甲但大于丙，问2024年甲的年龄最小可能为多…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:70",
+    "year": 2025,
+    "inputHash": "bcf8907551728869941911a44036508aa63ca8caf1a81434179c3a87a58e8bff",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "6：00",
+      "7：00",
+      "8：00",
+      "9：00"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙、丙3台收割机每小时均能收割2亩小麦，三台机器上午先后开始收割工作，12：00时甲收割的面积是乙的1.5倍，且比丙多收割6亩，16：00时3台收割机共收割了50亩，问乙是何时开始工作的？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283725,
+        "fenbi_letter": "C",
+        "fenbi_num": 71,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙3台收割机每小时均能收割2亩小麦，三台机器上午先后开始收割工作，12：00时甲收割的面积是乙的1.5倍，且比丙多收割6亩，16：00时3台收割机共收割…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:71",
+    "year": 2025,
+    "inputHash": "8c55ac4f3b907f421aa4d92a04e96f4d2af1b93c91616d2e8d10451384ee6dac",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "7",
+      "6",
+      "4",
+      "3"
+    ],
+    "paper": "副省级",
+    "s": "某竞赛由5道次序固定的判断题组成，参赛者起始为0分，每答对1题加1分，每答错1题扣1分。小王作答了所有试题，答完每道题时当前的得分都不低于1分。问他的答题情况有多少种不同的可能?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283924,
+        "fenbi_letter": "B",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某竞赛由5道次序固定的判断题组成，参赛者起始为0分，每答对1题加1分，每答错1题扣1分。小王作答了所有试题，答完每道题时当前的得分都不低于1分。问他的答题情况有…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:72",
+    "year": 2025,
+    "inputHash": "9e94a28e05d2d64bb438177cc94b598869fc7e9b7194561d3252a702d3da0196",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "paper": "副省级",
+    "s": "某种机械由3个A模块和2个B模块组成。甲车间每天可生产6个A模块或3个B模块，乙车间每天可生产1个A模块或2个B模块。现两车间合作生产40台该机械所需模块，问至少需要多少天?",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283934,
+        "fenbi_letter": "C",
+        "fenbi_num": 73,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某种机械由3个A模块和2个B模块组成。甲车间每天可生产6个A模块或3个B模块，乙车间每天可生产1个A模块或2个B模块。现两车间合作生产40台该机械所需模块，问至…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:73",
+    "year": 2025,
+    "inputHash": "6497e08976761b83051eb2e18b2c7d341015ec2232ab6381c9a5edd2f8bd8e18",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "10",
+      "15",
+      "10√3",
+      "15√3"
+    ],
+    "paper": "副省级",
+    "s": "甲船在A港正东n海里，乙船在A港正南√3n海里，两船相距120海里，同时出发向A港匀速行驶。已知乙船的速度是甲船的2√3倍，比甲船早3小时到A港。问甲船的速度是多少海里/小时？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_副省_数量关系_074.png",
+        "../../图片/2025_副省_数量关系_074_3.png"
+      ],
+      "locator": "2025·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：甲船在A港正东n海里，乙船在A港正南√3n海里，两船相距120海里，同时出发向A港匀速行驶。已知乙船的速度是甲船的2√3倍，比甲船早3小时到A港。问甲船的速度是…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2025:副省级:74",
+    "year": 2025,
+    "inputHash": "952b1d472f9d0968195a520f504f823f2a9e54cd6737f7c6e7b1f1e43bcfa6cc",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_副省_数量关系_074.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2025_副省_数量关系_074_3.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六"
+    ],
+    "paper": "副省级",
+    "s": "某门店星期一至星期五的日营业额均为1万元，星期六和星期日的日营业额均为2万元。某月1-16日的总营业额为22万元，问该月8日为：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283970,
+        "fenbi_letter": "D",
+        "fenbi_num": 75,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某门店星期一至星期五的日营业额均为1万元，星期六和星期日的日营业额均为2万元。某月1-16日的总营业额为22万元，问该月8日为：\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:75",
+    "year": 2025,
+    "inputHash": "3c4c2f919e64c531eff0de9baa76c7d4e517c38b0a491d799479f88b837b5012",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 76,
+    "o": [
+      "60%",
+      "64%",
+      "70%",
+      "75%"
+    ],
+    "paper": "副省级",
+    "s": "某种商品在定价基础上打八折销售，打折之前每天卖40件，开始打折第一天起，每天都比前一天多卖10件。打折销售15天的利润总额与打折之前销售20天的利润总额相同，问这种商品的成本是定价的：",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283756,
+        "fenbi_letter": "B",
+        "fenbi_num": 76,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·76",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某种商品在定价基础上打八折销售，打折之前每天卖40件，开始打折第一天起，每天都比前一天多卖10件。打折销售15天的利润总额与打折之前销售20天的利润总额相同，问…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:76",
+    "year": 2025,
+    "inputHash": "eb835ce794a968cd169516ee4c2133cbef40e132b1128bc2bbc417008e1e6a57",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 77,
+    "o": [
+      "3",
+      "6",
+      "12",
+      "24"
+    ],
+    "paper": "副省级",
+    "s": "将甲、乙两种设备各5件全部分配给A、B、C三个车间，要求每个车间分配两种设备至少各1件，A车间分配的设备总数比其他任一车间都多，B车间分配的甲设备多于乙设备，问有多少种不同的分配方式？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283731,
+        "fenbi_letter": "A",
+        "fenbi_num": 77,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·77",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：将甲、乙两种设备各5件全部分配给A、B、C三个车间，要求每个车间分配两种设备至少各1件，A车间分配的设备总数比其他任一车间都多，B车间分配的甲设备多于乙设备，问…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:77",
+    "year": 2025,
+    "inputHash": "39b3c8878d6e9bb4126fde43659aade63413000ae2f9b490165c8c4106455f0f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 78,
+    "o": [
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5"
+    ],
+    "paper": "副省级",
+    "s": "某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、100米，问涉密区域的面积为多少万平方米？ 2025年国家公务员录用考试《行测》真题（副省卷-考生回忆版）---估分",
+    "source": {
+      "aiAnswer": "A图",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283757,
+        "fenbi_letter": "A",
+        "fenbi_num": 78,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·78",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:78",
+    "year": 2025,
+    "inputHash": "49f9d85fc1ad91eba68c4f748cd40fd7963e55e1dca1968947e1538d881d55cc",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 79,
+    "o": [
+      "1/7",
+      "1/8",
+      "1/9",
+      "1/10"
+    ],
+    "paper": "副省级",
+    "s": "小王计划在7天假期自学甲、乙两门在线课程，每门课程需要连学2整天。如在所有可能的安排中随机选择1种，不用学习的3天均不相邻的概率为：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283935,
+        "fenbi_letter": "D",
+        "fenbi_num": 79,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_副省_数量关系_079.png"
+      ],
+      "locator": "2025·副省·79",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：小王计划在7天假期自学甲、乙两门在线课程，每门课程需要连学2整天。如在所有可能的安排中随机选择1种，不用学习的3天均不相邻的概率为：\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:79",
+    "year": 2025,
+    "inputHash": "ddf8f528eb047e1a298aa885e5ad92f612b518af4d56fe069f0124810ad3fcd3",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_副省_数量关系_079.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 80,
+    "o": [
+      "22",
+      "22.5",
+      "23",
+      "23.5"
+    ],
+    "paper": "副省级",
+    "s": "一个容器的下部分为高12厘米的倒立圆锥体，上部分为圆柱体，且圆锥和圆柱的底面半径相等。现匀速向容器中注入水，1分钟后液面高6厘米，又过30分钟后注满。问整个容器的高度为多少厘米?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283938,
+        "fenbi_letter": "D",
+        "fenbi_num": 80,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·副省·80",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一个容器的下部分为高12厘米的倒立圆锥体，上部分为圆柱体，且圆锥和圆柱的底面半径相等。现匀速向容器中注入水，1分钟后液面高6厘米，又过30分钟后注满。问整个容器…\n\n解析：粉笔答案",
+    "uid": "real:2025:副省级:80",
+    "year": 2025,
+    "inputHash": "35087a9208de5e588c857b6b8dbfa21147c8ad310fb7bfbed7f0eb8d5a9a16da",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "13/5",
+      "20/13",
+      "10/13",
+      "13/10"
+    ],
+    "paper": "地市级",
+    "s": "张某8:00开车从A地出发，在A、B两地之间往返行驶。8:30第一次到达A、B之间的C点时加速30%继续行驶，并于9：00第二次到达C点。问AC距离是BC距离的多少倍?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283740,
+        "fenbi_letter": "C",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_地市_数量关系_066.png",
+        "../../图片/2025_地市_数量关系_066_3.png"
+      ],
+      "locator": "2025·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：张某8:00开车从A地出发，在A、B两地之间往返行驶。8:30第一次到达A、B之间的C点时加速30%继续行驶，并于9：00第二次到达C点。问AC距离是BC距离的…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:66",
+    "year": 2025,
+    "inputHash": "035292f5b534498dae20e6b956c585a0b888cc078e2bcbd5045a11f83cc9c698",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_地市_数量关系_066.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2025_地市_数量关系_066_3.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "41",
+      "46",
+      "51",
+      "56"
+    ],
+    "paper": "地市级",
+    "s": "甲、乙、丙、丁四个部门共有210名员工，且甲部门员工比丁部门多10人。现乙部门调动20名员工到丙部门且其剩余员工并入丁部门后，甲、丙、丁三个部门的员工数之比为3∶3∶4。问原乙部门有多少名员工?",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283726,
+        "fenbi_letter": "C",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙、丁四个部门共有210名员工，且甲部门员工比丁部门多10人。现乙部门调动20名员工到丙部门且其剩余员工并入丁部门后，甲、丙、丁三个部门的员工数之比为3…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:67",
+    "year": 2025,
+    "inputHash": "e18aad72bc89479742953e0da24b59ced5ba546d2e70303e749717ed58e26981",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "paper": "地市级",
+    "s": "化工商店出售200千克某种试剂，前60千克打2折出售，之后60千克打5折出售，剩余部分原价出售。以下坐标图中，最能准确反映该试剂销量和销售收入之间关系的是：",
+    "source": {
+      "aiAnswer": "B图",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283932,
+        "fenbi_letter": "A",
+        "fenbi_num": 68,
+        "mapped": false,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：化工商店出售200千克某种试剂，前60千克打2折出售，之后60千克打5折出售，剩余部分原价出售。以下坐标图中，最能准确反映该试剂销量和销售收入之间关系的是：\n\n解析：粉笔答案（粉笔卷选项顺序，字母未映射）",
+    "uid": "real:2025:地市级:68",
+    "year": 2025,
+    "inputHash": "7daf2e3f47db3dc8bb2641a3492c448d440442e9e75c7d764761f0459455b79f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "10",
+      "13",
+      "16",
+      "19"
+    ],
+    "paper": "地市级",
+    "s": "某单位65名职工中，拥有甲、乙、丙三项认证中至少一项的职工正好占80%,没有甲认证的职工与有乙认证的职工人数一样多，仅有丙认证的职工有3人，三项认证都有的职工有6人。问有多少人仅拥有甲，乙两项认证?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283758,
+        "fenbi_letter": "A",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某单位65名职工中，拥有甲、乙、丙三项认证中至少一项的职工正好占80%,没有甲认证的职工与有乙认证的职工人数一样多，仅有丙认证的职工有3人，三项认证都有的职工有…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:69",
+    "year": 2025,
+    "inputHash": "8c04afc298c34cf734cd0e56c9977544c6bb46d7336e0306f9af27e43735e1f0",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "7",
+      "6",
+      "4",
+      "3"
+    ],
+    "paper": "地市级",
+    "s": "某竞赛由5道次序固定的判断题组成，参赛者起始为0分，每答对1题加1分，每答错1题扣1分。小王作答了所2025年国家公务员录用考试《行测》真题（地市卷-考生回忆版）---估分有试题，答完每道题时当前的得分都不低于1分。问他的答题情况有多少种不同的可能?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283924,
+        "fenbi_letter": "B",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某竞赛由5道次序固定的判断题组成，参赛者起始为0分，每答对1题加1分，每答错1题扣1分。小王作答了所2025年国家公务员录用考试《行测》真题（地市卷-考生回忆版…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:70",
+    "year": 2025,
+    "inputHash": "e9e2f6fd881994d2405c59dcae4ea68c9b9061099043c707b984280f45b36f05",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "paper": "地市级",
+    "s": "某种机械由3个A模块和2个B模块组成。甲车间每天可生产6个A模块或3个B模块，乙车间每天可生产1个A模块或2个B模块。现两车间合作生产40台该机械所需模块，问至少需要多少天?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283934,
+        "fenbi_letter": "C",
+        "fenbi_num": 71,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某种机械由3个A模块和2个B模块组成。甲车间每天可生产6个A模块或3个B模块，乙车间每天可生产1个A模块或2个B模块。现两车间合作生产40台该机械所需模块，问至…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:71",
+    "year": 2025,
+    "inputHash": "99a1697767494527cd980539271df4b3bb49b284167382031e7dc6353a9dc063",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "paper": "地市级",
+    "s": "张、王、李、赵4人的平均年龄为28岁，张、王的年龄之和比李大25岁，李、赵的年龄之和比张大27岁。已知张比王大2岁，问他们4人中年龄最大的比最小的大几岁?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283729,
+        "fenbi_letter": "B",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：张、王、李、赵4人的平均年龄为28岁，张、王的年龄之和比李大25岁，李、赵的年龄之和比张大27岁。已知张比王大2岁，问他们4人中年龄最大的比最小的大几岁?\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:72",
+    "year": 2025,
+    "inputHash": "47fb8c812d9ed4ee377d47c3b34426852092cc43df10bc8ab3997bbccaf30098",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "10",
+      "15",
+      "10√3",
+      "15√3"
+    ],
+    "paper": "地市级",
+    "s": "甲船在A港正东n海里，乙船在A港正南√3n海里，两船相距120海里，同时出发向A港匀速行驶。已知乙船的速度是甲船的2√3倍，比甲船早3小时到A港。问甲船的速度是多少海里/小时？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_地市_数量关系_073.png"
+      ],
+      "locator": "2025·地市·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：甲船在A港正东n海里，乙船在A港正南√3n海里，两船相距120海里，同时出发向A港匀速行驶。已知乙船的速度是甲船的2√3倍，比甲船早3小时到A港。问甲船的速度是…\n\n解析：AI独立解答，建议用粉笔/华图APP复核",
+    "uid": "real:2025:地市级:73",
+    "year": 2025,
+    "inputHash": "94fbeb23a85aa28a595700b0b45d1967d50dc2b83abe2d8a2a65a6d797a062ef",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_地市_数量关系_073.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "1/7",
+      "1/8",
+      "1/9",
+      "1/10"
+    ],
+    "paper": "地市级",
+    "s": "小王计划在7天假期自学甲、乙两门在线课程，每门课程需要连学2整天。如在所有可能的安排中随机选择1种，不用学习的3天均不相邻的概率为：",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283935,
+        "fenbi_letter": "D",
+        "fenbi_num": 74,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_地市_数量关系_074.png"
+      ],
+      "locator": "2025·地市·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：小王计划在7天假期自学甲、乙两门在线课程，每门课程需要连学2整天。如在所有可能的安排中随机选择1种，不用学习的3天均不相邻的概率为：\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:74",
+    "year": 2025,
+    "inputHash": "3e4a3076b14f4002181bd9beba81a0bdf974022182c62e999c311c7767c7e80a",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_地市_数量关系_074.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "22",
+      "22.5",
+      "23",
+      "23.5"
+    ],
+    "paper": "地市级",
+    "s": "一个容器的下部分为高12厘米的倒立圆锥体，上部分为圆柱体，且圆锥和圆柱的底面半径相等。现匀速向容器中注入水，1分钟后液面高6厘米，又过30分钟后注满。问整个容器的高度为多少厘米?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283938,
+        "fenbi_letter": "D",
+        "fenbi_num": 75,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·地市·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一个容器的下部分为高12厘米的倒立圆锥体，上部分为圆柱体，且圆锥和圆柱的底面半径相等。现匀速向容器中注入水，1分钟后液面高6厘米，又过30分钟后注满。问整个容器…\n\n解析：粉笔答案",
+    "uid": "real:2025:地市级:75",
+    "year": 2025,
+    "inputHash": "2325fd9503a836081f4f147a060fb8abdc75c9e9d63ce1fa07ade9ed3c329b58",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "6：00",
+      "7：00",
+      "8：00",
+      "9：00"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙、丙3台收割机每小时均能收割2亩小麦，三台机器上午先后开始收割工作，12：00时甲收割的面积是乙的1.5倍，且比丙多收割6亩，16：00时3台收割机共收割了50亩，问乙是何时开始工作的？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283725,
+        "fenbi_letter": "C",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙3台收割机每小时均能收割2亩小麦，三台机器上午先后开始收割工作，12：00时甲收割的面积是乙的1.5倍，且比丙多收割6亩，16：00时3台收割机共收割…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:66",
+    "year": 2025,
+    "inputHash": "4527a58610c5eaf8c4481dec24ddee7a0878870a92c9c02b4dac84f944ab419f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "41",
+      "46",
+      "51",
+      "56"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙、丙、丁四个部门共有210名员工，且甲部门员工比丁部门多10人。现乙部门调动20名员工到丙部门且其剩余员工并入丁部门后，甲、丙、丁三个部门的员工数之比为3∶3∶4。问原乙部门有多少名员工?",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283726,
+        "fenbi_letter": "C",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲、乙、丙、丁四个部门共有210名员工，且甲部门员工比丁部门多10人。现乙部门调动20名员工到丙部门且其剩余员工并入丁部门后，甲、丙、丁三个部门的员工数之比为3…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:67",
+    "year": 2025,
+    "inputHash": "c2883e73b3d5bab8594bbe55f86d8033a7282c5be093530bcfd9917a910e255b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "paper": "行政执法类",
+    "s": "张、王、李、赵4人的平均年龄为28岁，张、王的年龄之和比李大25岁，李、赵的年龄之和比张大27岁。已知张比王大2岁，问他们4人中年龄最大的比最小的大几岁?",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19283729,
+        "fenbi_letter": "B",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：张、王、李、赵4人的平均年龄为28岁，张、王的年龄之和比李大25岁，李、赵的年龄之和比张大27岁。已知张比王大2岁，问他们4人中年龄最大的比最小的大几岁?\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:68",
+    "year": 2025,
+    "inputHash": "dc3065f319a0989fc19799137e7207ab3a27fd3368f4f2723aa4f90bd7445b44",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "3",
+      "6",
+      "12",
+      "24"
+    ],
+    "paper": "行政执法类",
+    "s": "将甲、乙两种设备各5件全部分配给A、B、C三个车间，要求每个车间分配两种设备至少各1件，A车间分配的设备总数比其他任一车间都多，B车间分配的甲设备多于乙设备，问有多少种不同的分配方式？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283731,
+        "fenbi_letter": "A",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：将甲、乙两种设备各5件全部分配给A、B、C三个车间，要求每个车间分配两种设备至少各1件，A车间分配的设备总数比其他任一车间都多，B车间分配的甲设备多于乙设备，问…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:69",
+    "year": 2025,
+    "inputHash": "c0372ec0c0f0b831c811830145bb6ddad24f689f75789df94aeb0d3fffb66201",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "13/5",
+      "20/13",
+      "10/13",
+      "13/10"
+    ],
+    "paper": "行政执法类",
+    "s": "张某8:00开车从A地出发，在A、B两地之间往返行驶。8:30第一次到达A、B之间的C点时加速30%继续行驶，并于9：00第二次到达C点。问AC距离是BC距离的多少倍?",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283740,
+        "fenbi_letter": "C",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_执法_数量关系_070.png",
+        "../../图片/2025_执法_数量关系_070_3.png"
+      ],
+      "locator": "2025·执法·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：张某8:00开车从A地出发，在A、B两地之间往返行驶。8:30第一次到达A、B之间的C点时加速30%继续行驶，并于9：00第二次到达C点。问AC距离是BC距离的…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:70",
+    "year": 2025,
+    "inputHash": "21cd4e8aa2abb685d1ca6de654ef336c63ad58cf0bc4d246949c407acfde78a7",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_执法_数量关系_070.png",
+        "exists": true
+      },
+      {
+        "path": "真题库/图片/2025_执法_数量关系_070_3.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "paper": "行政执法类",
+    "s": "小张每周一到周四夜跑，周五到周日休息，已知某年2月他夜跑17次，3月夜跑19次，问4月他夜跑多少次？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283754,
+        "fenbi_letter": "A",
+        "fenbi_num": 71,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：小张每周一到周四夜跑，周五到周日休息，已知某年2月他夜跑17次，3月夜跑19次，问4月他夜跑多少次？\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:71",
+    "year": 2025,
+    "inputHash": "8eebea665e9f9ecae528b1acf794e978b8160e97b838f390799a6d39215ab661",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "60%",
+      "64%",
+      "70%",
+      "75%"
+    ],
+    "paper": "行政执法类",
+    "s": "某种商品在定价基础上打八折销售，打折之前每天卖40件，开始打折第一天起，每天都比前一天多卖10件。打折销售15天的利润总额与打折之前销售20天的利润总额相同，问这种商品的成本是定价的：",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19283756,
+        "fenbi_letter": "B",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某种商品在定价基础上打八折销售，打折之前每天卖40件，开始打折第一天起，每天都比前一天多卖10件。打折销售15天的利润总额与打折之前销售20天的利润总额相同，问…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:72",
+    "year": 2025,
+    "inputHash": "fbb9240d31ca258c0dfd3d5feda244d2e8b7fc709ba1f77386b7997fc5a817dd",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5"
+    ],
+    "paper": "行政执法类",
+    "s": "某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、100米，问涉密区域的面积为多少万平方米？",
+    "source": {
+      "aiAnswer": "A图",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283757,
+        "fenbi_letter": "A",
+        "fenbi_num": 73,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某厂区如图所示，其中ABCD为矩形，ABEF为直角梯形，AB与DE相交于G点，其中阴影区域ADGF为涉密区域。已知AD、AF、AB长度分别为240米、150米、…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:73",
+    "year": 2025,
+    "inputHash": "f6035fb5793e716169b57e9cb3a022db5821647e1ae799bd9256c7919107904b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "10",
+      "13",
+      "16",
+      "19"
+    ],
+    "paper": "行政执法类",
+    "s": "某单位65名职工中，拥有甲、乙、丙三项认证中至少一项的职工正好占80%,没有甲认证的职工与有乙认证的职工人数一样多，仅有丙认证的职工有3人，三项认证都有的职工有6人。问有多少人仅拥有甲，乙两项认证?",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19283758,
+        "fenbi_letter": "A",
+        "fenbi_num": 74,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2025·执法·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某单位65名职工中，拥有甲、乙、丙三项认证中至少一项的职工正好占80%,没有甲认证的职工与有乙认证的职工人数一样多，仅有丙认证的职工有3人，三项认证都有的职工有…\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:74",
+    "year": 2025,
+    "inputHash": "e2a148739b4c4a9e4c38a92769f65918e98732acd880f463164798bf750142ea",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "7/3",
+      "7/6",
+      "8/3",
+      "4/3"
+    ],
+    "paper": "行政执法类",
+    "s": "一个长方体零件最大面的面积是最小面的3倍，次大面的面积是最大、最小面面积平均值的9/16。问该零件最小面的长是其宽的多少倍？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19283762,
+        "fenbi_letter": "C",
+        "fenbi_num": 75,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2025_执法_数量关系_075.png"
+      ],
+      "locator": "2025·执法·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一个长方体零件最大面的面积是最小面的3倍，次大面的面积是最大、最小面面积平均值的9/16。问该零件最小面的长是其宽的多少倍？\n\n解析：粉笔答案",
+    "uid": "real:2025:行政执法类:75",
+    "year": 2025,
+    "inputHash": "83f65f203d5599f45e60842399f2716b5c8c0aabc7db9a79c2c59e28d1a24276",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2025_执法_数量关系_075.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "paper": "副省级",
+    "s": "某园区种植甲、乙、丙三种花卉共10公顷，甲的种植面积是乙的2倍，丙的种植面积比乙少2公顷。问丙的种植面积为多少公顷？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526419,
+        "fenbi_letter": "A",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某园区种植甲、乙、丙三种花卉共10公顷，甲的种植面积是乙的2倍，丙的种植面积比乙少2公顷。问丙的种植面积为多少公顷？\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:66",
+    "year": 2026,
+    "inputHash": "450da4a2d294d8c9bd5a2dfa22a08763cb46e2857db7a4ddba0ffff308eef8e6",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "m=3n-5",
+      "m=6n-10",
+      "m=5-3n",
+      "m=10-6n"
+    ],
+    "paper": "副省级",
+    "s": "甲和乙两个工厂共同生产5天，能生产w件产品。甲的效率是乙的m倍，如果甲效率提升50%，乙效率提升为原来的n倍，则3天就能生产w件产品。问m和n的关系为：2026年国家公务员录用考试《行测》真题（副省卷-考生回忆版）-估分",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526420,
+        "fenbi_letter": "B",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：甲和乙两个工厂共同生产5天，能生产w件产品。甲的效率是乙的m倍，如果甲效率提升50%，乙效率提升为原来的n倍，则3天就能生产w件产品。问m和n的关系为：2026…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:67",
+    "year": 2026,
+    "inputHash": "9c14c2d800ad2940110bb08e48246fd4eabeaa37f3f76afae3986df17ecee279",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "13m",
+      "14m",
+      "15m",
+      "16m"
+    ],
+    "paper": "副省级",
+    "s": "某企业2023年开始拓展海外业务，当年海外业务亏损m元，但2024年海外业务实现利润2m元。在国内市场每年利润保持不变的前提下，2024年总利润是2023年的1.2倍。问该企业每年国内市场利润为多少元？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526421,
+        "fenbi_letter": "D",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某企业2023年开始拓展海外业务，当年海外业务亏损m元，但2024年海外业务实现利润2m元。在国内市场每年利润保持不变的前提下，2024年总利润是2023年的1…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:68",
+    "year": 2026,
+    "inputHash": "cb9708d6da4d847ed05f63f747a080b32002db343737fe43a636d0e2d9c64da6",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "少1台",
+      "少2台",
+      "多1台",
+      "多2台"
+    ],
+    "paper": "副省级",
+    "s": "某企业采购了A、B、C三个品牌的电脑共54台，其中采购A品牌电脑的台数比B品牌电脑少35%。问采购的C品牌电脑比B品牌电脑：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526357,
+        "fenbi_letter": "C",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某企业采购了A、B、C三个品牌的电脑共54台，其中采购A品牌电脑的台数比B品牌电脑少35%。问采购的C品牌电脑比B品牌电脑：\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:69",
+    "year": 2026,
+    "inputHash": "cf5bc256aaf71ed6d13b40c7a9d02c6ba2afe1a2a174168ab86582f433aec210",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "0.1",
+      "0.12",
+      "0.15",
+      "0.3"
+    ],
+    "paper": "副省级",
+    "s": "4人参加乒乓球比赛，每2人对战一场，甲战胜乙的概率是0.4，乙战胜丙的概率是丙战胜丁概率的2倍。已知乙在比赛中对甲、丙均取胜的概率是0.18，问丙战胜丁的概率是：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526424,
+        "fenbi_letter": "C",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：4人参加乒乓球比赛，每2人对战一场，甲战胜乙的概率是0.4，乙战胜丙的概率是丙战胜丁概率的2倍。已知乙在比赛中对甲、丙均取胜的概率是0.18，问丙战胜丁的概率是…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:70",
+    "year": 2026,
+    "inputHash": "a8c39297954e4a023fd7a40b20fd599df264e52de62c32f4535311a66d07502a",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "5/7",
+      "7/5",
+      "7/10",
+      "10/7"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙两地的中点为丙。张从甲出发在甲、乙之间往返匀速慢跑，同时王从乙出发在乙、丙之间往返匀速慢跑。出发后王第5次到达乙地时，张正好第4次到达乙地。问张的速度是王的多少倍？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526422,
+        "fenbi_letter": "B",
+        "fenbi_num": 71,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2026_副省_数量关系_071.png"
+      ],
+      "locator": "2026·副省·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：甲、乙两地的中点为丙。张从甲出发在甲、乙之间往返匀速慢跑，同时王从乙出发在乙、丙之间往返匀速慢跑。出发后王第5次到达乙地时，张正好第4次到达乙地。问张的速度是王…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:71",
+    "year": 2026,
+    "inputHash": "2542b75310510637df19ff921d4792befda4fc5415d97df452e7273dbc47f34e",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2026_副省_数量关系_071.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "2/3",
+      "3/4",
+      "3/5",
+      "4/5"
+    ],
+    "paper": "副省级",
+    "s": "甲和乙两个长方体零件的体积比为3：2，且甲和乙均有2个面为边长n厘米的正方形。将甲和乙粘接为一个长方体之后，表面积比原来2个零件的表面积之和减少了20%。问乙最短棱的长度是最长棱的：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526423,
+        "fenbi_letter": "C",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": true
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [
+        "../../图片/2026_副省_数量关系_072.png"
+      ],
+      "locator": "2026·副省·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：甲和乙两个长方体零件的体积比为3：2，且甲和乙均有2个面为边长n厘米的正方形。将甲和乙粘接为一个长方体之后，表面积比原来2个零件的表面积之和减少了20%。问乙最…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:72",
+    "year": 2026,
+    "inputHash": "28ed823881a1281fee5719f63f8acca1d4f6d653381d47defeabafcc709de411",
+    "dataset": "validation",
+    "images": [
+      {
+        "path": "真题库/图片/2026_副省_数量关系_072.png",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "15",
+      "17",
+      "29",
+      "33"
+    ],
+    "paper": "副省级",
+    "s": "某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍，问该单位有职工多少人？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526319,
+        "fenbi_letter": "D",
+        "fenbi_num": 73,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍，问该单位有职工多少人？\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:73",
+    "year": 2026,
+    "inputHash": "a06e8fa9f85f8676a500229d353d7cc554debd209b6571149e949e9754a96791",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "paper": "副省级",
+    "s": "其考试有30人参加，每人得分都是0-100之间的整数且互不相同。已知得分不低于90的人平均分为93.84。小美得了92分，问他的成绩排名品低可能是第几名？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526325,
+        "fenbi_letter": "A",
+        "fenbi_num": 74,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：其考试有30人参加，每人得分都是0-100之间的整数且互不相同。已知得分不低于90的人平均分为93.84。小美得了92分，问他的成绩排名品低可能是第几名？\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:74",
+    "year": 2026,
+    "inputHash": "5ddf42a8712ddef94eb0d57ac5285829480701aefaca9b0e5b824cec6a937527",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "20%",
+      "25%",
+      "40%",
+      "50%"
+    ],
+    "paper": "副省级",
+    "s": "一块梯形场地如下图所示，已知OA≈0.6OD，现在需要将这块场地扩展为块长方形场地，问扩展后场地面积比原来至少增加2026年国家公务员录用考试《行测》真题（副省卷-考生回忆版）-估分",
+    "source": {
+      "aiAnswer": "B图",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526340,
+        "fenbi_letter": "B",
+        "fenbi_num": 75,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：一块梯形场地如下图所示，已知OA≈0.6OD，现在需要将这块场地扩展为块长方形场地，问扩展后场地面积比原来至少增加2026年国家公务员录用考试《行测》真题（副省…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:75",
+    "year": 2026,
+    "inputHash": "76b220fb58df8c3a4fe68f52cd92f148c4c687debe4f93bae7ac39e1b5ce0bd2",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 11,
+    "number": 76,
+    "o": [
+      "50",
+      "48",
+      "46",
+      "44"
+    ],
+    "paper": "副省级",
+    "s": "甲和乙办公室各有4名职工，乙办公室职工平均年龄为32岁。现从甲办公室调动1人到乙办公室，2个办公室职工平均年龄都增加了2岁。问调动后甲办公室职工的平均年龄为多少岁？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526360,
+        "fenbi_letter": "A",
+        "fenbi_num": 76,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·76",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙办公室各有4名职工，乙办公室职工平均年龄为32岁。现从甲办公室调动1人到乙办公室，2个办公室职工平均年龄都增加了2岁。问调动后甲办公室职工的平均年龄为多少…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:76",
+    "year": 2026,
+    "inputHash": "e89f9563d0d46a42ce216cc3977c5c611ef7de1486170f8a85d96bff9eb63b0b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 12,
+    "number": 77,
+    "o": [
+      "18",
+      "17",
+      "16",
+      "15"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙两个工程队单独完成A、B、C三个工程，所需时间如下：问两队合作完成这3个工程至少需要多少天（不足1天算1天）？",
+    "source": {
+      "aiAnswer": "?表",
+      "alignedAnswer": null,
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·77",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：甲、乙两个工程队单独完成A、B、C三个工程，所需时间如下：问两队合作完成这3个工程至少需要多少天（不足1天算1天）？\n\n解析：题目依赖原卷表格，答案待核",
+    "uid": "real:2026:副省级:77",
+    "year": 2026,
+    "inputHash": "9619af9934583b08fc2f1a6f2c2b80d62cbf7e0b288fea8c48bcfd9ed17928e0",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 13,
+    "number": 78,
+    "o": [
+      "周三",
+      "周二",
+      "周六",
+      "周五"
+    ],
+    "paper": "副省级",
+    "s": "某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是:",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526328,
+        "fenbi_letter": "C",
+        "fenbi_num": 78,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·78",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是:\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:78",
+    "year": 2026,
+    "inputHash": "f3d88e2bbd22882927e7cf0dba360dd94b5b67c3227a1e0295b75e5c23ad2b55",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 14,
+    "number": 79,
+    "o": [
+      "不到8分钟",
+      "8分钟～9分钟之间",
+      "9分钟～10分钟之间",
+      "超过10分钟"
+    ],
+    "paper": "副省级",
+    "s": "甲、乙、丙三辆车同时从环形道路同一点出发匀速行驶，其中甲和乙顺时针行驶，丙逆时针行驶，且甲、乙、丙的速度比为4：5：6。已知甲丙和乙丙第一次相遇的时间间隔为5秒，问出发后多久乙第一次追上甲？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526425,
+        "fenbi_letter": "C",
+        "fenbi_num": 79,
+        "mapped": false,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·79",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：甲、乙、丙三辆车同时从环形道路同一点出发匀速行驶，其中甲和乙顺时针行驶，丙逆时针行驶，且甲、乙、丙的速度比为4：5：6。已知甲丙和乙丙第一次相遇的时间间隔为5秒…\n\n解析：粉笔答案（粉笔卷选项顺序，字母未映射）",
+    "uid": "real:2026:副省级:79",
+    "year": 2026,
+    "inputHash": "e6dcec2ed5a2bea3ac6f207e26e1f6a2fe9a26627584926619631d008179b77b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 15,
+    "number": 80,
+    "o": [
+      "21k",
+      "28k",
+      "33k",
+      "44k"
+    ],
+    "paper": "副省级",
+    "s": "公司1月销售额为w元，从2月开始每个月的销售额都比上个月高k元。已知一季度完成全年销售目标的18%，上半年完成全年销售目标的48%，问公司全年实际销售额将比销售目标高多少元？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526426,
+        "fenbi_letter": "C",
+        "fenbi_num": 80,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·副省·80",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：公司1月销售额为w元，从2月开始每个月的销售额都比上个月高k元。已知一季度完成全年销售目标的18%，上半年完成全年销售目标的48%，问公司全年实际销售额将比销售…\n\n解析：粉笔答案",
+    "uid": "real:2026:副省级:80",
+    "year": 2026,
+    "inputHash": "31da027043532bb6d9ef1cf27164204f104f2e4a28af007f3279c82f60e29388",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "少1台",
+      "少2台",
+      "多1台",
+      "多2台"
+    ],
+    "paper": "地市级",
+    "s": "某企业采购了A、B、C三个品牌的电脑共54台，其中采购A品牌电脑的台数比B品牌电脑少35%。问采购的C品牌电脑比B品牌电脑：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526357,
+        "fenbi_letter": "C",
+        "fenbi_num": 66,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某企业采购了A、B、C三个品牌的电脑共54台，其中采购A品牌电脑的台数比B品牌电脑少35%。问采购的C品牌电脑比B品牌电脑：\n\n解析：粉笔答案",
+    "uid": "real:2026:地市级:66",
+    "year": 2026,
+    "inputHash": "e3558920052e6c26b7a7fa88fa2ed3bfa51e792e1a404d9d7611825bcc1d6056",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "10",
+      "8",
+      "6",
+      "5"
+    ],
+    "paper": "地市级",
+    "s": "某部门7人分两组到甲、乙两市进行调研。已知到甲市人数超过一半，老张和小王均到乙市，问共有多少种不同的分组方式？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526237,
+        "fenbi_letter": "C",
+        "fenbi_num": 67,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某部门7人分两组到甲、乙两市进行调研。已知到甲市人数超过一半，老张和小王均到乙市，问共有多少种不同的分组方式？\n\n解析：解析：排列组合问题。一共7人分成两组，且老张和小王均到乙市，那么甲组人数要想过半，甲组人数只能是4人、5人两种情况。情况一：甲组人数为4人时，分组方式有C兮CC²=5种；情况二：甲组人数为5人时，分组方式有CξC²=1种。因此一共有5+1=6种分组方式。",
+    "uid": "real:2026:地市级:67",
+    "year": 2026,
+    "inputHash": "35d7b1c515d5fb94a58c18afa5833708f2edaced7fc2c262c6415721ee8e5d7b",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "70",
+      "140",
+      "210",
+      "280"
+    ],
+    "paper": "地市级",
+    "s": "小王从甲地匀速前往乙地，到达后立刻匀速返回。已知他去程的用时比返程多3小时，去程的速度是返程的40%，且往返的平均速度为40千米/小时，问甲、乙两地相距多少千米？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526239,
+        "fenbi_letter": "B",
+        "fenbi_num": 68,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：小王从甲地匀速前往乙地，到达后立刻匀速返回。已知他去程的用时比返程多3小时，去程的速度是返程的40%，且往返的平均速度为40千米/小时，问甲、乙两地相距多少千米…\n\n解析：解析：行程问题。根据公式速度可知，当路程一定时，速度与时间成反比，故去程与设从甲地到乙地用时5t,返回时用时2t,由返程速度之比,时间之比题意可知5t-2t=3h,解得t=1h,因此去时用时5h,返回用时2h, 往返全程路程为40×(5+2)=280km,甲乙两地相距",
+    "uid": "real:2026:地市级:68",
+    "year": 2026,
+    "inputHash": "4c6233af726e3f20f8be1b4f8a5c5f6c1034d756f98feced8271a45cfb654994",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "paper": "地市级",
+    "s": "某种商品若按每件100元出售，每天售出m件；若降价10%，日销量将提高25%且日利润与降价前相同。问该商品成本为多少元/件？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526236,
+        "fenbi_letter": "A",
+        "fenbi_num": 69,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：某种商品若按每件100元出售，每天售出m件；若降价10%，日销量将提高25%且日利润与降价前相同。问该商品成本为多少元/件？\n\n解析：【解析】经济利润问题。根据题意，设该商品成本为a 元/件，单日利润=每件利润×每天销量，根据降价后的单日利润与降价前的相同，可列方程：(100- a)×m=[100×(1-10%)-a]×[m×(1+25%)],式子化简一下：100-a=(90-a)×1.25,解得a=50。70,甲乙每天加工2000,甲的效率提高10%,乙的效率提高20%,则每天一共能生产2260,问甲之前一天能生产多少()A.1100B.1200C.1300D.1400",
+    "uid": "real:2026:地市级:69",
+    "year": 2026,
+    "inputHash": "64807bfff238a7219d80885b422e72e255ff99641100ba94f0b0dd51a74a779f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "1100",
+      "1200",
+      "1300",
+      "1400"
+    ],
+    "paper": "地市级",
+    "s": "甲、乙两车间每天可加工2000个零件。若甲、乙车间效率分别提升10%和20%，则两车间每天可加工2260个零件。问效率提升前甲车间每天可加工多少个零件？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526358,
+        "fenbi_letter": "D",
+        "fenbi_num": 70,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：甲、乙两车间每天可加工2000个零件。若甲、乙车间效率分别提升10%和20%，则两车间每天可加工2260个零件。问效率提升前甲车间每天可加工多少个零件？\n\n解析：粉笔答案",
+    "uid": "real:2026:地市级:70",
+    "year": 2026,
+    "inputHash": "1d0bee73f1b0803ad7a72fb9bd3b4fafb04f0a5e3f252cfef4ce4e890f2c19ac",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "15",
+      "17",
+      "29",
+      "33"
+    ],
+    "paper": "地市级",
+    "s": "某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍，问该单位有职工多少人？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526319,
+        "fenbi_letter": "D",
+        "fenbi_num": 71,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍，问该单位有职工多少人？\n\n解析：解析：概率问题。设总人数为x, 则总所有职工中选出3人的情况数为C³, 张立和李磊2人中只有1人被选中的情况数为C2C²-2, 张立和李磊2人均被选中的情况数为C²C-2 。根据公式概率,可知,整理得C¹C²-2=30×C2C¹-2,即, 解得x=33。",
+    "uid": "real:2026:地市级:71",
+    "year": 2026,
+    "inputHash": "d24ec9934d8a79fd24704bbe484283b614fca169c9f0c68972b3ddfa9f203451",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "20%",
+      "25%",
+      "40%",
+      "50%"
+    ],
+    "paper": "地市级",
+    "s": "一块梯形场地如下图所示，已知OA≈0.6OD，现在需要将这块场地扩展为块长方形场地，问扩展后场地面积比原来至少增加",
+    "source": {
+      "aiAnswer": "B图",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526340,
+        "fenbi_letter": "B",
+        "fenbi_num": 72,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：一块梯形场地如下图所示，已知OA≈0.6OD，现在需要将这块场地扩展为块长方形场地，问扩展后场地面积比原来至少增加\n\n解析：【解析】几何问题。根据题意，四边形ABCD是一个梯形，可得△A0B 一△DOC, 由于OA=0.60D,可知所!, 令AB=3a,则CD=5a。要想扩展后的长方形面积尽量小，需要分别过C、D 两点作AB 的垂线，交点为E、F, 此时才能使扩展后的长方形面积最小，S 长方形CDEF=5ah,所以扩展后场地面积比原来至少增加：73,甲乙各4人，甲办公室平均年领乙平均年龄32岁，若甲调走一个人给乙，则两个办公室平均年龄增加2岁，问调动后甲的平均年龄为()A.50B.48C.46D.44",
+    "uid": "real:2026:地市级:72",
+    "year": 2026,
+    "inputHash": "e4d227c09b7af5f58fc9eabb70b38cb0054a5bfa280ad978b9b08587429e27b2",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "50",
+      "48",
+      "46",
+      "44 2026年国家公务员录用考试《行测》真题（地市卷-考生回忆版）-估分"
+    ],
+    "paper": "地市级",
+    "s": "甲和乙办公室各有4名职工，乙办公室职工平均年龄为32岁。现从甲办公室调动1人到乙办公室，2个办公室职工平均年龄都增加了2岁。问调动后甲办公室职工的平均年龄为多少岁？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526360,
+        "fenbi_letter": "A",
+        "fenbi_num": 73,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲和乙办公室各有4名职工，乙办公室职工平均年龄为32岁。现从甲办公室调动1人到乙办公室，2个办公室职工平均年龄都增加了2岁。问调动后甲办公室职工的平均年龄为多少…\n\n解析：粉笔答案",
+    "uid": "real:2026:地市级:73",
+    "year": 2026,
+    "inputHash": "c03cddffb36f4405ffa372151fb89439a6b6d4a9b5c8a32c682369d949c83684",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "周三",
+      "周二",
+      "周六",
+      "周五"
+    ],
+    "paper": "地市级",
+    "s": "某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是:",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526328,
+        "fenbi_letter": "C",
+        "fenbi_num": 74,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是:\n\n解析：【解析】星期日期问题。根据题意推断这俩次日期可能是8月10日和9月10日，或者8月20日和9月20日。解下来分情况讨论：情况一：若8月10日和9月10日是周一：8月10日和9月10日间隔31天，31÷7=4…3,即经过4个完整周期还多三天，那么9月10日不是周一，与题干矛盾，不符合；情况二：若8月20日和9月20日是周一：8月20日和9月20日间隔31天31÷7=4…3,即经过4个完整周期还多三天，那么9月20日不是周一，与题干矛盾，不符合；情况三：8月10日和9月20日是周一：8月10日和9月20日间隔31-10+20=41天，41÷7=5…6,即经过5个完整周期还多6天，那么9月20日不是周一，与题干矛盾，不符合情况四：8月20日和9月10日是周一：8月20日和9月10日间隔31-20+10=21天，21÷7=3,刚好过了完整的三个周期，因此9月10日刚好是周一，符合题意。那么9月1日便是周六。故正确答案选C75,技术论坛A.B.C.D.第五部分判断推理(共35题，参考时限30分钟)",
+    "uid": "real:2026:地市级:74",
+    "year": 2026,
+    "inputHash": "e27587d710462c684ddc86c3adabe4648b61532e3dc59299414a55ac9181b3cf",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "paper": "地市级",
+    "s": "某新技术论坛在3个分会场安排4个领域的12场报告，安排如下表。小华希望在同一天听4个领域的报告各1场，问他有多少种不同的选择方式？",
+    "source": {
+      "aiAnswer": "?表",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526403,
+        "fenbi_letter": "D",
+        "fenbi_num": 75,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·地市·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某新技术论坛在3个分会场安排4个领域的12场报告，安排如下表。小华希望在同一天听4个领域的报告各1场，问他有多少种不同的选择方式？\n\n解析：粉笔答案",
+    "uid": "real:2026:地市级:75",
+    "year": 2026,
+    "inputHash": "57aad6a6dfb8fa5d0c93e6c05c459cb863bb1582dbb172c8e93f625ecea59de7",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 1,
+    "number": 66,
+    "o": [
+      "50",
+      "60",
+      "70",
+      "8"
+    ],
+    "paper": "行政执法类",
+    "s": "某种商品若按每件100元出售，每天售出m件；若降价10%，日销量将提高25%且单日利润与降价前相同。问该商品成本为多少元/件？",
+    "source": {
+      "aiAnswer": "A",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526329,
+        "fenbi_letter": "D",
+        "fenbi_num": 81,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·66",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：某种商品若按每件100元出售，每天售出m件；若降价10%，日销量将提高25%且单日利润与降价前相同。问该商品成本为多少元/件？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:66",
+    "year": 2026,
+    "inputHash": "4cf39e2609068107bb707b87d71e06c05c6915d341017c6eb804315c62ea3958",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 2,
+    "number": 67,
+    "o": [
+      "10",
+      "8",
+      "6",
+      "5"
+    ],
+    "paper": "行政执法类",
+    "s": "某部门7人分两组到甲、乙两市进行调研。已知到甲市人数超过一半，老张和小王均到乙市，问共有多少种不同的分组方式？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526323,
+        "fenbi_letter": "C",
+        "fenbi_num": 82,
+        "mapped": false,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·67",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "待核",
+    "sourceExplanation": "题干：某部门7人分两组到甲、乙两市进行调研。已知到甲市人数超过一半，老张和小王均到乙市，问共有多少种不同的分组方式？\n\n解析：粉笔答案（粉笔卷选项顺序，字母未映射）",
+    "uid": "real:2026:行政执法类:67",
+    "year": 2026,
+    "inputHash": "2fbe27fe8aaede09576ea0ea31ff59c917a8fa2cbefae96279dead90fbbe2a04",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 3,
+    "number": 68,
+    "o": [
+      "70",
+      "140",
+      "210",
+      "280"
+    ],
+    "paper": "行政执法类",
+    "s": "小王从甲地匀速前往乙地，到达后立刻匀速返回。已知他去程的用时比返程多3小时，去程的速度是返程的40%，且往返的平均速度为40千米/小时，问甲、乙两地相距多少千米？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526250,
+        "fenbi_letter": "A",
+        "fenbi_num": 83,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·68",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：小王从甲地匀速前往乙地，到达后立刻匀速返回。已知他去程的用时比返程多3小时，去程的速度是返程的40%，且往返的平均速度为40千米/小时，问甲、乙两地相距多少千米…\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:68",
+    "year": 2026,
+    "inputHash": "73d2b9b74763e5e1f7d283ad5e8737aa23d0274aa4c77902891562f7d3661f4a",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 4,
+    "number": 69,
+    "o": [
+      "2036年",
+      "2038年",
+      "2040年",
+      "2042年"
+    ],
+    "paper": "行政执法类",
+    "s": "2024年张和李年龄的平均值是刘的2倍；2028年张的年龄是李的1.5倍，比刘年龄的2倍大4岁。问张哪一年60岁？",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526253,
+        "fenbi_letter": "B",
+        "fenbi_num": 84,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·69",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：2024年张和李年龄的平均值是刘的2倍；2028年张的年龄是李的1.5倍，比刘年龄的2倍大4岁。问张哪一年60岁？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:69",
+    "year": 2026,
+    "inputHash": "2481597df5092689e624b5911f0bc920b09c31a00e2d05614eaaa892b45efa38",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 5,
+    "number": 70,
+    "o": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙和丙3个单位共有100多名职工，其中甲单位的职工人数占总数的24%，乙单位的职工比丙单位多50%。问丙单位的职工比甲单位多多少人？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "A",
+        "fenbi_id": 19526305,
+        "fenbi_letter": "A",
+        "fenbi_num": 85,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·70",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "A",
+    "sourceExplanation": "题干：甲、乙和丙3个单位共有100多名职工，其中甲单位的职工人数占总数的24%，乙单位的职工比丙单位多50%。问丙单位的职工比甲单位多多少人？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:70",
+    "year": 2026,
+    "inputHash": "c0aa43a027c77c76f0eeb705d5a07ac9c5fa8f7054a0ed872b5f95f558c75249",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 6,
+    "number": 71,
+    "o": [
+      "15",
+      "17",
+      "29",
+      "33"
+    ],
+    "paper": "行政执法类",
+    "s": "某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍。问该单位有职工多少人？",
+    "source": {
+      "aiAnswer": "D",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526261,
+        "fenbi_letter": "C",
+        "fenbi_num": 86,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·71",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某单位从所有职工中随机选3人参加某个会议，张立和李磊2人中只有1人被选中的概率是2人均被选中概率的30倍。问该单位有职工多少人？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:71",
+    "year": 2026,
+    "inputHash": "8807f531d0b760a803972958da0f9044cd12851a314d658c068cc4b5ab76d99f",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 7,
+    "number": 72,
+    "o": [
+      "18",
+      "17",
+      "16",
+      "15"
+    ],
+    "paper": "行政执法类",
+    "s": "甲、乙两个工程队单独完成A、B、C三个工程，所需时间如下：问两队合作完成这3个工程至少需要多少天（不足1天算1天）？",
+    "source": {
+      "aiAnswer": "?表",
+      "alignedAnswer": {
+        "ans": "D",
+        "fenbi_id": 19526274,
+        "fenbi_letter": "D",
+        "fenbi_num": 87,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·72",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "D",
+    "sourceExplanation": "题干：甲、乙两个工程队单独完成A、B、C三个工程，所需时间如下：问两队合作完成这3个工程至少需要多少天（不足1天算1天）？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:72",
+    "year": 2026,
+    "inputHash": "2c78c6fb000ffb2af21a2b5fa3017df330529eb6526315097a3a9eab486ac178",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 8,
+    "number": 73,
+    "o": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "paper": "行政执法类",
+    "s": "某考试有30人参加，每人得分都是0~100之间的整数且互不相同。已知得分不低于90的人平均分为93.8分，小姜得了92分，问他的成绩排名最低可能是第几名？",
+    "source": {
+      "aiAnswer": "B",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526245,
+        "fenbi_letter": "C",
+        "fenbi_num": 88,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·73",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：某考试有30人参加，每人得分都是0~100之间的整数且互不相同。已知得分不低于90的人平均分为93.8分，小姜得了92分，问他的成绩排名最低可能是第几名？\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:73",
+    "year": 2026,
+    "inputHash": "465aa3b06255651510ce19e7b3feee4eea9ba43404465c4fb6cbb066121864c2",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 9,
+    "number": 74,
+    "o": [
+      "20%",
+      "25%",
+      "40%",
+      "50%"
+    ],
+    "paper": "行政执法类",
+    "s": "一块梯形场地如下图所示，已知OA=0.6OD，现在需要将这块场地拓展为一块长方形场地，问扩展后场地面积比原来至少增加：",
+    "source": {
+      "aiAnswer": "B图",
+      "alignedAnswer": {
+        "ans": "C",
+        "fenbi_id": 19526247,
+        "fenbi_letter": "C",
+        "fenbi_num": 89,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·74",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "C",
+    "sourceExplanation": "题干：一块梯形场地如下图所示，已知OA=0.6OD，现在需要将这块场地拓展为一块长方形场地，问扩展后场地面积比原来至少增加：\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:74",
+    "year": 2026,
+    "inputHash": "241b95235539ecb9df9172d0d850b915e4aea56c690388c5a90047b63c38b75c",
+    "dataset": "validation",
+    "images": []
+  },
+  {
+    "exam": "国考",
+    "moduleIndex": 10,
+    "number": 75,
+    "o": [
+      "周三",
+      "周二",
+      "周六",
+      "周五"
+    ],
+    "paper": "行政执法类",
+    "s": "某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是：",
+    "source": {
+      "aiAnswer": "C",
+      "alignedAnswer": {
+        "ans": "B",
+        "fenbi_id": 19526243,
+        "fenbi_letter": "B",
+        "fenbi_num": 90,
+        "mapped": true,
+        "visual": false
+      },
+      "answerAuthority": "粉笔内容对齐答案（非官方公布答案）",
+      "imagePolicy": "本数据快照未带图；依赖图片的一律不计分",
+      "imageReferences": [],
+      "locator": "2026·执法·75",
+      "path": "真题库/按模块/01_数量关系/题目汇编.md",
+      "priorStructuralReview": null
+    },
+    "sourceAnswer": "B",
+    "sourceExplanation": "题干：某社区干部每周一参加工作例会，每月10日、20日接访群众。已知8月与9月共有2次接访群众与工作例会在同一天，问当年9月1日是：\n\n解析：粉笔答案",
+    "uid": "real:2026:行政执法类:75",
+    "year": 2026,
+    "inputHash": "c13c97ff44722ff4c333ad6079b44f972a0e4aed99755e80ed280ef2f2da63f2",
+    "dataset": "validation",
+    "images": []
+  }
+]

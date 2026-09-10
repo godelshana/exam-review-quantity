@@ -1,81 +1,74 @@
-# 数量关系训练 / 验证隔离交接
+# 完整真题题库：逐题审核已接入练习
 
-## 当前实现与不可回退的边界
+## 已纠正上一版的错误
 
-本轮把旧“原创 / GLM / 待核真题”入口改成了训练混编天梯、迁移混编、最近三年验证首测、验证复盘四种模式。默认仍然五题。
+项目本来就有省考数据。此前“广东近三年缺资料”“只放147题即可完成”的说法错误，旧版把没有完成的工作当成了隔离结果。本版已经逐条审核并实际接入现有真题，不能再回退到旧小池。
 
-**保留年份固定为2024、2025、2026，国考与广东省考都只作验证，不得进入普通训练池。** 已知同构的原创 / GLM也保守隔离；不能因为一题是V3、不评分，就拿它的改数字版本去训练。
+| 项目 | 本版实际结果 |
+|---|---:|
+| 国考输入（卷内题位） | 400 |
+| 省考输入（按粉笔ID去重） | 705 |
+| 省考原始卷 / 卷内出现记录 | 66 / 855 |
+| 已逐条审核 | 1105 / 1105 |
+| 可训练真题条目 / 规范化题干去重 | 917 / 841 |
+| 近三年国考、广东测试题位 | 150 |
+| V1正式 / V2暂定题位 | 148 / 2 |
+| V1去重独立测试题 | 114 |
+| 争议或缺损研读题 | 27（23争议＋4缺损/矛盾） |
+| 误抓到其他模块的题 | 11，不当数量题练 |
+| 原创 / GLM可选补充 | 112 / 9 |
+| 含补充的可训练条目合计 | 1038 |
 
-| 范围 | 实际清单 | 本轮放行 | 其他处置 |
-|---|---:|---:|---|
-| 原创100v2＋复合24 | 124 | 112训练 | 10高风险＋2中风险同构暂不训练；原题未删除 |
-| 2011—2023国考 | 295 | 26训练 | 269逐条隔离 |
-| GLM | 545 | 9训练 | 536逐条隔离；不再把初筛104题当合格题库 |
-| 2024—2026国考 | 105题位 | V1 30题位 | V3 75题位；跨卷去重后V1仅21个独立题目 |
-| 2024—2026广东 | 每年均有缺口记录 | 0 | 本地没有可靠卷别、题面、答案；预期数量为null，不虚构题位 |
+**只把2024、2025、2026年国考和广东省考留给测试。广东三年各15题，共45题已接入。其他省份近三年题正常训练。**
 
-**当前普通训练池147题＝原创112＋旧国考26＋GLM9。** 不能把105题位说成105道合格题，不能把945条审查记录说成945道数学审计通过。
+普通相同考点、同一方法家族不是拒收理由。跨省联考同题保留全部 `occurrences`，湖北筛选可练87条，不是“只抓到14题”；代表题源统计不能误当该省全部覆盖。
 
-945条国考 / GLM资料都有处置记录：80条精确模型计算通过、1条反例否定、864条未独立复算。计算通过还须过来源、图片、争议、泄漏和重复门禁。新放行题另有第二审查者复审，见下列脚本及报告。已有原创124题保留原有独立数学审计和冻结SHA，不手改原题资产。
+训练梯度：入门285、熟练465、深化156、综合11。梯度和45/65/90/120秒目标为教学判断，不是考生群体实测。
 
-## 数据和维护入口
+## 页面交付
 
-- `教学/速刷/datasets/sources.json`：完成本任务必需的结构化快照；默认构建无需未跟踪的原始真题库，也不联网。
-- `datasets/certificates.json`、`datasets/make_certificates.py`：逐题计算模型、专属快法 / 常规法、回代、唯一选项核验。
-- `datasets/audit.json`、`quarantine.json`、`manifest.json`、`summary.json`：逐条审查、隔离及105题位 / 广东缺口。
-- `datasets/template_screening.json`、`authored_policy.json/js`：原创124＋GLM545的模板筛查；前端必须完整加载124个原创UID策略，缺失即停用，不可默认低风险。
-- `build_datasets.py`：默认从快照重建；`--check`只读；仅需补原始资料时才`--import-local`。修改题面后不能未经复审直接重绑证书。
-- `authored_methods.json`、`build_authored_methods.py`、`authored_methods.js`、`原创逐题方法审计.md`：124道原创的两路解法、适用边界、快法收益、跳题理由及梯度。53题明确低额外收益，不伪装秒杀。
-- `audit_datasets_independent.py`、`datasets_independent_review.md`：新放行训练 / V1的独立模型复审、错误注入及内容指纹锁。
-- 不修改`真题库/按年份/`、`按模块/`生成文件；维护仍须遵守根目录AGENTS.md。
+- 默认直接练真题，五题一轮；可按地区、考点、难度筛选，也可选择原创 / GLM补充。
+- 题库目录按当前筛选分页，可指定单题限时练；指定单题不计天梯晋级。
+- 每题含独立推导、难度理由、省步路径、常规解法、快法边界、陷阱、跳题理由及来源/修复说明。
+- 真题保留原选项顺序；图形选项在作答和复盘两处都显示为图片。
+- 争议题不自动强行判分，提供原标记、独立论证与条件解释。缺损题具体说明现有材料为什么不足，不编答案。补充条件与原文分开。
+- 二审指出的2道口径题，在题目前明确展示教学作答口径，未把新增口径冒充原卷事实。
+- 验证题显示即保存曝光，旧版曝光按原UID继承到修复后的新标识，退出/刷新/换题解不重获首测资格。验证、V2、复盘与训练成绩分开，不影响训练晋级。
 
-独立复审已发现并处理：`glm:D:30`只有“125等份”，不能推出125个全等小正方体，保留原题并隔离；2025副省76 / 执法72的常规法毛利反比表述已修正。来源争议不静默改成AI答案，缺少来源推理时也不编造另一方理由。
+## 数据链与文件
 
-## 引擎 / 页面关键点
+1. `full_audit/intake.json`：400国考＋705省考原始快照、全部855个省考出现位置、来源与机构原答案；不改用户原题文件。
+2. `full_audit/national_01..04.json`、`provincial_01..08.json`：12个逐题任务输入。
+3. `full_audit/reviews/*.json`：六个subagents与主代理完成的逐题审核。不能用pending或“未审计”替代推导。
+4. `full_audit/review_bindings.json`：每条源数据与审核overlay的精确指纹；改题面或答案后默认构建拒绝沿用旧审核。
+5. `full_audit/oracles/`、`check_full_oracles.py`：离线标准库重算、枚举与性质回归；自动检查和人工推导分开统计，绝不把字段齐全冒称数学双审。
+6. `full_audit/second_reviews/`：额外82道高风险verified复核＋3道invalid来源核查，保留初算、比对与边界意见。
+7. `prepare_full_assets.py`、`asset_map.json`：保留原图，恢复39个Brotli封装文件，生成白底PNG副本及双哈希。页面实际用129张独立图片；不发布整页PDF和联系页。
+8. `build_full_bank.py` → `full_audit/banks.js`、`catalog.json`、`summary.json`、`manifest.json` → `app.js`。
 
-`core.js`强制判断年份与来源标记，拒绝把验证改成train绕过边界。`sample`默认只抽可训练题；混编倾向3训练＋2未曝光验证，控制family与题源分散；不足不复制。跨卷共题按稳定identity去重。
+旧 `datasets/`、旧147题报告仍保留以复现上一版及GLM补充策略，**不再决定本版真题的准入或覆盖统计**。页面只使用新 `FULL_REAL_*` 真题数据。
 
-验证题一显示就保存曝光：刷新 / 中途退出不恢复首测；未作答曝光不造分。V1首测、重复复盘、V2暂定分别统计。V3不抽题。首测仅指本浏览器记录，不能证明学习者过去从未见过题。清除浏览器存储或换设备也不能被当成真正新题。
-
-验证记录不参与训练错题权重、训练正确率或晋级。迁移轮中的训练题属于训练统计，但整轮不晋级。正式验证 / 迁移整轮硬限时、禁提示和暂停、结束后才显示解析。训练正确率−V1首测正确率是描述性迁移差，不是同难度实验或官方分数预测。
-
-页面显示专属快法 / 常规法 / 适用边界 / 中文跳题建议 / 易错点；无可靠快法标low。默认五题，四档梯度，147题中只有合格且未被隔离者可用。schema3历史兼容；坏记录备份隔离。
-
-## 检查与发布
-
-完整CI门禁在`.github/workflows/pages.yml`：原题生成复现、GLM初筛复现、结构校验、124原题数学复算、发布hash故障注入、core与隔离测试、1000轮实际数据抽样、20项数据测试、14项原创方法测试、新放行题独审，然后构建。
-
-重点命令：
+## 本地与CI检查
 
 ```powershell
-python -X utf8 教学/速刷/build_datasets.py --check
-python -X utf8 教学/速刷/test_datasets.py
-python -X utf8 教学/速刷/build_authored_methods.py --check
-python -X utf8 教学/速刷/test_authored_methods.py
-python -X utf8 教学/速刷/audit_datasets_independent.py
+python -X utf8 教学/速刷/build_full_intake.py --check
+python -X utf8 教学/速刷/prepare_full_assets.py --check
+python -X utf8 教学/速刷/check_full_oracles.py --require-all-batches
+python -X utf8 教学/速刷/check_full_oracles.py --self-test
+python -X utf8 教学/速刷/build_full_bank.py --check
+python -X utf8 教学/速刷/test_full_bank.py
 node 教学/速刷/test_core.cjs
 node 教学/速刷/test_isolation.cjs
-node 教学/速刷/test_dataset_integration.cjs
+node 教学/速刷/test_full_bank.cjs
 python -X utf8 教学/速刷/build_site.py
 ```
 
-真实Chrome验收脚本`browser_acceptance.py`通过WebBridge驱动用户浏览器；仅允许独立localhost测试origin，绝不清空学习者历史。1920和390px下五题闭环、错选映射、曝光及复盘隔离、硬截止、刷新保持、策略文件缺失停用均已测。移动端无横向溢出，按钮 / select / summary触控区至少44px。
+有用户原始素材时，另可执行 `build_full_intake.py --check --verify-local`，核对全部400国考与855省考原始出现记录。CI不需要未跟踪的原始PDF库，也不联网爬题。
 
-发布只拷白名单到`_site`，不发布原始目录和旧真题入口。`version.json`记录发布commit与静态资产SHA256；本地未提交构建中的revision不是已上线证明。
+重新审核或修复后的维护顺序：先完成逐题review及重算，必要时运行 `prepare_full_assets.py --import-local`，再显式 `bind_full_reviews.py --seal-reviewed-inputs`，最后重建并测试。绑定指纹只是记录，不是数学证明，禁止在未复审时自动重绑。
 
-仓库：`https://github.com/godelshana/exam-review-quantity`
+浏览器验收：`browser_acceptance.py` 覆盖1920/390px五题闭环、正确选项映射、提示/暂停、硬截止、曝光/复盘、刷新及必需资产缺失。`browser_full_acceptance.py`另验四川/广东/湖北五题、四川2024单题、图选项、争议研读、全量129张图片解码和新题库缺失停用。只在独立localhost origin运行，不往学习者线上历史灌测试成绩。
 
-Pages：`https://godelshana.github.io/exam-review-quantity/`
+发布：`.github/workflows/pages.yml` → 白名单 `_site` → GitHub Pages；`verify_release.py --revision <commit>` 经7890代理等待该commit的Actions成功，并逐个核对线上版本和全部资产哈希。push成功或旧工作流成功都不等于新版本上线。最终上线结果以实际发布验证日志为准。
 
-```powershell
-$env:HTTPS_PROXY='http://127.0.0.1:7890'
-$env:HTTP_PROXY='http://127.0.0.1:7890'
-git push origin main
-python -X utf8 教学/速刷/verify_release.py --revision <本次commit完整SHA>
-```
-
-`verify_release.py`通过7890代理等待**该commit**的Actions成功，再校验Pages的version和全部资产与git对象的hash一致；还应实际打开线上页面，核验147训练、验证入口、默认五题、资源无错误。发布成功以实际执行结果为准，不以push成功或旧`7be77e8`工作流为准。
-
-## 尚存的素材缺口
-
-广东近三年资料仍缺；国考75个验证题位仍V3（缺图 / 题面疑点 / 答案争议 / 尚无独立复算等）。未独立复算的旧真题及GLM仍隔离。后续先补可靠原卷和解析再逐题审计，不以增加题量取代质量，不把结构筛查冒称数学审计，也不承诺对缺失广东题已完成语义零泄漏证明。
+自动回归的精确边界：956条执行算术/枚举/局部性质计算（其中290条为性质或补充检查）、25条重复结果复用、11条人工边界、113条尚无可执行算例；642条核对唯一选项。1105条均有逐题审核与自己的题解，但不能把这些统计称作1105条全自动数学证明。82道高风险另有独立第二次人工推导。

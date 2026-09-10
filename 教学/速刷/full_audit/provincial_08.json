@@ -1,0 +1,244 @@
+[
+  {
+    "uid": "prov:12536410",
+    "fenbiId": "12536410",
+    "exam": "四川省考",
+    "province": "四川",
+    "code": "SC",
+    "year": 2024,
+    "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2024",
+    "number": 51,
+    "sourceFile": "_downloads/fb/paper_SC_2024.json",
+    "s": "现有浓度为70%的盐水100克。从中倒出40克，再加入40克浓度为20%的盐水，如此操作共5次后，问盐水的浓度在以下哪个范围内？",
+    "o": [
+      "低于23%",
+      "在23%到25%之间",
+      "在25%到27%之间",
+      "高于27%"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>现有浓度为70%的盐水100克。从中倒出40克，再加入40克浓度为20%的盐水，如此操作共5次后，问盐水的浓度在以下哪个范围内？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_SC_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 51
+    },
+    "occurrences": [
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2024,
+        "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2024",
+        "number": 51,
+        "sourceFile": "_downloads/fb/paper_SC_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "53b25c8ca91815b183c93e96928cb95ce318b3cd549eace0c73beae7bee96019"
+  },
+  {
+    "uid": "prov:12536412",
+    "fenbiId": "12536412",
+    "exam": "四川省考",
+    "province": "四川",
+    "code": "SC",
+    "year": 2024,
+    "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2024",
+    "number": 52,
+    "sourceFile": "_downloads/fb/paper_SC_2024.json",
+    "s": "小周早上8点多开始处理公文，此时发现时钟的时针和分针夹角不超过30度。处理完公文时，发现已经上午10点多，时钟的时针和分针正好重合。那么小周处理公文的时长可能为以下哪个结果？",
+    "o": [
+      "2小时5分钟",
+      "2小时15分钟",
+      "2小时25分钟",
+      "2小时35分钟"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>小周早上8点多开始处理公文，此时发现时钟的时针和分针夹角不超过30度。处理完公文时，发现已经上午10点多，时钟的时针和分针正好重合。那么小周处理公文的时长可能为以下哪个结果？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_SC_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 52
+    },
+    "occurrences": [
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2024,
+        "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2024",
+        "number": 52,
+        "sourceFile": "_downloads/fb/paper_SC_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "3b2d588da4767151e0f965e5c651a2fa5f38f34292d2b0f769b6244b8f058bc9"
+  },
+  {
+    "uid": "prov:12536420",
+    "fenbiId": "12536420",
+    "exam": "四川省考",
+    "province": "四川",
+    "code": "SC",
+    "year": 2024,
+    "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2024",
+    "number": 53,
+    "sourceFile": "_downloads/fb/paper_SC_2024.json",
+    "s": "一块长13厘米、宽5厘米的长方形纸片如下图所示。将其沿直线折叠后使得点A与BC边上某一点E重合，且折痕分别与纸片的AB边、AD边相交。问BE可能的最大和最小长度相差多少厘米？",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "sourceAnswer": "B",
+    "sourceAnswerIndex": 1,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>一块长13厘米、宽5厘米的长方形纸片如下图所示。将其沿直线折叠后使得点A与BC边上某一点E重合，且折痕分别与纸片的AB边、AD边相交。问BE可能的最大和最小长度相差多少厘米？</p><p><img width=\"678px\" height=\"168px\" src=\"//fb.fbstatic.cn/api/tarzan/images/18ce3c7b559a02c.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/tarzan/images/18ce3c7b559a02c.png?width=700",
+        "path": "真题库/图片/省考/df42767dc495.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_SC_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 53
+    },
+    "occurrences": [
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2024,
+        "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2024",
+        "number": 53,
+        "sourceFile": "_downloads/fb/paper_SC_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7734df9c72b94e90969b444e8301e51b3f766e08bc851aa14ac7c1c29eca6d78"
+  },
+  {
+    "uid": "prov:12536422",
+    "fenbiId": "12536422",
+    "exam": "四川省考",
+    "province": "四川",
+    "code": "SC",
+    "year": 2024,
+    "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2024",
+    "number": 54,
+    "sourceFile": "_downloads/fb/paper_SC_2024.json",
+    "s": "甲和乙进行乒乓球比赛。第一局甲胜乙的概率为70%。往后每局如甲上局取胜，则当局甲的胜率为50%；如乙上局取胜，则当局甲的胜率为70%。问第三局甲取胜的概率在以下哪个范围内？",
+    "o": [
+      "不到55%",
+      "在55%-57%之间",
+      "在57%-59%之间",
+      "高于59%"
+    ],
+    "sourceAnswer": "C",
+    "sourceAnswerIndex": 2,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>甲和乙进行乒乓球比赛。第一局甲胜乙的概率为70%。往后每局如甲上局取胜，则当局甲的胜率为50%；如乙上局取胜，则当局甲的胜率为70%。问第三局甲取胜的概率在以下哪个范围内？</p></div>",
+    "images": [],
+    "source": {
+      "path": "_downloads/fb/paper_SC_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 54
+    },
+    "occurrences": [
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2024,
+        "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2024",
+        "number": 54,
+        "sourceFile": "_downloads/fb/paper_SC_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "7c7c0fbe5e7c15cb06e4dbed01584f821038c3f741bb9c359e211b9cf9ae5f2f"
+  },
+  {
+    "uid": "prov:12536428",
+    "fenbiId": "12536428",
+    "exam": "四川省考",
+    "province": "四川",
+    "code": "SC",
+    "year": 2024,
+    "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+    "variant": "2024",
+    "number": 55,
+    "sourceFile": "_downloads/fb/paper_SC_2024.json",
+    "s": "正方形水池ABCD的边长为80米。E点在AB边正中的正北30米处，F点在C点东偏南方向，F点到C点距离为米。甲从E点出发前往F点，问他的最短行进距离比途经D点的最短行进距离短多少米？",
+    "o": [
+      "30",
+      "50",
+      "",
+      "80"
+    ],
+    "sourceAnswer": "D",
+    "sourceAnswerIndex": 3,
+    "sourceExplanation": "",
+    "stemHtml": "<div _ngcontent-ng-c2523839719=\"\"><p>正方形水池ABCD的边长为80米。E点在AB边正中的正北30米处，F点在C点东偏南<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=eiqR_iE9D2yWkX3n01QwTQ\">方向，F点到C点距离为<img flag=\"tex\" src=\"//fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&amp;latex=UuaJ99wP84gaBNF67RCuKQ\">米。甲从E点出发前往F点，问他的最短行进距离比途经D点的最短行进距离短多少米？</p><p><img width=\"318px\" height=\"261px\" src=\"//fb.fenbike.cn/api/tarzan/images/18ce420b01c9656.png?width=700\"></p></div>",
+    "images": [
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=eiqR_iE9D2yWkX3n01QwTQ",
+        "path": "真题库/图片/省考/66e07cc012b1.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=UuaJ99wP84gaBNF67RCuKQ",
+        "path": "真题库/图片/省考/27fd3f235827.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fenbike.cn/api/tarzan/images/18ce420b01c9656.png?width=700",
+        "path": "真题库/图片/省考/65178672531f.png",
+        "exists": true
+      },
+      {
+        "url": "https://fb.fbstatic.cn/api/planet/accessories/formulas?fontSize=18&latex=UuaJ99wP84gaBNF67RCuKQ",
+        "path": "真题库/图片/省考/27fd3f235827.png",
+        "exists": true
+      }
+    ],
+    "source": {
+      "path": "_downloads/fb/paper_SC_2024.json",
+      "answerAuthority": "粉笔抓取答案",
+      "rawNumber": 55
+    },
+    "occurrences": [
+      {
+        "exam": "四川省考",
+        "province": "四川",
+        "code": "SC",
+        "year": 2024,
+        "paper": "2024年四川省公务员录用考试《行测》试题（网友回忆版）",
+        "variant": "2024",
+        "number": 55,
+        "sourceFile": "_downloads/fb/paper_SC_2024.json"
+      }
+    ],
+    "dataset": "train",
+    "inputHash": "147972f0b7a7520957f1635c0aa25648c4585e99ead14292c78e85aeea369ebf"
+  }
+]
