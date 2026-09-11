@@ -35,7 +35,7 @@ function inView(q,review=false){const mode=$('source').value;
  }
  if(mode==='transfer'&&!C.isValidation(q))return C.trainEligible(q);
  if(!C.isValidation(q)||q.validationStatus==='V3')return false;
- if(mode==='validation')return q.validationStatus==='V1'&&C.validationEligible(q)&&!seen(q);
+ if(mode==='validation')return q.validationStatus==='V1'&&C.validationEligible(q)&&!seen(q)&&matchesFilters(q);
  if(mode==='transfer')return C.validationEligible(q)&&!seen(q);
  return q.validationStatus===$('validationTier').value&&seen(q)&&C.validationEligible(q);
 }
@@ -54,8 +54,8 @@ function coverage(){const summary=window.FULL_REAL_SUMMARY;let html='<table><the
 }
 function topicGroup(q){return String(q.h||q.topic||'其他').split(/[\/·（：]/)[0];}
 function matchesFilters(q){
- const scope=$('bankScope').value,province=$('provinceFilter').value,topic=$('topicFilter').value;
- return (scope==='all'||(scope==='real'?sourceOf(q)==='real':sourceOf(q)!=='real'))&&(province==='all'||q.province===province||q.exam===province||(q.occurrences||[]).some(o=>o.province===province))&&(topic==='all'||topicGroup(q)===topic);
+ const province=$('provinceFilter').value,topic=$('topicFilter').value;
+ return (province==='all'||q.province===province||q.exam===province||(q.occurrences||[]).some(o=>o.province===province))&&(topic==='all'||topicGroup(q)===topic);
 }
 let catalogPage=0;
 function renderCatalog(){
@@ -69,15 +69,15 @@ function renderCatalog(){
 }
 function refresh(){if(!ready){$('start').disabled=true;$('reviewPool').disabled=true;return;}
  const mode=$('source').value,formal=mode==='validation'||mode==='transfer',training=mode==='train';
- $('trainingFilters').hidden=!training;$('catalogPanel').hidden=!training;
+ $('trainingFilters').hidden=false;$('catalogPanel').hidden=!training;
  $('level').disabled=!training;$('strategy').disabled=!training;$('mode').disabled=formal;if(formal)$('mode').value='exam';
  $('validationTierLabel').hidden=mode!=='validation-review';$('reviewPool').hidden=!training;
- $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混编，不计晋级。')+' 默认用国考与各省考真题；可按地区、考点筛选，也可选原创/GLM补充。2024—2026年的其他省考照常训练。':mode==='transfer'?'训练题与未曝光验证题混编（优先每五题3训练+2验证，资料不足按实际池调整），V1正式与V2暂定分列。整轮限时、无提示、不可暂停；本轮不晋级，验证题不参与训练记忆。首测只指本浏览器未曝光。':formal?'V1未曝光真题首测：整轮限时、无提示、不可暂停、结束后题解。首测仅指本浏览器未记录曝光，不保证你从未见过原题。题目一显示即留曝光记录，退出或刷新不能重置首测；未作答曝光不计成绩。':'V1 / V2都只复盘已曝光题；V2暂定题单列。可提示、可暂停，所有成绩均为复盘或暂定指标，不参与晋级和训练记忆。';
+ $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混编，不计晋级。')+' 默认混合真题、可用 GLM 题目和原创题；可按地区、考点筛选。2024—2026 年其他省份真题照常进入练习，只有国考和广东省考近三年真题用于测试。':mode==='transfer'?'训练题与未曝光验证题混编（优先每五题3训练+2验证，资料不足按实际池调整），V1正式与V2暂定分列。整轮限时、无提示、不可暂停；本轮不晋级，验证题不参与训练记忆。首测只指本浏览器未曝光。':formal?'V1未曝光真题首测：整轮限时、无提示、不可暂停、结束后题解。首测仅指本浏览器未记录曝光，不保证你从未见过原题。题目一显示即留曝光记录，退出或刷新不能重置首测；未作答曝光不计成绩。':'V1 / V2都只复盘已曝光题；V2暂定题单列。可提示、可暂停，所有成绩均为复盘或暂定指标，不参与晋级和训练记忆。';
  const candidates=all.filter(q=>inView(q));
  const count=new Set(candidates.map(q=>C.isValidation(q)?'validation:'+identity(q):'train:'+q.uid)).size;
  const formalQuestions=all.filter(q=>q.validationStatus==='V1'&&C.validationEligible(q));
  const formalUnique=new Set(formalQuestions.map(identity)).size;
- $('bankInfo').textContent=`逐题审查 ${window.FULL_REAL_SUMMARY.reviewed} 条真题；已接入可训练真题 ${window.FULL_REAL_SUMMARY.train} 题。${names[mode]} · 原创 ${authored.length} 题（当前可训练 ${authored.filter(q=>C.trainEligible(q)).length} 题）；合格训练池 ${all.filter(q=>C.trainEligible(q)).length} 题。V1正式验证 ${formalQuestions.length} 个卷内题位，跨卷去重 ${formalUnique} 道独立题；同题不重复首测。2024—2026国考、广东无论答案状态如何均不得进入训练。`;
+ $('bankInfo').textContent=`逐题审查 ${window.FULL_REAL_SUMMARY.reviewed} 条真题；已接入可训练真题 ${window.FULL_REAL_SUMMARY.train} 题。${names[mode]} · 练习池含真题、可用 GLM 题目和原创题（原创 ${authored.length} 题）；V1 正式测试 ${formalQuestions.length} 个卷内题位，跨卷去重 ${formalUnique} 道独立题。近三年国考、广东真题仅在测试模式出现。`;
  $('start').textContent=`开始 ${$('length').value} 题${formal?'首测':''}`;$('start').disabled=!count||(formal&&!persist);
  $('filterInfo').textContent=`当前可选 ${count} 道独立题（${candidates.length} 个题位）。${count<+$('length').value?'不足题量只出可用题，不复制凑数。':''}${formal?'请在安静连续的时段作答；切换标签页不会停表。':''}`;
  $('metrics').innerHTML=statsHTML();coverage();renderCatalog();
@@ -146,7 +146,7 @@ function finish(){stopTimer();if(state!=='quiz')return;
  if($('advance'))$('advance').onclick=()=>{db.level=C.levels[C.levels.indexOf(rows[0].level)+1];$('level').value=db.level;save();home();};window.scrollTo({top:0,behavior:'smooth'});
 }
 for(const [id,values] of [['provinceFilter',['国考','安徽','广东','湖北','河南','四川']],['topicFilter',[...new Set(window.FULL_REAL_TRAIN.map(topicGroup))].sort()]])for(const value of values){const option=document.createElement('option');option.value=value;option.textContent=value;$(id).appendChild(option);}
-for(const id of ['bankScope','provinceFilter','topicFilter'])$(id).onchange=()=>{catalogPage=0;refresh();};
+for(const id of ['provinceFilter','topicFilter'])$(id).onchange=()=>{catalogPage=0;refresh();};
 $('catalogPanel').ontoggle=renderCatalog;$('catalogType').onchange=()=>{catalogPage=0;renderCatalog();};
 $('catalogPrev').onclick=()=>{catalogPage--;renderCatalog();};$('catalogNext').onclick=()=>{catalogPage++;renderCatalog();};
 
