@@ -1,0 +1,258 @@
+[
+ {
+  "year": 2011,
+  "level": "合卷",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2012,
+  "level": "合卷",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2013,
+  "level": "合卷",
+  "total": 135,
+  "answers": 134,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2014,
+  "level": "合卷",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2015,
+  "level": "副省级",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2015,
+  "level": "地市级",
+  "total": 130,
+  "answers": 114,
+  "qsrc": "aipta",
+  "asrc": "inherit:副省级"
+ },
+ {
+  "year": 2016,
+  "level": "副省级",
+  "total": 135,
+  "answers": 86,
+  "qsrc": "aipta",
+  "asrc": "sl"
+ },
+ {
+  "year": 2016,
+  "level": "地市级",
+  "total": 130,
+  "answers": 86,
+  "qsrc": "aipta",
+  "asrc": "inherit:副省级"
+ },
+ {
+  "year": 2017,
+  "level": "副省级",
+  "total": 135,
+  "answers": 106,
+  "qsrc": "aipta",
+  "asrc": "inherit:地市级"
+ },
+ {
+  "year": 2017,
+  "level": "地市级",
+  "total": 130,
+  "answers": 129,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2018,
+  "level": "副省级",
+  "total": 135,
+  "answers": 134,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2018,
+  "level": "地市级",
+  "total": 130,
+  "answers": 128,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2019,
+  "level": "副省级",
+  "total": 135,
+  "answers": 134,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2019,
+  "level": "地市级",
+  "total": 130,
+  "answers": 129,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2020,
+  "level": "副省级",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2020,
+  "level": "地市级",
+  "total": 130,
+  "answers": 125,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2021,
+  "level": "副省级",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2021,
+  "level": "地市级",
+  "total": 130,
+  "answers": 130,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2022,
+  "level": "副省级",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "sl",
+  "asrc": "sl"
+ },
+ {
+  "year": 2022,
+  "level": "地市级",
+  "total": 130,
+  "answers": 74,
+  "qsrc": "sl",
+  "asrc": "inherit:副省级"
+ },
+ {
+  "year": 2023,
+  "level": "副省级",
+  "total": 135,
+  "answers": 127,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2023,
+  "level": "地市级",
+  "total": 130,
+  "answers": 122,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2023,
+  "level": "行政执法类",
+  "total": 130,
+  "answers": 124,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2024,
+  "level": "副省级",
+  "total": 135,
+  "answers": 126,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2024,
+  "level": "地市级",
+  "total": 130,
+  "answers": 123,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2024,
+  "level": "行政执法类",
+  "total": 130,
+  "answers": 121,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2025,
+  "level": "副省级",
+  "total": 135,
+  "answers": 130,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2025,
+  "level": "地市级",
+  "total": 130,
+  "answers": 127,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2025,
+  "level": "行政执法类",
+  "total": 130,
+  "answers": 126,
+  "qsrc": "xg",
+  "asrc": null
+ },
+ {
+  "year": 2026,
+  "level": "副省级",
+  "total": 135,
+  "answers": 135,
+  "qsrc": "xg",
+  "asrc": "+hqwx"
+ },
+ {
+  "year": 2026,
+  "level": "地市级",
+  "total": 130,
+  "answers": 130,
+  "qsrc": "xg",
+  "asrc": "+hqwx"
+ },
+ {
+  "year": 2026,
+  "level": "行政执法类",
+  "total": 130,
+  "answers": 112,
+  "qsrc": "aipta",
+  "asrc": null
+ }
+]

@@ -5,3 +5,21 @@ _site/
 # Local audit scratch includes full PDF pages; publish only deliberate image copies.
 /教学/速刷/full_audit/work/
 /_release_check/
+
+# 原始试卷 PDF 与爬取缓存：本地保留、可重新抓取，不入库（题库 md 引用的图片已入库）
+/真题库/原始PDF/
+/真题库/图片/省考/
+/真题库/图片/fenbi/
+/_downloads/raw/
+/_downloads/fb/
+/_downloads/parsed/
+/_downloads/aipta/
+/_downloads/hqwx_pdf/
+/_downloads/xg/
+/_downloads/huatu/
+/_downloads/haedu/
+/_downloads/fb_optimgs/
+/_downloads/*.html
+/_downloads/*.pdf
+/_downloads/*.png
+/_downloads/*.log
