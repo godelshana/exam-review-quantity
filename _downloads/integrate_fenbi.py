@@ -80,6 +80,7 @@ mlog = {"matched": 0, "unmatched": []}
 
 for tag, pp in papers.items():
     m = re.match(r'(\d{4})(副省级|地市级|行政执法类)', tag)
+    if not m: continue
     y, lv = m.group(1), m.group(2)
     fn = None
     for cand in [f'parsed/xg_xc_{y}_{lv}.json', f'parsed/aipta_xc_{y}_{lv}.json', f'parsed/sl_xc_{y}_{lv}.json']:
@@ -140,6 +141,7 @@ LVMAP = {'副省级': '副省级', '地市级': '地市级', '行政执法类': 
 
 for tag, pp in papers.items():
     m = re.match(r'(\d{4})(副省级|地市级|行政执法类)', tag)
+    if not m: continue
     y, lv = m.group(1), m.group(2)
     L = [f'# {y}年国考《行政职业能力测验》粉笔版（{lv}·网友回忆）', '']
     L.append(f'> 来源：粉笔题库（paperId {pp["paperId"]}）｜题目含粉笔官方标注的正确答案（选项后标注 ✅）')
@@ -156,7 +158,7 @@ for tag, pp in papers.items():
         for _ in range(ch['count']):
             q = pp['questions'][qidx]; qidx += 1
             stem_html = rewrite_images(q['stem'] if isinstance(q['stem'], str) else '', tag, q['num'], counter)
-            stem_txt = re.sub(r'<img[^>]*?src="([^"]+)"[^>]*/?>', lambda mm: f'![图]()', stem_html)
+            stem_txt = re.sub(r'<img[^>]*?src="([^"]+)"[^>]*/?>', lambda mm: f'![图]({mm.group(1)})', stem_html)
             stem_txt = re.sub(r'</p>\s*<p[^>]*>', '\n\n', stem_txt)
             stem_txt = re.sub(r'<[^>]+>', '', stem_txt)
             L.append(f'**{q["num"]}.** {stem_txt.strip()}')
@@ -164,7 +166,7 @@ for tag, pp in papers.items():
             if q['material']:
                 mat = q['material'] if isinstance(q['material'], str) else ''
                 mat = rewrite_images(mat, tag, q['num'], counter)
-                mat = re.sub(r'<img[^>]*?src="([^"]+)"[^>]*/?>', lambda mm: f'![图]()', mat)
+                mat = re.sub(r'<img[^>]*?src="([^"]+)"[^>]*/?>', lambda mm: f'![图]({mm.group(1)})', mat)
                 mat = re.sub(r'</p>\s*<p[^>]*>', '\n\n', mat)
                 mat = re.sub(r'<[^>]+>', '', mat)
                 if mat.strip():
