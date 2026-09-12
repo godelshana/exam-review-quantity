@@ -32,7 +32,7 @@ REVIEW_FILES = ('手写百题v2独立审计.md', '原创复合24独立审计.md'
 REQUIRED = {
     'fastPath', 'normalPath', 'fastBoundary', 'fastMethod', 'fastValue',
     'skipDecision', 'skipReason', 'teachingGradient', 'retainedLevel',
-    'expectedValue', 'sourceSha256',
+    'expectedValue', 'sourceSha256', 'knowledge', 'elimination', 'tr',
 }
 
 
@@ -116,7 +116,8 @@ def validate(data, bank=None, verify_sources=True):
             raise ValueError(f'{uid}: low须说明两路关系及收益边界')
         if m['retainedLevel'] != q['level'] or m['sourceSha256'] != FROZEN[source_name(q)]:
             raise ValueError(f'{uid}: 不得改层级或沿用其他版本')
-        for key in ('fastPath', 'normalPath', 'fastBoundary', 'teachingGradient'):
+        for key in ('fastPath', 'normalPath', 'fastBoundary', 'teachingGradient',
+                    'knowledge', 'elimination', 'tr'):
             if len(m[key]) < 16 or any(s in m[key] for s in ('TODO', '待补', '套公式即可', '秒杀所有')):
                 raise ValueError(f'{uid}: {key}缺乏逐题内容')
         expected = solve_question(q)
@@ -163,8 +164,11 @@ def render_report(data, bank, results):
         lines += [f'## {uid} · {q["h"]} · 保留{q["level"]}', '',
             f'- 原题：{q["s"]}',
             f'- 复算值：`{results[uid]}`；唯一选项 {chr(65 + q["a"])}。',
+            f'- 知识点：{m["knowledge"]}',
             f'- 快路径（{m["fastMethod"]} / {m["fastValue"]}）：{m["fastPath"]}',
-            f'- 常规路径：{m["normalPath"]}', f'- 快法边界与收益：{m["fastBoundary"]}',
+            f'- 常规路径：{m["normalPath"]}', f'- 排除法与选项分析：{m["elimination"]}',
+            f'- 快法边界与收益：{m["fastBoundary"]}',
+            f'- 易错点（覆盖题面原文）：{m["tr"]}',
             f'- 首轮决策：**{m["skipDecision"]}**' + (f'；{m["skipReason"]}' if m['skipReason'] else '；按上述识别关系直接求解。'),
             f'- 教学梯度：{m["teachingGradient"]}', '']
     return '\n'.join(lines).rstrip() + '\n'

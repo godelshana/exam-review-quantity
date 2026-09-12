@@ -39,15 +39,15 @@ class AuthoredMethodsTests(unittest.TestCase):
                 self.assertEqual(results[q['uid']], self.data['methods'][q['uid']]['expectedValue'])
 
     def test_overlay_cannot_overwrite_assets_or_levels(self):
-        forbidden = {'s', 'o', 'a', 'e', 'tr', 'level', 'uid', 'check', 'targetSeconds', 'timeLimit'}
+        forbidden = {'s', 'o', 'a', 'e', 'level', 'uid', 'check', 'targetSeconds', 'timeLimit'}
         for q in self.bank:
             with self.subTest(uid=q['uid']):
                 m = self.data['methods'][q['uid']]
                 self.assertFalse(forbidden & set(m))
                 merged = {**q, **m}
-                self.assertEqual({k: merged[k] for k in q if k != 'skipReason'},
-                                 {k: q[k] for k in q if k != 'skipReason'})
-                # skipReason 是用户要求的覆盖字段；只覆盖内存副本，原文件hash不动。
+                self.assertEqual({k: merged[k] for k in q if k not in ('skipReason', 'tr')},
+                                 {k: q[k] for k in q if k not in ('skipReason', 'tr')})
+                # skipReason 与 tr 是用户批准的题解覆盖字段；只覆盖内存副本，原文件hash不动。
         self.assertEqual(Counter(q['level'] for q in self.bank), {'入门':29, '熟练':31, '深化':37, '综合':27})
         for name, digest in b.FROZEN.items():
             self.assertEqual(hashlib.sha256(self.originals[name]).hexdigest(), digest)

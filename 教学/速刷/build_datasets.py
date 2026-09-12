@@ -396,7 +396,10 @@ def make_record(q, certs):
         r['mathAudit']=audit
         r.update({k:c[k] for k in ('h','t','tr','level','fastMethod','fastValue','skipDecision',
                                   'fastPath','normalPath','fastBoundary')})
-        r['e']=c['fastPath']+'\n常规方法：'+c['normalPath']+'\n边界：'+c['fastBoundary']
+        # knowledge/elimination 是题解升级新增字段；旧证书没有时不得阻断构建。
+        for k in ('knowledge','elimination'):
+            if isinstance(c.get(k),str) and c[k].strip(): r[k]=c[k]
+        r['e']=c['fastPath']
         r['explanationStatus']='P2'
         if not audit['sourceAgreement']:
             if q['exam']=='GLM模拟':reasons.append('glm_generated_answer_mismatch')

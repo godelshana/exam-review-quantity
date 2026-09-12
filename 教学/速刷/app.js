@@ -2,8 +2,8 @@
 (()=>{'use strict';
 const C=window.DrillCore,$=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ready=Array.isArray(window.FULL_REAL_TRAIN)&&Array.isArray(window.FULL_REAL_VALIDATION)&&Array.isArray(window.FULL_REAL_STUDY)&&!!window.FULL_REAL_SUMMARY&&!!C&&['normalize','isValidation','trainEligible','validationEligible','trainingMemory','transferStats','validationIdentity','migrateValidationExposures'].every(k=>typeof C[k]==='function')&&Array.isArray(window.DATASET_TRAIN)&&Array.isArray(window.DATASET_VALIDATION)&&Array.isArray(window.HAND_LADDER_100)&&Array.isArray(window.CHALLENGE_Q)&&!!window.TRAINING_FAMILIES&&!!window.AUTHORED_METHODS&&!!window.DATASET_AUTHORED_OVERRIDES&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].length===124&&[...window.HAND_LADDER_100,...window.CHALLENGE_Q].every(q=>window.AUTHORED_METHODS[q.uid]&&Object.prototype.hasOwnProperty.call(window.DATASET_AUTHORED_OVERRIDES,q.uid)&&['low','medium','high'].includes(window.DATASET_AUTHORED_OVERRIDES[q.uid]?.leakageRisk));
-if(!ready){$('loadError').hidden=false;$('loadError').textContent='core、数据集、原创方法或逐题隔离策略缺失 / 不完整：已停止抽题且不改写旧记录。请检查 full_audit/banks.js / authored_methods.js / datasets/authored_policy.js 等资源后刷新。';$('start').disabled=$('reviewPool').disabled=true;return;}
-const STORE='quantity-ladder-v3',names={train:'训练混编天梯',transfer:'迁移混编（训练 + 未曝光验证）',validation:'最近三年验证首测','validation-review':'验证复盘'};
+if(!ready){$('loadError').hidden=false;$('loadError').textContent='题库数据缺失或不完整，已停止抽题。请刷新页面；若持续出现，请检查题库文件是否完整。';$('start').disabled=$('reviewPool').disabled=true;return;}
+const STORE='quantity-ladder-v3',names={train:'训练天梯',transfer:'迁移混编',validation:'真题首测','validation-review':'测试复盘'};
 let db={schema:3,attempts:[],exposures:[],level:'入门'},persist=true,pendingBackup=null,recoveryNote='';
 const backupKey=STORE+'-recovery-'+Date.now();
 try{const raw=localStorage.getItem(STORE);if(raw){try{const restored=C.restore(JSON.parse(raw));db=restored.db;if(restored.needsBackup)pendingBackup=raw;}catch{pendingBackup=raw;}}}catch{persist=false;}
@@ -39,18 +39,8 @@ function inView(q,review=false){const mode=$('source').value;
  if(mode==='transfer')return C.validationEligible(q)&&!seen(q);
  return q.validationStatus===$('validationTier').value&&seen(q)&&C.validationEligible(q);
 }
-function statsHTML(){const s=C.transferStats(db.attempts,all);const answeredKeys=new Set(db.attempts.filter(r=>r.q&&C.isValidation(r.q)).map(r=>identity(r.q)));const exposedUnanswered=db.exposures.filter(key=>!answeredKeys.has(key)).length;const block=(label,v)=>`<div><strong>${v?.n?pct(v.accuracy):'—'}</strong><span>${label} · ${v?.n||0}题<br>快速独立 ${v?.fast||0}/${v?.n||0}</span></div>`;
- return `<h2>训练 → 真题迁移</h2><div class="stats">${block('训练',s.train)}${block('V1验证首测',s.firstValidation)}${block('重复 / 复盘（污染）',s.repeatValidation)}${block('V2暂定（单列）',s.provisional)}</div><p class="mini">迁移差（训练正确率 − V1首测正确率）：${s.gap==null?'样本不足，暂不计算':`${Math.round(s.gap*100)} 个百分点`}。已曝光未答 ${exposedUnanswered} 题（不计成绩，不可重置首测）。不同题量与难度不可直接等同；不是分数预测。提示、暂停、猜测不计快速独立；复盘不回填首测。</p>`;
-}
-function coverage(){const summary=window.FULL_REAL_SUMMARY;let html='<table><thead><tr><th>仅作测试</th><th>已接入 / V1 / V2 / 争议 / 缺损</th></tr></thead><tbody>';
- for(const row of summary.coverage)html+=`<tr><td>${row.year}年${esc(row.exam)}</td><td>${row.slots} / ${row.verified} / ${row.provisional} / ${row.disputed} / ${row.invalid}</td></tr>`;
- html+='</tbody></table><p class="mini">2024—2026年国考与广东保留给测试，不进入日常练习；其他省份近三年题正常用于训练。机构答案有争议的题不强行判分，真实缺损逐条列原因。这里的数量指来源题位，跨卷同题首测去重。</p>';
- html+=`<p>逐题审核 ${summary.reviewed} 条；可训练真题 ${summary.train} 条、跨卷去重 ${summary.trainUnique} 道；正式测试去重 ${summary.validationUnique} 道。训练梯度：${esc(Object.entries(summary.byLevel).map(([k,v])=>k+' '+v).join(' / '))}。</p>`;
- const issues=all.filter(q=>C.isValidation(q)&&q.validationStatus==='V3');
- if(issues.length)html+=`<p class="warning">测试范围另有 ${issues.length} 道争议 / 缺损题，不能强行判分。可单独研读，查看会保留曝光。</p><button id="showValidationIssue">查看下一道测试争议题（记曝光，不计成绩）</button><div id="validationIssue"></div>`;
- $('coverage').innerHTML=html;
- if($('showValidationIssue')){let i=0;$('showValidationIssue').onclick=()=>{const q=issues[i++%issues.length],key=identity(q);if(!db.exposures.includes(key))db.exposures.push(key);save();$('validationIssue').innerHTML=`<h3>${esc(labelOf(q))}</h3><div class="review-body">${renderText(q.s)}\n${q.o.map((o,i)=>'ABCD'[i]+'. '+renderText(o)).join('\n')}</div><p class="warning">本题只研读，不参与正确率。来源标记 ${esc(q.sourceAnswer)}，本次推导 ${esc(q.computedAnswer)}。争议请结合原卷或粉笔 / 华图复核。</p>${explanation(q,[0,1,2,3])}`;};}
-
+function statsHTML(){const s=C.transferStats(db.attempts,all);const block=(label,v)=>`<div><strong>${v?.n?pct(v.accuracy):'—'}</strong><span>${label} · ${v?.n||0}题<br>快速独立 ${v?.fast||0}/${v?.n||0}</span></div>`;
+ return `<h2>训练 → 真题迁移</h2><div class="stats">${block('训练',s.train)}${block('测试首测',s.firstValidation)}${block('重复 / 复盘',s.repeatValidation)}${block('暂定（单列）',s.provisional)}</div><p class="mini">迁移差 = 训练正确率 − 首测正确率：${s.gap==null?'样本不足':`${Math.round(s.gap*100)} 个百分点`}。提示、暂停、猜测不计快速独立。</p>`;
 }
 function topicGroup(q){return String(q.h||q.topic||'其他').split(/[\/·（：]/)[0];}
 function matchesFilters(q){
@@ -62,8 +52,8 @@ function renderCatalog(){
  if($('catalogPanel').hidden||!$('catalogPanel').open)return;
  const type=$('catalogType').value,items=(type==='study'?window.FULL_REAL_STUDY:all.filter(q=>C.trainEligible(q))).filter(q=>matchesFilters(q)&&($('level').value==='all'||q.level===$('level').value));
  const pages=Math.max(1,Math.ceil(items.length/12));catalogPage=Math.min(catalogPage,pages-1);
- $('catalogCount').textContent=`${items.length} 题 · 第 ${catalogPage+1} / ${pages} 页。题解仅在展开后显示；浏览训练题不造练习成绩。`;
- $('catalogItems').innerHTML=items.slice(catalogPage*12,catalogPage*12+12).map(q=>`<details><summary>${esc(labelOf(q))} · ${esc(q.level)} · ${esc(q.h||q.topic)}${q.usable===false?' · 不强行评分':''}</summary><div class="review-body">${renderText(q.s)}\n${q.o.map((o,i)=>'ABCD'[i]+'. '+renderText(o)).join('\n')}</div>${q.usable===false?`${q.originalStem?`<details><summary>查看未补条件的原始题干</summary><div class="review-body">${renderText(q.originalStem)}</div></details>`:''}<p class="warning">${esc(q.verdict==='invalid'?'题面缺损或矛盾，未编造答案':'来源与复算存在争议')}。原标记 ${esc(q.sourceAnswer||'无')}；独立推导 ${esc(q.computedAnswer)}。建议在粉笔历年试卷或华图核对；未取得来源推理时不替机构编造理由。</p>`:`<button class="catalog-practice" data-uid="${esc(q.uid)}">单题限时练（不计天梯晋级）</button>`}<details><summary>查看两路题解、快法边界与核验</summary>${explanation(q,[0,1,2,3])}</details></details>`).join('');
+ $('catalogCount').textContent=`${items.length} 题 · 第 ${catalogPage+1} / ${pages} 页`;
+ $('catalogItems').innerHTML=items.slice(catalogPage*12,catalogPage*12+12).map(q=>`<details><summary>${esc(labelOf(q))} · ${esc(q.level)} · ${esc(q.h||q.topic)}${q.usable===false?' · 仅研读':''}</summary><div class="review-body">${renderText(q.s)}\n${q.o.map((o,i)=>'ABCD'[i]+'. '+renderText(o)).join('\n')}</div>${q.usable===false?`${q.originalStem?`<details><summary>查看原始题干</summary><div class="review-body">${renderText(q.originalStem)}</div></details>`:''}<p class="warning">${esc(q.verdict==='invalid'?'题面缺损或矛盾':'机构答案存在争议')}。来源标记 ${esc(q.sourceAnswer||'无')}，独立推导 ${esc(q.computedAnswer)}，建议用粉笔或华图核对。</p>`:`<button class="catalog-practice" data-uid="${esc(q.uid)}">单题限时练</button>`}<details><summary>查看题解</summary>${explanation(q,[0,1,2,3])}</details></details>`).join('');
  for(const b of $('catalogItems').querySelectorAll('.catalog-practice'))b.onclick=()=>begin(false,b.dataset.uid);
  $('catalogPrev').disabled=catalogPage===0;$('catalogNext').disabled=catalogPage===pages-1;
 }
@@ -72,15 +62,13 @@ function refresh(){if(!ready){$('start').disabled=true;$('reviewPool').disabled=
  $('trainingFilters').hidden=false;$('catalogPanel').hidden=!training;
  $('level').disabled=!training;$('strategy').disabled=!training;$('mode').disabled=formal;if(formal)$('mode').value='exam';
  $('validationTierLabel').hidden=mode!=='validation-review';$('reviewPool').hidden=!training;
- $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混编，不计晋级。')+' 默认混合真题、可用 GLM 题目和原创题；可按地区、考点筛选。2024—2026 年其他省份真题照常进入练习，只有国考和广东省考近三年真题用于测试。':mode==='transfer'?'训练题与未曝光验证题混编（优先每五题3训练+2验证，资料不足按实际池调整），V1正式与V2暂定分列。整轮限时、无提示、不可暂停；本轮不晋级，验证题不参与训练记忆。首测只指本浏览器未曝光。':formal?'V1未曝光真题首测：整轮限时、无提示、不可暂停、结束后题解。首测仅指本浏览器未记录曝光，不保证你从未见过原题。题目一显示即留曝光记录，退出或刷新不能重置首测；未作答曝光不计成绩。':'V1 / V2都只复盘已曝光题；V2暂定题单列。可提示、可暂停，所有成绩均为复盘或暂定指标，不参与晋级和训练记忆。';
+ $('ladderInfo').textContent=training?(describes[$('level').value]||'跨阶混合。')+' 可按地区、考点筛选。':mode==='transfer'?'训练题与未曝光测试题混编，整轮限时、无提示、不可暂停。':formal?'未曝光真题首测：整轮限时、无提示、不可暂停，结束后统一看题解。题目一显示即计入曝光，刷新不重置。':'复盘已曝光的测试题，可提示、可暂停，不计晋级。';
  const candidates=all.filter(q=>inView(q));
  const count=new Set(candidates.map(q=>C.isValidation(q)?'validation:'+identity(q):'train:'+q.uid)).size;
- const formalQuestions=all.filter(q=>q.validationStatus==='V1'&&C.validationEligible(q));
- const formalUnique=new Set(formalQuestions.map(identity)).size;
- $('bankInfo').textContent=`逐题审查 ${window.FULL_REAL_SUMMARY.reviewed} 条真题；已接入可训练真题 ${window.FULL_REAL_SUMMARY.train} 题。${names[mode]} · 练习池含真题、可用 GLM 题目和原创题（原创 ${authored.length} 题）；V1 正式测试 ${formalQuestions.length} 个卷内题位，跨卷去重 ${formalUnique} 道独立题。近三年国考、广东真题仅在测试模式出现。`;
+ $('bankInfo').textContent=`${names[mode]} · 练习池 ${window.FULL_REAL_SUMMARY.trainUnique} 道真题 + ${authored.length} 道模拟`;
  $('start').textContent=`开始 ${$('length').value} 题${formal?'首测':''}`;$('start').disabled=!count||(formal&&!persist);
- $('filterInfo').textContent=`当前可选 ${count} 道独立题（${candidates.length} 个题位）。${count<+$('length').value?'不足题量只出可用题，不复制凑数。':''}${formal?'请在安静连续的时段作答；切换标签页不会停表。':''}`;
- $('metrics').innerHTML=statsHTML();coverage();renderCatalog();
+ $('filterInfo').textContent=`可选 ${count} 道题${count<+$('length').value?'（不足题量按实际出）':''}`;
+ $('metrics').innerHTML=statsHTML();renderCatalog();
 }
 function stopTimer(){clearInterval(timer);timer=null;}
 function elapsed(){return Math.max(0,((paused?pauseAt:Date.now())-start-pausedTime)/1000);}
@@ -92,20 +80,20 @@ function begin(review=false,singleUid=null){if(!ready)return;roundMode=$('source
  const roundIdentities=new Set();
  deck=selected.questions.filter(q=>{if(!inView(q,review))return false;if(C.isValidation(q)){const key=identity(q);if(roundIdentities.has(key))return false;roundIdentities.add(key);}return true;}).slice(0,singleUid?1:+$('length').value);
  if(!deck.length){$('filterInfo').textContent='数据层未返回可练题：可能已曝光、未通过审计或资料不足。不会回退到旧题库。';return;}
- $('samplingNote').textContent=`实际 ${deck.length} 题；按数据层资格抽样，不重复凑数。${selected.relaxed||selected.topicRelaxed?'题池较小时可能放宽考点 / 模板分散限制。':''}`;
+ $('samplingNote').textContent=`本轮 ${deck.length} 题`;
  idx=0;rows=[];roundStrategy=!singleUid&&roundMode==='train'&&$('level').value!=='all'?$('strategy').value:'random';roundFeedback=formal()?'exam':$('mode').value;
  deadline=formal()?Date.now()+deck.reduce((n,q)=>n+q.timeLimit,0)*1000:0;
  $('menu').hidden=true;$('quiz').hidden=false;$('result').hidden=true;state='quiz';show();
 }
 function makeRow(pick,extra={}){const q=deck[idx];return {uid:q.uid,dataset:C.isValidation(q)?'validation':'train',exam:q.exam??'',year:q.year??null,validationStatus:q.validationStatus??null,source:sourceOf(q),mode:roundMode,label:labelOf(q),level:q.level||'未定级',training:roundStrategy,firstValidation:C.isValidation(q)?firstValidation:undefined,date:new Date().toISOString(),pick,correct:pick===mapping.answer,secs:Math.round(elapsed()*10)/10,limit:q.timeLimit,hinted,paused:hadPause,confidence:$('confidence').value,insightTime,q:{...q},map:[...mapping.map],options:[...mapping.opts],answer:mapping.answer,...extra};}
 function show(){answered=false;hinted=false;paused=false;hadPause=false;pausedTime=0;insightTime=null;firstValidation=false;const q=deck[idx];mapping=sourceOf(q)==='real'?{opts:[...q.o],answer:q.a,map:[0,1,2,3]}:C.shuffled(q);start=Date.now();
- $('qno').textContent=`${idx+1} / ${deck.length}`;$('qsource').textContent=`${labelOf(q)} · ${C.isValidation(q)?q.validationStatus+'验证':'训练'}`;$('progress').value=idx/deck.length;
+ $('qno').textContent=`${idx+1} / ${deck.length}`;$('qsource').textContent=labelOf(q);$('progress').value=idx/deck.length;
  $('stem').hidden=false;$('opts').hidden=false;$('stem').dataset.uid=q.uid;$('stem').innerHTML=(q.practiceAssumption?`<p class="warning">教学作答口径（与原题文字分开）：${esc(q.practiceAssumption)}</p>`:'')+renderText(q.s);$('opts').replaceChildren();
  mapping.opts.forEach((text,i)=>{const b=document.createElement('button');b.className='opt';b.innerHTML=`${'ABCD'[i]}. ${renderText(text)}`;b.onclick=()=>answer(i);$('opts').appendChild(b);});
  for(const id of ['hintText','feedback','next'])$(id).hidden=true;$('skip').hidden=false;
  for(const id of ['confidence','insight','hint','pause'])$(id).disabled=false;
  $('confidence').value='未标记';$('insight').textContent='思路已定';$('pause').textContent='暂停';
- $('hint').disabled=$('pause').disabled=formal();
+ $('hint').disabled=$('pause').disabled=formal();const hintText=q.hint||(q.knowledge||'').split('。')[0];$('hint').hidden=formal()||!hintText;
  // Exposures consume first viewing without inventing an unanswered score.
  if(C.isValidation(q)){firstValidation=roundMode!=='validation-review'&&!seen(q);const key=identity(q);if(!db.exposures.includes(key))db.exposures.push(key);save();if(formal()&&!persist){finish();return;}}
  stopTimer();tick();if(state==='quiz')timer=setInterval(tick,200);
@@ -115,31 +103,34 @@ function tick(){if(state!=='quiz')return;const q=deck[idx],sec=Math.floor(elapse
 }
 function renderText(value){const text=typeof value==='object'&&value!==null?JSON.stringify(value,null,2):String(value??'');return text.split(/(!\[[^\]]*\]\([^)]+\))/g).map(part=>{const m=part.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);if(!m)return esc(part);const path=m[2].replace(/\\/g,'/');return /^(?:[a-z]+:|\/\/|\/|#)/i.test(path)?esc(part):`<img class="question-image" src="${esc(path)}" alt="${esc(m[1]||'原卷题图')}" loading="lazy">`;}).join('');}
 function explanation(q,map){
- const skipLabels={do:'建议直接做',conditional:'先判断入口与时间，再决定做或跳',skip:'限时收益偏低，建议先跳；复盘仍学完整推导'};
- const skipText=[skipLabels[q.skipDecision]||q.skipDecision||'未提供明确决策；先核条件与剩余时间。',q.skipReason||q.skipRationale||q.skipBoundary].filter(Boolean).join('\n');
- const rating=['high','medium'].includes(q.fastValue)?q.fastValue:'low';
- const pathTitles={high:'参考省步路径（快法评级：高）',medium:'可选省步路径（快法评级：中）',low:'常规解法（快法评级：低；未确认额外可靠快法）'};
- const path=rating==='low'?(q.normalPath||q.e):(q.fastPath||q.fastestPath||q.e);
- const mapped=t=>renderText(C.mappedExplanation(typeof t==='object'?JSON.stringify(t,null,2):t??'未提供；不编造该项结论。',map));
- return [...(q.practiceAssumption?[['教学作答口径（非原题新增事实）',q.practiceAssumption]]:[]),['考点归类',q.h||q.topic],['难度与分层理由',q.level+'：'+(q.difficultyReason||describes[q.level]||'按条件翻译复杂度分层')],[pathTitles[rating],path],['常规路径 normalPath',q.normalPath],['快法适用边界 fastBoundary',q.fastBoundary],['取舍 / 跳题决策',skipText],['易错点与命题陷阱',q.tr||q.traps],...(q.verification?[['独立核验',q.verification],['答案来源说明',`原资料标记：${q.sourceAnswer||'未定'}；本次独立复算：${q.computedAnswer}。${q.sourceAgreement===false?'原标记与本次复算不同，详见核验与修复说明；不代表官方公布答案。':'按选项内容核对，不把机构答案称为官方答案。'}\n${q.reviewNotes||''}`]]:[])].map(([label,text])=>`<section class="solution-part"><strong>${esc(label)}</strong><div>${mapped(text)}</div></section>`).join('');
+ const fastTitle=['high','medium'].includes(q.fastValue)?'方法二 · 快解':'方法二 · 精简解法';
+ const mapped=t=>renderText(C.mappedExplanation(typeof t==='object'?JSON.stringify(t,null,2):t??'',map));
+ return [...(q.practiceAssumption?[['作答口径',q.practiceAssumption]]:[]),
+  ...(q.knowledge?[['考点与知识点',q.knowledge]]:[['考点',q.h||q.topic]]),
+  ['方法一 · 常规解法',q.normalPath||q.e],
+  [fastTitle,q.fastPath||q.e],
+  ...(q.elimination?[['方法三 · 排除法与选项分析',q.elimination]]:[]),
+  ...(q.fastBoundary?[['快解使用前提',q.fastBoundary]]:[]),
+  ...(q.tr||q.traps?[['易错点',q.tr||q.traps]]:[]),
+  ...(q.verification?[['换一条路复核',q.verification]]:[])
+ ].filter(([,text])=>String(text??'').trim()).map(([label,text])=>`<section class="solution-part"><strong>${esc(label)}</strong><div>${mapped(text)}</div></section>`).join('');
 }
 function answer(pick,extra={}){if(state!=='quiz'||answered||paused||pick< -1||pick>3)return;
  if(deadline&&Date.now()>=deadline&&!expiring){tick();return;}answered=true;if(!formal())stopTimer();
  const r=makeRow(pick,{status:'answered',...extra});rows.push(r);db.attempts.push(r);save();
  document.querySelectorAll('#opts button').forEach((b,i)=>{b.disabled=true;if(roundFeedback==='practice'){if(i===r.answer)b.classList.add('right');else if(i===pick)b.classList.add('wrong');}});
  for(const id of ['confidence','insight','hint','pause'])$(id).disabled=true;
- $('feedback').hidden=false;$('feedback').innerHTML=roundFeedback==='practice'?`<strong>${pick<0?'已暂跳':r.correct?'答对':'需要复盘'} · 正确选项 ${'ABCD'[r.answer]}</strong>${explanation(r.q,r.map)}`:(formal()?'已记录。整轮结束后显示答案与完整题解；验证计时仍继续。':'已记录，整轮结束后显示答案与完整题解。');
+ $('feedback').hidden=false;$('feedback').innerHTML=roundFeedback==='practice'?`<strong>${pick<0?'已暂跳':r.correct?'答对':'需要复盘'} · 正确选项 ${'ABCD'[r.answer]}</strong>${explanation(r.q,r.map)}`:(formal()?'已记录，整轮结束后统一看题解；计时继续。':'已记录，整轮结束后统一看题解。');
  $('skip').hidden=true;$('next').hidden=false;$('next').textContent=idx===deck.length-1?'查看本套题解':'下一题（回车）';$('progress').value=(idx+1)/deck.length;
 }
 function next(){if(!answered||state!=='quiz')return;if(deadline&&Date.now()>=deadline){tick();return;}if(++idx<deck.length)show();else finish();}
 function finish(){stopTimer();if(state!=='quiz')return;
  state='result';$('quiz').hidden=true;$('result').hidden=false;if(!rows.length){home();return;}
  const s=C.summary(rows),p=C.promotion(db.attempts,rows[0].level,all),canPromote=roundMode==='train'&&roundStrategy==='ladder';
- let text=`<h2>${esc(names[roundMode])} · 本套复盘 ${s.n}题</h2><div class="stats"><div><strong>${pct(s.accuracy)}</strong><span>正确率（含作答时暂跳）</span></div><div><strong>${s.correct}/${s.attempted}</strong><span>已选择答对数</span></div><div><strong>${s.fast}/${s.n}</strong><span>快速独立答对</span></div><div><strong>${s.median.toFixed(1)}s</strong><span>用时中位数</span></div></div>`;
- text+=`<p class="mini">实际记录 ${rows.length} / 本轮抽题 ${deck.length}。未显示题目不算曝光；已显示未作答的验证题保留曝光但不计成绩。${roundMode!=='train'?'验证永不影响晋级或训练记忆；复盘 / V2分开统计。':''}</p>`;
- if(canPromote)text+=`<div class="feedback">本阶训练最近不同题 ${p.n} 道；正确率 ${pct(p.accuracy)}，快速独立 ${p.fast} 道。${p.ready?'已达升阶建议。':'至少10道不同题、80%正确、60%快速独立，再建议升阶。'}</div>`;
+ let text=`<h2>${esc(names[roundMode])} · 本套复盘 ${s.n}题</h2><div class="stats"><div><strong>${pct(s.accuracy)}</strong><span>正确率</span></div><div><strong>${s.correct}/${s.attempted}</strong><span>答对 / 已答</span></div><div><strong>${s.fast}/${s.n}</strong><span>快速独立答对</span></div><div><strong>${s.median.toFixed(1)}s</strong><span>用时中位数</span></div></div>`;
+ if(canPromote)text+=`<div class="feedback">本阶最近 ${p.n} 题：正确率 ${pct(p.accuracy)}，快速独立 ${p.fast} 题。${p.ready?'已达到升阶建议。':'达到 10 题、80% 正确、60% 快速独立后建议升阶。'}</div>`;
  text+=statsHTML()+'<h2>逐题完整题解</h2>';
- rows.forEach((r,n)=>{text+=`<details ${!r.correct||r.secs>r.limit?'open':''}><summary>${n+1}. ${r.correct?'✓':'待复盘'} · ${esc(r.q.h)} · 你选${r.pick<0?'暂跳':'ABCD'[r.pick]} / 正解${'ABCD'[r.answer]}</summary><div class="review-body">${renderText(r.q.s)}\n${r.options.map((o,i)=>`${'ABCD'[i]}. ${o}`).map(renderText).join('\n')}${explanation(r.q,r.map)}<p class="mini">${esc(r.label)} · ID ${esc(r.uid)} · ${r.secs}s${r.hinted?' · 已提示':''}${r.paused?' · 曾暂停':''} · ${esc(r.validationStatus||'训练')} / ${esc(r.mode||'旧记录')}</p></div></details>`;});
+ rows.forEach((r,n)=>{text+=`<details ${!r.correct||r.secs>r.limit?'open':''}><summary>${n+1}. ${r.correct?'✓':'待复盘'} · ${esc(r.q.h)} · 你选${r.pick<0?'暂跳':'ABCD'[r.pick]} / 正解${'ABCD'[r.answer]}</summary><div class="review-body">${renderText(r.q.s)}\n${r.options.map((o,i)=>`${'ABCD'[i]}. ${o}`).map(renderText).join('\n')}${explanation(r.q,r.map)}<p class="mini">${esc(r.label)} · 用时 ${r.secs}s${r.hinted?' · 已提示':''}${r.paused?' · 曾暂停':''}</p></div></details>`;});
  text+='<div class="row"><button id="back" class="primary">回到训练设置</button><button id="again">再来一套</button>'+(roundMode!=='train'?'<button id="validationReview">进入验证复盘</button>':'')+(canPromote&&p.ready?'<button id="advance">进入下一阶</button>':'')+'</div>';
  $('result').innerHTML=text;$('back').onclick=home;$('again').onclick=()=>begin(false);
  if($('validationReview'))$('validationReview').onclick=()=>{$('source').value='validation-review';$('validationTier').value='V1';home();};
@@ -152,8 +143,8 @@ $('catalogPrev').onclick=()=>{catalogPage--;renderCatalog();};$('catalogNext').o
 
 $('level').value=db.level;
 $('start').onclick=()=>begin();$('reviewPool').onclick=()=>begin(true);$('skip').onclick=()=>answer(-1);$('next').onclick=next;
-$('exit').onclick=()=>{if(confirm('结束本轮？验证题已显示就保留曝光，但未作答不计成绩；刷新不会重置首测。未显示题目不计曝光。'))finish();};
-$('hint').onclick=()=>{if(answered||paused||formal())return;hinted=true;$('hintText').hidden=false;$('hintText').textContent=deck[idx].hint||'该题未提供入口提示。请先圈出所求与约束，不凭空套技巧。';$('hint').disabled=true;};
+$('exit').onclick=()=>{if(confirm('结束本轮？已显示的测试题保留曝光记录。'))finish();};
+$('hint').onclick=()=>{if(answered||paused||formal())return;hinted=true;const h=deck[idx].hint||(deck[idx].knowledge||'').split('。')[0];if(!h)return;$('hintText').hidden=false;$('hintText').textContent=h;$('hint').disabled=true;};
 $('insight').onclick=()=>{if(answered||paused)return;insightTime=Math.round(elapsed()*10)/10;$('insight').textContent=`思路用时 ${insightTime}s（自报）`;$('insight').disabled=true;};
 $('pause').onclick=()=>{if(answered||formal())return;paused=!paused;if(paused){hadPause=true;pauseAt=Date.now();$('pause').textContent='继续';}else{pausedTime+=Date.now()-pauseAt;$('pause').textContent='暂停';}['opts','stem','hintText'].forEach(id=>{if(id!=='hintText'||hinted)$(id).hidden=paused;});};
 $('export').onclick=()=>{const blob=new Blob([JSON.stringify(pendingBackup===null?db:{...db,recoveryOriginal:pendingBackup},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='数量关系练习记录.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
